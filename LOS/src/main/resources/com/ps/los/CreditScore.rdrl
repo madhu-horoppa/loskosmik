@@ -4,6 +4,11 @@ import java.lang.Number;
 
 rule "CreditScore"
 	dialect "mvel"
+	ruleflow-group "CreditScoreCal"
 	when
+		customer : Customer( age < 18 )
 	then
+		modify( customer ) {
+				setCreditscore( 5 )
+		}
 end
