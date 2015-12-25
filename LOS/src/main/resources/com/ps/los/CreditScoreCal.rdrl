@@ -9,5 +9,4 @@ rule "CreditScoreCal"
 		customer : Customer( age < 18 )
 	then
 		customer.setCreditscore( 5 );
-		retract( customer );
 end
