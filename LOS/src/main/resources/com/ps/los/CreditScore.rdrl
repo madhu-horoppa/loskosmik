@@ -6,7 +6,7 @@ rule "CreditScore"
 	dialect "mvel"
 	ruleflow-group "CreditScoreCal"
 	when
-		c : Customer( age < 18 )
+		customer : Customer( age < 18 )
 	then
-		c.setCreditscore( 5 );
+		customer.setCreditscore( 5 );
 end
