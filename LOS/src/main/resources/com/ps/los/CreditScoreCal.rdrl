@@ -2,7 +2,7 @@ package com.ps.los;
 
 import java.lang.Number;
 
-rule "CreditScore"
+rule "CreditScoreCal"
 	dialect "mvel"
 	ruleflow-group "CreditScoreCal"
 	when
