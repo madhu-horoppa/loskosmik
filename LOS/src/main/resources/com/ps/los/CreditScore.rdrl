@@ -6,9 +6,9 @@ rule "CreditScore"
 	dialect "mvel"
 	ruleflow-group "CreditScoreCal"
 	when
-		customer : Customer( age < 18 )
+		cu : Customer( age < 18 )
 	then
-		modify( customer ) {
+		modify( cu ) {
 				setCreditscore( 5 )
 		}
 end
