@@ -3,39 +3,4 @@
 <property name="name" value="LOS.SampleProcess-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="0" name="customer_address" type="InputText" id="1567486451">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;address (customer)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="customer/address"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="1" name="customer_age" type="InputTextInteger" id="46777402">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;age (customer)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="customer/age"/>
-<property name="fieldClass" value="java.lang.Integer"/>
-</field>
-<field position="2" name="customer_creditscore" type="InputTextInteger" id="1624604466">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;creditscore (customer)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="customer/creditscore"/>
-<property name="fieldClass" value="java.lang.Integer"/>
-</field>
-<field position="3" name="customer_id" type="InputTextLong" id="1451266433">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;id (customer)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="customer/id"/>
-<property name="fieldClass" value="java.lang.Long"/>
-</field>
-<field position="4" name="customer_name" type="InputText" id="1151091254">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;name (customer)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="customer/name"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
 </form>
