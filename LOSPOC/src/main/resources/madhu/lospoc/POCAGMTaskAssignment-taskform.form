@@ -3,4 +3,8 @@
 <property name="name" value="POCAGMTaskAssignment-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<dataHolder inputId="in_customerDetails" name="#0000A0" type="dataModelerEntry" outId="out_customerDetails" value="madhu.lospoc.CustomerDetails" id="customerDetails"/>
+<dataHolder inputId="in_incidentBasicDetails" name="#0000A0" type="dataModelerEntry" outId="out_incidentBasicDetails" value="madhu.lospoc.IncidentBasicDetails" id="incidentBasicDetails"/>
+<dataHolder inputId="in_loanDetails" name="#0000A0" type="dataModelerEntry" outId="out_loanDetails" value="madhu.lospoc.LoanDetails" id="loanDetails"/>
+<dataHolder inputId="in_vehicleDetails" name="#0000A0" type="dataModelerEntry" outId="out_vehicleDetails" value="madhu.lospoc.VehicleDetails" id="vehicleDetails"/>
 </form>
