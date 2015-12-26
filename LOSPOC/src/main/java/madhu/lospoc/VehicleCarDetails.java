@@ -5,7 +5,7 @@ package madhu.lospoc;
  */
 
 @javax.persistence.Entity
-public class VehicleCarDetails implements java.io.Serializable
+public class VehicleDetails implements java.io.Serializable
 {
 
    static final long serialVersionUID = 1L;
@@ -54,7 +54,7 @@ public class VehicleCarDetails implements java.io.Serializable
    @org.kie.api.definition.type.Label("Year of Model")
    private java.lang.Integer vehicleYearOfModel;
 
-   public VehicleCarDetails()
+   public VehicleDetails()
    {
    }
 
@@ -200,7 +200,7 @@ public class VehicleCarDetails implements java.io.Serializable
       this.vehicleYearOfModel = vehicleYearOfModel;
    }
 
-   public VehicleCarDetails(java.lang.Long id, java.lang.String vehicleChasisNo,
+   public VehicleDetails(java.lang.Long id, java.lang.String vehicleChasisNo,
          java.lang.Double vehicleCurrentMilage,
          java.lang.String vehicleEngineSize,
          java.lang.Double vehicleEvaluationPrice,
