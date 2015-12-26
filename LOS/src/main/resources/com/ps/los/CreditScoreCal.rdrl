@@ -10,4 +10,5 @@ rule "CreditScoreCal"
 		Customer( age > 18 && age <= 50 )
 	then
 		customer1.setCreditscore( 5 );
+		customer1.setCreditscore( 10 );
 end
