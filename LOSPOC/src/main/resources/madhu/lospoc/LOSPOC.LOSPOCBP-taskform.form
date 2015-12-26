@@ -1,0 +1,14 @@
+
+<form id="497910803">
+<property name="name" value="LOSPOC.LOSPOCBP-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="initiator" type="InputText" id="1766296976">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;initiator (initiator)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="initiator"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="" name="#0000A0" type="basicType" outId="initiator" value="java.lang.String" id="initiator"/>
+</form>
