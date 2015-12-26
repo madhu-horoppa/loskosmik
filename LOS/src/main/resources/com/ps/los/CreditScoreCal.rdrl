@@ -7,8 +7,6 @@ rule "CreditScoreCal"
 	ruleflow-group "CreditScoreCal"
 	when
 		customer1 : Customer( age < 18 )
-		customer : Customer( age > 18 && age <= 50 )
 	then
 		customer1.setCreditscore( 5 );
-		customer.setCreditscore( 10 );
 end
