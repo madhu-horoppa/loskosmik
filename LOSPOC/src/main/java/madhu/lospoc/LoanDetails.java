@@ -5,28 +5,150 @@ package madhu.lospoc;
  */
 
 @javax.persistence.Entity
-public class LoanDetails implements java.io.Serializable {
+public class LoanDetails implements java.io.Serializable
+{
 
-    static final long serialVersionUID = 1L;
+   static final long serialVersionUID = 1L;
 
-    @javax.persistence.GeneratedValue(strategy = javax.persistence.GenerationType.AUTO, generator = "LOANDETAILS_ID_GENERATOR")
-    @javax.persistence.Id
-    @javax.persistence.SequenceGenerator(name = "LOANDETAILS_ID_GENERATOR", sequenceName = "LOANDETAILS_ID_SEQ")
-    private java.lang.Long id;
+   @javax.persistence.GeneratedValue(strategy = javax.persistence.GenerationType.AUTO, generator = "LOANDETAILS_ID_GENERATOR")
+   @javax.persistence.Id
+   @javax.persistence.SequenceGenerator(name = "LOANDETAILS_ID_GENERATOR", sequenceName = "LOANDETAILS_ID_SEQ")
+   private java.lang.Long id;
 
-    public LoanDetails() {
-    }
-    
-    public LoanDetails(java.lang.Long id) {
-        this.id = id;
-    }
+   @org.kie.api.definition.type.Label(value = "Down Payment Amount")
+   private java.lang.Double downPaymentAmount;
 
-    public java.lang.Long getId() {
-        return this.id;
-    }
-    
-    public void setId(java.lang.Long id) {
-        this.id = id;
-    }
+   @org.kie.api.definition.type.Label(value = "Finance Amount")
+   private java.lang.Double financeAmount;
+
+   @org.kie.api.definition.type.Label(value = "Interest Rate")
+   private java.lang.Double interestRate;
+
+   @org.kie.api.definition.type.Label(value = "Interest Rate Type")
+   private java.lang.String interestRatetype;
+
+   @org.kie.api.definition.type.Label(value = "Proposed Finance Amount")
+   private java.lang.Double proposedFinanceAmount;
+
+   @org.kie.api.definition.type.Label(value = "Tenor Months")
+   private java.lang.Integer tenorMonths;
+
+   @org.kie.api.definition.type.Label(value = "Tenor Years")
+   private java.lang.Integer tenorYears;
+
+   @org.kie.api.definition.type.Label(value = "Evaluation Price")
+   private java.lang.Double evaluationPrice;
+
+   public LoanDetails()
+   {
+   }
+
+   public java.lang.Long getId()
+   {
+      return this.id;
+   }
+
+   public void setId(java.lang.Long id)
+   {
+      this.id = id;
+   }
+
+   public java.lang.Double getDownPaymentAmount()
+   {
+      return this.downPaymentAmount;
+   }
+
+   public void setDownPaymentAmount(java.lang.Double downPaymentAmount)
+   {
+      this.downPaymentAmount = downPaymentAmount;
+   }
+
+   public java.lang.Double getFinanceAmount()
+   {
+      return this.financeAmount;
+   }
+
+   public void setFinanceAmount(java.lang.Double financeAmount)
+   {
+      this.financeAmount = financeAmount;
+   }
+
+   public java.lang.Double getInterestRate()
+   {
+      return this.interestRate;
+   }
+
+   public void setInterestRate(java.lang.Double interestRate)
+   {
+      this.interestRate = interestRate;
+   }
+
+   public java.lang.String getInterestRatetype()
+   {
+      return this.interestRatetype;
+   }
+
+   public void setInterestRatetype(java.lang.String interestRatetype)
+   {
+      this.interestRatetype = interestRatetype;
+   }
+
+   public java.lang.Double getProposedFinanceAmount()
+   {
+      return this.proposedFinanceAmount;
+   }
+
+   public void setProposedFinanceAmount(java.lang.Double proposedFinanceAmount)
+   {
+      this.proposedFinanceAmount = proposedFinanceAmount;
+   }
+
+   public java.lang.Integer getTenorMonths()
+   {
+      return this.tenorMonths;
+   }
+
+   public void setTenorMonths(java.lang.Integer tenorMonths)
+   {
+      this.tenorMonths = tenorMonths;
+   }
+
+   public java.lang.Integer getTenorYears()
+   {
+      return this.tenorYears;
+   }
+
+   public void setTenorYears(java.lang.Integer tenorYears)
+   {
+      this.tenorYears = tenorYears;
+   }
+
+   public java.lang.Double getEvaluationPrice()
+   {
+      return this.evaluationPrice;
+   }
+
+   public void setEvaluationPrice(java.lang.Double evaluationPrice)
+   {
+      this.evaluationPrice = evaluationPrice;
+   }
+
+   public LoanDetails(java.lang.Long id, java.lang.Double downPaymentAmount,
+         java.lang.Double financeAmount, java.lang.Double interestRate,
+         java.lang.String interestRatetype,
+         java.lang.Double proposedFinanceAmount,
+         java.lang.Integer tenorMonths, java.lang.Integer tenorYears,
+         java.lang.Double evaluationPrice)
+   {
+      this.id = id;
+      this.downPaymentAmount = downPaymentAmount;
+      this.financeAmount = financeAmount;
+      this.interestRate = interestRate;
+      this.interestRatetype = interestRatetype;
+      this.proposedFinanceAmount = proposedFinanceAmount;
+      this.tenorMonths = tenorMonths;
+      this.tenorYears = tenorYears;
+      this.evaluationPrice = evaluationPrice;
+   }
 
 }
