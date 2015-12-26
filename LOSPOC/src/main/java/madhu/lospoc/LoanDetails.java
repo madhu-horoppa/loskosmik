@@ -15,29 +15,32 @@ public class LoanDetails implements java.io.Serializable
    @javax.persistence.SequenceGenerator(name = "LOANDETAILS_ID_GENERATOR", sequenceName = "LOANDETAILS_ID_SEQ")
    private java.lang.Long id;
 
-   @org.kie.api.definition.type.Label(value = "Down Payment Amount")
+   @org.kie.api.definition.type.Label("Down Payment Amount")
    private java.lang.Double downPaymentAmount;
 
-   @org.kie.api.definition.type.Label(value = "Finance Amount")
+   @org.kie.api.definition.type.Label("Finance Amount")
    private java.lang.Double financeAmount;
 
-   @org.kie.api.definition.type.Label(value = "Interest Rate")
+   @org.kie.api.definition.type.Label("Interest Rate")
    private java.lang.Double interestRate;
 
-   @org.kie.api.definition.type.Label(value = "Interest Rate Type")
+   @org.kie.api.definition.type.Label("Interest Rate Type")
    private java.lang.String interestRatetype;
 
-   @org.kie.api.definition.type.Label(value = "Proposed Finance Amount")
+   @org.kie.api.definition.type.Label("Proposed Finance Amount")
    private java.lang.Double proposedFinanceAmount;
 
-   @org.kie.api.definition.type.Label(value = "Tenor Months")
+   @org.kie.api.definition.type.Label("Tenor Months")
    private java.lang.Integer tenorMonths;
 
-   @org.kie.api.definition.type.Label(value = "Tenor Years")
+   @org.kie.api.definition.type.Label("Tenor Years")
    private java.lang.Integer tenorYears;
 
-   @org.kie.api.definition.type.Label(value = "Evaluation Price")
+   @org.kie.api.definition.type.Label("Evaluation Price")
    private java.lang.Double evaluationPrice;
+
+   @org.kie.api.definition.type.Label(value = "EMI")
+   private java.lang.Double emi;
 
    public LoanDetails()
    {
@@ -133,12 +136,22 @@ public class LoanDetails implements java.io.Serializable
       this.evaluationPrice = evaluationPrice;
    }
 
+   public java.lang.Double getEmi()
+   {
+      return this.emi;
+   }
+
+   public void setEmi(java.lang.Double emi)
+   {
+      this.emi = emi;
+   }
+
    public LoanDetails(java.lang.Long id, java.lang.Double downPaymentAmount,
          java.lang.Double financeAmount, java.lang.Double interestRate,
          java.lang.String interestRatetype,
-         java.lang.Double proposedFinanceAmount,
-         java.lang.Integer tenorMonths, java.lang.Integer tenorYears,
-         java.lang.Double evaluationPrice)
+         java.lang.Double proposedFinanceAmount, java.lang.Integer tenorMonths,
+         java.lang.Integer tenorYears, java.lang.Double evaluationPrice,
+         java.lang.Double emi)
    {
       this.id = id;
       this.downPaymentAmount = downPaymentAmount;
@@ -149,6 +162,7 @@ public class LoanDetails implements java.io.Serializable
       this.tenorMonths = tenorMonths;
       this.tenorYears = tenorYears;
       this.evaluationPrice = evaluationPrice;
+      this.emi = emi;
    }
 
 }
