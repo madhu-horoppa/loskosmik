@@ -3,4 +3,244 @@
 <property name="name" value="POCFrontOfficeOfficer-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<field position="4" name="incidentBasicDetails_incidentApplicantStatus" type="InputText" id="714795755">
+<property name="fieldRequired" value="true"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Applicant Statusquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="in_incidentBasicDetails/incidentApplicantStatus"/>
+<property name="outputBinding" value="out_incidentBasicDetails/incidentApplicantStatus"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="incidentBasicDetails_incidentApplicationRelationship" type="InputText" id="1113579700">
+<property name="fieldRequired" value="true"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Relationshipquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="in_incidentBasicDetails/incidentApplicationRelationship"/>
+<property name="outputBinding" value="out_incidentBasicDetails/incidentApplicationRelationship"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="incidentBasicDetails_incidentApplicationType" type="InputText" id="908774715">
+<property name="fieldRequired" value="true"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Application Typequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="in_incidentBasicDetails/incidentApplicationType"/>
+<property name="outputBinding" value="out_incidentBasicDetails/incidentApplicationType"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="incidentBasicDetails_incidentDate" type="InputDate" id="533414191">
+<property name="fieldRequired" value="true"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Incident Datequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_incidentBasicDetails/incidentDate"/>
+<property name="outputBinding" value="out_incidentBasicDetails/incidentDate"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="1" name="incidentBasicDetails_incidentNumber" type="InputText" id="1742209773">
+<property name="fieldRequired" value="true"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Incident Number quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="in_incidentBasicDetails/incidentNumber"/>
+<property name="outputBinding" value="out_incidentBasicDetails/incidentNumber"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="0" name=":decorator_0" type="HTMLLabel" id="758786728">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;h3&gt;Incident Details&lt;/h3&gt;
+quot;quot;dequot;,quot;&lt;h3&gt;Incident Details&lt;/h3&gt;
+quot;quot;enquot;,quot;&lt;h3&gt;Incident Details&lt;/h3&gt;
+quot;quot;esquot;,quot;&lt;h3&gt;Incident Details&lt;/h3&gt;
+quot;quot;frquot;,quot;&lt;h3&gt;Incident Details&lt;/h3&gt;
+quot;quot;jaquot;,quot;&lt;h3&gt;Incident Details&lt;/h3&gt;
+quot;quot;ptquot;,quot;&lt;h3&gt;Incident Details&lt;/h3&gt;
+quot;quot;zhquot;,quot;&lt;h3&gt;Incident Details&lt;/h3&gt;
+quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
+</field>
+<field position="10" name="customerDetails_customerAge" type="InputTextInteger" id="563155543">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;customerAge (customerDetails)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_customerDetails/customerAge"/>
+<property name="outputBinding" value="out_customerDetails/customerAge"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="9" name="customerDetails_customerDateOfBirth" type="InputDate" id="1866433253">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;customerDateOfBirth (customerDetails)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_customerDetails/customerDateOfBirth"/>
+<property name="outputBinding" value="out_customerDetails/customerDateOfBirth"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="13" name="customerDetails_customerEmailAddress" type="InputText" id="527399680">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;customerEmailAddress (customerDetails)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_customerDetails/customerEmailAddress"/>
+<property name="outputBinding" value="out_customerDetails/customerEmailAddress"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="11" name="customerDetails_customerGender" type="InputText" id="218455170">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;customerGender (customerDetails)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_customerDetails/customerGender"/>
+<property name="outputBinding" value="out_customerDetails/customerGender"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="19" name="customerDetails_customerHomeCountryAddress" type="InputText" id="1889271276">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;customerHomeCountryAddress (customerDetails)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_customerDetails/customerHomeCountryAddress"/>
+<property name="outputBinding" value="out_customerDetails/customerHomeCountryAddress"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="20" name="customerDetails_customerHomeCountryTelephoneNo" type="InputText" id="1072869065">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;customerHomeCountryTelephoneNo (customerDetails)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_customerDetails/customerHomeCountryTelephoneNo"/>
+<property name="outputBinding" value="out_customerDetails/customerHomeCountryTelephoneNo"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="14" name="customerDetails_customerMobileNumber" type="InputText" id="845313244">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;customerMobileNumber (customerDetails)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_customerDetails/customerMobileNumber"/>
+<property name="outputBinding" value="out_customerDetails/customerMobileNumber"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="12" name="customerDetails_customerMonthlySalary" type="InputTextDouble" id="1383371495">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;customerMonthlySalary (customerDetails)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_customerDetails/customerMonthlySalary"/>
+<property name="outputBinding" value="out_customerDetails/customerMonthlySalary"/>
+<property name="fieldClass" value="java.lang.Double"/>
+</field>
+<field position="15" name="customerDetails_customerMotherMaidenName" type="InputText" id="2108766971">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;customerMotherMaidenName (customerDetails)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_customerDetails/customerMotherMaidenName"/>
+<property name="outputBinding" value="out_customerDetails/customerMotherMaidenName"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="8" name="customerDetails_customerName" type="InputText" id="1150595932">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;customerName (customerDetails)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_customerDetails/customerName"/>
+<property name="outputBinding" value="out_customerDetails/customerName"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="18" name="customerDetails_customerNationalIDNumber" type="InputText" id="208305803">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;customerNationalIDNumber (customerDetails)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_customerDetails/customerNationalIDNumber"/>
+<property name="outputBinding" value="out_customerDetails/customerNationalIDNumber"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="16" name="customerDetails_customerNationality" type="InputText" id="1400284008">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;customerNationality (customerDetails)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_customerDetails/customerNationality"/>
+<property name="outputBinding" value="out_customerDetails/customerNationality"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="7" name="customerDetails_customerNumber" type="InputText" id="31400652">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;customerNumber (customerDetails)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_customerDetails/customerNumber"/>
+<property name="outputBinding" value="out_customerDetails/customerNumber"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="17" name="customerDetails_customerPassportNumber" type="InputText" id="677447819">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;customerPassportNumber (customerDetails)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_customerDetails/customerPassportNumber"/>
+<property name="outputBinding" value="out_customerDetails/customerPassportNumber"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="21" name="customerDetails_customerResidenceAddress" type="InputText" id="1735332025">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;customerResidenceAddress (customerDetails)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_customerDetails/customerResidenceAddress"/>
+<property name="outputBinding" value="out_customerDetails/customerResidenceAddress"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="22" name="customerDetails_customerResidenceTelephoneNo" type="InputText" id="345951104">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;customerResidenceTelephoneNo (customerDetails)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_customerDetails/customerResidenceTelephoneNo"/>
+<property name="outputBinding" value="out_customerDetails/customerResidenceTelephoneNo"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="6" name=":decorator_1" type="HTMLLabel" id="1575497103">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;h3&gt;Customer Details&lt;/h3&gt;
+quot;quot;dequot;,quot;&lt;h3&gt;Customer Details&lt;/h3&gt;
+quot;quot;enquot;,quot;&lt;h3&gt;Customer Details&lt;/h3&gt;
+quot;quot;esquot;,quot;&lt;h3&gt;Customer Details&lt;/h3&gt;
+quot;quot;frquot;,quot;&lt;h3&gt;Customer Details&lt;/h3&gt;
+quot;quot;jaquot;,quot;&lt;h3&gt;Customer Details&lt;/h3&gt;
+quot;quot;ptquot;,quot;&lt;h3&gt;Customer Details&lt;/h3&gt;
+quot;quot;zhquot;,quot;&lt;h3&gt;Customer Details&lt;/h3&gt;
+quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
+</field>
+<dataHolder inputId="in_customerDetails" name="#0000A0" type="dataModelerEntry" outId="out_customerDetails" value="madhu.lospoc.CustomerDetails" id="customerDetails"/>
+<dataHolder inputId="in_incidentBasicDetails" name="#0000A0" type="dataModelerEntry" outId="out_incidentBasicDetails" value="madhu.lospoc.IncidentBasicDetails" id="incidentBasicDetails"/>
+<dataHolder inputId="in_loanDetails" name="#0000A0" type="dataModelerEntry" outId="out_loanDetails" value="madhu.lospoc.LoanDetails" id="loanDetails"/>
+<dataHolder inputId="in_vehicleDetails" name="#0000A0" type="dataModelerEntry" outId="out_vehicleDetails" value="madhu.lospoc.VehicleDetails" id="vehicleDetails"/>
 </form>
