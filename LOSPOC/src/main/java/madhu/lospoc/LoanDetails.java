@@ -15,32 +15,32 @@ public class LoanDetails implements java.io.Serializable
    @javax.persistence.SequenceGenerator(name = "LOANDETAILS_ID_GENERATOR", sequenceName = "LOANDETAILS_ID_SEQ")
    private java.lang.Long id;
 
-   @org.kie.api.definition.type.Label("Down Payment Amount")
-   private java.lang.Double downPaymentAmount;
+   @org.kie.api.definition.type.Label(value = "Down Payment Amount")
+   private java.lang.Double loanDownPaymentAmount;
 
-   @org.kie.api.definition.type.Label("Finance Amount")
-   private java.lang.Double financeAmount;
+   @org.kie.api.definition.type.Label(value = "Finance Amount")
+   private java.lang.Double loanFinanceAmount;
 
-   @org.kie.api.definition.type.Label("Interest Rate")
-   private java.lang.Double interestRate;
+   @org.kie.api.definition.type.Label(value = "Interest Rate")
+   private java.lang.Double loanInterestRate;
 
-   @org.kie.api.definition.type.Label("Interest Rate Type")
-   private java.lang.String interestRatetype;
+   @org.kie.api.definition.type.Label(value = "Interest Rate Type")
+   private java.lang.String loanInterestRatetype;
 
-   @org.kie.api.definition.type.Label("Proposed Finance Amount")
-   private java.lang.Double proposedFinanceAmount;
+   @org.kie.api.definition.type.Label(value = "Proposed Finance Amount")
+   private java.lang.Double loanProposedFinanceAmount;
 
-   @org.kie.api.definition.type.Label("Tenor Months")
-   private java.lang.Integer tenorMonths;
+   @org.kie.api.definition.type.Label(value = "Tenor Months")
+   private java.lang.Integer loanTenorMonths;
 
-   @org.kie.api.definition.type.Label("Tenor Years")
-   private java.lang.Integer tenorYears;
+   @org.kie.api.definition.type.Label(value = "Tenor Years")
+   private java.lang.Integer loanTenorYears;
 
-   @org.kie.api.definition.type.Label("Evaluation Price")
-   private java.lang.Double evaluationPrice;
+   @org.kie.api.definition.type.Label(value = "Evaluation Price")
+   private java.lang.Double loanEvaluationPrice;
 
    @org.kie.api.definition.type.Label(value = "EMI")
-   private java.lang.Double emi;
+   private java.lang.Double loanEMI;
 
    public LoanDetails()
    {
@@ -56,113 +56,114 @@ public class LoanDetails implements java.io.Serializable
       this.id = id;
    }
 
-   public java.lang.Double getDownPaymentAmount()
+   public java.lang.Double getLoanDownPaymentAmount()
    {
-      return this.downPaymentAmount;
+      return this.loanDownPaymentAmount;
    }
 
-   public void setDownPaymentAmount(java.lang.Double downPaymentAmount)
+   public void setLoanDownPaymentAmount(java.lang.Double loanDownPaymentAmount)
    {
-      this.downPaymentAmount = downPaymentAmount;
+      this.loanDownPaymentAmount = loanDownPaymentAmount;
    }
 
-   public java.lang.Double getFinanceAmount()
+   public java.lang.Double getLoanFinanceAmount()
    {
-      return this.financeAmount;
+      return this.loanFinanceAmount;
    }
 
-   public void setFinanceAmount(java.lang.Double financeAmount)
+   public void setLoanFinanceAmount(java.lang.Double loanFinanceAmount)
    {
-      this.financeAmount = financeAmount;
+      this.loanFinanceAmount = loanFinanceAmount;
    }
 
-   public java.lang.Double getInterestRate()
+   public java.lang.Double getLoanInterestRate()
    {
-      return this.interestRate;
+      return this.loanInterestRate;
    }
 
-   public void setInterestRate(java.lang.Double interestRate)
+   public void setLoanInterestRate(java.lang.Double loanInterestRate)
    {
-      this.interestRate = interestRate;
+      this.loanInterestRate = loanInterestRate;
    }
 
-   public java.lang.String getInterestRatetype()
+   public java.lang.String getLoanInterestRatetype()
    {
-      return this.interestRatetype;
+      return this.loanInterestRatetype;
    }
 
-   public void setInterestRatetype(java.lang.String interestRatetype)
+   public void setLoanInterestRatetype(java.lang.String loanInterestRatetype)
    {
-      this.interestRatetype = interestRatetype;
+      this.loanInterestRatetype = loanInterestRatetype;
    }
 
-   public java.lang.Double getProposedFinanceAmount()
+   public java.lang.Double getLoanProposedFinanceAmount()
    {
-      return this.proposedFinanceAmount;
+      return this.loanProposedFinanceAmount;
    }
 
-   public void setProposedFinanceAmount(java.lang.Double proposedFinanceAmount)
+   public void setLoanProposedFinanceAmount(
+         java.lang.Double loanProposedFinanceAmount)
    {
-      this.proposedFinanceAmount = proposedFinanceAmount;
+      this.loanProposedFinanceAmount = loanProposedFinanceAmount;
    }
 
-   public java.lang.Integer getTenorMonths()
+   public java.lang.Integer getLoanTenorMonths()
    {
-      return this.tenorMonths;
+      return this.loanTenorMonths;
    }
 
-   public void setTenorMonths(java.lang.Integer tenorMonths)
+   public void setLoanTenorMonths(java.lang.Integer loanTenorMonths)
    {
-      this.tenorMonths = tenorMonths;
+      this.loanTenorMonths = loanTenorMonths;
    }
 
-   public java.lang.Integer getTenorYears()
+   public java.lang.Integer getLoanTenorYears()
    {
-      return this.tenorYears;
+      return this.loanTenorYears;
    }
 
-   public void setTenorYears(java.lang.Integer tenorYears)
+   public void setLoanTenorYears(java.lang.Integer loanTenorYears)
    {
-      this.tenorYears = tenorYears;
+      this.loanTenorYears = loanTenorYears;
    }
 
-   public java.lang.Double getEvaluationPrice()
+   public java.lang.Double getLoanEvaluationPrice()
    {
-      return this.evaluationPrice;
+      return this.loanEvaluationPrice;
    }
 
-   public void setEvaluationPrice(java.lang.Double evaluationPrice)
+   public void setLoanEvaluationPrice(java.lang.Double loanEvaluationPrice)
    {
-      this.evaluationPrice = evaluationPrice;
+      this.loanEvaluationPrice = loanEvaluationPrice;
    }
 
-   public java.lang.Double getEmi()
+   public java.lang.Double getLoanEMI()
    {
-      return this.emi;
+      return this.loanEMI;
    }
 
-   public void setEmi(java.lang.Double emi)
+   public void setLoanEMI(java.lang.Double loanEMI)
    {
-      this.emi = emi;
+      this.loanEMI = loanEMI;
    }
 
-   public LoanDetails(java.lang.Long id, java.lang.Double downPaymentAmount,
-         java.lang.Double financeAmount, java.lang.Double interestRate,
-         java.lang.String interestRatetype,
-         java.lang.Double proposedFinanceAmount, java.lang.Integer tenorMonths,
-         java.lang.Integer tenorYears, java.lang.Double evaluationPrice,
-         java.lang.Double emi)
+   public LoanDetails(java.lang.Long id, java.lang.Double loanDownPaymentAmount,
+         java.lang.Double loanFinanceAmount, java.lang.Double loanInterestRate,
+         java.lang.String loanInterestRatetype,
+         java.lang.Double loanProposedFinanceAmount,
+         java.lang.Integer loanTenorMonths, java.lang.Integer loanTenorYears,
+         java.lang.Double loanEvaluationPrice, java.lang.Double loanEMI)
    {
       this.id = id;
-      this.downPaymentAmount = downPaymentAmount;
-      this.financeAmount = financeAmount;
-      this.interestRate = interestRate;
-      this.interestRatetype = interestRatetype;
-      this.proposedFinanceAmount = proposedFinanceAmount;
-      this.tenorMonths = tenorMonths;
-      this.tenorYears = tenorYears;
-      this.evaluationPrice = evaluationPrice;
-      this.emi = emi;
+      this.loanDownPaymentAmount = loanDownPaymentAmount;
+      this.loanFinanceAmount = loanFinanceAmount;
+      this.loanInterestRate = loanInterestRate;
+      this.loanInterestRatetype = loanInterestRatetype;
+      this.loanProposedFinanceAmount = loanProposedFinanceAmount;
+      this.loanTenorMonths = loanTenorMonths;
+      this.loanTenorYears = loanTenorYears;
+      this.loanEvaluationPrice = loanEvaluationPrice;
+      this.loanEMI = loanEMI;
    }
 
 }
