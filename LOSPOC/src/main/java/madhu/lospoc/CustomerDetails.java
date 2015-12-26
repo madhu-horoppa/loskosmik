@@ -15,53 +15,53 @@ public class CustomerDetails implements java.io.Serializable
    @javax.persistence.SequenceGenerator(name = "CUSTOMERDETAILS_ID_GENERATOR", sequenceName = "CUSTOMERDETAILS_ID_SEQ")
    private java.lang.Long id;
 
-   @org.kie.api.definition.type.Label(value = "Age")
-   private java.lang.Integer age;
-
-   @org.kie.api.definition.type.Label(value = "Customer Name")
+   @org.kie.api.definition.type.Label("Customer Name")
    private java.lang.String customerName;
 
-   @org.kie.api.definition.type.Label(value = "Customer Number")
+   @org.kie.api.definition.type.Label("Customer Number")
    private java.lang.String customerNumber;
 
+   @org.kie.api.definition.type.Label(value = "Age")
+   private java.lang.Integer customerAge;
+
    @org.kie.api.definition.type.Label(value = "Date Of Birth")
-   private java.util.Date dateOfBirth;
+   private java.util.Date customerDateOfBirth;
 
    @org.kie.api.definition.type.Label(value = "Email Address")
-   private java.lang.String emailAddress;
+   private java.lang.String customerEmailAddress;
 
    @org.kie.api.definition.type.Label(value = "Gender")
-   private java.lang.String gender;
+   private java.lang.String customerGender;
 
    @org.kie.api.definition.type.Label(value = "Home Address")
-   private java.lang.String homeCountryAddress;
+   private java.lang.String customerHomeCountryAddress;
 
    @org.kie.api.definition.type.Label(value = "Home Telephone No")
-   private java.lang.String homeCountryTelephoneNo;
+   private java.lang.String customerHomeCountryTelephoneNo;
 
    @org.kie.api.definition.type.Label(value = "Mobile Number")
-   private java.lang.String mobileNumber;
+   private java.lang.String customerMobileNumber;
 
    @org.kie.api.definition.type.Label(value = "Monthly Salary")
-   private java.lang.Double monthlySalary;
+   private java.lang.Double customerMonthlySalary;
 
    @org.kie.api.definition.type.Label(value = "Mother Maiden Name")
-   private java.lang.String motherMaidenName;
+   private java.lang.String customerMotherMaidenName;
 
    @org.kie.api.definition.type.Label(value = "National ID Number")
-   private java.lang.String nationalIDNumber;
+   private java.lang.String customerNationalIDNumber;
 
    @org.kie.api.definition.type.Label(value = "Nationality")
-   private java.lang.String nationality;
+   private java.lang.String customerNationality;
 
    @org.kie.api.definition.type.Label(value = "Passport Number")
-   private java.lang.String passportNumber;
+   private java.lang.String customerPassportNumber;
 
    @org.kie.api.definition.type.Label(value = "Residence Address")
-   private java.lang.String residenceAddress;
+   private java.lang.String customerResidenceAddress;
 
    @org.kie.api.definition.type.Label(value = "Residence Telephone No")
-   private java.lang.String residenceTelephoneNo;
+   private java.lang.String customerResidenceTelephoneNo;
 
    public CustomerDetails()
    {
@@ -75,16 +75,6 @@ public class CustomerDetails implements java.io.Serializable
    public void setId(java.lang.Long id)
    {
       this.id = id;
-   }
-
-   public java.lang.Integer getAge()
-   {
-      return this.age;
-   }
-
-   public void setAge(java.lang.Integer age)
-   {
-      this.age = age;
    }
 
    public java.lang.String getCustomerName()
@@ -107,165 +97,184 @@ public class CustomerDetails implements java.io.Serializable
       this.customerNumber = customerNumber;
    }
 
-   public java.util.Date getDateOfBirth()
+   public java.lang.Integer getCustomerAge()
    {
-      return this.dateOfBirth;
+      return this.customerAge;
    }
 
-   public void setDateOfBirth(java.util.Date dateOfBirth)
+   public void setCustomerAge(java.lang.Integer customerAge)
    {
-      this.dateOfBirth = dateOfBirth;
+      this.customerAge = customerAge;
    }
 
-   public java.lang.String getEmailAddress()
+   public java.util.Date getCustomerDateOfBirth()
    {
-      return this.emailAddress;
+      return this.customerDateOfBirth;
    }
 
-   public void setEmailAddress(java.lang.String emailAddress)
+   public void setCustomerDateOfBirth(java.util.Date customerDateOfBirth)
    {
-      this.emailAddress = emailAddress;
+      this.customerDateOfBirth = customerDateOfBirth;
    }
 
-   public java.lang.String getGender()
+   public java.lang.String getCustomerEmailAddress()
    {
-      return this.gender;
+      return this.customerEmailAddress;
    }
 
-   public void setGender(java.lang.String gender)
+   public void setCustomerEmailAddress(java.lang.String customerEmailAddress)
    {
-      this.gender = gender;
+      this.customerEmailAddress = customerEmailAddress;
    }
 
-   public java.lang.String getHomeCountryAddress()
+   public java.lang.String getCustomerGender()
    {
-      return this.homeCountryAddress;
+      return this.customerGender;
    }
 
-   public void setHomeCountryAddress(java.lang.String homeCountryAddress)
+   public void setCustomerGender(java.lang.String customerGender)
    {
-      this.homeCountryAddress = homeCountryAddress;
+      this.customerGender = customerGender;
    }
 
-   public java.lang.String getHomeCountryTelephoneNo()
+   public java.lang.String getCustomerHomeCountryAddress()
    {
-      return this.homeCountryTelephoneNo;
+      return this.customerHomeCountryAddress;
    }
 
-   public void setHomeCountryTelephoneNo(
-         java.lang.String homeCountryTelephoneNo)
+   public void setCustomerHomeCountryAddress(
+         java.lang.String customerHomeCountryAddress)
    {
-      this.homeCountryTelephoneNo = homeCountryTelephoneNo;
+      this.customerHomeCountryAddress = customerHomeCountryAddress;
    }
 
-   public java.lang.String getMobileNumber()
+   public java.lang.String getCustomerHomeCountryTelephoneNo()
    {
-      return this.mobileNumber;
+      return this.customerHomeCountryTelephoneNo;
    }
 
-   public void setMobileNumber(java.lang.String mobileNumber)
+   public void setCustomerHomeCountryTelephoneNo(
+         java.lang.String customerHomeCountryTelephoneNo)
    {
-      this.mobileNumber = mobileNumber;
+      this.customerHomeCountryTelephoneNo = customerHomeCountryTelephoneNo;
    }
 
-   public java.lang.Double getMonthlySalary()
+   public java.lang.String getCustomerMobileNumber()
    {
-      return this.monthlySalary;
+      return this.customerMobileNumber;
    }
 
-   public void setMonthlySalary(java.lang.Double monthlySalary)
+   public void setCustomerMobileNumber(java.lang.String customerMobileNumber)
    {
-      this.monthlySalary = monthlySalary;
+      this.customerMobileNumber = customerMobileNumber;
    }
 
-   public java.lang.String getMotherMaidenName()
+   public java.lang.Double getCustomerMonthlySalary()
    {
-      return this.motherMaidenName;
+      return this.customerMonthlySalary;
    }
 
-   public void setMotherMaidenName(java.lang.String motherMaidenName)
+   public void setCustomerMonthlySalary(java.lang.Double customerMonthlySalary)
    {
-      this.motherMaidenName = motherMaidenName;
+      this.customerMonthlySalary = customerMonthlySalary;
    }
 
-   public java.lang.String getNationalIDNumber()
+   public java.lang.String getCustomerMotherMaidenName()
    {
-      return this.nationalIDNumber;
+      return this.customerMotherMaidenName;
    }
 
-   public void setNationalIDNumber(java.lang.String nationalIDNumber)
+   public void setCustomerMotherMaidenName(
+         java.lang.String customerMotherMaidenName)
    {
-      this.nationalIDNumber = nationalIDNumber;
+      this.customerMotherMaidenName = customerMotherMaidenName;
    }
 
-   public java.lang.String getNationality()
+   public java.lang.String getCustomerNationalIDNumber()
    {
-      return this.nationality;
+      return this.customerNationalIDNumber;
    }
 
-   public void setNationality(java.lang.String nationality)
+   public void setCustomerNationalIDNumber(
+         java.lang.String customerNationalIDNumber)
    {
-      this.nationality = nationality;
+      this.customerNationalIDNumber = customerNationalIDNumber;
    }
 
-   public java.lang.String getPassportNumber()
+   public java.lang.String getCustomerNationality()
    {
-      return this.passportNumber;
+      return this.customerNationality;
    }
 
-   public void setPassportNumber(java.lang.String passportNumber)
+   public void setCustomerNationality(java.lang.String customerNationality)
    {
-      this.passportNumber = passportNumber;
+      this.customerNationality = customerNationality;
    }
 
-   public java.lang.String getResidenceAddress()
+   public java.lang.String getCustomerPassportNumber()
    {
-      return this.residenceAddress;
+      return this.customerPassportNumber;
    }
 
-   public void setResidenceAddress(java.lang.String residenceAddress)
+   public void setCustomerPassportNumber(java.lang.String customerPassportNumber)
    {
-      this.residenceAddress = residenceAddress;
+      this.customerPassportNumber = customerPassportNumber;
    }
 
-   public java.lang.String getResidenceTelephoneNo()
+   public java.lang.String getCustomerResidenceAddress()
    {
-      return this.residenceTelephoneNo;
+      return this.customerResidenceAddress;
    }
 
-   public void setResidenceTelephoneNo(java.lang.String residenceTelephoneNo)
+   public void setCustomerResidenceAddress(
+         java.lang.String customerResidenceAddress)
    {
-      this.residenceTelephoneNo = residenceTelephoneNo;
+      this.customerResidenceAddress = customerResidenceAddress;
    }
 
-   public CustomerDetails(java.lang.Long id, java.lang.Integer age,
-         java.lang.String customerName, java.lang.String customerNumber,
-         java.util.Date dateOfBirth, java.lang.String emailAddress,
-         java.lang.String gender, java.lang.String homeCountryAddress,
-         java.lang.String homeCountryTelephoneNo,
-         java.lang.String mobileNumber, java.lang.Double monthlySalary,
-         java.lang.String motherMaidenName,
-         java.lang.String nationalIDNumber, java.lang.String nationality,
-         java.lang.String passportNumber, java.lang.String residenceAddress,
-         java.lang.String residenceTelephoneNo)
+   public java.lang.String getCustomerResidenceTelephoneNo()
+   {
+      return this.customerResidenceTelephoneNo;
+   }
+
+   public void setCustomerResidenceTelephoneNo(
+         java.lang.String customerResidenceTelephoneNo)
+   {
+      this.customerResidenceTelephoneNo = customerResidenceTelephoneNo;
+   }
+
+   public CustomerDetails(java.lang.Long id, java.lang.String customerName,
+         java.lang.String customerNumber, java.lang.Integer customerAge,
+         java.util.Date customerDateOfBirth,
+         java.lang.String customerEmailAddress, java.lang.String customerGender,
+         java.lang.String customerHomeCountryAddress,
+         java.lang.String customerHomeCountryTelephoneNo,
+         java.lang.String customerMobileNumber,
+         java.lang.Double customerMonthlySalary,
+         java.lang.String customerMotherMaidenName,
+         java.lang.String customerNationalIDNumber,
+         java.lang.String customerNationality,
+         java.lang.String customerPassportNumber,
+         java.lang.String customerResidenceAddress,
+         java.lang.String customerResidenceTelephoneNo)
    {
       this.id = id;
-      this.age = age;
       this.customerName = customerName;
       this.customerNumber = customerNumber;
-      this.dateOfBirth = dateOfBirth;
-      this.emailAddress = emailAddress;
-      this.gender = gender;
-      this.homeCountryAddress = homeCountryAddress;
-      this.homeCountryTelephoneNo = homeCountryTelephoneNo;
-      this.mobileNumber = mobileNumber;
-      this.monthlySalary = monthlySalary;
-      this.motherMaidenName = motherMaidenName;
-      this.nationalIDNumber = nationalIDNumber;
-      this.nationality = nationality;
-      this.passportNumber = passportNumber;
-      this.residenceAddress = residenceAddress;
-      this.residenceTelephoneNo = residenceTelephoneNo;
+      this.customerAge = customerAge;
+      this.customerDateOfBirth = customerDateOfBirth;
+      this.customerEmailAddress = customerEmailAddress;
+      this.customerGender = customerGender;
+      this.customerHomeCountryAddress = customerHomeCountryAddress;
+      this.customerHomeCountryTelephoneNo = customerHomeCountryTelephoneNo;
+      this.customerMobileNumber = customerMobileNumber;
+      this.customerMonthlySalary = customerMonthlySalary;
+      this.customerMotherMaidenName = customerMotherMaidenName;
+      this.customerNationalIDNumber = customerNationalIDNumber;
+      this.customerNationality = customerNationality;
+      this.customerPassportNumber = customerPassportNumber;
+      this.customerResidenceAddress = customerResidenceAddress;
+      this.customerResidenceTelephoneNo = customerResidenceTelephoneNo;
    }
 
 }
