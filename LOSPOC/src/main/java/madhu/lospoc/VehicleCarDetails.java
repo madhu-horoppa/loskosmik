@@ -15,43 +15,43 @@ public class VehicleCarDetails implements java.io.Serializable
    @javax.persistence.SequenceGenerator(name = "VEHICLECARDETAILS_ID_GENERATOR", sequenceName = "VEHICLECARDETAILS_ID_SEQ")
    private java.lang.Long id;
 
-   @org.kie.api.definition.type.Label(value = "Vehicle Chasis No")
+   @org.kie.api.definition.type.Label("Vehicle Chasis No")
    private java.lang.String vehicleChasisNo;
 
-   @org.kie.api.definition.type.Label(value = "Current Milage /Km")
+   @org.kie.api.definition.type.Label("Current Milage /Km")
    private java.lang.Double vehicleCurrentMilage;
 
-   @org.kie.api.definition.type.Label(value = "Engine Size")
+   @org.kie.api.definition.type.Label("Engine Size")
    private java.lang.String vehicleEngineSize;
 
-   @org.kie.api.definition.type.Label(value = "Evaluation Price")
+   @org.kie.api.definition.type.Label("Evaluation Price")
    private java.lang.Double vehicleEvaluationPrice;
 
-   @org.kie.api.definition.type.Label(value = "Dealer / Vehicle Evaluator\u2019s Name")
+   @org.kie.api.definition.type.Label("Dealer / Vehicle Evaluator’s Name")
    private java.lang.String vehicleEvaluatorsName;
 
-   @org.kie.api.definition.type.Label(value = "Insurance Company Name")
+   @org.kie.api.definition.type.Label("Insurance Company Name")
    private java.lang.String vehicleInsuranceCompanyName;
 
-   @org.kie.api.definition.type.Label(value = "Vehicle Make")
+   @org.kie.api.definition.type.Label("Vehicle Make")
    private java.lang.String vehicleMake;
 
-   @org.kie.api.definition.type.Label(value = "Vehicle Model")
+   @org.kie.api.definition.type.Label("Vehicle Model")
    private java.lang.String vehicleModel;
 
-   @org.kie.api.definition.type.Label(value = "Vehicle Price")
+   @org.kie.api.definition.type.Label("Vehicle Price")
    private java.lang.Double vehiclePrice;
 
-   @org.kie.api.definition.type.Label(value = "Vehicle Supplier")
+   @org.kie.api.definition.type.Label("Vehicle Supplier")
    private java.lang.String vehicleSupplier;
 
-   @org.kie.api.definition.type.Label(value = "Vehicle Type")
+   @org.kie.api.definition.type.Label("Vehicle Type")
    private java.lang.String vehicleType;
 
-   @org.kie.api.definition.type.Label(value = "Dealer Location (Emirates)")
+   @org.kie.api.definition.type.Label("Dealer Location (Emirates)")
    private java.lang.String vehicleDealerLocation;
 
-   @org.kie.api.definition.type.Label(value = "Year")
+   @org.kie.api.definition.type.Label("Year of Model")
    private java.lang.Integer vehicleYearOfModel;
 
    public VehicleCarDetails()
@@ -200,8 +200,7 @@ public class VehicleCarDetails implements java.io.Serializable
       this.vehicleYearOfModel = vehicleYearOfModel;
    }
 
-   public VehicleCarDetails(java.lang.Long id,
-         java.lang.String vehicleChasisNo,
+   public VehicleCarDetails(java.lang.Long id, java.lang.String vehicleChasisNo,
          java.lang.Double vehicleCurrentMilage,
          java.lang.String vehicleEngineSize,
          java.lang.Double vehicleEvaluationPrice,
@@ -209,8 +208,7 @@ public class VehicleCarDetails implements java.io.Serializable
          java.lang.String vehicleInsuranceCompanyName,
          java.lang.String vehicleMake, java.lang.String vehicleModel,
          java.lang.Double vehiclePrice, java.lang.String vehicleSupplier,
-         java.lang.String vehicleType,
-         java.lang.String vehicleDealerLocation,
+         java.lang.String vehicleType, java.lang.String vehicleDealerLocation,
          java.lang.Integer vehicleYearOfModel)
    {
       this.id = id;
