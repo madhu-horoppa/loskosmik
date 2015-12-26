@@ -5,28 +5,110 @@ package madhu.lospoc;
  */
 
 @javax.persistence.Entity
-public class IncidentBasicDetails implements java.io.Serializable {
+public class IncidentBasicDetails implements java.io.Serializable
+{
 
-    static final long serialVersionUID = 1L;
+   static final long serialVersionUID = 1L;
 
-    @javax.persistence.GeneratedValue(strategy = javax.persistence.GenerationType.AUTO, generator = "INCIDENTBASICDETAILS_ID_GENERATOR")
-    @javax.persistence.Id
-    @javax.persistence.SequenceGenerator(name = "INCIDENTBASICDETAILS_ID_GENERATOR", sequenceName = "INCIDENTBASICDETAILS_ID_SEQ")
-    private java.lang.Long id;
+   @javax.persistence.GeneratedValue(strategy = javax.persistence.GenerationType.AUTO, generator = "INCIDENTBASICDETAILS_ID_GENERATOR")
+   @javax.persistence.Id
+   @javax.persistence.SequenceGenerator(name = "INCIDENTBASICDETAILS_ID_GENERATOR", sequenceName = "INCIDENTBASICDETAILS_ID_SEQ")
+   private java.lang.Long id;
 
-    public IncidentBasicDetails() {
-    }
-    
-    public IncidentBasicDetails(java.lang.Long id) {
-        this.id = id;
-    }
+   @org.kie.api.definition.type.Label(value = "Incident Number")
+   private java.lang.String incidentNumber;
 
-    public java.lang.Long getId() {
-        return this.id;
-    }
-    
-    public void setId(java.lang.Long id) {
-        this.id = id;
-    }
+   @org.kie.api.definition.type.Label(value = "Incident Date")
+   private java.util.Date incidentDate;
+
+   @org.kie.api.definition.type.Label(value = "Application Type")
+   private java.lang.String incidentApplicationType;
+
+   @org.kie.api.definition.type.Label(value = "Applicant Status")
+   private java.lang.String incidentApplicantStatus;
+
+   @org.kie.api.definition.type.Label(value = "Relationship")
+   private java.lang.String incidentApplicationRelationship;
+
+   public IncidentBasicDetails()
+   {
+   }
+
+   public java.lang.Long getId()
+   {
+      return this.id;
+   }
+
+   public void setId(java.lang.Long id)
+   {
+      this.id = id;
+   }
+
+   public java.lang.String getIncidentNumber()
+   {
+      return this.incidentNumber;
+   }
+
+   public void setIncidentNumber(java.lang.String incidentNumber)
+   {
+      this.incidentNumber = incidentNumber;
+   }
+
+   public java.util.Date getIncidentDate()
+   {
+      return this.incidentDate;
+   }
+
+   public void setIncidentDate(java.util.Date incidentDate)
+   {
+      this.incidentDate = incidentDate;
+   }
+
+   public java.lang.String getIncidentApplicationType()
+   {
+      return this.incidentApplicationType;
+   }
+
+   public void setIncidentApplicationType(
+         java.lang.String incidentApplicationType)
+   {
+      this.incidentApplicationType = incidentApplicationType;
+   }
+
+   public java.lang.String getIncidentApplicantStatus()
+   {
+      return this.incidentApplicantStatus;
+   }
+
+   public void setIncidentApplicantStatus(
+         java.lang.String incidentApplicantStatus)
+   {
+      this.incidentApplicantStatus = incidentApplicantStatus;
+   }
+
+   public java.lang.String getIncidentApplicationRelationship()
+   {
+      return this.incidentApplicationRelationship;
+   }
+
+   public void setIncidentApplicationRelationship(
+         java.lang.String incidentApplicationRelationship)
+   {
+      this.incidentApplicationRelationship = incidentApplicationRelationship;
+   }
+
+   public IncidentBasicDetails(java.lang.Long id,
+         java.lang.String incidentNumber, java.util.Date incidentDate,
+         java.lang.String incidentApplicationType,
+         java.lang.String incidentApplicantStatus,
+         java.lang.String incidentApplicationRelationship)
+   {
+      this.id = id;
+      this.incidentNumber = incidentNumber;
+      this.incidentDate = incidentDate;
+      this.incidentApplicationType = incidentApplicationType;
+      this.incidentApplicantStatus = incidentApplicantStatus;
+      this.incidentApplicationRelationship = incidentApplicationRelationship;
+   }
 
 }
