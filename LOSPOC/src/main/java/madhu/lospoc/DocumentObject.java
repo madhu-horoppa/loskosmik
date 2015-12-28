@@ -5,28 +5,49 @@ package madhu.lospoc;
  */
 
 @javax.persistence.Entity
-public class DocumentObject implements java.io.Serializable {
+public class DocumentObject implements java.io.Serializable
+{
 
-    static final long serialVersionUID = 1L;
+   static final long serialVersionUID = 1L;
 
-    @javax.persistence.GeneratedValue(strategy = javax.persistence.GenerationType.AUTO, generator = "DOCUMENTOBJECT_ID_GENERATOR")
-    @javax.persistence.Id
-    @javax.persistence.SequenceGenerator(sequenceName = "DOCUMENTOBJECT_ID_SEQ", name = "DOCUMENTOBJECT_ID_GENERATOR")
-    private java.lang.Long id;
+   @javax.persistence.GeneratedValue(strategy = javax.persistence.GenerationType.AUTO, generator = "DOCUMENTOBJECT_ID_GENERATOR")
+   @javax.persistence.Id
+   @javax.persistence.SequenceGenerator(sequenceName = "DOCUMENTOBJECT_ID_SEQ", name = "DOCUMENTOBJECT_ID_GENERATOR")
+   private java.lang.Long id;
 
-    public DocumentObject() {
-    }
-    
-    public DocumentObject(java.lang.Long id) {
-        this.id = id;
-    }
+   @javax.persistence.ElementCollection(fetch = javax.persistence.FetchType.EAGER)
+   @org.kie.api.definition.type.Label(value = "Attach Document")
+   private java.util.List<java.lang.Byte> document;
 
-    public java.lang.Long getId() {
-        return this.id;
-    }
-    
-    public void setId(java.lang.Long id) {
-        this.id = id;
-    }
+   public DocumentObject()
+   {
+   }
+
+   public java.lang.Long getId()
+   {
+      return this.id;
+   }
+
+   public void setId(java.lang.Long id)
+   {
+      this.id = id;
+   }
+
+   public java.util.List<java.lang.Byte> getDocument()
+   {
+      return this.document;
+   }
+
+   public void setDocument(java.util.List<java.lang.Byte> document)
+   {
+      this.document = document;
+   }
+
+   public DocumentObject(java.lang.Long id,
+         java.util.List<java.lang.Byte> document)
+   {
+      this.id = id;
+      this.document = document;
+   }
 
 }
