@@ -597,6 +597,39 @@ quot;"/>
 <property name="outputBinding" value="out_vehicleDetails/vehicleYearOfModel"/>
 <property name="fieldClass" value="java.lang.Integer"/>
 </field>
+<field position="48" name=":decorator_5" type="HTMLLabel" id="1743574579">
+<property name="fieldRequired" value="false"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;h3&gt;Applicant Documents&lt;/h3&gt;
+quot;quot;dequot;,quot;&lt;h3&gt;Applicant Documents&lt;/h3&gt;
+quot;quot;enquot;,quot;&lt;h3&gt;Applicant Documents&lt;/h3&gt;
+quot;quot;esquot;,quot;&lt;h3&gt;Applicant Documents&lt;/h3&gt;
+quot;quot;frquot;,quot;&lt;h3&gt;Applicant Documents&lt;/h3&gt;
+quot;quot;jaquot;,quot;&lt;h3&gt;Applicant Documents&lt;/h3&gt;
+quot;quot;ptquot;,quot;&lt;h3&gt;Applicant Documents&lt;/h3&gt;
+quot;quot;zhquot;,quot;&lt;h3&gt;Applicant Documents&lt;/h3&gt;
+quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
+</field>
+<field position="49" name="documentOne" type="Document" id="336581501">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Document49quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="fieldClass" value="org.jbpm.document.Document"/>
+</field>
+<field position="50" name="78695398" type="Document" id="78695398">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;Document50quot;"/>
+<property name="readonly" value="false"/>
+<property name="fieldClass" value="org.jbpm.document.Document"/>
+</field>
+<field position="51" name="1104474024" type="Document" id="1104474024">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;Document51quot;"/>
+<property name="readonly" value="false"/>
+<property name="fieldClass" value="org.jbpm.document.Document"/>
+</field>
 <dataHolder inputId="in_customerDetails" name="#0000A0" type="dataModelerEntry" outId="out_customerDetails" value="madhu.lospoc.CustomerDetails" id="customerDetails"/>
 <dataHolder inputId="in_incidentBasicDetails" name="#0000A0" type="dataModelerEntry" outId="out_incidentBasicDetails" value="madhu.lospoc.IncidentBasicDetails" id="incidentBasicDetails"/>
 <dataHolder inputId="in_loanDetails" name="#0000A0" type="dataModelerEntry" outId="out_loanDetails" value="madhu.lospoc.LoanDetails" id="loanDetails"/>
