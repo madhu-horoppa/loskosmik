@@ -620,23 +620,28 @@
 <property name="outputBinding" value="out_technicalReportType"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="55" name="1740037791" type="InputText" id="1740037791">
+<field position="56" name="1740037791" type="InputText" id="1740037791">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;enquot;,quot;InputText54quot;"/>
 <property name="readonly" value="false"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="56" name="862373446" type="InputText" id="862373446">
+<field position="57" name="862373446" type="InputText" id="862373446">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;InputText55quot;"/>
 <property name="readonly" value="false"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="57" name="1862506860" type="InputTextArea" id="1862506860">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;InputTextArea56quot;"/>
+<field position="55" name="blackListReportDescription" type="InputTextArea" id="1862506860">
+<property name="fieldRequired" value="true"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Blacklist Report Descriptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
+<property name="inputBinding" value="in_blackListReportDescription"/>
+<property name="outputBinding" value="out_blackListReportDescription"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <field position="54" name="blackListReportDoc" type="Document" id="640511815">
