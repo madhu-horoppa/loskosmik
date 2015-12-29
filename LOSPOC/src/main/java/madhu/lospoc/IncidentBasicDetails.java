@@ -12,22 +12,22 @@ public class IncidentBasicDetails implements java.io.Serializable
 
    @javax.persistence.GeneratedValue(strategy = javax.persistence.GenerationType.AUTO, generator = "INCIDENTBASICDETAILS_ID_GENERATOR")
    @javax.persistence.Id
-   @javax.persistence.SequenceGenerator(name = "INCIDENTBASICDETAILS_ID_GENERATOR", sequenceName = "INCIDENTBASICDETAILS_ID_SEQ")
+   @javax.persistence.SequenceGenerator(sequenceName = "INCIDENTBASICDETAILS_ID_SEQ", name = "INCIDENTBASICDETAILS_ID_GENERATOR")
    private java.lang.Long id;
 
-   @org.kie.api.definition.type.Label(value = "Incident Number")
+   @org.kie.api.definition.type.Label("Incident Number")
    private java.lang.String incidentNumber;
 
-   @org.kie.api.definition.type.Label(value = "Incident Date")
-   private java.util.Date incidentDate;
+   @org.kie.api.definition.type.Label("Incident Date")
+   private String incidentDate;
 
-   @org.kie.api.definition.type.Label(value = "Application Type")
+   @org.kie.api.definition.type.Label("Application Type")
    private java.lang.String incidentApplicationType;
 
-   @org.kie.api.definition.type.Label(value = "Applicant Status")
+   @org.kie.api.definition.type.Label("Applicant Status")
    private java.lang.String incidentApplicantStatus;
 
-   @org.kie.api.definition.type.Label(value = "Relationship")
+   @org.kie.api.definition.type.Label("Relationship")
    private java.lang.String incidentApplicationRelationship;
 
    public IncidentBasicDetails()
@@ -52,16 +52,6 @@ public class IncidentBasicDetails implements java.io.Serializable
    public void setIncidentNumber(java.lang.String incidentNumber)
    {
       this.incidentNumber = incidentNumber;
-   }
-
-   public java.util.Date getIncidentDate()
-   {
-      return this.incidentDate;
-   }
-
-   public void setIncidentDate(java.util.Date incidentDate)
-   {
-      this.incidentDate = incidentDate;
    }
 
    public java.lang.String getIncidentApplicationType()
@@ -97,8 +87,18 @@ public class IncidentBasicDetails implements java.io.Serializable
       this.incidentApplicationRelationship = incidentApplicationRelationship;
    }
 
-   public IncidentBasicDetails(java.lang.Long id,
-         java.lang.String incidentNumber, java.util.Date incidentDate,
+   public java.lang.String getIncidentDate()
+   {
+      return this.incidentDate;
+   }
+
+   public void setIncidentDate(java.lang.String incidentDate)
+   {
+      this.incidentDate = incidentDate;
+   }
+
+   public IncidentBasicDetails(java.lang.Long id, java.lang.String incidentNumber,
+         java.lang.String incidentDate,
          java.lang.String incidentApplicationType,
          java.lang.String incidentApplicantStatus,
          java.lang.String incidentApplicationRelationship)
