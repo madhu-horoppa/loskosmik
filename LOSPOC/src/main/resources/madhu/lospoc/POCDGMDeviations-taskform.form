@@ -219,5 +219,83 @@ quot;"/>
 <property name="outputBinding" value="out_dgmCandidateAgeDescription"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
+<field position="17" name=":decorator_5" type="HTMLLabel" id="1630670339">
+<property name="fieldRequired" value="false"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;pre&gt;
+&lt;em&gt;Technical Report Deviation:&lt;/em&gt;&lt;/pre&gt;
+quot;quot;dequot;,quot;&lt;pre&gt;
+&lt;em&gt;Technical Report Deviation:&lt;/em&gt;&lt;/pre&gt;
+quot;quot;enquot;,quot;&lt;pre&gt;
+&lt;em&gt;Technical Report Deviation:&lt;/em&gt;&lt;/pre&gt;
+quot;quot;esquot;,quot;&lt;pre&gt;
+&lt;em&gt;Technical Report Deviation:&lt;/em&gt;&lt;/pre&gt;
+quot;quot;frquot;,quot;&lt;pre&gt;
+&lt;em&gt;Technical Report Deviation:&lt;/em&gt;&lt;/pre&gt;
+quot;quot;jaquot;,quot;&lt;pre&gt;
+&lt;em&gt;Technical Report Deviation:&lt;/em&gt;&lt;/pre&gt;
+quot;quot;ptquot;,quot;&lt;pre&gt;
+&lt;em&gt;Technical Report Deviation:&lt;/em&gt;&lt;/pre&gt;
+quot;quot;zhquot;,quot;&lt;pre&gt;
+&lt;em&gt;Technical Report Deviation:&lt;/em&gt;&lt;/pre&gt;
+quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
+</field>
+<field position="18" name="dgmTechnicalReports" type="InputTextArea" id="813916589">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Technical Reportsquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="inputBinding" value="in_dgmTechnicalReports"/>
+<property name="outputBinding" value="out_dgmTechnicalReports"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="19" name="dgmTechnicalReportsStatus" type="InputText" id="1765991852">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Statusquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="in_dgmTechnicalReportsStatus"/>
+<property name="outputBinding" value="out_dgmTechnicalReportsStatus"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="21" name="dgmTechnicalReportsDescription" type="InputTextArea" id="341851455">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Descriptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value="85"/>
+<property name="inputBinding" value="in_dgmTechnicalReportsDescription"/>
+<property name="outputBinding" value="out_dgmTechnicalReportsDescription"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="22" name="573631438" type="Document" id="573631438">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;Document21quot;"/>
+<property name="readonly" value="false"/>
+<property name="fieldClass" value="org.jbpm.document.Document"/>
+</field>
+<field position="20" name=":decorator_6" type="HTMLLabel" id="1177331413">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt;
+quot;quot;dequot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt;
+quot;quot;enquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt;
+quot;quot;esquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt;
+quot;quot;frquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt;
+quot;quot;jaquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt;
+quot;quot;ptquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt;
+quot;quot;zhquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt;
+quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
+</field>
 <dataHolder inputId="incidentBasicDetails" name="#0000A0" type="dataModelerEntry" outId="out_incidentBasicDetails" value="madhu.lospoc.IncidentBasicDetails" id="incidentBasicDetails"/>
 </form>
