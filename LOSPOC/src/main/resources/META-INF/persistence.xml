@@ -3,9 +3,9 @@
 <persistence-unit name="Madhu:LOSPOC:1.0" transaction-type="JTA">
 <provider>org.hibernate.ejb.HibernatePersistence</provider>
 <jta-data-source>java:jboss/datasources/jbpmDS</jta-data-source>
-<class>madhu.lospoc.IncidentBasicDetails</class>
-<class>madhu.lospoc.VehicleDetails</class>
 <class>madhu.lospoc.CustomerDetails</class>
+<class>madhu.lospoc.VehicleDetails</class>
+<class>madhu.lospoc.IncidentBasicDetails</class>
 <class>madhu.lospoc.LoanDetails</class>
 <exclude-unlisted-classes>true</exclude-unlisted-classes>
 <properties>
