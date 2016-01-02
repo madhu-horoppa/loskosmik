@@ -586,6 +586,7 @@
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="in_documentOne"/>
 <property name="outputBinding" value="out_documentOne"/>
+<property name="customFieldType" value="org.jbpm.formModeler.core.fieldTypes.file.FileCustomType"/>
 <property name="fieldClass" value="org.jbpm.document.Document"/>
 </field>
 <field position="50" name="documentTwo" type="CustomInput" id="1564161778">
@@ -595,6 +596,7 @@
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="in_documentTwo"/>
 <property name="outputBinding" value="out_documentTwo"/>
+<property name="customFieldType" value="org.jbpm.formModeler.core.fieldTypes.file.FileCustomType"/>
 <property name="fieldClass" value="org.jbpm.document.Document"/>
 </field>
 <field position="51" name="documentThree" type="CustomInput" id="1279649935">
@@ -604,6 +606,7 @@
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="in_documentThree"/>
 <property name="outputBinding" value="out_documentThree"/>
+<property name="customFieldType" value="org.jbpm.formModeler.core.fieldTypes.file.FileCustomType"/>
 <property name="fieldClass" value="org.jbpm.document.Document"/>
 </field>
 <field position="52" name="applicationStatus" type="InputText" id="927689703">
