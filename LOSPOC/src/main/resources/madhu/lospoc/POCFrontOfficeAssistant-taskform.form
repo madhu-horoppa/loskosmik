@@ -16,28 +16,28 @@
 <property name="readonly" value="false"/>
 <property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;Incident Number:&lt;/p&gt;
 
-&lt;p&gt;{incidentBasicDetails.getIncidentNumber()}&lt;/p&gt;
+&lt;p&gt;#{incidentBasicDetails.getIncidentNumber()}&lt;/p&gt;
 quot;quot;dequot;,quot;&lt;p&gt;Incident Number:&lt;/p&gt;
 
-&lt;p&gt;{incidentBasicDetails.getIncidentNumber()}&lt;/p&gt;
+&lt;p&gt;#{incidentBasicDetails.getIncidentNumber()}&lt;/p&gt;
 quot;quot;enquot;,quot;&lt;p&gt;Incident Number:&lt;/p&gt;
 
-&lt;p&gt;{incidentBasicDetails.getIncidentNumber()}&lt;/p&gt;
+&lt;p&gt;#{incidentBasicDetails.getIncidentNumber()}&lt;/p&gt;
 quot;quot;esquot;,quot;&lt;p&gt;Incident Number:&lt;/p&gt;
 
-&lt;p&gt;{incidentBasicDetails.getIncidentNumber()}&lt;/p&gt;
+&lt;p&gt;#{incidentBasicDetails.getIncidentNumber()}&lt;/p&gt;
 quot;quot;frquot;,quot;&lt;p&gt;Incident Number:&lt;/p&gt;
 
-&lt;p&gt;{incidentBasicDetails.getIncidentNumber()}&lt;/p&gt;
+&lt;p&gt;#{incidentBasicDetails.getIncidentNumber()}&lt;/p&gt;
 quot;quot;jaquot;,quot;&lt;p&gt;Incident Number:&lt;/p&gt;
 
-&lt;p&gt;{incidentBasicDetails.getIncidentNumber()}&lt;/p&gt;
+&lt;p&gt;#{incidentBasicDetails.getIncidentNumber()}&lt;/p&gt;
 quot;quot;ptquot;,quot;&lt;p&gt;Incident Number:&lt;/p&gt;
 
-&lt;p&gt;{incidentBasicDetails.getIncidentNumber()}&lt;/p&gt;
+&lt;p&gt;#{incidentBasicDetails.getIncidentNumber()}&lt;/p&gt;
 quot;quot;zhquot;,quot;&lt;p&gt;Incident Number:&lt;/p&gt;
 
-&lt;p&gt;{incidentBasicDetails.getIncidentNumber()}&lt;/p&gt;
+&lt;p&gt;#{incidentBasicDetails.getIncidentNumber()}&lt;/p&gt;
 quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
@@ -45,38 +45,38 @@ quot;"/>
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="readonly" value="false"/>
-<property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;IncidentDate:&lt;/p&gt;
-
-&lt;p&gt;{incidentBasicDetails.getIncidentDate()}&lt;/p&gt;
-quot;quot;dequot;,quot;&lt;p&gt;IncidentDate:&lt;/p&gt;
-
-&lt;p&gt;{incidentBasicDetails.getIncidentDate()}&lt;/p&gt;
-quot;quot;enquot;,quot;&lt;p&gt;IncidentDate:&lt;/p&gt;
-
-&lt;p&gt;{incidentBasicDetails.getIncidentDate()}&lt;/p&gt;
-quot;quot;esquot;,quot;&lt;p&gt;IncidentDate:&lt;/p&gt;
-
-&lt;p&gt;{incidentBasicDetails.getIncidentDate()}&lt;/p&gt;
-quot;quot;frquot;,quot;&lt;p&gt;IncidentDate:&lt;/p&gt;
-
-&lt;p&gt;{incidentBasicDetails.getIncidentDate()}&lt;/p&gt;
-quot;quot;jaquot;,quot;&lt;p&gt;IncidentDate:&lt;/p&gt;
-
-&lt;p&gt;{incidentBasicDetails.getIncidentDate()}&lt;/p&gt;
-quot;quot;ptquot;,quot;&lt;p&gt;IncidentDate:&lt;/p&gt;
-
-&lt;p&gt;{incidentBasicDetails.getIncidentDate()}&lt;/p&gt;
-quot;quot;zhquot;,quot;&lt;p&gt;IncidentDate:&lt;/p&gt;
-
-&lt;p&gt;{incidentBasicDetails.getIncidentDate()}&lt;/p&gt;
-quot;"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;IncidentDate:&lt;/p&gt;  &lt;p&gt;{incidentBasicDetails.getIncidentDate()}&lt;/p&gt; quot;quot;dequot;,quot;&lt;p&gt;IncidentDate:&lt;/p&gt;  &lt;p&gt;{incidentBasicDetails.getIncidentDate()}&lt;/p&gt; quot;quot;enquot;,quot;&lt;p&gt;IncidentDate:&lt;/p&gt;  &lt;p&gt;{incidentBasicDetails.getIncidentDate()}&lt;/p&gt; quot;quot;esquot;,quot;&lt;p&gt;IncidentDate:&lt;/p&gt;  &lt;p&gt;{incidentBasicDetails.getIncidentDate()}&lt;/p&gt; quot;quot;frquot;,quot;&lt;p&gt;IncidentDate:&lt;/p&gt;  &lt;p&gt;{incidentBasicDetails.getIncidentDate()}&lt;/p&gt; quot;quot;jaquot;,quot;&lt;p&gt;IncidentDate:&lt;/p&gt;  &lt;p&gt;{incidentBasicDetails.getIncidentDate()}&lt;/p&gt; quot;quot;ptquot;,quot;&lt;p&gt;IncidentDate:&lt;/p&gt;  &lt;p&gt;{incidentBasicDetails.getIncidentDate()}&lt;/p&gt; quot;quot;zhquot;,quot;&lt;p&gt;IncidentDate:&lt;/p&gt;  &lt;p&gt;{incidentBasicDetails.getIncidentDate()}&lt;/p&gt; quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
 <field position="3" name=":decorator_8" type="HTMLLabel" id="1562530669">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="readonly" value="false"/>
-<property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;Application Type:&lt;/p&gt;  &lt;p&gt;#{incidentBasicDetails.getIncidentApplicationType()}&lt;/p&gt; quot;quot;dequot;,quot;&lt;p&gt;Application Type:&lt;/p&gt;  &lt;p&gt;#{incidentBasicDetails.getIncidentApplicationType()}&lt;/p&gt; quot;quot;enquot;,quot;&lt;p&gt;Application Type:&lt;/p&gt;  &lt;p&gt;#{incidentBasicDetails.getIncidentApplicationType()}&lt;/p&gt; quot;quot;esquot;,quot;&lt;p&gt;Application Type:&lt;/p&gt;  &lt;p&gt;#{incidentBasicDetails.getIncidentApplicationType()}&lt;/p&gt; quot;quot;frquot;,quot;&lt;p&gt;Application Type:&lt;/p&gt;  &lt;p&gt;#{incidentBasicDetails.getIncidentApplicationType()}&lt;/p&gt; quot;quot;jaquot;,quot;&lt;p&gt;Application Type:&lt;/p&gt;  &lt;p&gt;#{incidentBasicDetails.getIncidentApplicationType()}&lt;/p&gt; quot;quot;ptquot;,quot;&lt;p&gt;Application Type:&lt;/p&gt;  &lt;p&gt;#{incidentBasicDetails.getIncidentApplicationType()}&lt;/p&gt; quot;quot;zhquot;,quot;&lt;p&gt;Application Type:&lt;/p&gt;  &lt;p&gt;#{incidentBasicDetails.getIncidentApplicationType()}&lt;/p&gt; quot;"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;Application Type:&lt;/p&gt;
+
+&lt;p&gt;${incidentBasicDetails.getIncidentApplicationType()}&lt;/p&gt;
+quot;quot;dequot;,quot;&lt;p&gt;Application Type:&lt;/p&gt;
+
+&lt;p&gt;${incidentBasicDetails.getIncidentApplicationType()}&lt;/p&gt;
+quot;quot;enquot;,quot;&lt;p&gt;Application Type:&lt;/p&gt;
+
+&lt;p&gt;${incidentBasicDetails.getIncidentApplicationType()}&lt;/p&gt;
+quot;quot;esquot;,quot;&lt;p&gt;Application Type:&lt;/p&gt;
+
+&lt;p&gt;${incidentBasicDetails.getIncidentApplicationType()}&lt;/p&gt;
+quot;quot;frquot;,quot;&lt;p&gt;Application Type:&lt;/p&gt;
+
+&lt;p&gt;${incidentBasicDetails.getIncidentApplicationType()}&lt;/p&gt;
+quot;quot;jaquot;,quot;&lt;p&gt;Application Type:&lt;/p&gt;
+
+&lt;p&gt;${incidentBasicDetails.getIncidentApplicationType()}&lt;/p&gt;
+quot;quot;ptquot;,quot;&lt;p&gt;Application Type:&lt;/p&gt;
+
+&lt;p&gt;${incidentBasicDetails.getIncidentApplicationType()}&lt;/p&gt;
+quot;quot;zhquot;,quot;&lt;p&gt;Application Type:&lt;/p&gt;
+
+&lt;p&gt;${incidentBasicDetails.getIncidentApplicationType()}&lt;/p&gt;
+quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
 <field position="4" name="incidentBasicDetails_incidentNumber" type="InputText" id="29621115">
