@@ -273,38 +273,6 @@
 <property name="outputBinding" value="out_loanDetails/loanInterestRatetype"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="31" name="loanDetails_loanTenorMonths" type="InputTextInteger" id="1419600100">
-<property name="fieldRequired" value="true"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Tenor Monthsquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="readonly" value="true"/>
-<property name="inputBinding" value="in_loanDetails/loanTenorMonths"/>
-<property name="outputBinding" value="out_loanDetails/loanTenorMonths"/>
-<property name="fieldClass" value="java.lang.Integer"/>
-</field>
-<field position="32" name="loanDetails_loanTenorYears" type="InputTextInteger" id="1893995023">
-<property name="fieldRequired" value="true"/>
-<property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Tenor Yearsquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="readonly" value="true"/>
-<property name="inputBinding" value="in_loanDetails/loanTenorYears"/>
-<property name="outputBinding" value="out_loanDetails/loanTenorYears"/>
-<property name="fieldClass" value="java.lang.Integer"/>
-</field>
-<field position="33" name="loanDetails_loanEMI" type="InputTextDouble" id="1436362695">
-<property name="fieldRequired" value="true"/>
-<property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;EMIquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="readonly" value="true"/>
-<property name="inputBinding" value="in_loanDetails/loanEMI"/>
-<property name="outputBinding" value="out_loanDetails/loanEMI"/>
-<property name="fieldClass" value="java.lang.Double"/>
-</field>
 <field position="34" name=":decorator_4" type="HTMLLabel" id="342863106">
 <property name="fieldRequired" value="false"/>
 <property name="readonly" value="false"/>
@@ -772,43 +740,56 @@
 <property name="inputBinding" value="in_loanDetails/loanInterestRate"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="67" name="782360428" type="InputText" id="782360428">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;InputText75quot;"/>
-<property name="readonly" value="false"/>
+<field position="31" name="loanDetails_loanTenorMonths" type="InputText" id="782360428">
+<property name="fieldRequired" value="true"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Tenor Monthsquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="isHTML" value="true"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="in_loanDetails/loanTenorMonths"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="68" name="832618387" type="InputText" id="832618387">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;InputText76quot;"/>
-<property name="readonly" value="false"/>
+<field position="32" name="loanDetails_loanTenorYears" type="InputText" id="832618387">
+<property name="fieldRequired" value="true"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Tenor Yearsquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="isHTML" value="true"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="in_loanDetails/loanTenorYears"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="69" name="40374323" type="InputText" id="40374323">
+<field position="33" name="40374323" type="InputText" id="40374323">
 <property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;enquot;,quot;InputText77quot;"/>
 <property name="readonly" value="false"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="70" name="653570871" type="InputText" id="653570871">
+<field position="67" name="653570871" type="InputText" id="653570871">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;InputText78quot;"/>
 <property name="readonly" value="false"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="71" name="1502083318" type="InputText" id="1502083318">
+<field position="68" name="1502083318" type="InputText" id="1502083318">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;InputText79quot;"/>
 <property name="readonly" value="false"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="72" name="1050894488" type="InputText" id="1050894488">
+<field position="69" name="1050894488" type="InputText" id="1050894488">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;InputText80quot;"/>
 <property name="readonly" value="false"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="73" name="1601463313" type="InputText" id="1601463313">
+<field position="70" name="1601463313" type="InputText" id="1601463313">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;InputText81quot;"/>
 <property name="readonly" value="false"/>
