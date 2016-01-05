@@ -701,19 +701,9 @@
 <property name="outputBinding" value="out_blackListReportType"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="64" name="blackListReportAmount" type="InputTextDouble" id="1697535505">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Blacklist Amountquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="readonly" value="true"/>
-<property name="inputBinding" value="in_blackListReportAmount"/>
-<property name="outputBinding" value="out_blackListReportAmount"/>
-<property name="fieldClass" value="java.lang.Double"/>
-</field>
 <field position="65" name="finalLoanProposedAmount" type="InputTextDouble" id="1874188558">
 <property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Proposed Amountquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -722,7 +712,7 @@
 <property name="outputBinding" value="out_finalLoanProposedAmount"/>
 <property name="fieldClass" value="java.lang.Double"/>
 </field>
-<field position="66" name="finalProposedAmountStatus" type="InputText" id="2032732966">
+<field position="67" name="finalProposedAmountStatus" type="InputText" id="2032732966">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Proposed Amount Deviation Statusquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -735,7 +725,7 @@
 <property name="outputBinding" value="out_finalProposedAmountStatus"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="67" name="finalProposedAmountDescription" type="InputText" id="1697734578">
+<field position="68" name="finalProposedAmountDescription" type="InputText" id="1697734578">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Proposed Amount Deviation Descriptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -748,9 +738,9 @@
 <property name="outputBinding" value="out_finalProposedAmountDescription"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="68" name="finalCustomerAge" type="InputTextInteger" id="360016607">
+<field position="70" name="finalCustomerAge" type="InputTextInteger" id="360016607">
 <property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="false"/>
+<property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Customer Agequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -759,7 +749,7 @@
 <property name="outputBinding" value="out_finalCustomerAge"/>
 <property name="fieldClass" value="java.lang.Integer"/>
 </field>
-<field position="69" name="finalCustomerTerm" type="InputTextInteger" id="549849195">
+<field position="72" name="finalCustomerTerm" type="InputTextInteger" id="549849195">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Termquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -770,7 +760,7 @@
 <property name="outputBinding" value="out_finalCustomerTerm"/>
 <property name="fieldClass" value="java.lang.Integer"/>
 </field>
-<field position="70" name="finalCustomerAgeTermStatus" type="InputText" id="1517272441">
+<field position="73" name="finalCustomerAgeTermStatus" type="InputText" id="1517272441">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Age &amp; Term Deviation Statusquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -783,7 +773,7 @@
 <property name="outputBinding" value="out_finalCustomerAgeTermStatus"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="71" name="finalCustomerAgeTermDescription" type="InputText" id="517951048">
+<field position="74" name="finalCustomerAgeTermDescription" type="InputText" id="517951048">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Age &amp; Term Deviation Descriptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -797,7 +787,7 @@
 <property name="outputBinding" value="out_finalCustomerAgeTermDescription"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="72" name="dscrReport" type="InputText" id="1814643682">
+<field position="75" name="dscrReport" type="InputText" id="1814643682">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;DSCRquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -810,7 +800,7 @@
 <property name="outputBinding" value="out_dscrReport"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="73" name="dscrReportDescription" type="InputText" id="1951794108">
+<field position="76" name="dscrReportDescription" type="InputText" id="1951794108">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;DSCR Descriptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -824,7 +814,7 @@
 <property name="outputBinding" value="out_dscrReportDescription"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="74" name="finalDSCRStatus" type="InputText" id="1256958385">
+<field position="77" name="finalDSCRStatus" type="InputText" id="1256958385">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;DSCR Deviation Statusquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -837,7 +827,7 @@
 <property name="outputBinding" value="out_finalDSCRStatus"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="75" name="finalDSCRDescription" type="InputText" id="1181089288">
+<field position="78" name="finalDSCRDescription" type="InputText" id="1181089288">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;DSCR Deviation Descriptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -851,7 +841,7 @@
 <property name="outputBinding" value="out_finalDSCRDescription"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="76" name="applicationStatus" type="InputText" id="780776941">
+<field position="79" name="applicationStatus" type="InputText" id="780776941">
 <property name="fieldRequired" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Statusquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -864,7 +854,7 @@
 <property name="outputBinding" value="out_applicationStatus"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="77" name="applicationDescription" type="InputTextArea" id="142782750">
+<field position="80" name="applicationDescription" type="InputTextArea" id="142782750">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Descriptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -924,39 +914,36 @@
 <property name="inputBinding" value="in_vehicleDetails/vehicleYearOfModel"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="78" name="1762012667" type="InputText" id="1762012667">
+<field position="64" name="blackListReportAmount" type="InputText" id="1762012667">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;InputText82quot;"/>
-<property name="readonly" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Blacklist Amountquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="isHTML" value="true"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="in_blackListReportAmount"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="79" name="1868455561" type="InputText" id="1868455561">
+<field position="66" name="1868455561" type="InputText" id="1868455561">
 <property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;enquot;,quot;InputText83quot;"/>
 <property name="readonly" value="false"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="80" name="1657112400" type="InputText" id="1657112400">
+<field position="69" name="1657112400" type="InputText" id="1657112400">
 <property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;enquot;,quot;InputText84quot;"/>
 <property name="readonly" value="false"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="81" name="1838810138" type="InputText" id="1838810138">
+<field position="71" name="1838810138" type="InputText" id="1838810138">
 <property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;enquot;,quot;InputText85quot;"/>
-<property name="readonly" value="false"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="82" name="424285003" type="InputText" id="424285003">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;InputText86quot;"/>
-<property name="readonly" value="false"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="83" name="1874622413" type="InputText" id="1874622413">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;InputText87quot;"/>
 <property name="readonly" value="false"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
