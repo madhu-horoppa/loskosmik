@@ -476,39 +476,6 @@
 <property name="outputBinding" value="out_vehicleDetails/vehicleEngineSize"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="40" name="vehicleDetails_vehicleCurrentMilage" type="InputTextDouble" id="1359031251">
-<property name="fieldRequired" value="true"/>
-<property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Current Milagequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="readonly" value="true"/>
-<property name="inputBinding" value="in_vehicleDetails/vehicleCurrentMilage"/>
-<property name="outputBinding" value="out_vehicleDetails/vehicleCurrentMilage"/>
-<property name="fieldClass" value="java.lang.Double"/>
-</field>
-<field position="41" name="vehicleDetails_vehiclePrice" type="InputTextDouble" id="365422088">
-<property name="fieldRequired" value="true"/>
-<property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Vehicle Pricequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="readonly" value="true"/>
-<property name="inputBinding" value="in_vehicleDetails/vehiclePrice"/>
-<property name="outputBinding" value="out_vehicleDetails/vehiclePrice"/>
-<property name="fieldClass" value="java.lang.Double"/>
-</field>
-<field position="42" name="vehicleDetails_vehicleEvaluationPrice" type="InputTextDouble" id="203667059">
-<property name="fieldRequired" value="true"/>
-<property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Evaluation Pricequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="readonly" value="true"/>
-<property name="inputBinding" value="in_vehicleDetails/vehicleEvaluationPrice"/>
-<property name="outputBinding" value="out_vehicleDetails/vehicleEvaluationPrice"/>
-<property name="fieldClass" value="java.lang.Double"/>
-</field>
 <field position="43" name="vehicleDetails_vehicleEvaluatorsName" type="InputText" id="414422390">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="true"/>
@@ -521,17 +488,6 @@
 <property name="inputBinding" value="in_vehicleDetails/vehicleEvaluatorsName"/>
 <property name="outputBinding" value="out_vehicleDetails/vehicleEvaluatorsName"/>
 <property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="44" name="vehicleDetails_vehicleYearOfModel" type="InputTextInteger" id="414281400">
-<property name="fieldRequired" value="true"/>
-<property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Year Of Modelquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="readonly" value="true"/>
-<property name="inputBinding" value="in_vehicleDetails/vehicleYearOfModel"/>
-<property name="outputBinding" value="out_vehicleDetails/vehicleYearOfModel"/>
-<property name="fieldClass" value="java.lang.Integer"/>
 </field>
 <field position="45" name="vehicleDetails_vehicleSupplier" type="InputText" id="405554996">
 <property name="fieldRequired" value="true"/>
@@ -920,9 +876,82 @@
 <property name="outputBinding" value="out_applicationDescription"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="78" name="2043523274" type="InputText" id="2043523274">
+<field position="40" name="vehicleDetails_vehicleCurrentMilage" type="InputText" id="2043523274">
+<property name="fieldRequired" value="true"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Current Milagequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="isHTML" value="true"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="in_vehicleDetails/vehicleCurrentMilage"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="41" name="vehicleDetails_vehiclePrice" type="InputText" id="1190354544">
+<property name="fieldRequired" value="true"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Vehicle Pricequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="isHTML" value="true"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="in_vehicleDetails/vehiclePrice"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="42" name="vehicleDetails_vehicleEvaluationPrice" type="InputText" id="34531189">
+<property name="fieldRequired" value="true"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Evaluation Pricequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="isHTML" value="true"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="in_vehicleDetails/vehicleEvaluationPrice"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="44" name="1770463462" type="InputText" id="1770463462">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;InputText89quot;"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;InputText81quot;"/>
+<property name="readonly" value="false"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="78" name="1762012667" type="InputText" id="1762012667">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;InputText82quot;"/>
+<property name="readonly" value="false"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="79" name="1868455561" type="InputText" id="1868455561">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;InputText83quot;"/>
+<property name="readonly" value="false"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="80" name="1657112400" type="InputText" id="1657112400">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;InputText84quot;"/>
+<property name="readonly" value="false"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="81" name="1838810138" type="InputText" id="1838810138">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;InputText85quot;"/>
+<property name="readonly" value="false"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="82" name="424285003" type="InputText" id="424285003">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;InputText86quot;"/>
+<property name="readonly" value="false"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="83" name="1874622413" type="InputText" id="1874622413">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;InputText87quot;"/>
 <property name="readonly" value="false"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
