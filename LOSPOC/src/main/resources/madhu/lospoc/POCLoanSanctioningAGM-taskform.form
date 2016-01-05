@@ -908,6 +908,12 @@
 <property name="outputBinding" value="out_applicationDescription"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
+<field position="78" name="1613478428" type="InputText" id="1613478428">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;InputText78quot;"/>
+<property name="readonly" value="false"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
 <dataHolder inputId="in_customerDetails" name="#0000A0" type="dataModelerEntry" outId="out_customerDetails" value="madhu.lospoc.CustomerDetails" id="customerDetails"/>
 <dataHolder inputId="in_incidentBasicDetails" name="#0000A0" type="dataModelerEntry" outId="out_incidentBasicDetails" value="madhu.lospoc.IncidentBasicDetails" id="incidentBasicDetails"/>
 <dataHolder inputId="in_loanDetails" name="#0000A0" type="dataModelerEntry" outId="out_loanDetails" value="madhu.lospoc.LoanDetails" id="loanDetails"/>
