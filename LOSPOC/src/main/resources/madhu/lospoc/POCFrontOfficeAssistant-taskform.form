@@ -140,18 +140,21 @@
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
-<property name="formula" value="$(function() {
-    $(&apos;.date-picker&apos;).datepicker( {
-        changeMonth: true,
-        changeYear: true,
-        showButtonPanel: true,
-        dateFormat: &apos;dd-MMM-yyyy&apos;
-    });
-});"/>
 <property name="inputBinding" value="in_customerDetails/customerDateOfBirth"/>
 <property name="outputBinding" value="out_customerDetails/customerDateOfBirth"/>
 <property name="fieldClass" value="java.util.Date"/>
-<property name="onChangeScript" value="var birthday = document.getElementById(&apos;customerDetails_customerDateOfBirth&apos;).value; var numbers = birthday .match(/\d+/g); var now = new Date(); var past = new Date(numbers[2], numbers[0]-1, numbers[1]); var nowYear = now.getFullYear(); var pastYear = past.getFullYear(); var age = nowYear - pastYear; document.getElementById(&apos;customerDetails_customerAge&apos;).value = age;"/>
+<property name="onChangeScript" value="var bday=document.getElementById(&apos;customerDetails_customerDateOfBirth&apos;).value;
+var nums=bday .match(/\d+/g);
+var now=new Date();
+var past=new Date(nums[2], nums[0]-1, nums[1]);
+var py=now.getFullYear();
+var by=past.getFullYear();
+var bd=past.getDate();
+var bm=past.getMonth();
+var age=py-by;
+document.getElementById(&apos;customerDetails_customerAge&apos;).value=age;
+var dt=new Date(by+&quot;/&quot;+bm+&quot;/&quot;+bd);
+document.getElementById(&apos;customerDetails_customerDateOfBirth&apos;).value=dt.format(&quot;dd-mmm-yyyy&quot;);"/>
 </field>
 <field position="12" name="customerDetails_customerAge" type="InputTextInteger" id="2020266443">
 <property name="fieldRequired" value="true"/>
