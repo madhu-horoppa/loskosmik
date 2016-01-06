@@ -598,6 +598,7 @@
 <property name="readonly" value="true"/>
 <property name="inputBinding" value="in_documentTwo"/>
 <property name="outputBinding" value="out_documentTwo"/>
+<property name="customFieldType" value="org.jbpm.formModeler.core.fieldTypes.file.FileCustomType"/>
 <property name="fieldClass" value="org.jbpm.document.Document"/>
 </field>
 <field position="51" name="documentThree" type="CustomInput" id="707683311">
