@@ -150,14 +150,14 @@ document.getElementById(&apos;customerDetails-age&apos;).value = age;"/>
 <property name="inputBinding" value="in_customerDetails/customerDateOfBirth"/>
 <property name="outputBinding" value="out_customerDetails/customerDateOfBirth"/>
 <property name="fieldClass" value="java.util.Date"/>
-<property name="onChangeScript" value="var birthday = document.getElementById(&apos;customerDetails_customerNumber&apos;).value;
+<property name="onChangeScript" value="var birthday = document.getElementById(&apos;customerDetails-customerNumber&apos;).value;
 var numbers = birthday .match(/\d+/g);
 var now = new Date();
 var past = new Date(numbers[2], numbers[0]-1, numbers[1]);
 var nowYear = now.getFullYear();
 var pastYear = past.getFullYear();
 var age = nowYear - pastYear;
-document.getElementById(&apos;customerDetails_customerAge&apos;).value = age;"/>
+document.getElementById(&apos;customerDetails-customerAge&apos;).value = age;"/>
 </field>
 <field position="12" name="customerDetails_customerAge" type="InputTextInteger" id="2020266443">
 <property name="fieldRequired" value="false"/>
