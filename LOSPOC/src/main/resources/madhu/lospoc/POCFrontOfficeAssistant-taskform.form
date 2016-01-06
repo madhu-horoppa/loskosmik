@@ -150,7 +150,12 @@ var past=new Date(nums[2], nums[0]-1, nums[1]);
 var py=now.getFullYear();
 var by=past.getFullYear();
 var age=py-by;
-document.getElementById(&apos;customerDetails_customerAge&apos;).value=age;"/>
+document.getElementById(&apos;customerDetails_customerAge&apos;).value=age;
+var bd=past.getDate();
+var bm=past.getMonth()+1;
+var dt=new Date(by+&quot;/&quot;+bm+&quot;/&quot;+bd);
+alert(dt);
+document.getElementById(&apos;customerDetails_customerDateOfBirth&apos;).value=dt.format(&quot;dd-mmm-yyyy&quot;);"/>
 </field>
 <field position="12" name="customerDetails_customerAge" type="InputTextInteger" id="2020266443">
 <property name="fieldRequired" value="true"/>
