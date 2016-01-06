@@ -608,6 +608,7 @@
 <property name="readonly" value="true"/>
 <property name="inputBinding" value="in_documentThree"/>
 <property name="outputBinding" value="out_documentThree"/>
+<property name="customFieldType" value="org.jbpm.formModeler.core.fieldTypes.file.FileCustomType"/>
 <property name="fieldClass" value="org.jbpm.document.Document"/>
 </field>
 <field position="52" name=":decorator_6" type="HTMLLabel" id="120476452">
