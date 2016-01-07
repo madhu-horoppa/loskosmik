@@ -1,9 +1,0 @@
-package madhu.lospoc;
-
-import java.lang.Number;
-
-rule "CustomerGuidedRules"
-	dialect "mvel"
-	when
-	then
-end
