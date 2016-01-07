@@ -17,7 +17,7 @@ public class BlackListObject implements java.io.Serializable
 
    @javax.persistence.OneToMany(cascade = { javax.persistence.CascadeType.ALL })
    @org.kie.api.definition.type.Label(value = "Object Values")
-   private java.util.List<madhu.lospoc.BlackListReports> blackListObjectValues;
+   private java.util.List<madhu.lospoc.BlackListReports> blackListReports;
 
    public BlackListObject()
    {
@@ -33,22 +33,22 @@ public class BlackListObject implements java.io.Serializable
       this.id = id;
    }
 
-   public java.util.List<madhu.lospoc.BlackListReports> getBlackListObjectValues()
+   public java.util.List<madhu.lospoc.BlackListReports> getBlackListReports()
    {
-      return this.blackListObjectValues;
+      return this.blackListReports;
    }
 
-   public void setBlackListObjectValues(
-         java.util.List<madhu.lospoc.BlackListReports> blackListObjectValues)
+   public void setBlackListReports(
+         java.util.List<madhu.lospoc.BlackListReports> blackListReports)
    {
-      this.blackListObjectValues = blackListObjectValues;
+      this.blackListReports = blackListReports;
    }
 
    public BlackListObject(java.lang.Long id,
-         java.util.List<madhu.lospoc.BlackListReports> blackListObjectValues)
+         java.util.List<madhu.lospoc.BlackListReports> blackListReports)
    {
       this.id = id;
-      this.blackListObjectValues = blackListObjectValues;
+      this.blackListReports = blackListReports;
    }
 
 }
