@@ -15,14 +15,14 @@ public class BlackListReports implements java.io.Serializable
    @javax.persistence.SequenceGenerator(name = "BLACKLISTREPORTS_ID_GENERATOR", sequenceName = "BLACKLISTREPORTS_ID_SEQ")
    private java.lang.Long id;
 
-   @org.kie.api.definition.type.Label(value = "Type")
+   @org.kie.api.definition.type.Label("Type")
    private java.lang.String blackListReportType;
 
-   @org.kie.api.definition.type.Label(value = "Amount")
-   private java.lang.Double balckListReportAmount;
-
-   @org.kie.api.definition.type.Label(value = "Description")
+   @org.kie.api.definition.type.Label("Description")
    private java.lang.String blackListReportDescription;
+
+   @org.kie.api.definition.type.Label(value = "Amount")
+   private java.lang.Double blackListReportAmount;
 
    public BlackListReports()
    {
@@ -48,16 +48,6 @@ public class BlackListReports implements java.io.Serializable
       this.blackListReportType = blackListReportType;
    }
 
-   public java.lang.Double getBalckListReportAmount()
-   {
-      return this.balckListReportAmount;
-   }
-
-   public void setBalckListReportAmount(java.lang.Double balckListReportAmount)
-   {
-      this.balckListReportAmount = balckListReportAmount;
-   }
-
    public java.lang.String getBlackListReportDescription()
    {
       return this.blackListReportDescription;
@@ -69,15 +59,25 @@ public class BlackListReports implements java.io.Serializable
       this.blackListReportDescription = blackListReportDescription;
    }
 
+   public java.lang.Double getBlackListReportAmount()
+   {
+      return this.blackListReportAmount;
+   }
+
+   public void setBlackListReportAmount(java.lang.Double blackListReportAmount)
+   {
+      this.blackListReportAmount = blackListReportAmount;
+   }
+
    public BlackListReports(java.lang.Long id,
          java.lang.String blackListReportType,
-         java.lang.Double balckListReportAmount,
-         java.lang.String blackListReportDescription)
+         java.lang.String blackListReportDescription,
+         java.lang.Double blackListReportAmount)
    {
       this.id = id;
       this.blackListReportType = blackListReportType;
-      this.balckListReportAmount = balckListReportAmount;
       this.blackListReportDescription = blackListReportDescription;
+      this.blackListReportAmount = blackListReportAmount;
    }
 
 }
