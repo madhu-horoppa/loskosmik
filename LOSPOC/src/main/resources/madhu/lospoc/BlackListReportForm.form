@@ -3,43 +3,36 @@
 <property name="name" value="BlackListReportForm.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="1" name="blackListRepo_blackListReportAmount" type="InputTextDouble" id="1136322999">
+<field position="1" name="blackListReports_blackListReportAmount" type="InputTextDouble" id="1597265524">
 <property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Amountquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
-<property name="inputBinding" value="in_blackListRepo/blackListReportAmount"/>
-<property name="outputBinding" value="out_blackListRepo/blackListReportAmount"/>
+<property name="inputBinding" value="in_blackListReports/blackListReportAmount"/>
+<property name="outputBinding" value="out_blackListReports/blackListReportAmount"/>
 <property name="fieldClass" value="java.lang.Double"/>
 </field>
-<field position="2" name="blackListRepo_blackListReportDescription" type="InputText" id="1468649491">
+<field position="2" name="blackListReports_blackListReportDescription" type="InputText" id="1257459379">
 <property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Descriptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;enquot;,quot;blackListReportDescription (blackListReports)quot;"/>
 <property name="readonly" value="false"/>
-<property name="isHTML" value="false"/>
-<property name="hideContent" value="false"/>
-<property name="inputBinding" value="in_blackListRepo/blackListReportDescription"/>
-<property name="outputBinding" value="out_blackListRepo/blackListReportDescription"/>
+<property name="inputBinding" value="in_blackListReports/blackListReportDescription"/>
+<property name="outputBinding" value="out_blackListReports/blackListReportDescription"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="0" name="blackListRepo_blackListReportType" type="InputText" id="81743027">
+<field position="0" name="blackListReports_blackListReportType" type="InputText" id="1471726966">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Blacklist Typequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
-<property name="rangeFormula" value="{,;Creditcard,Creditcard;Loan,Loan}"/>
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
-<property name="inputBinding" value="in_blackListRepo/blackListReportType"/>
-<property name="outputBinding" value="out_blackListRepo/blackListReportType"/>
+<property name="inputBinding" value="in_blackListReports/blackListReportType"/>
+<property name="outputBinding" value="out_blackListReports/blackListReportType"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<dataHolder inputId="in_blackListRepo" name="#0000A0" type="dataModelerEntry" outId="out_blackListRepo" value="madhu.lospoc.BlackListReports" id="blackListRepo"/>
+<dataHolder inputId="in_blackListReports" name="#0000A0" type="dataModelerEntry" outId="out_blackListReports" value="madhu.lospoc.BlackListReports" id="blackListReports"/>
 </form>
