@@ -5,28 +5,79 @@ package madhu.lospoc;
  */
 
 @javax.persistence.Entity
-public class BlackListReports implements java.io.Serializable {
+public class BlackListReports implements java.io.Serializable
+{
 
-    static final long serialVersionUID = 1L;
+   static final long serialVersionUID = 1L;
 
-    @javax.persistence.GeneratedValue(strategy = javax.persistence.GenerationType.AUTO, generator = "BLACKLISTREPORTS_ID_GENERATOR")
-    @javax.persistence.Id
-    @javax.persistence.SequenceGenerator(name = "BLACKLISTREPORTS_ID_GENERATOR", sequenceName = "BLACKLISTREPORTS_ID_SEQ")
-    private java.lang.Long id;
+   @javax.persistence.GeneratedValue(strategy = javax.persistence.GenerationType.AUTO, generator = "BLACKLISTREPORTS_ID_GENERATOR")
+   @javax.persistence.Id
+   @javax.persistence.SequenceGenerator(name = "BLACKLISTREPORTS_ID_GENERATOR", sequenceName = "BLACKLISTREPORTS_ID_SEQ")
+   private java.lang.Long id;
 
-    public BlackListReports() {
-    }
-    
-    public BlackListReports(java.lang.Long id) {
-        this.id = id;
-    }
+   @org.kie.api.definition.type.Label(value = "Type")
+   private java.lang.String blackListReportType;
 
-    public java.lang.Long getId() {
-        return this.id;
-    }
-    
-    public void setId(java.lang.Long id) {
-        this.id = id;
-    }
+   @org.kie.api.definition.type.Label(value = "Amount")
+   private java.lang.Double balckListReportAmount;
+
+   @org.kie.api.definition.type.Label(value = "Description")
+   private java.lang.String blackListReportDescription;
+
+   public BlackListReports()
+   {
+   }
+
+   public java.lang.Long getId()
+   {
+      return this.id;
+   }
+
+   public void setId(java.lang.Long id)
+   {
+      this.id = id;
+   }
+
+   public java.lang.String getBlackListReportType()
+   {
+      return this.blackListReportType;
+   }
+
+   public void setBlackListReportType(java.lang.String blackListReportType)
+   {
+      this.blackListReportType = blackListReportType;
+   }
+
+   public java.lang.Double getBalckListReportAmount()
+   {
+      return this.balckListReportAmount;
+   }
+
+   public void setBalckListReportAmount(java.lang.Double balckListReportAmount)
+   {
+      this.balckListReportAmount = balckListReportAmount;
+   }
+
+   public java.lang.String getBlackListReportDescription()
+   {
+      return this.blackListReportDescription;
+   }
+
+   public void setBlackListReportDescription(
+         java.lang.String blackListReportDescription)
+   {
+      this.blackListReportDescription = blackListReportDescription;
+   }
+
+   public BlackListReports(java.lang.Long id,
+         java.lang.String blackListReportType,
+         java.lang.Double balckListReportAmount,
+         java.lang.String blackListReportDescription)
+   {
+      this.id = id;
+      this.blackListReportType = blackListReportType;
+      this.balckListReportAmount = balckListReportAmount;
+      this.blackListReportDescription = blackListReportDescription;
+   }
 
 }
