@@ -374,14 +374,6 @@
 <property name="inputBinding" value="in_loanDetails/loanInterestRate"/>
 <property name="outputBinding" value="out_loanDetails/loanInterestRate"/>
 <property name="fieldClass" value="java.lang.Double"/>
-<property name="onChangeScript" value="var air=parseFloat(document.getElementById(&quot;loanDetails_loanInterestRate&quot;).value);
-var mir=(air/12)/100;
-var la=parseFloat(document.getElementById(&quot;loanDetails_loanProposedFinanceAmount&quot;).value);
-var tm=parseInt(document.getElementById(&quot;loanDetails_loanTenorMonths&quot;).value);
-var ty=parseInt(document.getElementById(&quot;loanDetails_loanTenorYears&quot;).value);
-var mt=tm+(ty*12);
-var v=Math.pow((1+mir), mt);
-document.getElementById(&quot;loanDetails_loanEMI&quot;).value=Math.round(la*mir*(v/(v-1)));"/>
 </field>
 <field position="31" name="loanDetails_loanTenorMonths" type="InputTextInteger" id="862995181">
 <property name="fieldRequired" value="true"/>
