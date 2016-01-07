@@ -326,7 +326,7 @@
 <property name="inputBinding" value="in_loanDetails/loanProposedFinanceAmount"/>
 <property name="outputBinding" value="out_loanDetails/loanProposedFinanceAmount"/>
 <property name="fieldClass" value="java.lang.Double"/>
-<property name="onChangeScript" value="document.getElementById(&quot;loanDetails_loanEMI&quot;).value={loanDetails/oanInterestRate}"/>
+<property name="onChangeScript" value="document.getElementById(&quot;loanDetails_loanEMI&quot;).value=#{loanDetails/oanInterestRate}"/>
 </field>
 <field position="27" name="loanDetails_loanDownPaymentAmount" type="InputTextDouble" id="536306523">
 <property name="fieldRequired" value="true"/>
