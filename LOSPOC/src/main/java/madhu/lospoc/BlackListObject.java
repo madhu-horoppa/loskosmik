@@ -5,28 +5,50 @@ package madhu.lospoc;
  */
 
 @javax.persistence.Entity
-public class BlackListObject implements java.io.Serializable {
+public class BlackListObject implements java.io.Serializable
+{
 
-    static final long serialVersionUID = 1L;
+   static final long serialVersionUID = 1L;
 
-    @javax.persistence.GeneratedValue(strategy = javax.persistence.GenerationType.AUTO, generator = "BLACKLISTOBJECT_ID_GENERATOR")
-    @javax.persistence.Id
-    @javax.persistence.SequenceGenerator(name = "BLACKLISTOBJECT_ID_GENERATOR", sequenceName = "BLACKLISTOBJECT_ID_SEQ")
-    private java.lang.Long id;
+   @javax.persistence.GeneratedValue(strategy = javax.persistence.GenerationType.AUTO, generator = "BLACKLISTOBJECT_ID_GENERATOR")
+   @javax.persistence.Id
+   @javax.persistence.SequenceGenerator(name = "BLACKLISTOBJECT_ID_GENERATOR", sequenceName = "BLACKLISTOBJECT_ID_SEQ")
+   private java.lang.Long id;
 
-    public BlackListObject() {
-    }
-    
-    public BlackListObject(java.lang.Long id) {
-        this.id = id;
-    }
+   @javax.persistence.OneToMany(cascade = { javax.persistence.CascadeType.ALL })
+   @org.kie.api.definition.type.Label(value = "Object Values")
+   private java.util.List<madhu.lospoc.BlackListReports> blackListObjectValues;
 
-    public java.lang.Long getId() {
-        return this.id;
-    }
-    
-    public void setId(java.lang.Long id) {
-        this.id = id;
-    }
+   public BlackListObject()
+   {
+   }
+
+   public java.lang.Long getId()
+   {
+      return this.id;
+   }
+
+   public void setId(java.lang.Long id)
+   {
+      this.id = id;
+   }
+
+   public java.util.List<madhu.lospoc.BlackListReports> getBlackListObjectValues()
+   {
+      return this.blackListObjectValues;
+   }
+
+   public void setBlackListObjectValues(
+         java.util.List<madhu.lospoc.BlackListReports> blackListObjectValues)
+   {
+      this.blackListObjectValues = blackListObjectValues;
+   }
+
+   public BlackListObject(java.lang.Long id,
+         java.util.List<madhu.lospoc.BlackListReports> blackListObjectValues)
+   {
+      this.id = id;
+      this.blackListObjectValues = blackListObjectValues;
+   }
 
 }
