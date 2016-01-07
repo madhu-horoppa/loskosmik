@@ -326,14 +326,7 @@
 <property name="inputBinding" value="in_loanDetails/loanProposedFinanceAmount"/>
 <property name="outputBinding" value="out_loanDetails/loanProposedFinanceAmount"/>
 <property name="fieldClass" value="java.lang.Double"/>
-<property name="onChangeScript" value="var air=parseFloat(document.getElementById(&quot;loanDetails_loanInterestRate&quot;).value);
-var mir=(air/12)/100;
-var la=parseFloat(document.getElementById(&quot;loanDetails_loanProposedFinanceAmount&quot;).value);
-var tm=parseInt(document.getElementById(&quot;loanDetails_loanTenorMonths&quot;).value);
-var ty=parseInt(document.getElementById(&quot;loanDetails_loanTenorYears&quot;).value);
-var mt=tm+(ty*12);
-var v=Math.pow((1+mir), mt);
-document.getElementById(&quot;loanDetails_loanEMI&quot;).value=Math.round(la*mir*(v/(v-1)));"/>
+<property name="onChangeScript" value="document.getElementById(&quot;loanDetails_loanEMI&quot;).value={loanDetails_loanInterestRate}"/>
 </field>
 <field position="27" name="loanDetails_loanDownPaymentAmount" type="InputTextDouble" id="536306523">
 <property name="fieldRequired" value="true"/>
