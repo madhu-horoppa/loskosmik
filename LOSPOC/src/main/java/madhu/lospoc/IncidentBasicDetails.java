@@ -12,7 +12,7 @@ public class IncidentBasicDetails implements java.io.Serializable
 
    @javax.persistence.GeneratedValue(strategy = javax.persistence.GenerationType.AUTO, generator = "INCIDENTBASICDETAILS_ID_GENERATOR")
    @javax.persistence.Id
-   @javax.persistence.SequenceGenerator(sequenceName = "INCIDENTBASICDETAILS_ID_SEQ", name = "INCIDENTBASICDETAILS_ID_GENERATOR")
+   @javax.persistence.SequenceGenerator(name = "INCIDENTBASICDETAILS_ID_GENERATOR", sequenceName = "INCIDENTBASICDETAILS_ID_SEQ")
    private java.lang.Long id;
 
    @org.kie.api.definition.type.Label("Incident Number")
@@ -29,6 +29,8 @@ public class IncidentBasicDetails implements java.io.Serializable
 
    @org.kie.api.definition.type.Label("Relationship")
    private java.lang.String incidentApplicationRelationship;
+
+   private java.lang.Long customerDetails;
 
    public IncidentBasicDetails()
    {
@@ -97,11 +99,22 @@ public class IncidentBasicDetails implements java.io.Serializable
       this.incidentDate = incidentDate;
    }
 
+   public java.lang.Long getCustomerDetails()
+   {
+      return this.customerDetails;
+   }
+
+   public void setCustomerDetails(java.lang.Long customerDetails)
+   {
+      this.customerDetails = customerDetails;
+   }
+
    public IncidentBasicDetails(java.lang.Long id, java.lang.String incidentNumber,
          java.lang.String incidentDate,
          java.lang.String incidentApplicationType,
          java.lang.String incidentApplicantStatus,
-         java.lang.String incidentApplicationRelationship)
+         java.lang.String incidentApplicationRelationship,
+         java.lang.Long customerDetails)
    {
       this.id = id;
       this.incidentNumber = incidentNumber;
@@ -109,6 +122,7 @@ public class IncidentBasicDetails implements java.io.Serializable
       this.incidentApplicationType = incidentApplicationType;
       this.incidentApplicantStatus = incidentApplicantStatus;
       this.incidentApplicationRelationship = incidentApplicationRelationship;
+      this.customerDetails = customerDetails;
    }
 
 }
