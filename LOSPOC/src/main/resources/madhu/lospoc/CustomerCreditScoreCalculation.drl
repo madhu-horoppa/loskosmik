@@ -96,7 +96,7 @@ import java.lang.Number;
 	dialect "mvel"
 	ruleflow-group "CustomerCreditScoreCalculation"
 	when
-		customer : CustomerDetails( customerMonthlySalary >= 30000.0 )
+		customer : CustomerDetails( customerMonthlySalary >= 100001.0 )
 	then
 		customer.setIncomeCreditScore( 20.0 );
     end
