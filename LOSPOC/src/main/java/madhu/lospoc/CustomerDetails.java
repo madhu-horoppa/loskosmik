@@ -69,6 +69,8 @@ public class CustomerDetails implements java.io.Serializable
 
    private java.lang.Double totalCreditScore;
 
+   private java.lang.Long processInstanceID;
+
    public CustomerDetails()
    {
    }
@@ -279,6 +281,16 @@ public class CustomerDetails implements java.io.Serializable
       this.totalCreditScore = totalCreditScore;
    }
 
+   public java.lang.Long getProcessInstanceID()
+   {
+      return this.processInstanceID;
+   }
+
+   public void setProcessInstanceID(java.lang.Long processInstanceID)
+   {
+      this.processInstanceID = processInstanceID;
+   }
+
    public CustomerDetails(java.lang.Long id, java.lang.String customerName,
          java.lang.String customerNumber, java.lang.Integer customerAge,
          java.util.Date customerDateOfBirth,
@@ -294,7 +306,7 @@ public class CustomerDetails implements java.io.Serializable
          java.lang.String customerResidenceAddress,
          java.lang.String customerResidenceTelephoneNo,
          java.lang.Double ageCreditScore, java.lang.Double incomeCreditScore,
-         java.lang.Double totalCreditScore)
+         java.lang.Double totalCreditScore, java.lang.Long processInstanceID)
    {
       this.id = id;
       this.customerName = customerName;
@@ -316,6 +328,7 @@ public class CustomerDetails implements java.io.Serializable
       this.ageCreditScore = ageCreditScore;
       this.incomeCreditScore = incomeCreditScore;
       this.totalCreditScore = totalCreditScore;
+      this.processInstanceID = processInstanceID;
    }
 
 }
