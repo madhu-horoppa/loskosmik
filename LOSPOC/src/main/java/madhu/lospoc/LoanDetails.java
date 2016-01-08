@@ -15,32 +15,34 @@ public class LoanDetails implements java.io.Serializable
    @javax.persistence.SequenceGenerator(name = "LOANDETAILS_ID_GENERATOR", sequenceName = "LOANDETAILS_ID_SEQ")
    private java.lang.Long id;
 
-   @org.kie.api.definition.type.Label(value = "Down Payment Amount")
+   @org.kie.api.definition.type.Label("Down Payment Amount")
    private java.lang.Double loanDownPaymentAmount;
 
-   @org.kie.api.definition.type.Label(value = "Finance Amount")
+   @org.kie.api.definition.type.Label("Finance Amount")
    private java.lang.Double loanFinanceAmount;
 
-   @org.kie.api.definition.type.Label(value = "Interest Rate")
+   @org.kie.api.definition.type.Label("Interest Rate")
    private java.lang.Double loanInterestRate;
 
-   @org.kie.api.definition.type.Label(value = "Interest Rate Type")
+   @org.kie.api.definition.type.Label("Interest Rate Type")
    private java.lang.String loanInterestRatetype;
 
-   @org.kie.api.definition.type.Label(value = "Proposed Finance Amount")
+   @org.kie.api.definition.type.Label("Proposed Finance Amount")
    private java.lang.Double loanProposedFinanceAmount;
 
-   @org.kie.api.definition.type.Label(value = "Tenor Months")
+   @org.kie.api.definition.type.Label("Tenor Months")
    private java.lang.Integer loanTenorMonths;
 
-   @org.kie.api.definition.type.Label(value = "Tenor Years")
+   @org.kie.api.definition.type.Label("Tenor Years")
    private java.lang.Integer loanTenorYears;
 
-   @org.kie.api.definition.type.Label(value = "Evaluation Price")
+   @org.kie.api.definition.type.Label("Evaluation Price")
    private java.lang.Double loanEvaluationPrice;
 
-   @org.kie.api.definition.type.Label(value = "EMI")
+   @org.kie.api.definition.type.Label("EMI")
    private java.lang.Double loanEMI;
+
+   private java.lang.Long processInstanceID;
 
    public LoanDetails()
    {
@@ -147,12 +149,23 @@ public class LoanDetails implements java.io.Serializable
       this.loanEMI = loanEMI;
    }
 
+   public java.lang.Long getProcessInstanceID()
+   {
+      return this.processInstanceID;
+   }
+
+   public void setProcessInstanceID(java.lang.Long processInstanceID)
+   {
+      this.processInstanceID = processInstanceID;
+   }
+
    public LoanDetails(java.lang.Long id, java.lang.Double loanDownPaymentAmount,
          java.lang.Double loanFinanceAmount, java.lang.Double loanInterestRate,
          java.lang.String loanInterestRatetype,
          java.lang.Double loanProposedFinanceAmount,
          java.lang.Integer loanTenorMonths, java.lang.Integer loanTenorYears,
-         java.lang.Double loanEvaluationPrice, java.lang.Double loanEMI)
+         java.lang.Double loanEvaluationPrice, java.lang.Double loanEMI,
+         java.lang.Long processInstanceID)
    {
       this.id = id;
       this.loanDownPaymentAmount = loanDownPaymentAmount;
@@ -164,6 +177,7 @@ public class LoanDetails implements java.io.Serializable
       this.loanTenorYears = loanTenorYears;
       this.loanEvaluationPrice = loanEvaluationPrice;
       this.loanEMI = loanEMI;
+      this.processInstanceID = processInstanceID;
    }
 
 }
