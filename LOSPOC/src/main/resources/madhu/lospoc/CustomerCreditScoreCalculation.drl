@@ -56,29 +56,47 @@ import java.lang.Number;
 		customer.setAgeCreditScore( 3.0 );
 	end
 	
-	rule "incomeBelow10000"
+	rule "incomeBelow8000"
 	dialect "mvel"
 	ruleflow-group "CustomerCreditScoreCalculation"
 	when
-		customer : CustomerDetails( customerMonthlySalary < 10000.0 )
+		customer : CustomerDetails( customerMonthlySalary < 8001.0 )
 	then
 		customer.setIncomeCreditScore( 3.0 );
 	end
 	
-	rule "incomeAbove10000AndBelow30000"
+	rule "incomeAbove8000AndBelow25001"
 	dialect "mvel"
 	ruleflow-group "CustomerCreditScoreCalculation"
 	when
-		customer : CustomerDetails( customerMonthlySalary >= 10000.0 && customerMonthlySalary < 30000.0 )
+		customer : CustomerDetails( customerMonthlySalary >= 8001.0 && customerMonthlySalary < 25001.0 )
 	then
 		customer.setIncomeCreditScore( 5.0 );
 	end
 	
-	rule "incomeAbove30000"
+	rule "incomeAbove25000AndBelow50001"
+	dialect "mvel"
+	ruleflow-group "CustomerCreditScoreCalculation"
+	when
+		customer : CustomerDetails( customerMonthlySalary >= 25001.0 && customerMonthlySalary < 50001.0 )
+	then
+		customer.setIncomeCreditScore( 10.0 );
+	end
+	
+	rule "incomeAbove50000AndBelow100001"
+	dialect "mvel"
+	ruleflow-group "CustomerCreditScoreCalculation"
+	when
+		customer : CustomerDetails( customerMonthlySalary >= 50001.0 && customerMonthlySalary < 100001.0 )
+	then
+		customer.setIncomeCreditScore( 15.0 );
+	end
+	
+	rule "incomeAbove100000"
 	dialect "mvel"
 	ruleflow-group "CustomerCreditScoreCalculation"
 	when
 		customer : CustomerDetails( customerMonthlySalary >= 30000.0 )
 	then
-		customer.setIncomeCreditScore( 8.0 );
+		customer.setIncomeCreditScore( 20.0 );
     end
