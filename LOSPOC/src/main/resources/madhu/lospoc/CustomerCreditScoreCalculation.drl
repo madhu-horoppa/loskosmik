@@ -5,18 +5,37 @@ import java.lang.Number;
 rule "CustomerCreditScoreCalculation"
 	dialect "mvel"
 	ruleflow-group "CustomerCreditScoreCalculation"
+	
 	when
 		customer : CustomerDetails( customerAge < 18 )
-		customer : CustomerDetails( customerAge >= 18 && customerAge < 36 )
-		customer : CustomerDetails( customerAge >= 36 )
-		customer : CustomerDetails( customerMonthlySalary < 10000.0 )
-		customer : CustomerDetails( customerMonthlySalary >= 10000.0 && customerMonthlySalary < 30000.0 )
-		customer : CustomerDetails( customerMonthlySalary >= 30000.0 )
 	then
 		customer.setAgeCreditScore( 3.0 );
+	end	
+	when
+		customer : CustomerDetails( customerAge >= 18 && customerAge < 36 )
+	then
 		customer.setAgeCreditScore( 5.0 );
+	end
+	when
+		customer : CustomerDetails( customerAge >= 36 )
+	then
 		customer.setAgeCreditScore( 8.0 );
+	end
+	
+	when
+		customer : CustomerDetails( customerMonthlySalary < 10000.0 )
+	then
 		customer.setIncomeCreditScore( 3.0 );
+	end
+	
+	when
+		customer : CustomerDetails( customerMonthlySalary >= 10000.0 && customerMonthlySalary < 30000.0 )
+	then
 		customer.setIncomeCreditScore( 5.0 );
+	end
+	
+	when
+		customer : CustomerDetails( customerMonthlySalary >= 30000.0 )
+	then
 		customer.setIncomeCreditScore( 8.0 );
-end
+    end
