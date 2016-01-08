@@ -21,47 +21,51 @@ public class CustomerDetails implements java.io.Serializable
    @org.kie.api.definition.type.Label("Customer Number")
    private java.lang.String customerNumber;
 
-   @org.kie.api.definition.type.Label(value = "Age")
+   @org.kie.api.definition.type.Label("Age")
    private java.lang.Integer customerAge;
 
-   @org.kie.api.definition.type.Label(value = "Date Of Birth")
+   @org.kie.api.definition.type.Label("Date Of Birth")
    private java.util.Date customerDateOfBirth;
 
-   @org.kie.api.definition.type.Label(value = "Email Address")
+   @org.kie.api.definition.type.Label("Email Address")
    private java.lang.String customerEmailAddress;
 
-   @org.kie.api.definition.type.Label(value = "Gender")
+   @org.kie.api.definition.type.Label("Gender")
    private java.lang.String customerGender;
 
-   @org.kie.api.definition.type.Label(value = "Home Address")
+   @org.kie.api.definition.type.Label("Home Address")
    private java.lang.String customerHomeCountryAddress;
 
-   @org.kie.api.definition.type.Label(value = "Home Telephone No")
+   @org.kie.api.definition.type.Label("Home Telephone No")
    private java.lang.String customerHomeCountryTelephoneNo;
 
-   @org.kie.api.definition.type.Label(value = "Mobile Number")
+   @org.kie.api.definition.type.Label("Mobile Number")
    private java.lang.String customerMobileNumber;
 
-   @org.kie.api.definition.type.Label(value = "Monthly Salary")
+   @org.kie.api.definition.type.Label("Monthly Salary")
    private java.lang.Double customerMonthlySalary;
 
-   @org.kie.api.definition.type.Label(value = "Mother Maiden Name")
+   @org.kie.api.definition.type.Label("Mother Maiden Name")
    private java.lang.String customerMotherMaidenName;
 
-   @org.kie.api.definition.type.Label(value = "National ID Number")
+   @org.kie.api.definition.type.Label("National ID Number")
    private java.lang.String customerNationalIDNumber;
 
-   @org.kie.api.definition.type.Label(value = "Nationality")
+   @org.kie.api.definition.type.Label("Nationality")
    private java.lang.String customerNationality;
 
-   @org.kie.api.definition.type.Label(value = "Passport Number")
+   @org.kie.api.definition.type.Label("Passport Number")
    private java.lang.String customerPassportNumber;
 
-   @org.kie.api.definition.type.Label(value = "Residence Address")
+   @org.kie.api.definition.type.Label("Residence Address")
    private java.lang.String customerResidenceAddress;
 
-   @org.kie.api.definition.type.Label(value = "Residence Telephone No")
+   @org.kie.api.definition.type.Label("Residence Telephone No")
    private java.lang.String customerResidenceTelephoneNo;
+
+   private java.lang.Double ageCreditScore;
+
+   private java.lang.Double incomeCreditScore;
 
    public CustomerDetails()
    {
@@ -243,6 +247,26 @@ public class CustomerDetails implements java.io.Serializable
       this.customerResidenceTelephoneNo = customerResidenceTelephoneNo;
    }
 
+   public java.lang.Double getAgeCreditScore()
+   {
+      return this.ageCreditScore;
+   }
+
+   public void setAgeCreditScore(java.lang.Double ageCreditScore)
+   {
+      this.ageCreditScore = ageCreditScore;
+   }
+
+   public java.lang.Double getIncomeCreditScore()
+   {
+      return this.incomeCreditScore;
+   }
+
+   public void setIncomeCreditScore(java.lang.Double incomeCreditScore)
+   {
+      this.incomeCreditScore = incomeCreditScore;
+   }
+
    public CustomerDetails(java.lang.Long id, java.lang.String customerName,
          java.lang.String customerNumber, java.lang.Integer customerAge,
          java.util.Date customerDateOfBirth,
@@ -256,7 +280,8 @@ public class CustomerDetails implements java.io.Serializable
          java.lang.String customerNationality,
          java.lang.String customerPassportNumber,
          java.lang.String customerResidenceAddress,
-         java.lang.String customerResidenceTelephoneNo)
+         java.lang.String customerResidenceTelephoneNo,
+         java.lang.Double ageCreditScore, java.lang.Double incomeCreditScore)
    {
       this.id = id;
       this.customerName = customerName;
@@ -275,6 +300,8 @@ public class CustomerDetails implements java.io.Serializable
       this.customerPassportNumber = customerPassportNumber;
       this.customerResidenceAddress = customerResidenceAddress;
       this.customerResidenceTelephoneNo = customerResidenceTelephoneNo;
+      this.ageCreditScore = ageCreditScore;
+      this.incomeCreditScore = incomeCreditScore;
    }
 
 }
