@@ -10,7 +10,7 @@ rule "CustomerCreditScoreCalculation"
 		customer : CustomerDetails( customerAge < 18 )
 	then
 		customer.setAgeCreditScore( 3.0 );
-	end	
+	end
 	when
 		customer : CustomerDetails( customerAge >= 18 && customerAge < 36 )
 	then
