@@ -67,6 +67,8 @@ public class CustomerDetails implements java.io.Serializable
 
    private java.lang.Double incomeCreditScore;
 
+   private java.lang.Double totalCreditScore;
+
    public CustomerDetails()
    {
    }
@@ -267,6 +269,16 @@ public class CustomerDetails implements java.io.Serializable
       this.incomeCreditScore = incomeCreditScore;
    }
 
+   public java.lang.Double getTotalCreditScore()
+   {
+      return this.totalCreditScore;
+   }
+
+   public void setTotalCreditScore(java.lang.Double totalCreditScore)
+   {
+      this.totalCreditScore = totalCreditScore;
+   }
+
    public CustomerDetails(java.lang.Long id, java.lang.String customerName,
          java.lang.String customerNumber, java.lang.Integer customerAge,
          java.util.Date customerDateOfBirth,
@@ -281,7 +293,8 @@ public class CustomerDetails implements java.io.Serializable
          java.lang.String customerPassportNumber,
          java.lang.String customerResidenceAddress,
          java.lang.String customerResidenceTelephoneNo,
-         java.lang.Double ageCreditScore, java.lang.Double incomeCreditScore)
+         java.lang.Double ageCreditScore, java.lang.Double incomeCreditScore,
+         java.lang.Double totalCreditScore)
    {
       this.id = id;
       this.customerName = customerName;
@@ -302,6 +315,7 @@ public class CustomerDetails implements java.io.Serializable
       this.customerResidenceTelephoneNo = customerResidenceTelephoneNo;
       this.ageCreditScore = ageCreditScore;
       this.incomeCreditScore = incomeCreditScore;
+      this.totalCreditScore = totalCreditScore;
    }
 
 }
