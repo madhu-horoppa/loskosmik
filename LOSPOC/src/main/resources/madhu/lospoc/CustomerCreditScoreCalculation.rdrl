@@ -1,0 +1,9 @@
+package madhu.lospoc;
+
+import java.lang.Number;
+
+rule "CustomerCreditScoreCalculation"
+	dialect "mvel"
+	when
+	then
+end
