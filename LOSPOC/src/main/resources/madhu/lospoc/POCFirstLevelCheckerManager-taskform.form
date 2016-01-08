@@ -795,33 +795,6 @@
 <property name="outputBinding" value="out_applicationDescription"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="65" name="customerDetails_ageCreditScore" type="InputTextDouble" id="1080795509">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;enquot;,quot;ageCreditScore (customerDetails)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="in_customerDetails/ageCreditScore"/>
-<property name="outputBinding" value="out_customerDetails/ageCreditScore"/>
-<property name="fieldClass" value="java.lang.Double"/>
-</field>
-<field position="66" name="customerDetails_incomeCreditScore" type="InputTextDouble" id="594084584">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;enquot;,quot;incomeCreditScore (customerDetails)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="in_customerDetails/incomeCreditScore"/>
-<property name="outputBinding" value="out_customerDetails/incomeCreditScore"/>
-<property name="fieldClass" value="java.lang.Double"/>
-</field>
-<field position="67" name="customerDetails_totalCreditScore" type="InputTextDouble" id="909209481">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;enquot;,quot;totalCreditScore (customerDetails)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="in_customerDetails/totalCreditScore"/>
-<property name="outputBinding" value="out_customerDetails/totalCreditScore"/>
-<property name="fieldClass" value="java.lang.Double"/>
-</field>
 <field position="69" name=":decorator_7" type="HTMLLabel" id="2141412604">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
@@ -836,6 +809,42 @@ quot;quot;ptquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbs
 quot;quot;zhquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt;
 quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
+</field>
+<field position="65" name="customerDetails_ageCreditScore" type="InputText" id="153903959">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Age Credit Scorequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="isHTML" value="true"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="in_customerDetails/ageCreditScore"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="66" name="customerDetails_incomeCreditScore" type="InputText" id="483333781">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Income Credit Scorequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="isHTML" value="true"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="in_customerDetails/incomeCreditScore"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="67" name="customerDetails_totalCreditScore" type="InputText" id="1487589174">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Total Credit Scorequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="isHTML" value="true"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="in_customerDetails/totalCreditScore"/>
+<property name="fieldClass" value="java.lang.String"/>
 </field>
 <dataHolder inputId="in_customerDetails" name="#0000A0" type="dataModelerEntry" outId="out_customerDetails" value="madhu.lospoc.CustomerDetails" id="customerDetails"/>
 <dataHolder inputId="in_incidentBasicDetails" name="#0000A0" type="dataModelerEntry" outId="out_incidentBasicDetails" value="madhu.lospoc.IncidentBasicDetails" id="incidentBasicDetails"/>
