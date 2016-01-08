@@ -82,15 +82,7 @@
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="readonly" value="false"/>
-<property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt;
-quot;quot;dequot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt;
-quot;quot;enquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt;
-quot;quot;esquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt;
-quot;quot;frquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt;
-quot;quot;jaquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt;
-quot;quot;ptquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt;
-quot;quot;zhquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt;
-quot;"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;dequot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;enquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;esquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;frquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;jaquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;ptquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;zhquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
 <field position="7" name=":decorator_1" type="HTMLLabel" id="587913257">
@@ -334,11 +326,11 @@ quot;"/>
 <property name="inputBinding" value="in_loanDetails/loanProposedFinanceAmount"/>
 <property name="outputBinding" value="out_loanDetails/loanProposedFinanceAmount"/>
 <property name="fieldClass" value="java.lang.Double"/>
-<property name="onChangeScript" value="document.getElementById(&quot;loanDetails_loanEMI&quot;).value=calculateEMI(document.getElementById(&quot;loanDetails_loanInterestRate&quot;).value,document.getElementById(&quot;loanDetails_loanProposedFinanceAmount&quot;).value,document.getElementById(&quot;loanDetails_loanTenorMonths&quot;).value,document.getElementById(&quot;loanDetails_loanTenorYears&quot;).value);
-var js=document.createElement(&quot;script&quot;);
+<property name="onChangeScript" value="var js=document.createElement(&quot;script&quot;);
 js.type=&quot;text/javascript&quot;;
 js.src=&quot;http://pssys100:8080/jbpm-console/formModeler/js/CustomCalculations.js&quot;;
-document.body.appendChild(js);"/>
+document.body.appendChild(js);
+document.getElementById(&quot;loanDetails_loanEMI&quot;).value=calculateEMI(document.getElementById(&quot;loanDetails_loanInterestRate&quot;).value,document.getElementById(&quot;loanDetails_loanProposedFinanceAmount&quot;).value,document.getElementById(&quot;loanDetails_loanTenorMonths&quot;).value,document.getElementById(&quot;loanDetails_loanTenorYears&quot;).value);"/>
 </field>
 <field position="27" name="loanDetails_loanDownPaymentAmount" type="InputTextDouble" id="536306523">
 <property name="fieldRequired" value="true"/>
@@ -386,11 +378,11 @@ document.body.appendChild(js);"/>
 <property name="inputBinding" value="in_loanDetails/loanInterestRate"/>
 <property name="outputBinding" value="out_loanDetails/loanInterestRate"/>
 <property name="fieldClass" value="java.lang.Double"/>
-<property name="onChangeScript" value="document.getElementById(&quot;loanDetails_loanEMI&quot;).value=calculateEMI(document.getElementById(&quot;loanDetails_loanInterestRate&quot;).value,document.getElementById(&quot;loanDetails_loanProposedFinanceAmount&quot;).value,document.getElementById(&quot;loanDetails_loanTenorMonths&quot;).value,document.getElementById(&quot;loanDetails_loanTenorYears&quot;).value);
-var js=document.createElement(&quot;script&quot;);
+<property name="onChangeScript" value="var js=document.createElement(&quot;script&quot;);
 js.type=&quot;text/javascript&quot;;
 js.src=&quot;http://pssys100:8080/jbpm-console/formModeler/js/CustomCalculations.js&quot;;
-document.body.appendChild(js);"/>
+document.body.appendChild(js);
+document.getElementById(&quot;loanDetails_loanEMI&quot;).value=calculateEMI(document.getElementById(&quot;loanDetails_loanInterestRate&quot;).value,document.getElementById(&quot;loanDetails_loanProposedFinanceAmount&quot;).value,document.getElementById(&quot;loanDetails_loanTenorMonths&quot;).value,document.getElementById(&quot;loanDetails_loanTenorYears&quot;).value);"/>
 </field>
 <field position="31" name="loanDetails_loanTenorMonths" type="InputTextInteger" id="862995181">
 <property name="fieldRequired" value="true"/>
@@ -402,11 +394,11 @@ document.body.appendChild(js);"/>
 <property name="inputBinding" value="in_loanDetails/loanTenorMonths"/>
 <property name="outputBinding" value="out_loanDetails/loanTenorMonths"/>
 <property name="fieldClass" value="java.lang.Integer"/>
-<property name="onChangeScript" value="document.getElementById(&quot;loanDetails_loanEMI&quot;).value=calculateEMI(document.getElementById(&quot;loanDetails_loanInterestRate&quot;).value,document.getElementById(&quot;loanDetails_loanProposedFinanceAmount&quot;).value,document.getElementById(&quot;loanDetails_loanTenorMonths&quot;).value,document.getElementById(&quot;loanDetails_loanTenorYears&quot;).value);
-var js=document.createElement(&quot;script&quot;);
+<property name="onChangeScript" value="var js=document.createElement(&quot;script&quot;);
 js.type=&quot;text/javascript&quot;;
 js.src=&quot;http://pssys100:8080/jbpm-console/formModeler/js/CustomCalculations.js&quot;;
-document.body.appendChild(js);"/>
+document.body.appendChild(js);
+document.getElementById(&quot;loanDetails_loanEMI&quot;).value=calculateEMI(document.getElementById(&quot;loanDetails_loanInterestRate&quot;).value,document.getElementById(&quot;loanDetails_loanProposedFinanceAmount&quot;).value,document.getElementById(&quot;loanDetails_loanTenorMonths&quot;).value,document.getElementById(&quot;loanDetails_loanTenorYears&quot;).value);"/>
 </field>
 <field position="32" name="loanDetails_loanTenorYears" type="InputTextInteger" id="1989611549">
 <property name="fieldRequired" value="true"/>
@@ -419,16 +411,16 @@ document.body.appendChild(js);"/>
 <property name="inputBinding" value="in_loanDetails/loanTenorYears"/>
 <property name="outputBinding" value="out_loanDetails/loanTenorYears"/>
 <property name="fieldClass" value="java.lang.Integer"/>
-<property name="onChangeScript" value="document.getElementById(&quot;loanDetails_loanEMI&quot;).value=calculateEMI(document.getElementById(&quot;loanDetails_loanInterestRate&quot;).value,document.getElementById(&quot;loanDetails_loanProposedFinanceAmount&quot;).value,document.getElementById(&quot;loanDetails_loanTenorMonths&quot;).value,document.getElementById(&quot;loanDetails_loanTenorYears&quot;).value);
-var js=document.createElement(&quot;script&quot;);
+<property name="onChangeScript" value="var js=document.createElement(&quot;script&quot;);
 js.type=&quot;text/javascript&quot;;
 js.src=&quot;http://pssys100:8080/jbpm-console/formModeler/js/CustomCalculations.js&quot;;
-document.body.appendChild(js);"/>
+document.body.appendChild(js);
+document.getElementById(&quot;loanDetails_loanEMI&quot;).value=calculateEMI(document.getElementById(&quot;loanDetails_loanInterestRate&quot;).value,document.getElementById(&quot;loanDetails_loanProposedFinanceAmount&quot;).value,document.getElementById(&quot;loanDetails_loanTenorMonths&quot;).value,document.getElementById(&quot;loanDetails_loanTenorYears&quot;).value);"/>
 </field>
 <field position="33" name="loanDetails_loanEMI" type="InputTextDouble" id="463579610">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;EMIquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;EMIquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
