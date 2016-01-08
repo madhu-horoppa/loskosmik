@@ -2,38 +2,54 @@ package madhu.lospoc;
 
 import java.lang.Number;
 
-rule "CustomerCreditScoreCalculation"
+    rule "ageBelow18"
 	dialect "mvel"
 	ruleflow-group "CustomerCreditScoreCalculation"
-	
 	when
 		customer : CustomerDetails( customerAge < 18 )
 	then
 		customer.setAgeCreditScore( 3.0 );
 	end
+	
+	rule "ageAbove18AndBelow36"
+	dialect "mvel"
+	ruleflow-group "CustomerCreditScoreCalculation"
 	when
 		customer : CustomerDetails( customerAge >= 18 && customerAge < 36 )
 	then
 		customer.setAgeCreditScore( 5.0 );
 	end
+	
+	rule "ageAbove36"
+	dialect "mvel"
+	ruleflow-group "CustomerCreditScoreCalculation"
 	when
 		customer : CustomerDetails( customerAge >= 36 )
 	then
 		customer.setAgeCreditScore( 8.0 );
 	end
 	
+	rule "incomeBelow10000"
+	dialect "mvel"
+	ruleflow-group "CustomerCreditScoreCalculation"
 	when
 		customer : CustomerDetails( customerMonthlySalary < 10000.0 )
 	then
 		customer.setIncomeCreditScore( 3.0 );
 	end
 	
+	rule "incomeAbove10000AndBelow30000"
+	dialect "mvel"
+	ruleflow-group "CustomerCreditScoreCalculation"
 	when
 		customer : CustomerDetails( customerMonthlySalary >= 10000.0 && customerMonthlySalary < 30000.0 )
 	then
 		customer.setIncomeCreditScore( 5.0 );
 	end
 	
+	rule "incomeAbove30000"
+	dialect "mvel"
+	ruleflow-group "CustomerCreditScoreCalculation"
 	when
 		customer : CustomerDetails( customerMonthlySalary >= 30000.0 )
 	then
