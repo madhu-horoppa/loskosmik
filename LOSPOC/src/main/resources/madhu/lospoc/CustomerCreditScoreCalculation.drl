@@ -8,25 +8,52 @@ import java.lang.Number;
 	when
 		customer : CustomerDetails( customerAge < 18 )
 	then
-		customer.setAgeCreditScore( 3.0 );
+		customer.setAgeCreditScore( 0.0 );
 	end
 	
-	rule "ageAbove18AndBelow36"
+	rule "ageAbove18AndBelow25"
 	dialect "mvel"
 	ruleflow-group "CustomerCreditScoreCalculation"
 	when
-		customer : CustomerDetails( customerAge >= 18 && customerAge < 36 )
+		customer : CustomerDetails( customerAge >= 18 && customerAge < 26 )
 	then
 		customer.setAgeCreditScore( 5.0 );
 	end
 	
-	rule "ageAbove36"
+	rule "ageAbove26AndBelow35"
 	dialect "mvel"
 	ruleflow-group "CustomerCreditScoreCalculation"
 	when
-		customer : CustomerDetails( customerAge >= 36 )
+		customer : CustomerDetails( customerAge >= 26 && customerAge < 36 )
+	then
+		customer.setAgeCreditScore( 15.0 );
+	end
+	
+	rule "ageAbove36AndBelow45"
+	dialect "mvel"
+	ruleflow-group "CustomerCreditScoreCalculation"
+	when
+		customer : CustomerDetails( customerAge >= 36 && customerAge < 46 )
+	then
+		customer.setAgeCreditScore( 10.0 );
+	end
+	
+	rule "ageAbove46AndBelow55"
+	dialect "mvel"
+	ruleflow-group "CustomerCreditScoreCalculation"
+	when
+		customer : CustomerDetails( customerAge >= 46 && customerAge < 56 )
 	then
 		customer.setAgeCreditScore( 8.0 );
+	end
+	
+	rule "ageAbove55"
+	dialect "mvel"
+	ruleflow-group "CustomerCreditScoreCalculation"
+	when
+		customer : CustomerDetails( customerAge >= 56 )
+	then
+		customer.setAgeCreditScore( 3.0 );
 	end
 	
 	rule "incomeBelow10000"
