@@ -1,2 +1,11 @@
 package madhu.lospoc;
 
+import java.lang.Number;
+
+rule "CandidateCreditscoreCalculation"
+	dialect "mvel"
+	when
+		customer : CustomerDetails( customerAge < 18 )
+	then
+		customer.setAgeCreditScore( 3.0 );
+end
