@@ -30,7 +30,7 @@ public class IncidentBasicDetails implements java.io.Serializable
    @org.kie.api.definition.type.Label("Relationship")
    private java.lang.String incidentApplicationRelationship;
 
-   private java.lang.Long customerDetails;
+   private java.lang.Long processInstanceID;
 
    public IncidentBasicDetails()
    {
@@ -99,14 +99,14 @@ public class IncidentBasicDetails implements java.io.Serializable
       this.incidentDate = incidentDate;
    }
 
-   public java.lang.Long getCustomerDetails()
+   public java.lang.Long getProcessInstanceID()
    {
-      return this.customerDetails;
+      return this.processInstanceID;
    }
 
-   public void setCustomerDetails(java.lang.Long customerDetails)
+   public void setProcessInstanceID(java.lang.Long processInstanceID)
    {
-      this.customerDetails = customerDetails;
+      this.processInstanceID = processInstanceID;
    }
 
    public IncidentBasicDetails(java.lang.Long id, java.lang.String incidentNumber,
@@ -114,7 +114,7 @@ public class IncidentBasicDetails implements java.io.Serializable
          java.lang.String incidentApplicationType,
          java.lang.String incidentApplicantStatus,
          java.lang.String incidentApplicationRelationship,
-         java.lang.Long customerDetails)
+         java.lang.Long processInstanceID)
    {
       this.id = id;
       this.incidentNumber = incidentNumber;
@@ -122,7 +122,7 @@ public class IncidentBasicDetails implements java.io.Serializable
       this.incidentApplicationType = incidentApplicationType;
       this.incidentApplicantStatus = incidentApplicantStatus;
       this.incidentApplicationRelationship = incidentApplicationRelationship;
-      this.customerDetails = customerDetails;
+      this.processInstanceID = processInstanceID;
    }
 
 }
