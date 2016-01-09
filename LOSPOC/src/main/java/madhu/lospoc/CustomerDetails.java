@@ -71,6 +71,8 @@ public class CustomerDetails implements java.io.Serializable
 
    private java.lang.Long processInstanceID;
 
+   private java.lang.Boolean fraudType;
+
    public CustomerDetails()
    {
    }
@@ -291,6 +293,16 @@ public class CustomerDetails implements java.io.Serializable
       this.processInstanceID = processInstanceID;
    }
 
+   public java.lang.Boolean getFraudType()
+   {
+      return this.fraudType;
+   }
+
+   public void setFraudType(java.lang.Boolean fraudType)
+   {
+      this.fraudType = fraudType;
+   }
+
    public CustomerDetails(java.lang.Long id, java.lang.String customerName,
          java.lang.String customerNumber, java.lang.Integer customerAge,
          java.util.Date customerDateOfBirth,
@@ -306,7 +318,8 @@ public class CustomerDetails implements java.io.Serializable
          java.lang.String customerResidenceAddress,
          java.lang.String customerResidenceTelephoneNo,
          java.lang.Double ageCreditScore, java.lang.Double incomeCreditScore,
-         java.lang.Double totalCreditScore, java.lang.Long processInstanceID)
+         java.lang.Double totalCreditScore, java.lang.Long processInstanceID,
+         java.lang.Boolean fraudType)
    {
       this.id = id;
       this.customerName = customerName;
@@ -329,6 +342,7 @@ public class CustomerDetails implements java.io.Serializable
       this.incomeCreditScore = incomeCreditScore;
       this.totalCreditScore = totalCreditScore;
       this.processInstanceID = processInstanceID;
+      this.fraudType = fraudType;
    }
 
 }
