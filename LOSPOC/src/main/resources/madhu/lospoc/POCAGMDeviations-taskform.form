@@ -295,5 +295,284 @@
 <property name="outputBinding" value="out_agmDSCRDescription"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
+<field position="28" name=":decorator_9" type="HTMLLabel" id="535312924">
+<property name="fieldRequired" value="false"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;pre&gt;
+&lt;em&gt;Blacklist Report Deviation&lt;/em&gt;&lt;/pre&gt;
+quot;quot;dequot;,quot;&lt;pre&gt;
+&lt;em&gt;Blacklist Report Deviation&lt;/em&gt;&lt;/pre&gt;
+quot;quot;enquot;,quot;&lt;pre&gt;
+&lt;em&gt;Blacklist Report Deviation&lt;/em&gt;&lt;/pre&gt;
+quot;quot;esquot;,quot;&lt;pre&gt;
+&lt;em&gt;Blacklist Report Deviation&lt;/em&gt;&lt;/pre&gt;
+quot;quot;frquot;,quot;&lt;pre&gt;
+&lt;em&gt;Blacklist Report Deviation&lt;/em&gt;&lt;/pre&gt;
+quot;quot;jaquot;,quot;&lt;pre&gt;
+&lt;em&gt;Blacklist Report Deviation&lt;/em&gt;&lt;/pre&gt;
+quot;quot;ptquot;,quot;&lt;pre&gt;
+&lt;em&gt;Blacklist Report Deviation&lt;/em&gt;&lt;/pre&gt;
+quot;quot;zhquot;,quot;&lt;pre&gt;
+&lt;em&gt;Blacklist Report Deviation&lt;/em&gt;&lt;/pre&gt;
+quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
+</field>
+<field position="29" name="blackListCheck_blackListAmt1" type="InputTextDouble" id="1028089737">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;blackListAmt1 (blackListCheck)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_blackListCheck/blackListAmt1"/>
+<property name="outputBinding" value="out_blackListCheck/blackListAmt1"/>
+<property name="fieldClass" value="java.lang.Double"/>
+</field>
+<field position="30" name="blackListCheck_blackListAmt2" type="InputTextDouble" id="286824325">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;blackListAmt2 (blackListCheck)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_blackListCheck/blackListAmt2"/>
+<property name="outputBinding" value="out_blackListCheck/blackListAmt2"/>
+<property name="fieldClass" value="java.lang.Double"/>
+</field>
+<field position="31" name="blackListCheck_blackListAmt3" type="InputTextDouble" id="1731508978">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;blackListAmt3 (blackListCheck)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_blackListCheck/blackListAmt3"/>
+<property name="outputBinding" value="out_blackListCheck/blackListAmt3"/>
+<property name="fieldClass" value="java.lang.Double"/>
+</field>
+<field position="32" name="blackListCheck_blackListAmt4" type="InputTextDouble" id="845964063">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;blackListAmt4 (blackListCheck)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_blackListCheck/blackListAmt4"/>
+<property name="outputBinding" value="out_blackListCheck/blackListAmt4"/>
+<property name="fieldClass" value="java.lang.Double"/>
+</field>
+<field position="33" name="blackListCheck_blackListAmt5" type="InputTextDouble" id="1787741032">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;blackListAmt5 (blackListCheck)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_blackListCheck/blackListAmt5"/>
+<property name="outputBinding" value="out_blackListCheck/blackListAmt5"/>
+<property name="fieldClass" value="java.lang.Double"/>
+</field>
+<field position="34" name="blackListCheck_blackListDesc1" type="InputText" id="2143270110">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;blackListDesc1 (blackListCheck)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_blackListCheck/blackListDesc1"/>
+<property name="outputBinding" value="out_blackListCheck/blackListDesc1"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="35" name="blackListCheck_blackListDesc2" type="InputText" id="288815701">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;blackListDesc2 (blackListCheck)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_blackListCheck/blackListDesc2"/>
+<property name="outputBinding" value="out_blackListCheck/blackListDesc2"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="36" name="blackListCheck_blackListDesc3" type="InputText" id="67759338">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;blackListDesc3 (blackListCheck)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_blackListCheck/blackListDesc3"/>
+<property name="outputBinding" value="out_blackListCheck/blackListDesc3"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="37" name="blackListCheck_blackListDesc4" type="InputText" id="571976711">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;blackListDesc4 (blackListCheck)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_blackListCheck/blackListDesc4"/>
+<property name="outputBinding" value="out_blackListCheck/blackListDesc4"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="38" name="blackListCheck_blackListDesc5" type="InputText" id="423040802">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;blackListDesc5 (blackListCheck)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_blackListCheck/blackListDesc5"/>
+<property name="outputBinding" value="out_blackListCheck/blackListDesc5"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="39" name="blackListCheck_blackListDeviationDesc1" type="InputText" id="985282761">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;blackListDeviationDesc1 (blackListCheck)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_blackListCheck/blackListDeviationDesc1"/>
+<property name="outputBinding" value="out_blackListCheck/blackListDeviationDesc1"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="40" name="blackListCheck_blackListDeviationDesc2" type="InputText" id="71085549">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;blackListDeviationDesc2 (blackListCheck)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_blackListCheck/blackListDeviationDesc2"/>
+<property name="outputBinding" value="out_blackListCheck/blackListDeviationDesc2"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="41" name="blackListCheck_blackListDeviationDesc3" type="InputText" id="2132296687">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;blackListDeviationDesc3 (blackListCheck)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_blackListCheck/blackListDeviationDesc3"/>
+<property name="outputBinding" value="out_blackListCheck/blackListDeviationDesc3"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="42" name="blackListCheck_blackListDeviationDesc4" type="InputText" id="1532311568">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;blackListDeviationDesc4 (blackListCheck)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_blackListCheck/blackListDeviationDesc4"/>
+<property name="outputBinding" value="out_blackListCheck/blackListDeviationDesc4"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="43" name="blackListCheck_blackListDeviationDesc5" type="InputText" id="41811539">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;blackListDeviationDesc5 (blackListCheck)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_blackListCheck/blackListDeviationDesc5"/>
+<property name="outputBinding" value="out_blackListCheck/blackListDeviationDesc5"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="44" name="blackListCheck_blackListDeviationStatus1" type="InputText" id="377674318">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;blackListDeviationStatus1 (blackListCheck)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_blackListCheck/blackListDeviationStatus1"/>
+<property name="outputBinding" value="out_blackListCheck/blackListDeviationStatus1"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="45" name="blackListCheck_blackListDeviationStatus2" type="InputText" id="1673861512">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;blackListDeviationStatus2 (blackListCheck)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_blackListCheck/blackListDeviationStatus2"/>
+<property name="outputBinding" value="out_blackListCheck/blackListDeviationStatus2"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="46" name="blackListCheck_blackListDeviationStatus3" type="InputText" id="997797619">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;blackListDeviationStatus3 (blackListCheck)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_blackListCheck/blackListDeviationStatus3"/>
+<property name="outputBinding" value="out_blackListCheck/blackListDeviationStatus3"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="47" name="blackListCheck_blackListDeviationStatus4" type="InputText" id="91122891">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;blackListDeviationStatus4 (blackListCheck)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_blackListCheck/blackListDeviationStatus4"/>
+<property name="outputBinding" value="out_blackListCheck/blackListDeviationStatus4"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="48" name="blackListCheck_blackListDeviationStatus5" type="InputText" id="1604208942">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;blackListDeviationStatus5 (blackListCheck)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_blackListCheck/blackListDeviationStatus5"/>
+<property name="outputBinding" value="out_blackListCheck/blackListDeviationStatus5"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="49" name="blackListCheck_blackListDoc1" type="InputText" id="85633648">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;blackListDoc1 (blackListCheck)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_blackListCheck/blackListDoc1"/>
+<property name="outputBinding" value="out_blackListCheck/blackListDoc1"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="50" name="blackListCheck_blackListDoc2" type="InputText" id="234568975">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;blackListDoc2 (blackListCheck)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_blackListCheck/blackListDoc2"/>
+<property name="outputBinding" value="out_blackListCheck/blackListDoc2"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="51" name="blackListCheck_blackListDoc3" type="InputText" id="1254919941">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;blackListDoc3 (blackListCheck)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_blackListCheck/blackListDoc3"/>
+<property name="outputBinding" value="out_blackListCheck/blackListDoc3"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="52" name="blackListCheck_blackListDoc4" type="InputText" id="696521504">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;blackListDoc4 (blackListCheck)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_blackListCheck/blackListDoc4"/>
+<property name="outputBinding" value="out_blackListCheck/blackListDoc4"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="53" name="blackListCheck_blackListDoc5" type="InputText" id="345128987">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;blackListDoc5 (blackListCheck)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_blackListCheck/blackListDoc5"/>
+<property name="outputBinding" value="out_blackListCheck/blackListDoc5"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="54" name="blackListCheck_blackListType1" type="InputText" id="554977551">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;blackListType1 (blackListCheck)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_blackListCheck/blackListType1"/>
+<property name="outputBinding" value="out_blackListCheck/blackListType1"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="55" name="blackListCheck_blackListType2" type="InputText" id="1093861470">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;blackListType2 (blackListCheck)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_blackListCheck/blackListType2"/>
+<property name="outputBinding" value="out_blackListCheck/blackListType2"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="56" name="blackListCheck_blackListType3" type="InputText" id="643729294">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;blackListType3 (blackListCheck)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_blackListCheck/blackListType3"/>
+<property name="outputBinding" value="out_blackListCheck/blackListType3"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="57" name="blackListCheck_blackListType4" type="InputText" id="22374703">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;blackListType4 (blackListCheck)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_blackListCheck/blackListType4"/>
+<property name="outputBinding" value="out_blackListCheck/blackListType4"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="58" name="blackListCheck_blackListType5" type="InputText" id="758706610">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;blackListType5 (blackListCheck)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_blackListCheck/blackListType5"/>
+<property name="outputBinding" value="out_blackListCheck/blackListType5"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="59" name="blackListCheck_id" type="InputTextLong" id="353711060">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;id (blackListCheck)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_blackListCheck/id"/>
+<property name="outputBinding" value="out_blackListCheck/id"/>
+<property name="fieldClass" value="java.lang.Long"/>
+</field>
+<field position="60" name="blackListCheck_processInstanceID" type="InputTextLong" id="1412296843">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;processInstanceID (blackListCheck)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_blackListCheck/processInstanceID"/>
+<property name="outputBinding" value="out_blackListCheck/processInstanceID"/>
+<property name="fieldClass" value="java.lang.Long"/>
+</field>
+<dataHolder inputId="in_blackListCheck" name="#0000A0" type="dataModelerEntry" outId="out_blackListCheck" value="madhu.lospoc.BlackListCheckInformation" id="blackListCheck"/>
 <dataHolder inputId="in_incidentBasicDetails" name="#0000A0" type="dataModelerEntry" outId="out_incidentBasicDetails" value="madhu.lospoc.IncidentBasicDetails" id="incidentBasicDetails"/>
 </form>
