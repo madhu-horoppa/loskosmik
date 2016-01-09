@@ -950,15 +950,6 @@
 <property name="outputBinding" value="out_blackListCheck/blackListType1"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="80" name="blackListCheck_blackListAmt1" type="InputTextDouble" id="1318539510">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;enquot;,quot;blackListAmt1 (blackListCheck)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="in_blackListCheck/blackListAmt1"/>
-<property name="outputBinding" value="out_blackListCheck/blackListAmt1"/>
-<property name="fieldClass" value="java.lang.Double"/>
-</field>
 <field position="81" name="blackListCheck_blackListDesc1" type="InputText" id="36895498">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
@@ -1013,15 +1004,6 @@ quot;"/>
 <property name="inputBinding" value="in_blackListCheck/blackListType2"/>
 <property name="outputBinding" value="out_blackListCheck/blackListType2"/>
 <property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="85" name="blackListCheck_blackListAmt2" type="InputTextDouble" id="831894455">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;enquot;,quot;blackListAmt2 (blackListCheck)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="in_blackListCheck/blackListAmt2"/>
-<property name="outputBinding" value="out_blackListCheck/blackListAmt2"/>
-<property name="fieldClass" value="java.lang.Double"/>
 </field>
 <field position="86" name="blackListCheck_blackListDesc2" type="InputText" id="1317422065">
 <property name="fieldRequired" value="false"/>
@@ -1078,15 +1060,6 @@ quot;"/>
 <property name="outputBinding" value="out_blackListCheck/blackListType3"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="90" name="blackListCheck_blackListAmt3" type="InputTextDouble" id="934923053">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;enquot;,quot;blackListAmt3 (blackListCheck)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="in_blackListCheck/blackListAmt3"/>
-<property name="outputBinding" value="out_blackListCheck/blackListAmt3"/>
-<property name="fieldClass" value="java.lang.Double"/>
-</field>
 <field position="91" name="blackListCheck_blackListDesc3" type="InputText" id="831373727">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
@@ -1141,15 +1114,6 @@ quot;"/>
 <property name="inputBinding" value="in_blackListCheck/blackListType4"/>
 <property name="outputBinding" value="out_blackListCheck/blackListType4"/>
 <property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="95" name="blackListCheck_blackListAmt4" type="InputTextDouble" id="1765298848">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;enquot;,quot;blackListAmt4 (blackListCheck)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="in_blackListCheck/blackListAmt4"/>
-<property name="outputBinding" value="out_blackListCheck/blackListAmt4"/>
-<property name="fieldClass" value="java.lang.Double"/>
 </field>
 <field position="96" name="blackListCheck_blackListDesc4" type="InputText" id="577276972">
 <property name="fieldRequired" value="false"/>
@@ -1206,15 +1170,6 @@ quot;"/>
 <property name="outputBinding" value="out_blackListCheck/blackListType5"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="100" name="blackListCheck_blackListAmt5" type="InputTextDouble" id="450268748">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;enquot;,quot;blackListAmt5 (blackListCheck)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="in_blackListCheck/blackListAmt5"/>
-<property name="outputBinding" value="out_blackListCheck/blackListAmt5"/>
-<property name="fieldClass" value="java.lang.Double"/>
-</field>
 <field position="101" name="blackListCheck_blackListDesc5" type="InputText" id="1736375623">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
@@ -1240,6 +1195,41 @@ quot;"/>
 <property name="inputBinding" value="in_blackListCheck/blackListDoc5"/>
 <property name="outputBinding" value="out_blackListCheck/blackListDoc5"/>
 <property name="customFieldType" value="org.jbpm.formModeler.core.fieldTypes.file.FileCustomType"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="80" name="1880784573" type="InputText" id="1880784573">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;InputText103quot;"/>
+<property name="readonly" value="false"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="85" name="1384767121" type="InputText" id="1384767121">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;InputText104quot;"/>
+<property name="readonly" value="false"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="90" name="1387509306" type="InputText" id="1387509306">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;InputText105quot;"/>
+<property name="readonly" value="false"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="95" name="2111616750" type="InputText" id="2111616750">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;InputText106quot;"/>
+<property name="readonly" value="false"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="100" name="709071125" type="InputText" id="709071125">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;InputText107quot;"/>
+<property name="readonly" value="false"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <dataHolder inputId="in_blackListCheck" name="#0000A0" type="dataModelerEntry" outId="out_blackListCheck" value="madhu.lospoc.BlackListCheckInformation" id="blackListCheck"/>
