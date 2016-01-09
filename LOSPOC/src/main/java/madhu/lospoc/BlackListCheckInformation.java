@@ -57,6 +57,26 @@ public class BlackListCheckInformation implements java.io.Serializable
 
    private java.lang.String blackListDoc5;
 
+   private java.lang.String blackListDeviationStatus1;
+
+   private java.lang.String blackListDeviationStatus2;
+
+   private java.lang.String blackListDeviationStatus3;
+
+   private java.lang.String blackListDeviationStatus4;
+
+   private java.lang.String blackListDeviationStatus5;
+
+   private java.lang.String blackListDeviationDesc1;
+
+   private java.lang.String blackListDeviationDesc2;
+
+   private java.lang.String blackListDeviationDesc3;
+
+   private java.lang.String blackListDeviationDesc4;
+
+   private java.lang.String blackListDeviationDesc5;
+
    public BlackListCheckInformation()
    {
    }
@@ -281,6 +301,111 @@ public class BlackListCheckInformation implements java.io.Serializable
       this.blackListDoc5 = blackListDoc5;
    }
 
+   public java.lang.String getBlackListDeviationStatus1()
+   {
+      return this.blackListDeviationStatus1;
+   }
+
+   public void setBlackListDeviationStatus1(
+         java.lang.String blackListDeviationStatus1)
+   {
+      this.blackListDeviationStatus1 = blackListDeviationStatus1;
+   }
+
+   public java.lang.String getBlackListDeviationStatus2()
+   {
+      return this.blackListDeviationStatus2;
+   }
+
+   public void setBlackListDeviationStatus2(
+         java.lang.String blackListDeviationStatus2)
+   {
+      this.blackListDeviationStatus2 = blackListDeviationStatus2;
+   }
+
+   public java.lang.String getBlackListDeviationStatus3()
+   {
+      return this.blackListDeviationStatus3;
+   }
+
+   public void setBlackListDeviationStatus3(
+         java.lang.String blackListDeviationStatus3)
+   {
+      this.blackListDeviationStatus3 = blackListDeviationStatus3;
+   }
+
+   public java.lang.String getBlackListDeviationStatus4()
+   {
+      return this.blackListDeviationStatus4;
+   }
+
+   public void setBlackListDeviationStatus4(
+         java.lang.String blackListDeviationStatus4)
+   {
+      this.blackListDeviationStatus4 = blackListDeviationStatus4;
+   }
+
+   public java.lang.String getBlackListDeviationStatus5()
+   {
+      return this.blackListDeviationStatus5;
+   }
+
+   public void setBlackListDeviationStatus5(
+         java.lang.String blackListDeviationStatus5)
+   {
+      this.blackListDeviationStatus5 = blackListDeviationStatus5;
+   }
+
+   public java.lang.String getBlackListDeviationDesc1()
+   {
+      return this.blackListDeviationDesc1;
+   }
+
+   public void setBlackListDeviationDesc1(java.lang.String blackListDeviationDesc1)
+   {
+      this.blackListDeviationDesc1 = blackListDeviationDesc1;
+   }
+
+   public java.lang.String getBlackListDeviationDesc2()
+   {
+      return this.blackListDeviationDesc2;
+   }
+
+   public void setBlackListDeviationDesc2(java.lang.String blackListDeviationDesc2)
+   {
+      this.blackListDeviationDesc2 = blackListDeviationDesc2;
+   }
+
+   public java.lang.String getBlackListDeviationDesc3()
+   {
+      return this.blackListDeviationDesc3;
+   }
+
+   public void setBlackListDeviationDesc3(java.lang.String blackListDeviationDesc3)
+   {
+      this.blackListDeviationDesc3 = blackListDeviationDesc3;
+   }
+
+   public java.lang.String getBlackListDeviationDesc4()
+   {
+      return this.blackListDeviationDesc4;
+   }
+
+   public void setBlackListDeviationDesc4(java.lang.String blackListDeviationDesc4)
+   {
+      this.blackListDeviationDesc4 = blackListDeviationDesc4;
+   }
+
+   public java.lang.String getBlackListDeviationDesc5()
+   {
+      return this.blackListDeviationDesc5;
+   }
+
+   public void setBlackListDeviationDesc5(java.lang.String blackListDeviationDesc5)
+   {
+      this.blackListDeviationDesc5 = blackListDeviationDesc5;
+   }
+
    public BlackListCheckInformation(java.lang.Long id,
          java.lang.Long processInstanceID, java.lang.String blackListType1,
          java.lang.Double blackListAmt1, java.lang.String blackListDesc1,
@@ -292,7 +417,17 @@ public class BlackListCheckInformation implements java.io.Serializable
          java.lang.Double blackListAmt4, java.lang.String blackListDesc4,
          java.lang.String blackListDoc4, java.lang.String blackListType5,
          java.lang.Double blackListAmt5, java.lang.String blackListDesc5,
-         java.lang.String blackListDoc5)
+         java.lang.String blackListDoc5,
+         java.lang.String blackListDeviationStatus1,
+         java.lang.String blackListDeviationStatus2,
+         java.lang.String blackListDeviationStatus3,
+         java.lang.String blackListDeviationStatus4,
+         java.lang.String blackListDeviationStatus5,
+         java.lang.String blackListDeviationDesc1,
+         java.lang.String blackListDeviationDesc2,
+         java.lang.String blackListDeviationDesc3,
+         java.lang.String blackListDeviationDesc4,
+         java.lang.String blackListDeviationDesc5)
    {
       this.id = id;
       this.processInstanceID = processInstanceID;
@@ -316,6 +451,16 @@ public class BlackListCheckInformation implements java.io.Serializable
       this.blackListAmt5 = blackListAmt5;
       this.blackListDesc5 = blackListDesc5;
       this.blackListDoc5 = blackListDoc5;
+      this.blackListDeviationStatus1 = blackListDeviationStatus1;
+      this.blackListDeviationStatus2 = blackListDeviationStatus2;
+      this.blackListDeviationStatus3 = blackListDeviationStatus3;
+      this.blackListDeviationStatus4 = blackListDeviationStatus4;
+      this.blackListDeviationStatus5 = blackListDeviationStatus5;
+      this.blackListDeviationDesc1 = blackListDeviationDesc1;
+      this.blackListDeviationDesc2 = blackListDeviationDesc2;
+      this.blackListDeviationDesc3 = blackListDeviationDesc3;
+      this.blackListDeviationDesc4 = blackListDeviationDesc4;
+      this.blackListDeviationDesc5 = blackListDeviationDesc5;
    }
 
 }
