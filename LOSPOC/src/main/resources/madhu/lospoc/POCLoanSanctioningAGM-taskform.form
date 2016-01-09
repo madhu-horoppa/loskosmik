@@ -1090,22 +1090,6 @@
 <property name="outputBinding" value="out_blackListCheck/blackListType5"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="98" name="blackListCheck_id" type="InputTextLong" id="782848878">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;id (blackListCheck)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="in_blackListCheck/id"/>
-<property name="outputBinding" value="out_blackListCheck/id"/>
-<property name="fieldClass" value="java.lang.Long"/>
-</field>
-<field position="99" name="blackListCheck_processInstanceID" type="InputTextLong" id="1346408595">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;processInstanceID (blackListCheck)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="in_blackListCheck/processInstanceID"/>
-<property name="outputBinding" value="out_blackListCheck/processInstanceID"/>
-<property name="fieldClass" value="java.lang.Long"/>
-</field>
 <dataHolder inputId="in_blackListCheck" name="#0000A0" type="dataModelerEntry" outId="out_blackListCheck" value="madhu.lospoc.BlackListCheckInformation" id="blackListCheck"/>
 <dataHolder inputId="in_customerDetails" name="#0000A0" type="dataModelerEntry" outId="out_customerDetails" value="madhu.lospoc.CustomerDetails" id="customerDetails"/>
 <dataHolder inputId="in_incidentBasicDetails" name="#0000A0" type="dataModelerEntry" outId="out_incidentBasicDetails" value="madhu.lospoc.IncidentBasicDetails" id="incidentBasicDetails"/>
