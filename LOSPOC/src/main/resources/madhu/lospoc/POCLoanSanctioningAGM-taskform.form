@@ -1228,13 +1228,18 @@ quot;"/>
 <property name="outputBinding" value="out_blackListCheck/blackListDesc5"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="102" name="blackListCheck_blackListDoc5" type="InputText" id="246213341">
+<field position="102" name="blackListCheck_blackListDoc5" type="CustomInput" id="246213341">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;enquot;,quot;blackListDoc5 (blackListCheck)quot;"/>
-<property name="readonly" value="false"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Blacklist Documentquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
 <property name="inputBinding" value="in_blackListCheck/blackListDoc5"/>
 <property name="outputBinding" value="out_blackListCheck/blackListDoc5"/>
+<property name="customFieldType" value="org.jbpm.formModeler.core.fieldTypes.file.FileCustomType"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <dataHolder inputId="in_blackListCheck" name="#0000A0" type="dataModelerEntry" outId="out_blackListCheck" value="madhu.lospoc.BlackListCheckInformation" id="blackListCheck"/>
