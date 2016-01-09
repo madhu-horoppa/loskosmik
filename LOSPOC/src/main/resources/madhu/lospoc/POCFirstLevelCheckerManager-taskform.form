@@ -835,7 +835,6 @@
 <property name="isHTML" value="true"/>
 <property name="hideContent" value="false"/>
 <property name="inputBinding" value="in_blackListCheck/blackListAmt1"/>
-<property name="outputBinding" value="out_blackListCheck/blackListAmt1"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <field position="71" name="blackListCheck_blackListDesc1" type="InputText" id="2115451582">
@@ -888,7 +887,6 @@
 <property name="isHTML" value="true"/>
 <property name="hideContent" value="false"/>
 <property name="inputBinding" value="in_blackListCheck/blackListAmt2"/>
-<property name="outputBinding" value="out_blackListCheck/blackListAmt2"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <field position="75" name="blackListCheck_blackListDesc2" type="InputText" id="1128883089">
@@ -1074,7 +1072,6 @@
 <property name="isHTML" value="true"/>
 <property name="hideContent" value="false"/>
 <property name="inputBinding" value="in_blackListCheck/blackListAmt3"/>
-<property name="outputBinding" value="out_blackListCheck/blackListAmt3"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <field position="82" name="blackListCheck_blackListAmt4" type="InputText" id="1374279094">
@@ -1087,7 +1084,6 @@
 <property name="isHTML" value="true"/>
 <property name="hideContent" value="false"/>
 <property name="inputBinding" value="in_blackListCheck/blackListAmt4"/>
-<property name="outputBinding" value="out_blackListCheck/blackListAmt4"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <field position="86" name="blackListCheck_blackListAmt5" type="InputText" id="1619441674">
@@ -1100,7 +1096,6 @@
 <property name="isHTML" value="true"/>
 <property name="hideContent" value="false"/>
 <property name="inputBinding" value="in_blackListCheck/blackListAmt5"/>
-<property name="outputBinding" value="out_blackListCheck/blackListAmt5"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <dataHolder inputId="in_blackListCheck" name="#0000A0" type="dataModelerEntry" outId="out_blackListCheck" value="madhu.lospoc.BlackListCheckInformation" id="blackListCheck"/>
