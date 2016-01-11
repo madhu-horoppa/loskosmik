@@ -190,7 +190,7 @@
 <property name="htmlContent" value="quot;caquot;,quot;&lt;pre&gt; &lt;em&gt;Technical Report Deviation:&lt;/em&gt;&lt;/pre&gt; quot;quot;dequot;,quot;&lt;pre&gt; &lt;em&gt;Technical Report Deviation:&lt;/em&gt;&lt;/pre&gt; quot;quot;enquot;,quot;&lt;pre&gt; &lt;em&gt;Technical Report Deviation:&lt;/em&gt;&lt;/pre&gt; quot;quot;esquot;,quot;&lt;pre&gt; &lt;em&gt;Technical Report Deviation:&lt;/em&gt;&lt;/pre&gt; quot;quot;frquot;,quot;&lt;pre&gt; &lt;em&gt;Technical Report Deviation:&lt;/em&gt;&lt;/pre&gt; quot;quot;jaquot;,quot;&lt;pre&gt; &lt;em&gt;Technical Report Deviation:&lt;/em&gt;&lt;/pre&gt; quot;quot;ptquot;,quot;&lt;pre&gt; &lt;em&gt;Technical Report Deviation:&lt;/em&gt;&lt;/pre&gt; quot;quot;zhquot;,quot;&lt;pre&gt; &lt;em&gt;Technical Report Deviation:&lt;/em&gt;&lt;/pre&gt; quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
-<field position="18" name="dgmTechnicalReports" type="InputText" id="813916589">
+<field position="18" name="dgmTechnicalReports" type="CustomInput" id="813916589">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Technical Reportsquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -200,6 +200,7 @@
 <property name="hideContent" value="false"/>
 <property name="inputBinding" value="in_dgmTechnicalReports"/>
 <property name="outputBinding" value="out_dgmTechnicalReports"/>
+<property name="customFieldType" value="org.jbpm.formModeler.core.fieldTypes.file.FileCustomType"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <field position="19" name="dgmTechnicalReportsStatus" type="InputText" id="1765991852">
@@ -244,7 +245,21 @@
 <property name="customFieldType" value="org.jbpm.formModeler.core.fieldTypes.file.FileCustomType"/>
 <property name="fieldClass" value="org.jbpm.document.Document"/>
 </field>
-<field position="25" name="blackListCheck_blackListDoc1" type="InputText" id="1015204767">
+<field position="23" name=":decorator_12" type="HTMLLabel" id="1961992177">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;pre&gt; &lt;em&gt;Blacklist Report Deviation:&lt;/em&gt;&lt;/pre&gt; quot;quot;dequot;,quot;&lt;pre&gt; &lt;em&gt;Blacklist Report Deviation:&lt;/em&gt;&lt;/pre&gt; quot;quot;enquot;,quot;&lt;pre&gt; &lt;em&gt;Blacklist Report Deviation:&lt;/em&gt;&lt;/pre&gt; quot;quot;esquot;,quot;&lt;pre&gt; &lt;em&gt;Blacklist Report Deviation:&lt;/em&gt;&lt;/pre&gt; quot;quot;frquot;,quot;&lt;pre&gt; &lt;em&gt;Blacklist Report Deviation:&lt;/em&gt;&lt;/pre&gt; quot;quot;jaquot;,quot;&lt;pre&gt; &lt;em&gt;Blacklist Report Deviation:&lt;/em&gt;&lt;/pre&gt; quot;quot;ptquot;,quot;&lt;pre&gt; &lt;em&gt;Blacklist Report Deviation:&lt;/em&gt;&lt;/pre&gt; quot;quot;zhquot;,quot;&lt;pre&gt; &lt;em&gt;Blacklist Report Deviation:&lt;/em&gt;&lt;/pre&gt; quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
+</field>
+<field position="24" name=":decorator_7" type="HTMLLabel" id="1704049268">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;(1)&lt;/p&gt; quot;quot;dequot;,quot;&lt;p&gt;(1)&lt;/p&gt; quot;quot;enquot;,quot;&lt;p&gt;(1)&lt;/p&gt; quot;quot;esquot;,quot;&lt;p&gt;(1)&lt;/p&gt; quot;quot;frquot;,quot;&lt;p&gt;(1)&lt;/p&gt; quot;quot;jaquot;,quot;&lt;p&gt;(1)&lt;/p&gt; quot;quot;ptquot;,quot;&lt;p&gt;(1)&lt;/p&gt; quot;quot;zhquot;,quot;&lt;p&gt;(1)&lt;/p&gt; quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
+</field>
+<field position="25" name="blackListCheck_blackListDoc1" type="CustomInput" id="1015204767">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Blacklist Documentquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -255,6 +270,7 @@
 <property name="hideContent" value="false"/>
 <property name="inputBinding" value="in_blackListCheck/blackListDoc1"/>
 <property name="outputBinding" value="out_blackListCheck/blackListDoc1"/>
+<property name="customFieldType" value="org.jbpm.formModeler.core.fieldTypes.file.FileCustomType"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <field position="26" name="blackListCheck_blackListType1" type="InputText" id="1614209492">
@@ -322,7 +338,14 @@
 <property name="outputBinding" value="out_blackListCheck/blackListDeviationDesc1"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="32" name="blackListCheck_blackListDoc2" type="InputText" id="582064185">
+<field position="31" name=":decorator_8" type="HTMLLabel" id="797948422">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;(2)&lt;/p&gt; quot;quot;dequot;,quot;&lt;p&gt;(2)&lt;/p&gt; quot;quot;enquot;,quot;&lt;p&gt;(2)&lt;/p&gt; quot;quot;esquot;,quot;&lt;p&gt;(2)&lt;/p&gt; quot;quot;frquot;,quot;&lt;p&gt;(2)&lt;/p&gt; quot;quot;jaquot;,quot;&lt;p&gt;(2)&lt;/p&gt; quot;quot;ptquot;,quot;&lt;p&gt;(2)&lt;/p&gt; quot;quot;zhquot;,quot;&lt;p&gt;(2)&lt;/p&gt; quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
+</field>
+<field position="32" name="blackListCheck_blackListDoc2" type="CustomInput" id="582064185">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Blacklist Documentquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -333,6 +356,7 @@
 <property name="hideContent" value="false"/>
 <property name="inputBinding" value="in_blackListCheck/blackListDoc2"/>
 <property name="outputBinding" value="out_blackListCheck/blackListDoc2"/>
+<property name="customFieldType" value="org.jbpm.formModeler.core.fieldTypes.file.FileCustomType"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <field position="33" name="blackListCheck_blackListType2" type="InputText" id="837838157">
@@ -400,7 +424,14 @@
 <property name="outputBinding" value="out_blackListCheck/blackListDeviationDesc2"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="39" name="blackListCheck_blackListDoc3" type="InputText" id="192137723">
+<field position="38" name=":decorator_9" type="HTMLLabel" id="643841477">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;(3)&lt;/p&gt; quot;quot;dequot;,quot;&lt;p&gt;(3)&lt;/p&gt; quot;quot;enquot;,quot;&lt;p&gt;(3)&lt;/p&gt; quot;quot;esquot;,quot;&lt;p&gt;(3)&lt;/p&gt; quot;quot;frquot;,quot;&lt;p&gt;(3)&lt;/p&gt; quot;quot;jaquot;,quot;&lt;p&gt;(3)&lt;/p&gt; quot;quot;ptquot;,quot;&lt;p&gt;(3)&lt;/p&gt; quot;quot;zhquot;,quot;&lt;p&gt;(3)&lt;/p&gt; quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
+</field>
+<field position="39" name="blackListCheck_blackListDoc3" type="CustomInput" id="192137723">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Blacklist Documentquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -411,6 +442,7 @@
 <property name="hideContent" value="false"/>
 <property name="inputBinding" value="in_blackListCheck/blackListDoc3"/>
 <property name="outputBinding" value="out_blackListCheck/blackListDoc3"/>
+<property name="customFieldType" value="org.jbpm.formModeler.core.fieldTypes.file.FileCustomType"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <field position="40" name="blackListCheck_blackListType3" type="InputText" id="2030910201">
@@ -478,7 +510,14 @@
 <property name="outputBinding" value="out_blackListCheck/blackListDeviationDesc3"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="46" name="blackListCheck_blackListDoc4" type="InputText" id="1824521942">
+<field position="45" name=":decorator_10" type="HTMLLabel" id="1984279553">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;(4)&lt;/p&gt; quot;quot;dequot;,quot;&lt;p&gt;(4)&lt;/p&gt; quot;quot;enquot;,quot;&lt;p&gt;(4)&lt;/p&gt; quot;quot;esquot;,quot;&lt;p&gt;(4)&lt;/p&gt; quot;quot;frquot;,quot;&lt;p&gt;(4)&lt;/p&gt; quot;quot;jaquot;,quot;&lt;p&gt;(4)&lt;/p&gt; quot;quot;ptquot;,quot;&lt;p&gt;(4)&lt;/p&gt; quot;quot;zhquot;,quot;&lt;p&gt;(4)&lt;/p&gt; quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
+</field>
+<field position="46" name="blackListCheck_blackListDoc4" type="CustomInput" id="1824521942">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Blacklist Documentquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -489,6 +528,7 @@
 <property name="hideContent" value="false"/>
 <property name="inputBinding" value="in_blackListCheck/blackListDoc4"/>
 <property name="outputBinding" value="out_blackListCheck/blackListDoc4"/>
+<property name="customFieldType" value="org.jbpm.formModeler.core.fieldTypes.file.FileCustomType"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <field position="47" name="blackListCheck_blackListType4" type="InputText" id="1973495878">
@@ -556,7 +596,14 @@
 <property name="outputBinding" value="out_blackListCheck/blackListDeviationDesc4"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="53" name="blackListCheck_blackListDoc5" type="InputText" id="1972486359">
+<field position="52" name=":decorator_11" type="HTMLLabel" id="413363582">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;(5)&lt;/p&gt; quot;quot;dequot;,quot;&lt;p&gt;(5)&lt;/p&gt; quot;quot;enquot;,quot;&lt;p&gt;(5)&lt;/p&gt; quot;quot;esquot;,quot;&lt;p&gt;(5)&lt;/p&gt; quot;quot;frquot;,quot;&lt;p&gt;(5)&lt;/p&gt; quot;quot;jaquot;,quot;&lt;p&gt;(5)&lt;/p&gt; quot;quot;ptquot;,quot;&lt;p&gt;(5)&lt;/p&gt; quot;quot;zhquot;,quot;&lt;p&gt;(5)&lt;/p&gt; quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
+</field>
+<field position="53" name="blackListCheck_blackListDoc5" type="CustomInput" id="1972486359">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Blacklist Documentquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -567,6 +614,7 @@
 <property name="hideContent" value="false"/>
 <property name="inputBinding" value="in_blackListCheck/blackListDoc5"/>
 <property name="outputBinding" value="out_blackListCheck/blackListDoc5"/>
+<property name="customFieldType" value="org.jbpm.formModeler.core.fieldTypes.file.FileCustomType"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <field position="54" name="blackListCheck_blackListType5" type="InputText" id="2073252805">
@@ -633,104 +681,6 @@
 <property name="inputBinding" value="in_blackListCheck/blackListDeviationDesc5"/>
 <property name="outputBinding" value="out_blackListCheck/blackListDeviationDesc5"/>
 <property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="24" name=":decorator_7" type="HTMLLabel" id="1704049268">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="false"/>
-<property name="readonly" value="false"/>
-<property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;(1)&lt;/p&gt;
-quot;quot;dequot;,quot;&lt;p&gt;(1)&lt;/p&gt;
-quot;quot;enquot;,quot;&lt;p&gt;(1)&lt;/p&gt;
-quot;quot;esquot;,quot;&lt;p&gt;(1)&lt;/p&gt;
-quot;quot;frquot;,quot;&lt;p&gt;(1)&lt;/p&gt;
-quot;quot;jaquot;,quot;&lt;p&gt;(1)&lt;/p&gt;
-quot;quot;ptquot;,quot;&lt;p&gt;(1)&lt;/p&gt;
-quot;quot;zhquot;,quot;&lt;p&gt;(1)&lt;/p&gt;
-quot;"/>
-<property name="fieldClass" value="HTMLlabel"/>
-</field>
-<field position="31" name=":decorator_8" type="HTMLLabel" id="797948422">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="false"/>
-<property name="readonly" value="false"/>
-<property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;(2)&lt;/p&gt;
-quot;quot;dequot;,quot;&lt;p&gt;(2)&lt;/p&gt;
-quot;quot;enquot;,quot;&lt;p&gt;(2)&lt;/p&gt;
-quot;quot;esquot;,quot;&lt;p&gt;(2)&lt;/p&gt;
-quot;quot;frquot;,quot;&lt;p&gt;(2)&lt;/p&gt;
-quot;quot;jaquot;,quot;&lt;p&gt;(2)&lt;/p&gt;
-quot;quot;ptquot;,quot;&lt;p&gt;(2)&lt;/p&gt;
-quot;quot;zhquot;,quot;&lt;p&gt;(2)&lt;/p&gt;
-quot;"/>
-<property name="fieldClass" value="HTMLlabel"/>
-</field>
-<field position="38" name=":decorator_9" type="HTMLLabel" id="643841477">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="false"/>
-<property name="readonly" value="false"/>
-<property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;(3)&lt;/p&gt;
-quot;quot;dequot;,quot;&lt;p&gt;(3)&lt;/p&gt;
-quot;quot;enquot;,quot;&lt;p&gt;(3)&lt;/p&gt;
-quot;quot;esquot;,quot;&lt;p&gt;(3)&lt;/p&gt;
-quot;quot;frquot;,quot;&lt;p&gt;(3)&lt;/p&gt;
-quot;quot;jaquot;,quot;&lt;p&gt;(3)&lt;/p&gt;
-quot;quot;ptquot;,quot;&lt;p&gt;(3)&lt;/p&gt;
-quot;quot;zhquot;,quot;&lt;p&gt;(3)&lt;/p&gt;
-quot;"/>
-<property name="fieldClass" value="HTMLlabel"/>
-</field>
-<field position="45" name=":decorator_10" type="HTMLLabel" id="1984279553">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="false"/>
-<property name="readonly" value="false"/>
-<property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;(4)&lt;/p&gt;
-quot;quot;dequot;,quot;&lt;p&gt;(4)&lt;/p&gt;
-quot;quot;enquot;,quot;&lt;p&gt;(4)&lt;/p&gt;
-quot;quot;esquot;,quot;&lt;p&gt;(4)&lt;/p&gt;
-quot;quot;frquot;,quot;&lt;p&gt;(4)&lt;/p&gt;
-quot;quot;jaquot;,quot;&lt;p&gt;(4)&lt;/p&gt;
-quot;quot;ptquot;,quot;&lt;p&gt;(4)&lt;/p&gt;
-quot;quot;zhquot;,quot;&lt;p&gt;(4)&lt;/p&gt;
-quot;"/>
-<property name="fieldClass" value="HTMLlabel"/>
-</field>
-<field position="52" name=":decorator_11" type="HTMLLabel" id="413363582">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="false"/>
-<property name="readonly" value="false"/>
-<property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;(5)&lt;/p&gt;
-quot;quot;dequot;,quot;&lt;p&gt;(5)&lt;/p&gt;
-quot;quot;enquot;,quot;&lt;p&gt;(5)&lt;/p&gt;
-quot;quot;esquot;,quot;&lt;p&gt;(5)&lt;/p&gt;
-quot;quot;frquot;,quot;&lt;p&gt;(5)&lt;/p&gt;
-quot;quot;jaquot;,quot;&lt;p&gt;(5)&lt;/p&gt;
-quot;quot;ptquot;,quot;&lt;p&gt;(5)&lt;/p&gt;
-quot;quot;zhquot;,quot;&lt;p&gt;(5)&lt;/p&gt;
-quot;"/>
-<property name="fieldClass" value="HTMLlabel"/>
-</field>
-<field position="23" name=":decorator_12" type="HTMLLabel" id="1961992177">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="false"/>
-<property name="readonly" value="false"/>
-<property name="htmlContent" value="quot;caquot;,quot;&lt;pre&gt;
-&lt;em&gt;Blacklist Report Deviation:&lt;/em&gt;&lt;/pre&gt;
-quot;quot;dequot;,quot;&lt;pre&gt;
-&lt;em&gt;Blacklist Report Deviation:&lt;/em&gt;&lt;/pre&gt;
-quot;quot;enquot;,quot;&lt;pre&gt;
-&lt;em&gt;Blacklist Report Deviation:&lt;/em&gt;&lt;/pre&gt;
-quot;quot;esquot;,quot;&lt;pre&gt;
-&lt;em&gt;Blacklist Report Deviation:&lt;/em&gt;&lt;/pre&gt;
-quot;quot;frquot;,quot;&lt;pre&gt;
-&lt;em&gt;Blacklist Report Deviation:&lt;/em&gt;&lt;/pre&gt;
-quot;quot;jaquot;,quot;&lt;pre&gt;
-&lt;em&gt;Blacklist Report Deviation:&lt;/em&gt;&lt;/pre&gt;
-quot;quot;ptquot;,quot;&lt;pre&gt;
-&lt;em&gt;Blacklist Report Deviation:&lt;/em&gt;&lt;/pre&gt;
-quot;quot;zhquot;,quot;&lt;pre&gt;
-&lt;em&gt;Blacklist Report Deviation:&lt;/em&gt;&lt;/pre&gt;
-quot;"/>
-<property name="fieldClass" value="HTMLlabel"/>
 </field>
 <dataHolder inputId="in_blackListCheck" name="#0000A0" type="dataModelerEntry" outId="out_blackListCheck" value="madhu.lospoc.BlackListCheckInformation" id="blackListCheck"/>
 <dataHolder inputId="in_incidentBasicDetails" name="#0000A0" type="dataModelerEntry" outId="out_incidentBasicDetails" value="madhu.lospoc.IncidentBasicDetails" id="incidentBasicDetails"/>
