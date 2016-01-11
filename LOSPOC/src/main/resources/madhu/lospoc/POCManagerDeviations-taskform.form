@@ -280,52 +280,7 @@ quot;quot;zhquot;,quot;&lt;pre&gt;
 quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
-<field position="27" name="blackListCheck_blackListAmt1" type="InputTextDouble" id="1969675029">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;enquot;,quot;blackListAmt1 (blackListCheck)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="in_blackListCheck/blackListAmt1"/>
-<property name="outputBinding" value="out_blackListCheck/blackListAmt1"/>
-<property name="fieldClass" value="java.lang.Double"/>
-</field>
-<field position="33" name="blackListCheck_blackListAmt2" type="InputTextDouble" id="1429231839">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;enquot;,quot;blackListAmt2 (blackListCheck)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="in_blackListCheck/blackListAmt2"/>
-<property name="outputBinding" value="out_blackListCheck/blackListAmt2"/>
-<property name="fieldClass" value="java.lang.Double"/>
-</field>
-<field position="39" name="blackListCheck_blackListAmt3" type="InputTextDouble" id="574049884">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;enquot;,quot;blackListAmt3 (blackListCheck)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="in_blackListCheck/blackListAmt3"/>
-<property name="outputBinding" value="out_blackListCheck/blackListAmt3"/>
-<property name="fieldClass" value="java.lang.Double"/>
-</field>
-<field position="45" name="blackListCheck_blackListAmt4" type="InputTextDouble" id="188644353">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;enquot;,quot;blackListAmt4 (blackListCheck)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="in_blackListCheck/blackListAmt4"/>
-<property name="outputBinding" value="out_blackListCheck/blackListAmt4"/>
-<property name="fieldClass" value="java.lang.Double"/>
-</field>
-<field position="51" name="blackListCheck_blackListAmt5" type="InputTextDouble" id="2003137471">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;enquot;,quot;blackListAmt5 (blackListCheck)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="in_blackListCheck/blackListAmt5"/>
-<property name="outputBinding" value="out_blackListCheck/blackListAmt5"/>
-<property name="fieldClass" value="java.lang.Double"/>
-</field>
-<field position="28" name="blackListCheck_blackListDesc1" type="InputText" id="1486844504">
+<field position="29" name="blackListCheck_blackListDesc1" type="InputText" id="1486844504">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Blacklist Descriptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -338,7 +293,7 @@ quot;"/>
 <property name="outputBinding" value="out_blackListCheck/blackListDesc1"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="34" name="blackListCheck_blackListDesc2" type="InputText" id="1518695931">
+<field position="36" name="blackListCheck_blackListDesc2" type="InputText" id="1518695931">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Blacklist Descriptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -351,7 +306,7 @@ quot;"/>
 <property name="outputBinding" value="out_blackListCheck/blackListDesc2"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="40" name="blackListCheck_blackListDesc3" type="InputText" id="1458329474">
+<field position="43" name="blackListCheck_blackListDesc3" type="InputText" id="1458329474">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Blacklist Descriptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -364,7 +319,7 @@ quot;"/>
 <property name="outputBinding" value="out_blackListCheck/blackListDesc3"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="46" name="blackListCheck_blackListDesc4" type="InputText" id="1566666714">
+<field position="50" name="blackListCheck_blackListDesc4" type="InputText" id="1566666714">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Blacklist Descriptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -377,7 +332,7 @@ quot;"/>
 <property name="outputBinding" value="out_blackListCheck/blackListDesc4"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="52" name="blackListCheck_blackListDesc5" type="InputText" id="652210907">
+<field position="57" name="blackListCheck_blackListDesc5" type="InputText" id="652210907">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Blacklist Descriptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -390,7 +345,7 @@ quot;"/>
 <property name="outputBinding" value="out_blackListCheck/blackListDesc5"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="30" name="blackListCheck_blackListDeviationDesc1" type="InputTextArea" id="506041990">
+<field position="31" name="blackListCheck_blackListDeviationDesc1" type="InputTextArea" id="506041990">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Deviation Descriptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -403,7 +358,7 @@ quot;"/>
 <property name="outputBinding" value="out_blackListCheck/blackListDeviationDesc1"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="36" name="blackListCheck_blackListDeviationDesc2" type="InputTextArea" id="1541042935">
+<field position="38" name="blackListCheck_blackListDeviationDesc2" type="InputTextArea" id="1541042935">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Deviation Descriptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -416,7 +371,7 @@ quot;"/>
 <property name="outputBinding" value="out_blackListCheck/blackListDeviationDesc2"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="42" name="blackListCheck_blackListDeviationDesc3" type="InputTextArea" id="208297726">
+<field position="45" name="blackListCheck_blackListDeviationDesc3" type="InputTextArea" id="208297726">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Deviation Descriptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -429,7 +384,7 @@ quot;"/>
 <property name="outputBinding" value="out_blackListCheck/blackListDeviationDesc3"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="48" name="blackListCheck_blackListDeviationDesc4" type="InputTextArea" id="1263604243">
+<field position="52" name="blackListCheck_blackListDeviationDesc4" type="InputTextArea" id="1263604243">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Deviation Descriptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -442,7 +397,7 @@ quot;"/>
 <property name="outputBinding" value="out_blackListCheck/blackListDeviationDesc4"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="54" name="blackListCheck_blackListDeviationDesc5" type="InputTextArea" id="1611912742">
+<field position="59" name="blackListCheck_blackListDeviationDesc5" type="InputTextArea" id="1611912742">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Deviation Descriptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -455,7 +410,7 @@ quot;"/>
 <property name="outputBinding" value="out_blackListCheck/blackListDeviationDesc5"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="29" name="blackListCheck_blackListDeviationStatus1" type="InputText" id="1494731465">
+<field position="30" name="blackListCheck_blackListDeviationStatus1" type="InputText" id="1494731465">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Deviation Statusquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -469,7 +424,7 @@ quot;"/>
 <property name="outputBinding" value="out_blackListCheck/blackListDeviationStatus1"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="35" name="blackListCheck_blackListDeviationStatus2" type="InputText" id="2098096193">
+<field position="37" name="blackListCheck_blackListDeviationStatus2" type="InputText" id="2098096193">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Deviation Statusquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -483,7 +438,7 @@ quot;"/>
 <property name="outputBinding" value="out_blackListCheck/blackListDeviationStatus2"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="41" name="blackListCheck_blackListDeviationStatus3" type="InputText" id="1686113381">
+<field position="44" name="blackListCheck_blackListDeviationStatus3" type="InputText" id="1686113381">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Deviation Statusquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -497,7 +452,7 @@ quot;"/>
 <property name="outputBinding" value="out_blackListCheck/blackListDeviationStatus3"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="47" name="blackListCheck_blackListDeviationStatus4" type="InputText" id="421248384">
+<field position="51" name="blackListCheck_blackListDeviationStatus4" type="InputText" id="421248384">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Deviation Statusquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -511,7 +466,7 @@ quot;"/>
 <property name="outputBinding" value="out_blackListCheck/blackListDeviationStatus4"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="53" name="blackListCheck_blackListDeviationStatus5" type="InputText" id="1684849613">
+<field position="58" name="blackListCheck_blackListDeviationStatus5" type="InputText" id="1684849613">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Deviation Statusquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -525,9 +480,9 @@ quot;"/>
 <property name="outputBinding" value="out_blackListCheck/blackListDeviationStatus5"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="25" name="blackListCheck_blackListDoc1" type="InputText" id="753534036">
+<field position="26" name="blackListCheck_blackListDoc1" type="InputText" id="753534036">
 <property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="false"/>
+<property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Blacklist Documentquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -538,9 +493,9 @@ quot;"/>
 <property name="outputBinding" value="out_blackListCheck/blackListDoc1"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="31" name="blackListCheck_blackListDoc2" type="InputText" id="690133415">
+<field position="33" name="blackListCheck_blackListDoc2" type="InputText" id="690133415">
 <property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="false"/>
+<property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Blacklist Documentquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -551,9 +506,9 @@ quot;"/>
 <property name="outputBinding" value="out_blackListCheck/blackListDoc2"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="37" name="blackListCheck_blackListDoc3" type="InputText" id="1791999196">
+<field position="40" name="blackListCheck_blackListDoc3" type="InputText" id="1791999196">
 <property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="false"/>
+<property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Blacklist Documentquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -564,9 +519,9 @@ quot;"/>
 <property name="outputBinding" value="out_blackListCheck/blackListDoc3"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="43" name="blackListCheck_blackListDoc4" type="InputText" id="1639652293">
+<field position="47" name="blackListCheck_blackListDoc4" type="InputText" id="1639652293">
 <property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="false"/>
+<property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Blacklist Documentquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -577,9 +532,9 @@ quot;"/>
 <property name="outputBinding" value="out_blackListCheck/blackListDoc4"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="49" name="blackListCheck_blackListDoc5" type="InputText" id="677600037">
+<field position="54" name="blackListCheck_blackListDoc5" type="InputText" id="677600037">
 <property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="false"/>
+<property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Blacklist Documentquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -590,7 +545,7 @@ quot;"/>
 <property name="outputBinding" value="out_blackListCheck/blackListDoc5"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="26" name="blackListCheck_blackListType1" type="InputText" id="745450453">
+<field position="27" name="blackListCheck_blackListType1" type="InputText" id="745450453">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Blacklist Typequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -603,7 +558,7 @@ quot;"/>
 <property name="outputBinding" value="out_blackListCheck/blackListType1"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="32" name="blackListCheck_blackListType2" type="InputText" id="1560461552">
+<field position="34" name="blackListCheck_blackListType2" type="InputText" id="1560461552">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Blacklist Typequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -616,7 +571,7 @@ quot;"/>
 <property name="outputBinding" value="out_blackListCheck/blackListType2"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="38" name="blackListCheck_blackListType3" type="InputText" id="1906084347">
+<field position="41" name="blackListCheck_blackListType3" type="InputText" id="1906084347">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Blacklist Typequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -629,7 +584,7 @@ quot;"/>
 <property name="outputBinding" value="out_blackListCheck/blackListType3"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="44" name="blackListCheck_blackListType4" type="InputText" id="149693999">
+<field position="48" name="blackListCheck_blackListType4" type="InputText" id="149693999">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Blacklist Typequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -642,7 +597,7 @@ quot;"/>
 <property name="outputBinding" value="out_blackListCheck/blackListType4"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="50" name="blackListCheck_blackListType5" type="InputText" id="1588397382">
+<field position="55" name="blackListCheck_blackListType5" type="InputText" id="1588397382">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Blacklist Typequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -654,6 +609,101 @@ quot;"/>
 <property name="inputBinding" value="in_blackListCheck/blackListType5"/>
 <property name="outputBinding" value="out_blackListCheck/blackListType5"/>
 <property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="28" name="blackListCheck_blackListAmt1" type="InputText" id="559895309">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Blacklist Amountquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="isHTML" value="true"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="in_blackListCheck/blackListAmt1"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="35" name="blackListCheck_blackListAmt2" type="InputText" id="1223071159">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Blacklist Amountquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="isHTML" value="true"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="in_blackListCheck/blackListAmt2"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="42" name="blackListCheck_blackListAmt3" type="InputText" id="1051969144">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Blacklist Amountquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="isHTML" value="true"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="in_blackListCheck/blackListAmt3"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="49" name="blackListCheck_blackListAmt4" type="InputText" id="1832279938">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Blacklist Amountquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="isHTML" value="true"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="in_blackListCheck/blackListAmt4"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="56" name="blackListCheck_blackListAmt5" type="InputText" id="1443424335">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Blacklist Amountquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="isHTML" value="true"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="in_blackListCheck/blackListAmt5"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="25" name=":decorator_9" type="HTMLLabel" id="1919635459">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;enquot;,quot;HTMLquot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
+</field>
+<field position="32" name=":decorator_10" type="HTMLLabel" id="13648139">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;enquot;,quot;HTMLquot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
+</field>
+<field position="39" name=":decorator_11" type="HTMLLabel" id="1076392147">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;enquot;,quot;HTMLquot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
+</field>
+<field position="46" name=":decorator_12" type="HTMLLabel" id="687112511">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;enquot;,quot;HTMLquot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
+</field>
+<field position="53" name=":decorator_13" type="HTMLLabel" id="925492324">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;enquot;,quot;HTMLquot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
 </field>
 <dataHolder inputId="in_blackListCheck" name="#0000A0" type="dataModelerEntry" outId="out_blackListCheck" value="madhu.lospoc.BlackListCheckInformation" id="blackListCheck"/>
 <dataHolder inputId="in_incidentBasicDetails" name="#0000A0" type="dataModelerEntry" outId="out_incidentBasicDetails" value="madhu.lospoc.IncidentBasicDetails" id="incidentBasicDetails"/>
