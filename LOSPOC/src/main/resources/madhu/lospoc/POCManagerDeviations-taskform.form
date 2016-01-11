@@ -202,7 +202,7 @@
 <property name="htmlContent" value="quot;caquot;,quot;&lt;pre&gt; &lt;em&gt;Technical Report Deviation:&lt;/em&gt;&lt;/pre&gt; quot;quot;dequot;,quot;&lt;pre&gt; &lt;em&gt;Technical Report Deviation:&lt;/em&gt;&lt;/pre&gt; quot;quot;enquot;,quot;&lt;pre&gt; &lt;em&gt;Technical Report Deviation:&lt;/em&gt;&lt;/pre&gt; quot;quot;esquot;,quot;&lt;pre&gt; &lt;em&gt;Technical Report Deviation:&lt;/em&gt;&lt;/pre&gt; quot;quot;frquot;,quot;&lt;pre&gt; &lt;em&gt;Technical Report Deviation:&lt;/em&gt;&lt;/pre&gt; quot;quot;jaquot;,quot;&lt;pre&gt; &lt;em&gt;Technical Report Deviation:&lt;/em&gt;&lt;/pre&gt; quot;quot;ptquot;,quot;&lt;pre&gt; &lt;em&gt;Technical Report Deviation:&lt;/em&gt;&lt;/pre&gt; quot;quot;zhquot;,quot;&lt;pre&gt; &lt;em&gt;Technical Report Deviation:&lt;/em&gt;&lt;/pre&gt; quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
-<field position="19" name="managerTechnicalReports" type="InputText" id="1963417192">
+<field position="19" name="managerTechnicalReports" type="CustomInput" id="1963417192">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;TechnicalReportsquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -213,6 +213,7 @@
 <property name="hideContent" value="false"/>
 <property name="inputBinding" value="in_managerTechnicalReports"/>
 <property name="outputBinding" value="out_managerTechnicalReports"/>
+<property name="customFieldType" value="org.jbpm.formModeler.core.fieldTypes.file.FileCustomType"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <field position="20" name="managerTechnicalReportsStatus" type="InputText" id="1345192911">
