@@ -258,5 +258,27 @@
 <property name="customFieldType" value="org.jbpm.formModeler.core.fieldTypes.file.FileCustomType"/>
 <property name="fieldClass" value="org.jbpm.document.Document"/>
 </field>
+<field position="24" name=":decorator_8" type="HTMLLabel" id="1531494803">
+<property name="fieldRequired" value="false"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;pre&gt;
+&lt;em&gt;Blacklist Report Deviations:&lt;/em&gt;&lt;/pre&gt;
+quot;quot;dequot;,quot;&lt;pre&gt;
+&lt;em&gt;Blacklist Report Deviations:&lt;/em&gt;&lt;/pre&gt;
+quot;quot;enquot;,quot;&lt;pre&gt;
+&lt;em&gt;Blacklist Report Deviations:&lt;/em&gt;&lt;/pre&gt;
+quot;quot;esquot;,quot;&lt;pre&gt;
+&lt;em&gt;Blacklist Report Deviations:&lt;/em&gt;&lt;/pre&gt;
+quot;quot;frquot;,quot;&lt;pre&gt;
+&lt;em&gt;Blacklist Report Deviations:&lt;/em&gt;&lt;/pre&gt;
+quot;quot;jaquot;,quot;&lt;pre&gt;
+&lt;em&gt;Blacklist Report Deviations:&lt;/em&gt;&lt;/pre&gt;
+quot;quot;ptquot;,quot;&lt;pre&gt;
+&lt;em&gt;Blacklist Report Deviations:&lt;/em&gt;&lt;/pre&gt;
+quot;quot;zhquot;,quot;&lt;pre&gt;
+&lt;em&gt;Blacklist Report Deviations:&lt;/em&gt;&lt;/pre&gt;
+quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
+</field>
 <dataHolder inputId="in_incidentBasicDetails" name="#0000A0" type="dataModelerEntry" outId="out_incidentBasicDetails" value="madhu.lospoc.IncidentBasicDetails" id="incidentBasicDetails"/>
 </form>
