@@ -314,31 +314,31 @@
 <property name="outputBinding" value="out_dgmBlackListCheck/blackListDesc1"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="29" name="blackListCheck_blackListDeviationStatus1" type="InputText" id="347511466">
+<field position="29" name="dgmBlackListCheck_blackListDeviationStatus1" type="InputText" id="347511466">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Deviation Statusquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Deviation Statusquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="rangeFormula" value="{,;Yes,Yes;No,No}"/>
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
-<property name="inputBinding" value="in_blackListCheck/blackListDeviationStatus1"/>
-<property name="outputBinding" value="out_blackListCheck/blackListDeviationStatus1"/>
+<property name="inputBinding" value="in_dgmBlackListCheck/blackListDeviationStatus1"/>
+<property name="outputBinding" value="out_dgmBlackListCheck/blackListDeviationStatus1"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="30" name="blackListCheck_blackListDeviationDesc1" type="InputTextArea" id="839072307">
+<field position="30" name="dgmBlackListCheck_blackListDeviationDesc1" type="InputTextArea" id="839072307">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Deviation Descriptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Deviation Descriptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
-<property name="inputBinding" value="in_blackListCheck/blackListDeviationDesc1"/>
-<property name="outputBinding" value="out_blackListCheck/blackListDeviationDesc1"/>
+<property name="inputBinding" value="in_dgmBlackListCheck/blackListDeviationDesc1"/>
+<property name="outputBinding" value="out_dgmBlackListCheck/blackListDeviationDesc1"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <field position="31" name=":decorator_8" type="HTMLLabel" id="797948422">
@@ -400,31 +400,31 @@
 <property name="outputBinding" value="out_dgmBlackListCheck/blackListDesc2"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="36" name="blackListCheck_blackListDeviationStatus2" type="InputText" id="1867510709">
+<field position="36" name="dgmBlackListCheck_blackListDeviationStatus2" type="InputText" id="1867510709">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Deviation Statusquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Deviation Statusquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="rangeFormula" value="{,;Yes,Yes;No,No}"/>
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
-<property name="inputBinding" value="in_blackListCheck/blackListDeviationStatus2"/>
-<property name="outputBinding" value="out_blackListCheck/blackListDeviationStatus2"/>
+<property name="inputBinding" value="in_dgmBlackListCheck/blackListDeviationStatus2"/>
+<property name="outputBinding" value="out_dgmBlackListCheck/blackListDeviationStatus2"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="37" name="blackListCheck_blackListDeviationDesc2" type="InputTextArea" id="1450270482">
+<field position="37" name="dgmBlackListCheck_blackListDeviationDesc2" type="InputTextArea" id="1450270482">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Deviation Descriptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Deviation Descriptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
-<property name="inputBinding" value="in_blackListCheck/blackListDeviationDesc2"/>
-<property name="outputBinding" value="out_blackListCheck/blackListDeviationDesc2"/>
+<property name="inputBinding" value="in_dgmBlackListCheck/blackListDeviationDesc2"/>
+<property name="outputBinding" value="out_dgmBlackListCheck/blackListDeviationDesc2"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <field position="38" name=":decorator_9" type="HTMLLabel" id="643841477">
@@ -486,31 +486,31 @@
 <property name="outputBinding" value="out_dgmBlackListCheck/blackListDesc3"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="43" name="blackListCheck_blackListDeviationStatus3" type="InputText" id="1838648277">
+<field position="43" name="dgmBlackListCheck_blackListDeviationStatus3" type="InputText" id="1838648277">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Deviation Statusquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Deviation Statusquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="rangeFormula" value="{,;Yes,Yes;No,No}"/>
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
-<property name="inputBinding" value="in_blackListCheck/blackListDeviationStatus3"/>
-<property name="outputBinding" value="out_blackListCheck/blackListDeviationStatus3"/>
+<property name="inputBinding" value="in_dgmBlackListCheck/blackListDeviationStatus3"/>
+<property name="outputBinding" value="out_dgmBlackListCheck/blackListDeviationStatus3"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="44" name="blackListCheck_blackListDeviationDesc3" type="InputTextArea" id="961649798">
+<field position="44" name="dgmBlackListCheck_blackListDeviationDesc3" type="InputTextArea" id="961649798">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Deviation Descriptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Deviation Descriptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
-<property name="inputBinding" value="in_blackListCheck/blackListDeviationDesc3"/>
-<property name="outputBinding" value="out_blackListCheck/blackListDeviationDesc3"/>
+<property name="inputBinding" value="in_dgmBlackListCheck/blackListDeviationDesc3"/>
+<property name="outputBinding" value="out_dgmBlackListCheck/blackListDeviationDesc3"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <field position="45" name=":decorator_10" type="HTMLLabel" id="1984279553">
@@ -559,44 +559,44 @@
 <property name="inputBinding" value="in_dgmBlackListCheck/blackListAmt4"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="49" name="blackListCheck_blackListDesc4" type="InputText" id="5917221">
+<field position="49" name="dgmBlackListCheck_blackListDesc4" type="InputText" id="5917221">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Blacklist Descriptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Blacklist Descriptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="true"/>
 <property name="isHTML" value="true"/>
 <property name="hideContent" value="false"/>
-<property name="inputBinding" value="in_blackListCheck/blackListDesc4"/>
-<property name="outputBinding" value="out_blackListCheck/blackListDesc4"/>
+<property name="inputBinding" value="in_dgmBlackListCheck/blackListDesc4"/>
+<property name="outputBinding" value="out_dgmBlackListCheck/blackListDesc4"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="50" name="blackListCheck_blackListDeviationStatus4" type="InputText" id="1280105621">
+<field position="50" name="dgmBlackListCheck_blackListDeviationStatus4" type="InputText" id="1280105621">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Deviation Statusquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Deviation Statusquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="rangeFormula" value="{,;Yes,Yes;No,No}"/>
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
-<property name="inputBinding" value="in_blackListCheck/blackListDeviationStatus4"/>
-<property name="outputBinding" value="out_blackListCheck/blackListDeviationStatus4"/>
+<property name="inputBinding" value="in_dgmBlackListCheck/blackListDeviationStatus4"/>
+<property name="outputBinding" value="out_dgmBlackListCheck/blackListDeviationStatus4"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="51" name="blackListCheck_blackListDeviationDesc4" type="InputTextArea" id="1291592468">
+<field position="51" name="dgmBlackListCheck_blackListDeviationDesc4" type="InputTextArea" id="1291592468">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Deviation Descriptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Deviation Descriptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
-<property name="inputBinding" value="in_blackListCheck/blackListDeviationDesc4"/>
-<property name="outputBinding" value="out_blackListCheck/blackListDeviationDesc4"/>
+<property name="inputBinding" value="in_dgmBlackListCheck/blackListDeviationDesc4"/>
+<property name="outputBinding" value="out_dgmBlackListCheck/blackListDeviationDesc4"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <field position="52" name=":decorator_11" type="HTMLLabel" id="413363582">
@@ -645,44 +645,44 @@
 <property name="inputBinding" value="in_dgmBlackListCheck/blackListAmt5"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="56" name="blackListCheck_blackListDesc5" type="InputText" id="39881833">
+<field position="56" name="dgmBlackListCheck_blackListDesc5" type="InputText" id="39881833">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Blacklist Descriptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Blacklist Descriptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="true"/>
 <property name="isHTML" value="true"/>
 <property name="hideContent" value="false"/>
-<property name="inputBinding" value="in_blackListCheck/blackListDesc5"/>
-<property name="outputBinding" value="out_blackListCheck/blackListDesc5"/>
+<property name="inputBinding" value="in_dgmBlackListCheck/blackListDesc5"/>
+<property name="outputBinding" value="out_dgmBlackListCheck/blackListDesc5"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="57" name="blackListCheck_blackListDeviationStatus5" type="InputText" id="785663515">
+<field position="57" name="dgmBlackListCheck_blackListDeviationStatus5" type="InputText" id="785663515">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Deviation Statusquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Deviation Statusquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="rangeFormula" value="{,;Yes,Yes;No,No}"/>
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
-<property name="inputBinding" value="in_blackListCheck/blackListDeviationStatus5"/>
-<property name="outputBinding" value="out_blackListCheck/blackListDeviationStatus5"/>
+<property name="inputBinding" value="in_dgmBlackListCheck/blackListDeviationStatus5"/>
+<property name="outputBinding" value="out_dgmBlackListCheck/blackListDeviationStatus5"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="58" name="blackListCheck_blackListDeviationDesc5" type="InputTextArea" id="215328789">
+<field position="58" name="dgmBlackListCheck_blackListDeviationDesc5" type="InputTextArea" id="215328789">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Deviation Descriptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Deviation Descriptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
-<property name="inputBinding" value="in_blackListCheck/blackListDeviationDesc5"/>
-<property name="outputBinding" value="out_blackListCheck/blackListDeviationDesc5"/>
+<property name="inputBinding" value="in_dgmBlackListCheck/blackListDeviationDesc5"/>
+<property name="outputBinding" value="out_dgmBlackListCheck/blackListDeviationDesc5"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <dataHolder inputId="in_dgmBlackListCheck" name="#0000A0" type="dataModelerEntry" outId="out_dgmBlackListCheck" value="madhu.lospoc.BlackListCheckInformation" id="dgmBlackListCheck"/>
