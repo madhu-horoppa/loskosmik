@@ -52,7 +52,7 @@ public class VehicleDetails implements java.io.Serializable
    private java.lang.String vehicleDealerLocation;
 
    @org.kie.api.definition.type.Label("Year of Model")
-   private java.lang.Integer vehicleYearOfModel;
+   private String vehicleYearOfModel;
 
    private java.lang.Long processInstanceID;
 
@@ -192,16 +192,6 @@ public class VehicleDetails implements java.io.Serializable
       this.vehicleDealerLocation = vehicleDealerLocation;
    }
 
-   public java.lang.Integer getVehicleYearOfModel()
-   {
-      return this.vehicleYearOfModel;
-   }
-
-   public void setVehicleYearOfModel(java.lang.Integer vehicleYearOfModel)
-   {
-      this.vehicleYearOfModel = vehicleYearOfModel;
-   }
-
    public java.lang.Long getProcessInstanceID()
    {
       return this.processInstanceID;
@@ -210,6 +200,16 @@ public class VehicleDetails implements java.io.Serializable
    public void setProcessInstanceID(java.lang.Long processInstanceID)
    {
       this.processInstanceID = processInstanceID;
+   }
+
+   public java.lang.String getVehicleYearOfModel()
+   {
+      return this.vehicleYearOfModel;
+   }
+
+   public void setVehicleYearOfModel(java.lang.String vehicleYearOfModel)
+   {
+      this.vehicleYearOfModel = vehicleYearOfModel;
    }
 
    public VehicleDetails(java.lang.Long id, java.lang.String vehicleChasisNo,
@@ -221,7 +221,7 @@ public class VehicleDetails implements java.io.Serializable
          java.lang.String vehicleMake, java.lang.String vehicleModel,
          java.lang.Double vehiclePrice, java.lang.String vehicleSupplier,
          java.lang.String vehicleType, java.lang.String vehicleDealerLocation,
-         java.lang.Integer vehicleYearOfModel, java.lang.Long processInstanceID)
+         java.lang.String vehicleYearOfModel, java.lang.Long processInstanceID)
    {
       this.id = id;
       this.vehicleChasisNo = vehicleChasisNo;
