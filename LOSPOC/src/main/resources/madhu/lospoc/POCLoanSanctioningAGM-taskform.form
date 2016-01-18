@@ -1516,12 +1516,6 @@
 <property name="outputBinding" value="out_technicalReportDescription"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="132" name="1489408571" type="InputText" id="1489408571">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;InputText132quot;"/>
-<property name="readonly" value="false"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
 <dataHolder inputId="in_blackListCheck" name="#0000A0" type="dataModelerEntry" outId="out_blackListCheck" value="madhu.lospoc.BlackListCheckInformation" id="blackListCheck"/>
 <dataHolder inputId="in_customerDetails" name="#0000A0" type="dataModelerEntry" outId="out_customerDetails" value="madhu.lospoc.CustomerDetails" id="customerDetails"/>
 <dataHolder inputId="in_incidentBasicDetails" name="#0000A0" type="dataModelerEntry" outId="out_incidentBasicDetails" value="madhu.lospoc.IncidentBasicDetails" id="incidentBasicDetails"/>
