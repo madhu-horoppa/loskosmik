@@ -199,6 +199,19 @@
 <property name="customFieldType" value="org.jbpm.formModeler.core.fieldTypes.file.FileCustomType"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
+<field position="18" name="dgmTechnicalReportDesc" type="InputText" id="616861253">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Technical Report Descriptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="isHTML" value="true"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="in_dgmTechnicalReportDesc"/>
+<property name="outputBinding" value="out_dgmTechnicalReportDesc"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
 <field position="19" name="dgmTechnicalReportsStatus" type="InputText" id="1765991852">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
@@ -670,19 +683,6 @@
 <property name="hideContent" value="false"/>
 <property name="inputBinding" value="in_dgmBlackListCheck/blackListDeviationDesc5"/>
 <property name="outputBinding" value="out_dgmBlackListCheck/blackListDeviationDesc5"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="18" name="dgmTechnicalReportDescription" type="InputText" id="616861253">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Technical Report Descriptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="readonly" value="true"/>
-<property name="isHTML" value="true"/>
-<property name="hideContent" value="false"/>
-<property name="inputBinding" value="in_dgmTechnicalReportDescription"/>
-<property name="outputBinding" value="out_dgmTechnicalReportDescription"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <dataHolder inputId="in_dgmBlackListCheck" name="#0000A0" type="dataModelerEntry" outId="out_dgmBlackListCheck" value="madhu.lospoc.BlackListCheckInformation" id="dgmBlackListCheck"/>
