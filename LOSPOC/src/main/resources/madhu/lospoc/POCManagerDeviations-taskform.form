@@ -120,14 +120,7 @@
 <property name="outputBinding" value="out_managerProposedAmountStatus"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="11" name=":decorator_3" type="HTMLLabel" id="1957067018">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="true"/>
-<property name="readonly" value="false"/>
-<property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;dequot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;enquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;esquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;frquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;jaquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;ptquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;zhquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;"/>
-<property name="fieldClass" value="HTMLlabel"/>
-</field>
-<field position="12" name="managerProposedAmountDescription" type="InputTextArea" id="539479867">
+<field position="11" name="managerProposedAmountDescription" type="InputTextArea" id="539479867">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Descriptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -139,14 +132,14 @@
 <property name="outputBinding" value="out_managerProposedAmountDescription"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="13" name=":decorator_6" type="HTMLLabel" id="958787662">
+<field position="12" name=":decorator_6" type="HTMLLabel" id="958787662">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="readonly" value="false"/>
 <property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;&lt;em&gt;Loan Term Deviation&lt;/em&gt;:&lt;/p&gt; quot;quot;dequot;,quot;&lt;p&gt;&lt;em&gt;Loan Term Deviation&lt;/em&gt;:&lt;/p&gt; quot;quot;enquot;,quot;&lt;p&gt;&lt;em&gt;Loan Term Deviation&lt;/em&gt;:&lt;/p&gt; quot;quot;esquot;,quot;&lt;p&gt;&lt;em&gt;Loan Term Deviation&lt;/em&gt;:&lt;/p&gt; quot;quot;frquot;,quot;&lt;p&gt;&lt;em&gt;Loan Term Deviation&lt;/em&gt;:&lt;/p&gt; quot;quot;jaquot;,quot;&lt;p&gt;&lt;em&gt;Loan Term Deviation&lt;/em&gt;:&lt;/p&gt; quot;quot;ptquot;,quot;&lt;p&gt;&lt;em&gt;Loan Term Deviation&lt;/em&gt;:&lt;/p&gt; quot;quot;zhquot;,quot;&lt;p&gt;&lt;em&gt;Loan Term Deviation&lt;/em&gt;:&lt;/p&gt; quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
-<field position="14" name="managerCandidateAge" type="InputText" id="944820025">
+<field position="13" name="managerCandidateAge" type="InputText" id="944820025">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Agequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -158,7 +151,7 @@
 <property name="inputBinding" value="in_managerCandidateAge"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="15" name="managerCandidateAgeTerm" type="InputText" id="668249281">
+<field position="14" name="managerCandidateAgeTerm" type="InputText" id="668249281">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Termquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -170,9 +163,9 @@
 <property name="inputBinding" value="in_managerCandidateAgeTerm"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="16" name="managerCandidateAgeStatus" type="InputText" id="1873754429">
+<field position="15" name="managerCandidateAgeStatus" type="InputText" id="1873754429">
 <property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="true"/>
+<property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Statusquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -184,8 +177,9 @@
 <property name="outputBinding" value="out_managerCandidateAgeStatus"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="17" name="managerCandidateAgeDescription" type="InputTextArea" id="531152265">
+<field position="16" name="managerCandidateAgeDescription" type="InputTextArea" id="531152265">
 <property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Descriptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -195,14 +189,14 @@
 <property name="outputBinding" value="out_managerCandidateAgeDescription"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="18" name=":decorator_7" type="HTMLLabel" id="1870606331">
+<field position="17" name=":decorator_7" type="HTMLLabel" id="1870606331">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="readonly" value="false"/>
 <property name="htmlContent" value="quot;caquot;,quot;&lt;pre&gt; &lt;em&gt;Technical Report Deviation:&lt;/em&gt;&lt;/pre&gt; quot;quot;dequot;,quot;&lt;pre&gt; &lt;em&gt;Technical Report Deviation:&lt;/em&gt;&lt;/pre&gt; quot;quot;enquot;,quot;&lt;pre&gt; &lt;em&gt;Technical Report Deviation:&lt;/em&gt;&lt;/pre&gt; quot;quot;esquot;,quot;&lt;pre&gt; &lt;em&gt;Technical Report Deviation:&lt;/em&gt;&lt;/pre&gt; quot;quot;frquot;,quot;&lt;pre&gt; &lt;em&gt;Technical Report Deviation:&lt;/em&gt;&lt;/pre&gt; quot;quot;jaquot;,quot;&lt;pre&gt; &lt;em&gt;Technical Report Deviation:&lt;/em&gt;&lt;/pre&gt; quot;quot;ptquot;,quot;&lt;pre&gt; &lt;em&gt;Technical Report Deviation:&lt;/em&gt;&lt;/pre&gt; quot;quot;zhquot;,quot;&lt;pre&gt; &lt;em&gt;Technical Report Deviation:&lt;/em&gt;&lt;/pre&gt; quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
-<field position="19" name="managerTechnicalReports" type="CustomInput" id="1963417192">
+<field position="18" name="managerTechnicalReports" type="CustomInput" id="1963417192">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;TechnicalReportsquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -216,7 +210,20 @@
 <property name="customFieldType" value="org.jbpm.formModeler.core.fieldTypes.file.FileCustomType"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="21" name="managerTechnicalReportsStatus" type="InputText" id="1345192911">
+<field position="19" name="managerTechnicalReportDesc" type="InputText" id="1485411941">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Technical Report Descriptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="isHTML" value="true"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="in_managerTechnicalReportDesc"/>
+<property name="outputBinding" value="out_managerTechnicalReportDesc"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="20" name="managerTechnicalReportsStatus" type="InputText" id="1345192911">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Statusquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -230,10 +237,10 @@
 <property name="outputBinding" value="out_managerTechnicalReportsStatus"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="22" name="managerTechnicalReportsDescription" type="InputTextArea" id="1094429101">
+<field position="21" name="managerTechnicalReportsDescription" type="InputTextArea" id="1094429101">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Descriptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Descriptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
@@ -242,7 +249,7 @@
 <property name="outputBinding" value="out_managerTechnicalReportsDescription"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="23" name="managerTechnicalReportDoc" type="CustomInput" id="1847656219">
+<field position="22" name="managerTechnicalReportDoc" type="CustomInput" id="1847656219">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Technical Report Documentquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -252,20 +259,20 @@
 <property name="customFieldType" value="org.jbpm.formModeler.core.fieldTypes.file.FileCustomType"/>
 <property name="fieldClass" value="org.jbpm.document.Document"/>
 </field>
-<field position="24" name=":decorator_8" type="HTMLLabel" id="1531494803">
+<field position="23" name=":decorator_8" type="HTMLLabel" id="1531494803">
 <property name="fieldRequired" value="false"/>
 <property name="readonly" value="false"/>
 <property name="htmlContent" value="quot;caquot;,quot;&lt;pre&gt; &lt;em&gt;Blacklist Report Deviations:&lt;/em&gt;&lt;/pre&gt; quot;quot;dequot;,quot;&lt;pre&gt; &lt;em&gt;Blacklist Report Deviations:&lt;/em&gt;&lt;/pre&gt; quot;quot;enquot;,quot;&lt;pre&gt; &lt;em&gt;Blacklist Report Deviations:&lt;/em&gt;&lt;/pre&gt; quot;quot;esquot;,quot;&lt;pre&gt; &lt;em&gt;Blacklist Report Deviations:&lt;/em&gt;&lt;/pre&gt; quot;quot;frquot;,quot;&lt;pre&gt; &lt;em&gt;Blacklist Report Deviations:&lt;/em&gt;&lt;/pre&gt; quot;quot;jaquot;,quot;&lt;pre&gt; &lt;em&gt;Blacklist Report Deviations:&lt;/em&gt;&lt;/pre&gt; quot;quot;ptquot;,quot;&lt;pre&gt; &lt;em&gt;Blacklist Report Deviations:&lt;/em&gt;&lt;/pre&gt; quot;quot;zhquot;,quot;&lt;pre&gt; &lt;em&gt;Blacklist Report Deviations:&lt;/em&gt;&lt;/pre&gt; quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
-<field position="25" name=":decorator_9" type="HTMLLabel" id="1919635459">
+<field position="24" name=":decorator_9" type="HTMLLabel" id="1919635459">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="readonly" value="false"/>
 <property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;(1)&lt;/p&gt; quot;quot;dequot;,quot;&lt;p&gt;(1)&lt;/p&gt; quot;quot;enquot;,quot;&lt;p&gt;(1)&lt;/p&gt; quot;quot;esquot;,quot;&lt;p&gt;(1)&lt;/p&gt; quot;quot;frquot;,quot;&lt;p&gt;(1)&lt;/p&gt; quot;quot;jaquot;,quot;&lt;p&gt;(1)&lt;/p&gt; quot;quot;ptquot;,quot;&lt;p&gt;(1)&lt;/p&gt; quot;quot;zhquot;,quot;&lt;p&gt;(1)&lt;/p&gt; quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
-<field position="26" name="managerBlackListCheck_blackListDoc1" type="CustomInput" id="753534036">
+<field position="25" name="managerBlackListCheck_blackListDoc1" type="CustomInput" id="753534036">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Blacklist Documentquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -279,7 +286,7 @@
 <property name="customFieldType" value="org.jbpm.formModeler.core.fieldTypes.file.FileCustomType"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="27" name="managerBlackListCheck_blackListType1" type="InputText" id="745450453">
+<field position="26" name="managerBlackListCheck_blackListType1" type="InputText" id="745450453">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Blacklist Typequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -292,7 +299,7 @@
 <property name="outputBinding" value="out_managerBlackListCheck/blackListType1"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="28" name="managerBlackListCheck_blackListAmt1" type="InputText" id="559895309">
+<field position="27" name="managerBlackListCheck_blackListAmt1" type="InputText" id="559895309">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Blacklist Amountquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -304,7 +311,7 @@
 <property name="inputBinding" value="in_managerBlackListCheck/blackListAmt1"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="29" name="managerBlackListCheck_blackListDesc1" type="InputText" id="1486844504">
+<field position="28" name="managerBlackListCheck_blackListDesc1" type="InputText" id="1486844504">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Blacklist Descriptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -317,7 +324,7 @@
 <property name="outputBinding" value="out_managerBlackListCheck/blackListDesc1"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="30" name="managerBlackListCheck_blackListDeviationStatus1" type="InputText" id="1494731465">
+<field position="29" name="managerBlackListCheck_blackListDeviationStatus1" type="InputText" id="1494731465">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Deviation Statusquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -331,7 +338,7 @@
 <property name="outputBinding" value="out_managerBlackListCheck/blackListDeviationStatus1"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="31" name="managerBlackListCheck_blackListDeviationDesc1" type="InputTextArea" id="506041990">
+<field position="30" name="managerBlackListCheck_blackListDeviationDesc1" type="InputTextArea" id="506041990">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Deviation Descriptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -344,14 +351,14 @@
 <property name="outputBinding" value="out_managerBlackListCheck/blackListDeviationDesc1"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="32" name=":decorator_10" type="HTMLLabel" id="13648139">
+<field position="31" name=":decorator_10" type="HTMLLabel" id="13648139">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="readonly" value="false"/>
 <property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;(2)&lt;/p&gt; quot;quot;dequot;,quot;&lt;p&gt;(2)&lt;/p&gt; quot;quot;enquot;,quot;&lt;p&gt;(2)&lt;/p&gt; quot;quot;esquot;,quot;&lt;p&gt;(2)&lt;/p&gt; quot;quot;frquot;,quot;&lt;p&gt;(2)&lt;/p&gt; quot;quot;jaquot;,quot;&lt;p&gt;(2)&lt;/p&gt; quot;quot;ptquot;,quot;&lt;p&gt;(2)&lt;/p&gt; quot;quot;zhquot;,quot;&lt;p&gt;(2)&lt;/p&gt; quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
-<field position="33" name="managerBlackListCheck_blackListDoc2" type="CustomInput" id="690133415">
+<field position="32" name="managerBlackListCheck_blackListDoc2" type="CustomInput" id="690133415">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Blacklist Documentquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -365,7 +372,7 @@
 <property name="customFieldType" value="org.jbpm.formModeler.core.fieldTypes.file.FileCustomType"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="34" name="managerBlackListCheck_blackListType2" type="InputText" id="1560461552">
+<field position="33" name="managerBlackListCheck_blackListType2" type="InputText" id="1560461552">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Blacklist Typequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -378,7 +385,7 @@
 <property name="outputBinding" value="out_managerBlackListCheck/blackListType2"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="35" name="managerBlackListCheck_blackListAmt2" type="InputText" id="1223071159">
+<field position="34" name="managerBlackListCheck_blackListAmt2" type="InputText" id="1223071159">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Blacklist Amountquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -390,7 +397,7 @@
 <property name="inputBinding" value="in_managerBlackListCheck/blackListAmt2"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="36" name="managerBlackListCheck_blackListDesc2" type="InputText" id="1518695931">
+<field position="35" name="managerBlackListCheck_blackListDesc2" type="InputText" id="1518695931">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Blacklist Descriptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -403,7 +410,7 @@
 <property name="outputBinding" value="out_managerBlackListCheck/blackListDesc2"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="37" name="managerBlackListCheck_blackListDeviationStatus2" type="InputText" id="2098096193">
+<field position="36" name="managerBlackListCheck_blackListDeviationStatus2" type="InputText" id="2098096193">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Deviation Statusquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -417,7 +424,7 @@
 <property name="outputBinding" value="out_managerBlackListCheck/blackListDeviationStatus2"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="38" name="managerBlackListCheck_blackListDeviationDesc2" type="InputTextArea" id="1541042935">
+<field position="37" name="managerBlackListCheck_blackListDeviationDesc2" type="InputTextArea" id="1541042935">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Deviation Descriptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -430,14 +437,14 @@
 <property name="outputBinding" value="out_managerBlackListCheck/blackListDeviationDesc2"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="39" name=":decorator_11" type="HTMLLabel" id="1076392147">
+<field position="38" name=":decorator_11" type="HTMLLabel" id="1076392147">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="readonly" value="false"/>
 <property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;(3)&lt;/p&gt; quot;quot;dequot;,quot;&lt;p&gt;(3)&lt;/p&gt; quot;quot;enquot;,quot;&lt;p&gt;(3)&lt;/p&gt; quot;quot;esquot;,quot;&lt;p&gt;(3)&lt;/p&gt; quot;quot;frquot;,quot;&lt;p&gt;(3)&lt;/p&gt; quot;quot;jaquot;,quot;&lt;p&gt;(3)&lt;/p&gt; quot;quot;ptquot;,quot;&lt;p&gt;(3)&lt;/p&gt; quot;quot;zhquot;,quot;&lt;p&gt;(3)&lt;/p&gt; quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
-<field position="40" name="managerBlackListCheck_blackListDoc3" type="CustomInput" id="1791999196">
+<field position="39" name="managerBlackListCheck_blackListDoc3" type="CustomInput" id="1791999196">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Blacklist Documentquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -451,7 +458,7 @@
 <property name="customFieldType" value="org.jbpm.formModeler.core.fieldTypes.file.FileCustomType"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="41" name="managerBlackListCheck_blackListType3" type="InputText" id="1906084347">
+<field position="40" name="managerBlackListCheck_blackListType3" type="InputText" id="1906084347">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Blacklist Typequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -464,7 +471,7 @@
 <property name="outputBinding" value="out_managerBlackListCheck/blackListType3"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="42" name="managerBlackListCheck_blackListAmt3" type="InputText" id="1051969144">
+<field position="41" name="managerBlackListCheck_blackListAmt3" type="InputText" id="1051969144">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Blacklist Amountquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -476,7 +483,7 @@
 <property name="inputBinding" value="in_managerBlackListCheck/blackListAmt3"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="43" name="managerBlackListCheck_blackListDesc3" type="InputText" id="1458329474">
+<field position="42" name="managerBlackListCheck_blackListDesc3" type="InputText" id="1458329474">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Blacklist Descriptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -489,7 +496,7 @@
 <property name="outputBinding" value="out_managerBlackListCheck/blackListDesc3"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="44" name="managerBlackListCheck_blackListDeviationStatus3" type="InputText" id="1686113381">
+<field position="43" name="managerBlackListCheck_blackListDeviationStatus3" type="InputText" id="1686113381">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Deviation Statusquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -503,7 +510,7 @@
 <property name="outputBinding" value="out_managerBlackListCheck/blackListDeviationStatus3"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="45" name="managerBlackListCheck_blackListDeviationDesc3" type="InputTextArea" id="208297726">
+<field position="44" name="managerBlackListCheck_blackListDeviationDesc3" type="InputTextArea" id="208297726">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Deviation Descriptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -516,14 +523,14 @@
 <property name="outputBinding" value="out_managerBlackListCheck/blackListDeviationDesc3"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="46" name=":decorator_12" type="HTMLLabel" id="687112511">
+<field position="45" name=":decorator_12" type="HTMLLabel" id="687112511">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="readonly" value="false"/>
 <property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;(4)&lt;/p&gt; quot;quot;dequot;,quot;&lt;p&gt;(4)&lt;/p&gt; quot;quot;enquot;,quot;&lt;p&gt;(4)&lt;/p&gt; quot;quot;esquot;,quot;&lt;p&gt;(4)&lt;/p&gt; quot;quot;frquot;,quot;&lt;p&gt;(4)&lt;/p&gt; quot;quot;jaquot;,quot;&lt;p&gt;(4)&lt;/p&gt; quot;quot;ptquot;,quot;&lt;p&gt;(4)&lt;/p&gt; quot;quot;zhquot;,quot;&lt;p&gt;(4)&lt;/p&gt; quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
-<field position="47" name="managerBlackListCheck_blackListDoc4" type="CustomInput" id="1639652293">
+<field position="46" name="managerBlackListCheck_blackListDoc4" type="CustomInput" id="1639652293">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Blacklist Documentquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -537,7 +544,7 @@
 <property name="customFieldType" value="org.jbpm.formModeler.core.fieldTypes.file.FileCustomType"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="48" name="managerBlackListCheck_blackListType4" type="InputText" id="149693999">
+<field position="47" name="managerBlackListCheck_blackListType4" type="InputText" id="149693999">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Blacklist Typequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -550,7 +557,7 @@
 <property name="outputBinding" value="out_managerBlackListCheck/blackListType4"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="49" name="managerBlackListCheck_blackListAmt4" type="InputText" id="1832279938">
+<field position="48" name="managerBlackListCheck_blackListAmt4" type="InputText" id="1832279938">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Blacklist Amountquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -562,7 +569,7 @@
 <property name="inputBinding" value="in_managerBlackListCheck/blackListAmt4"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="50" name="managerBlackListCheck_blackListDesc4" type="InputText" id="1566666714">
+<field position="49" name="managerBlackListCheck_blackListDesc4" type="InputText" id="1566666714">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Blacklist Descriptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -575,7 +582,7 @@
 <property name="outputBinding" value="out_managerBlackListCheck/blackListDesc4"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="51" name="managerBlackListCheck_blackListDeviationStatus4" type="InputText" id="421248384">
+<field position="50" name="managerBlackListCheck_blackListDeviationStatus4" type="InputText" id="421248384">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Deviation Statusquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -589,7 +596,7 @@
 <property name="outputBinding" value="out_managerBlackListCheck/blackListDeviationStatus4"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="52" name="managerBlackListCheck_blackListDeviationDesc4" type="InputTextArea" id="1263604243">
+<field position="51" name="managerBlackListCheck_blackListDeviationDesc4" type="InputTextArea" id="1263604243">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Deviation Descriptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -602,14 +609,14 @@
 <property name="outputBinding" value="out_managerBlackListCheck/blackListDeviationDesc4"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="53" name=":decorator_13" type="HTMLLabel" id="925492324">
+<field position="52" name=":decorator_13" type="HTMLLabel" id="925492324">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="readonly" value="false"/>
 <property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;(5)&lt;/p&gt; quot;quot;dequot;,quot;&lt;p&gt;(5)&lt;/p&gt; quot;quot;enquot;,quot;&lt;p&gt;(5)&lt;/p&gt; quot;quot;esquot;,quot;&lt;p&gt;(5)&lt;/p&gt; quot;quot;frquot;,quot;&lt;p&gt;(5)&lt;/p&gt; quot;quot;jaquot;,quot;&lt;p&gt;(5)&lt;/p&gt; quot;quot;ptquot;,quot;&lt;p&gt;(5)&lt;/p&gt; quot;quot;zhquot;,quot;&lt;p&gt;(5)&lt;/p&gt; quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
-<field position="54" name="managerBlackListCheck_blackListDoc5" type="CustomInput" id="677600037">
+<field position="53" name="managerBlackListCheck_blackListDoc5" type="CustomInput" id="677600037">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Blacklist Documentquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -623,7 +630,7 @@
 <property name="customFieldType" value="org.jbpm.formModeler.core.fieldTypes.file.FileCustomType"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="55" name="managerBlackListCheck_blackListType5" type="InputText" id="1588397382">
+<field position="54" name="managerBlackListCheck_blackListType5" type="InputText" id="1588397382">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Blacklist Typequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -636,7 +643,7 @@
 <property name="outputBinding" value="out_managerBlackListCheck/blackListType5"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="56" name="managerBlackListCheck_blackListAmt5" type="InputText" id="1443424335">
+<field position="55" name="managerBlackListCheck_blackListAmt5" type="InputText" id="1443424335">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Blacklist Amountquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -648,7 +655,7 @@
 <property name="inputBinding" value="in_managerBlackListCheck/blackListAmt5"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="57" name="managerBlackListCheck_blackListDesc5" type="InputText" id="652210907">
+<field position="56" name="managerBlackListCheck_blackListDesc5" type="InputText" id="652210907">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Blacklist Descriptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -661,7 +668,7 @@
 <property name="outputBinding" value="out_managerBlackListCheck/blackListDesc5"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="58" name="managerBlackListCheck_blackListDeviationStatus5" type="InputText" id="1684849613">
+<field position="57" name="managerBlackListCheck_blackListDeviationStatus5" type="InputText" id="1684849613">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Deviation Statusquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -675,7 +682,7 @@
 <property name="outputBinding" value="out_managerBlackListCheck/blackListDeviationStatus5"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="59" name="managerBlackListCheck_blackListDeviationDesc5" type="InputTextArea" id="1611912742">
+<field position="58" name="managerBlackListCheck_blackListDeviationDesc5" type="InputTextArea" id="1611912742">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Deviation Descriptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -686,19 +693,6 @@
 <property name="hideContent" value="false"/>
 <property name="inputBinding" value="in_managerBlackListCheck/blackListDeviationDesc5"/>
 <property name="outputBinding" value="out_managerBlackListCheck/blackListDeviationDesc5"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="20" name="managerTechnicalReportDescription" type="InputText" id="1485411941">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Technical Report Descriptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="readonly" value="true"/>
-<property name="isHTML" value="true"/>
-<property name="hideContent" value="false"/>
-<property name="inputBinding" value="in_managerTechnicalReportDescription"/>
-<property name="outputBinding" value="out_managerTechnicalReportDescription"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <dataHolder inputId="in_incidentBasicDetails" name="#0000A0" type="dataModelerEntry" outId="out_incidentBasicDetails" value="madhu.lospoc.IncidentBasicDetails" id="incidentBasicDetails"/>
