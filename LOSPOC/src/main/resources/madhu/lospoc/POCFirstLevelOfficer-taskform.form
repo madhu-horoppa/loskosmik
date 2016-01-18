@@ -627,7 +627,7 @@ alert(amlStatus);
 if(amlStatus==&quot;No&quot;) {
 document.getElementById(&quot;applicantAMLDescription&quot;).style.display=&quot;none&quot;;
 } else {
-document.getElementById(&quot;applicantAMLDescription&quot;).style.display=&quot;compact&quot;;
+document.getElementById(&quot;applicantAMLDescription&quot;).style.display=&quot;block&quot;;
 }"/>
 </field>
 <field position="53" name="applicantAMLDescription" type="InputTextArea" id="1798118361">
