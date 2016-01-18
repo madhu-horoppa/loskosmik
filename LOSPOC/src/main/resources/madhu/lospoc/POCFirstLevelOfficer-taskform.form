@@ -622,6 +622,13 @@
 <property name="inputBinding" value="in_applicantAMLStatus"/>
 <property name="outputBinding" value="out_applicantAMLStatus"/>
 <property name="fieldClass" value="java.lang.String"/>
+<property name="onChangeScript" value="var amlStatus=this.value;
+alert(amlStatus);
+if(amlStatus==&quot;No&quot;) {
+document.getElementById(&quot;applicantAMLDescription&quot;).style.display=&quot;none&quot;;
+} else {
+document.getElementById(&quot;applicantAMLDescription&quot;).style.display=&quot;compact&quot;;
+}"/>
 </field>
 <field position="53" name="applicantAMLDescription" type="InputTextArea" id="1798118361">
 <property name="fieldRequired" value="true"/>
