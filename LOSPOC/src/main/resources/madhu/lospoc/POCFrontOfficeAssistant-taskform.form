@@ -385,7 +385,7 @@
 <property name="inputBinding" value="in_loanDetails/loanTenorMonths"/>
 <property name="outputBinding" value="out_loanDetails/loanTenorMonths"/>
 <property name="fieldClass" value="java.lang.Integer"/>
-<property name="onChangeScript" value="var v=this.value;if(isNaN(v)){f();}else{if(0&lt;=v&amp;&amp;v&lt;12){document.getElementById(&quot;loanDetails_loanEMI&quot;).value=calculateEMI(document.getElementById(&quot;loanDetails_loanInterestRate&quot;).value,document.getElementById(&quot;loanDetails_loanProposedFinanceAmount&quot;).value,document.getElementById(&quot;loanDetails_loanTenorMonths&quot;).value,document.getElementById(&quot;loanDetails_loanTenorYears&quot;).value);}else{f();}}function f(){alert(&quot;Enter valid Term(Months) value&quot;);this.value=&apos;&apos;;}"/>
+<property name="onChangeScript" value="var v=this.value;if(isNaN(v)){f();}else{if(0&lt;=v&amp;&amp;v&lt;12){document.getElementById(&quot;loanDetails_loanEMI&quot;).value=calculateEMI(document.getElementById(&quot;loanDetails_loanInterestRate&quot;).value,document.getElementById(&quot;loanDetails_loanProposedFinanceAmount&quot;).value,document.getElementById(&quot;loanDetails_loanTenorMonths&quot;).value,document.getElementById(&quot;loanDetails_loanTenorYears&quot;).value);}else{f();}}function f(){alert(&quot;Enter valid Term(Months) value&quot;);document.getElementById(&quot;loanDetails_loanTenorMonths&quot;).value=&apos;&apos;;}"/>
 </field>
 <field position="32" name="loanDetails_loanTenorYears" type="InputTextInteger" id="1989611549">
 <property name="fieldRequired" value="true"/>
