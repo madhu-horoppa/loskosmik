@@ -328,7 +328,7 @@
 <property name="inputBinding" value="in_loanDetails/loanProposedFinanceAmount"/>
 <property name="outputBinding" value="out_loanDetails/loanProposedFinanceAmount"/>
 <property name="fieldClass" value="java.lang.Double"/>
-<property name="onChangeScript" value="document.getElementById(&quot;loanDetails_loanEMI&quot;).value=calculateEMI(document.getElementById(&quot;loanDetails_loanInterestRate&quot;).value,document.getElementById(&quot;loanDetails_loanProposedFinanceAmount&quot;).value,document.getElementById(&quot;loanDetails_loanTenorMonths&quot;).value,document.getElementById(&quot;loanDetails_loanTenorYears&quot;).value);"/>
+<property name="onChangeScript" value="var v=this.value;if(isNaN(v)){alert(&quot;Enter valid Loan Proposed/Principal amount&quot;);document.getElementById(&quot;loanDetails_loanProposedFinanceAmount&quot;).value=&apos;&apos;;}else{document.getElementById(&quot;loanDetails_loanEMI&quot;).value=calculateEMI(document.getElementById(&quot;loanDetails_loanInterestRate&quot;).value,document.getElementById(&quot;loanDetails_loanProposedFinanceAmount&quot;).value,document.getElementById(&quot;loanDetails_loanTenorMonths&quot;).value,document.getElementById(&quot;loanDetails_loanTenorYears&quot;).value);}"/>
 </field>
 <field position="27" name="loanDetails_loanDownPaymentAmount" type="InputTextDouble" id="536306523">
 <property name="fieldRequired" value="true"/>
