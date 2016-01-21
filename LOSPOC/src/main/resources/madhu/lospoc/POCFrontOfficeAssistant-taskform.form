@@ -382,26 +382,28 @@ document.getElementById(&quot;loanDetails_loanEMI&quot;).value=calculateEMI(this
 </field>
 <field position="31" name="loanDetails_loanTenorMonths" type="InputTextInteger" id="862995181">
 <property name="fieldRequired" value="true"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Tenor(Months)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Tenor(Months)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="in_loanDetails/loanTenorMonths"/>
 <property name="outputBinding" value="out_loanDetails/loanTenorMonths"/>
 <property name="fieldClass" value="java.lang.Integer"/>
-<property name="onChangeScript" value="var v=this.value;if(isNaN(v)){f();}else{if(0&lt;=v&amp;&amp;v&lt;12){document.getElementById(&quot;loanDetails_loanEMI&quot;).value=calculateEMI(document.getElementById(&quot;loanDetails_loanInterestRate&quot;).value,document.getElementById(&quot;loanDetails_loanFinanceAmount&quot;).value,this.value,document.getElementById(&quot;loanDetails_loanTenorYears&quot;).value);}else{f();}}function f(){alert(&quot;Enter valid Term(Months) value&quot;);document.getElementById(&quot;loanDetails_loanTenorMonths&quot;).value=&apos;&apos;;}"/>
+<property name="onChangeScript" value="var js=document.createElement(&quot;script&quot;);js.type=&quot;text/javascript&quot;;js.src=&quot;http://pssys100:8080/jbpm-console/formModeler/js/CustomCalculations.js&quot;;document.body.appendChild(js);
+document.getElementById(&quot;loanDetails_loanEMI&quot;).value=calculateEMI(document.getElementById(&quot;loanDetails_loanInterestRate&quot;).value,document.getElementById(&quot;loanDetails_loanFinanceAmount&quot;).value,this.value,document.getElementById(&quot;loanDetails_loanTenorYears&quot;).value);"/>
 </field>
 <field position="32" name="loanDetails_loanTenorYears" type="InputTextInteger" id="1989611549">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Tenor(Years)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Tenor(Years)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="in_loanDetails/loanTenorYears"/>
 <property name="outputBinding" value="out_loanDetails/loanTenorYears"/>
 <property name="fieldClass" value="java.lang.Integer"/>
-<property name="onChangeScript" value="var v=this.value;if(isNaN(v)){f();}else{if(0&lt;=v&amp;&amp;v&lt;36){document.getElementById(&quot;loanDetails_loanEMI&quot;).value=calculateEMI(document.getElementById(&quot;loanDetails_loanInterestRate&quot;).value,document.getElementById(&quot;loanDetails_loanFinanceAmount&quot;).value,document.getElementById(&quot;loanDetails_loanTenorMonths&quot;).value,this.value);}else{f();}}function f(){alert(&quot;Enter valid Term(Years) value&quot;);document.getElementById(&quot;loanDetails_loanTenorYears&quot;).value=&apos;&apos;;}"/>
+<property name="onChangeScript" value="var js=document.createElement(&quot;script&quot;);js.type=&quot;text/javascript&quot;;js.src=&quot;http://pssys100:8080/jbpm-console/formModeler/js/CustomCalculations.js&quot;;document.body.appendChild(js);
+document.getElementById(&quot;loanDetails_loanEMI&quot;).value=calculateEMI(document.getElementById(&quot;loanDetails_loanInterestRate&quot;).value,document.getElementById(&quot;loanDetails_loanFinanceAmount&quot;).value,document.getElementById(&quot;loanDetails_loanTenorMonths&quot;).value,this.value);"/>
 </field>
 <field position="33" name="loanDetails_loanEMI" type="InputTextDouble" id="463579610">
 <property name="fieldRequired" value="true"/>
