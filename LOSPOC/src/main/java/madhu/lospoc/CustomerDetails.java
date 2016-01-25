@@ -15,31 +15,22 @@ public class CustomerDetails implements java.io.Serializable
    @javax.persistence.SequenceGenerator(name = "CUSTOMERDETAILS_ID_GENERATOR", sequenceName = "CUSTOMERDETAILS_ID_SEQ")
    private java.lang.Long id;
 
-   @org.kie.api.definition.type.Label("Customer Name")
    private java.lang.String customerName;
 
-   @org.kie.api.definition.type.Label("Customer Number")
    private java.lang.String customerNumber;
 
-   @org.kie.api.definition.type.Label("Age")
    private java.lang.Integer customerAge;
 
-   @org.kie.api.definition.type.Label("Gender")
    private java.lang.String customerGender;
 
-   @org.kie.api.definition.type.Label("Mobile Number")
    private java.lang.String customerMobileNumber;
 
-   @org.kie.api.definition.type.Label("Monthly Salary")
    private java.lang.Double customerMonthlySalary;
 
-   @org.kie.api.definition.type.Label("Mother Maiden Name")
    private java.lang.String customerMotherMaidenName;
 
-   @org.kie.api.definition.type.Label("Nationality")
    private java.lang.String customerNationality;
 
-   @org.kie.api.definition.type.Label("Passport Number")
    private java.lang.String customerPassportNumber;
 
    private java.lang.Double ageCreditScore;
@@ -54,21 +45,15 @@ public class CustomerDetails implements java.io.Serializable
 
    private java.lang.String customerFatherName;
 
-   @org.kie.api.definition.type.Label("Date Of Birth")
    private java.util.Date customerDOB;
 
-   @org.kie.api.definition.type.Label("Email Address")
    private java.lang.String customerEmail;
 
-   @org.kie.api.definition.type.Label("National ID Number")
    private java.lang.String customerNationalID;
 
-   @org.kie.api.definition.type.Label(value = "Residence Address")
    private java.lang.String customerHomeAddress;
 
    private java.lang.String customerTelephoneNo;
-
-   private java.lang.String customerMobileNo;
 
    private java.lang.String customerHomeState;
 
@@ -291,16 +276,6 @@ public class CustomerDetails implements java.io.Serializable
       this.customerTelephoneNo = customerTelephoneNo;
    }
 
-   public java.lang.String getCustomerMobileNo()
-   {
-      return this.customerMobileNo;
-   }
-
-   public void setCustomerMobileNo(java.lang.String customerMobileNo)
-   {
-      this.customerMobileNo = customerMobileNo;
-   }
-
    public java.lang.String getCustomerHomeState()
    {
       return this.customerHomeState;
@@ -345,7 +320,7 @@ public class CustomerDetails implements java.io.Serializable
          java.lang.String customerNationalID,
          java.lang.String customerHomeAddress,
          java.lang.String customerTelephoneNo,
-         java.lang.String customerMobileNo, java.lang.String customerHomeState,
+         java.lang.String customerHomeState,
          java.lang.String customerHomeCountry,
          java.lang.String customerHomeZipcode)
    {
@@ -370,7 +345,6 @@ public class CustomerDetails implements java.io.Serializable
       this.customerNationalID = customerNationalID;
       this.customerHomeAddress = customerHomeAddress;
       this.customerTelephoneNo = customerTelephoneNo;
-      this.customerMobileNo = customerMobileNo;
       this.customerHomeState = customerHomeState;
       this.customerHomeCountry = customerHomeCountry;
       this.customerHomeZipcode = customerHomeZipcode;
