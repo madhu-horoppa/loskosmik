@@ -24,20 +24,8 @@ public class CustomerDetails implements java.io.Serializable
    @org.kie.api.definition.type.Label("Age")
    private java.lang.Integer customerAge;
 
-   @org.kie.api.definition.type.Label("Date Of Birth")
-   private java.util.Date customerDateOfBirth;
-
-   @org.kie.api.definition.type.Label("Email Address")
-   private java.lang.String customerEmailAddress;
-
    @org.kie.api.definition.type.Label("Gender")
    private java.lang.String customerGender;
-
-   @org.kie.api.definition.type.Label("Home Address")
-   private java.lang.String customerHomeCountryAddress;
-
-   @org.kie.api.definition.type.Label("Home Telephone No")
-   private java.lang.String customerHomeCountryTelephoneNo;
 
    @org.kie.api.definition.type.Label("Mobile Number")
    private java.lang.String customerMobileNumber;
@@ -48,9 +36,6 @@ public class CustomerDetails implements java.io.Serializable
    @org.kie.api.definition.type.Label("Mother Maiden Name")
    private java.lang.String customerMotherMaidenName;
 
-   @org.kie.api.definition.type.Label("National ID Number")
-   private java.lang.String customerNationalIDNumber;
-
    @org.kie.api.definition.type.Label("Nationality")
    private java.lang.String customerNationality;
 
@@ -59,9 +44,6 @@ public class CustomerDetails implements java.io.Serializable
 
    @org.kie.api.definition.type.Label("Residence Address")
    private java.lang.String customerResidenceAddress;
-
-   @org.kie.api.definition.type.Label("Residence Telephone No")
-   private java.lang.String customerResidenceTelephoneNo;
 
    private java.lang.Double ageCreditScore;
 
@@ -74,6 +56,15 @@ public class CustomerDetails implements java.io.Serializable
    private java.lang.Boolean fraudType;
 
    private java.lang.String customerFatherName;
+
+   @org.kie.api.definition.type.Label(value = "Date Of Birth")
+   private java.util.Date customerDOB;
+
+   @org.kie.api.definition.type.Label(value = "Email Address")
+   private java.lang.String customerEmail;
+
+   @org.kie.api.definition.type.Label(value = "National ID Number")
+   private java.lang.String customerNationalID;
 
    public CustomerDetails()
    {
@@ -119,26 +110,6 @@ public class CustomerDetails implements java.io.Serializable
       this.customerAge = customerAge;
    }
 
-   public java.util.Date getCustomerDateOfBirth()
-   {
-      return this.customerDateOfBirth;
-   }
-
-   public void setCustomerDateOfBirth(java.util.Date customerDateOfBirth)
-   {
-      this.customerDateOfBirth = customerDateOfBirth;
-   }
-
-   public java.lang.String getCustomerEmailAddress()
-   {
-      return this.customerEmailAddress;
-   }
-
-   public void setCustomerEmailAddress(java.lang.String customerEmailAddress)
-   {
-      this.customerEmailAddress = customerEmailAddress;
-   }
-
    public java.lang.String getCustomerGender()
    {
       return this.customerGender;
@@ -147,28 +118,6 @@ public class CustomerDetails implements java.io.Serializable
    public void setCustomerGender(java.lang.String customerGender)
    {
       this.customerGender = customerGender;
-   }
-
-   public java.lang.String getCustomerHomeCountryAddress()
-   {
-      return this.customerHomeCountryAddress;
-   }
-
-   public void setCustomerHomeCountryAddress(
-         java.lang.String customerHomeCountryAddress)
-   {
-      this.customerHomeCountryAddress = customerHomeCountryAddress;
-   }
-
-   public java.lang.String getCustomerHomeCountryTelephoneNo()
-   {
-      return this.customerHomeCountryTelephoneNo;
-   }
-
-   public void setCustomerHomeCountryTelephoneNo(
-         java.lang.String customerHomeCountryTelephoneNo)
-   {
-      this.customerHomeCountryTelephoneNo = customerHomeCountryTelephoneNo;
    }
 
    public java.lang.String getCustomerMobileNumber()
@@ -202,17 +151,6 @@ public class CustomerDetails implements java.io.Serializable
       this.customerMotherMaidenName = customerMotherMaidenName;
    }
 
-   public java.lang.String getCustomerNationalIDNumber()
-   {
-      return this.customerNationalIDNumber;
-   }
-
-   public void setCustomerNationalIDNumber(
-         java.lang.String customerNationalIDNumber)
-   {
-      this.customerNationalIDNumber = customerNationalIDNumber;
-   }
-
    public java.lang.String getCustomerNationality()
    {
       return this.customerNationality;
@@ -242,17 +180,6 @@ public class CustomerDetails implements java.io.Serializable
          java.lang.String customerResidenceAddress)
    {
       this.customerResidenceAddress = customerResidenceAddress;
-   }
-
-   public java.lang.String getCustomerResidenceTelephoneNo()
-   {
-      return this.customerResidenceTelephoneNo;
-   }
-
-   public void setCustomerResidenceTelephoneNo(
-         java.lang.String customerResidenceTelephoneNo)
-   {
-      this.customerResidenceTelephoneNo = customerResidenceTelephoneNo;
    }
 
    public java.lang.Double getAgeCreditScore()
@@ -315,47 +242,70 @@ public class CustomerDetails implements java.io.Serializable
       this.customerFatherName = customerFatherName;
    }
 
+   public java.util.Date getCustomerDOB()
+   {
+      return this.customerDOB;
+   }
+
+   public void setCustomerDOB(java.util.Date customerDOB)
+   {
+      this.customerDOB = customerDOB;
+   }
+
+   public java.lang.String getCustomerEmail()
+   {
+      return this.customerEmail;
+   }
+
+   public void setCustomerEmail(java.lang.String customerEmail)
+   {
+      this.customerEmail = customerEmail;
+   }
+
+   public java.lang.String getCustomerNationalID()
+   {
+      return this.customerNationalID;
+   }
+
+   public void setCustomerNationalID(java.lang.String customerNationalID)
+   {
+      this.customerNationalID = customerNationalID;
+   }
+
    public CustomerDetails(java.lang.Long id, java.lang.String customerName,
          java.lang.String customerNumber, java.lang.Integer customerAge,
-         java.util.Date customerDateOfBirth,
-         java.lang.String customerEmailAddress, java.lang.String customerGender,
-         java.lang.String customerHomeCountryAddress,
-         java.lang.String customerHomeCountryTelephoneNo,
-         java.lang.String customerMobileNumber,
+         java.lang.String customerGender, java.lang.String customerMobileNumber,
          java.lang.Double customerMonthlySalary,
          java.lang.String customerMotherMaidenName,
-         java.lang.String customerNationalIDNumber,
          java.lang.String customerNationality,
          java.lang.String customerPassportNumber,
          java.lang.String customerResidenceAddress,
-         java.lang.String customerResidenceTelephoneNo,
          java.lang.Double ageCreditScore, java.lang.Double incomeCreditScore,
          java.lang.Double totalCreditScore, java.lang.Long processInstanceID,
-         java.lang.Boolean fraudType, java.lang.String customerFatherName)
+         java.lang.Boolean fraudType, java.lang.String customerFatherName,
+         java.util.Date customerDOB, java.lang.String customerEmail,
+         java.lang.String customerNationalID)
    {
       this.id = id;
       this.customerName = customerName;
       this.customerNumber = customerNumber;
       this.customerAge = customerAge;
-      this.customerDateOfBirth = customerDateOfBirth;
-      this.customerEmailAddress = customerEmailAddress;
       this.customerGender = customerGender;
-      this.customerHomeCountryAddress = customerHomeCountryAddress;
-      this.customerHomeCountryTelephoneNo = customerHomeCountryTelephoneNo;
       this.customerMobileNumber = customerMobileNumber;
       this.customerMonthlySalary = customerMonthlySalary;
       this.customerMotherMaidenName = customerMotherMaidenName;
-      this.customerNationalIDNumber = customerNationalIDNumber;
       this.customerNationality = customerNationality;
       this.customerPassportNumber = customerPassportNumber;
       this.customerResidenceAddress = customerResidenceAddress;
-      this.customerResidenceTelephoneNo = customerResidenceTelephoneNo;
       this.ageCreditScore = ageCreditScore;
       this.incomeCreditScore = incomeCreditScore;
       this.totalCreditScore = totalCreditScore;
       this.processInstanceID = processInstanceID;
       this.fraudType = fraudType;
       this.customerFatherName = customerFatherName;
+      this.customerDOB = customerDOB;
+      this.customerEmail = customerEmail;
+      this.customerNationalID = customerNationalID;
    }
 
 }
