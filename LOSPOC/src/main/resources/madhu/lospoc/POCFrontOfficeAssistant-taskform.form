@@ -326,14 +326,14 @@
 <property name="outputBinding" value="out_customerDetails/customerHomeZipcode"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="28" name=":decorator_2" type="HTMLLabel" id="692940350">
+<field position="39" name=":decorator_2" type="HTMLLabel" id="692940350">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="readonly" value="false"/>
 <property name="htmlContent" value="quot;caquot;,quot;&lt;h3&gt;Loan Details&lt;/h3&gt; quot;quot;dequot;,quot;&lt;h3&gt;Loan Details&lt;/h3&gt; quot;quot;enquot;,quot;&lt;h3&gt;Loan Details&lt;/h3&gt; quot;quot;esquot;,quot;&lt;h3&gt;Loan Details&lt;/h3&gt; quot;quot;frquot;,quot;&lt;h3&gt;Loan Details&lt;/h3&gt; quot;quot;jaquot;,quot;&lt;h3&gt;Loan Details&lt;/h3&gt; quot;quot;ptquot;,quot;&lt;h3&gt;Loan Details&lt;/h3&gt; quot;quot;zhquot;,quot;&lt;h3&gt;Loan Details&lt;/h3&gt; quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
-<field position="29" name="loanDetails_loanEvaluationPrice" type="InputTextDouble" id="911228993">
+<field position="40" name="loanDetails_loanEvaluationPrice" type="InputTextDouble" id="911228993">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Total Pricequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -345,7 +345,7 @@
 <property name="fieldClass" value="java.lang.Double"/>
 <property name="onChangeScript" value="var v=this.value;if(isNaN(v)){alert(&quot;Enter valid Total price&quot;);document.getElementById(&quot;loanDetails_loanEvaluationPrice&quot;).value=&apos;&apos;;}else{ document.getElementById(&apos;vehicleDetails_vehicleEvaluationPrice&apos;).value=document.getElementById(&apos;loanDetails_loanEvaluationPrice&apos;).value;}"/>
 </field>
-<field position="30" name="loanDetails_loanProposedFinanceAmount" type="InputTextDouble" id="1236486079">
+<field position="41" name="loanDetails_loanProposedFinanceAmount" type="InputTextDouble" id="1236486079">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Proposed Finance Amountquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -357,7 +357,7 @@
 <property name="fieldClass" value="java.lang.Double"/>
 <property name="onChangeScript" value="var v=this.value;if(isNaN(v)){alert(&quot;Enter valid Proposed Finance Amount&quot;);document.getElementById(&quot;loanDetails_loanProposedFinanceAmount&quot;).value=&apos;&apos;;}else{}"/>
 </field>
-<field position="31" name="loanDetails_loanDownPaymentAmount" type="InputTextDouble" id="536306523">
+<field position="42" name="loanDetails_loanDownPaymentAmount" type="InputTextDouble" id="536306523">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Down payment amountquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -369,7 +369,7 @@
 <property name="fieldClass" value="java.lang.Double"/>
 <property name="onChangeScript" value="var v=this.value;if(isNaN(v)){alert(&quot;Enter valid Downpayment amount&quot;);document.getElementById(&quot;loanDetails_loanDownPaymentAmount&quot;).value=&apos;&apos;;}else{}"/>
 </field>
-<field position="32" name="loanDetails_loanFinanceAmount" type="InputTextDouble" id="642756657">
+<field position="43" name="loanDetails_loanFinanceAmount" type="InputTextDouble" id="642756657">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Finance Amountquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -381,7 +381,7 @@
 <property name="fieldClass" value="java.lang.Double"/>
 <property name="onChangeScript" value="var js=document.createElement(&quot;script&quot;);js.type=&quot;text/javascript&quot;;js.src=&quot;http://pssys100:8080/jbpm-console/formModeler/js/CustomCalculations.js&quot;;document.body.appendChild(js); document.getElementById(&quot;loanDetails_loanEMI&quot;).value=calculateEMI(document.getElementById(&quot;loanDetails_loanInterestRate&quot;).value,this.value,document.getElementById(&quot;loanDetails_loanTenorMonths&quot;).value,document.getElementById(&quot;loanDetails_loanTenorYears&quot;).value);"/>
 </field>
-<field position="33" name="loanDetails_loanInterestRatetype" type="InputText" id="1219955475">
+<field position="44" name="loanDetails_loanInterestRatetype" type="InputText" id="1219955475">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Interest rate typequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -395,7 +395,7 @@
 <property name="outputBinding" value="out_loanDetails/loanInterestRatetype"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="34" name="loanDetails_loanInterestRate" type="InputTextDouble" id="779960581">
+<field position="45" name="loanDetails_loanInterestRate" type="InputTextDouble" id="779960581">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Interest Ratequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -407,7 +407,7 @@
 <property name="fieldClass" value="java.lang.Double"/>
 <property name="onChangeScript" value="var js=document.createElement(&quot;script&quot;);js.type=&quot;text/javascript&quot;;js.src=&quot;http://pssys100:8080/jbpm-console/formModeler/js/CustomCalculations.js&quot;;document.body.appendChild(js); document.getElementById(&quot;loanDetails_loanEMI&quot;).value=calculateEMI(this.value,document.getElementById(&quot;loanDetails_loanFinanceAmount&quot;).value,document.getElementById(&quot;loanDetails_loanTenorMonths&quot;).value,document.getElementById(&quot;loanDetails_loanTenorYears&quot;).value);"/>
 </field>
-<field position="35" name="loanDetails_loanTenorMonths" type="InputTextInteger" id="862995181">
+<field position="46" name="loanDetails_loanTenorMonths" type="InputTextInteger" id="862995181">
 <property name="fieldRequired" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Tenor(Months)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -418,7 +418,7 @@
 <property name="fieldClass" value="java.lang.Integer"/>
 <property name="onChangeScript" value="var js=document.createElement(&quot;script&quot;);js.type=&quot;text/javascript&quot;;js.src=&quot;http://pssys100:8080/jbpm-console/formModeler/js/CustomCalculations.js&quot;;document.body.appendChild(js); document.getElementById(&quot;loanDetails_loanEMI&quot;).value=calculateEMI(document.getElementById(&quot;loanDetails_loanInterestRate&quot;).value,document.getElementById(&quot;loanDetails_loanFinanceAmount&quot;).value,this.value,document.getElementById(&quot;loanDetails_loanTenorYears&quot;).value);"/>
 </field>
-<field position="36" name="loanDetails_loanTenorYears" type="InputTextInteger" id="1989611549">
+<field position="47" name="loanDetails_loanTenorYears" type="InputTextInteger" id="1989611549">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Tenor(Years)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -430,7 +430,7 @@
 <property name="fieldClass" value="java.lang.Integer"/>
 <property name="onChangeScript" value="var js=document.createElement(&quot;script&quot;);js.type=&quot;text/javascript&quot;;js.src=&quot;http://pssys100:8080/jbpm-console/formModeler/js/CustomCalculations.js&quot;;document.body.appendChild(js); document.getElementById(&quot;loanDetails_loanEMI&quot;).value=calculateEMI(document.getElementById(&quot;loanDetails_loanInterestRate&quot;).value,document.getElementById(&quot;loanDetails_loanFinanceAmount&quot;).value,document.getElementById(&quot;loanDetails_loanTenorMonths&quot;).value,this.value);"/>
 </field>
-<field position="37" name="loanDetails_loanEMI" type="InputTextDouble" id="463579610">
+<field position="48" name="loanDetails_loanEMI" type="InputTextDouble" id="463579610">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;EMIquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -441,13 +441,13 @@
 <property name="outputBinding" value="out_loanDetails/loanEMI"/>
 <property name="fieldClass" value="java.lang.Double"/>
 </field>
-<field position="38" name=":decorator_3" type="HTMLLabel" id="393641728">
+<field position="49" name=":decorator_3" type="HTMLLabel" id="393641728">
 <property name="fieldRequired" value="false"/>
 <property name="readonly" value="false"/>
 <property name="htmlContent" value="quot;caquot;,quot;&lt;h3&gt;Vehicle Details&lt;/h3&gt; quot;quot;dequot;,quot;&lt;h3&gt;Vehicle Details&lt;/h3&gt; quot;quot;enquot;,quot;&lt;h3&gt;Vehicle Details&lt;/h3&gt; quot;quot;esquot;,quot;&lt;h3&gt;Vehicle Details&lt;/h3&gt; quot;quot;frquot;,quot;&lt;h3&gt;Vehicle Details&lt;/h3&gt; quot;quot;jaquot;,quot;&lt;h3&gt;Vehicle Details&lt;/h3&gt; quot;quot;ptquot;,quot;&lt;h3&gt;Vehicle Details&lt;/h3&gt; quot;quot;zhquot;,quot;&lt;h3&gt;Vehicle Details&lt;/h3&gt; quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
-<field position="39" name="vehicleDetails_vehicleMake" type="InputText" id="530958719">
+<field position="50" name="vehicleDetails_vehicleMake" type="InputText" id="530958719">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Vehicle Makequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -460,7 +460,7 @@
 <property name="outputBinding" value="out_vehicleDetails/vehicleMake"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="40" name="vehicleDetails_vehicleModel" type="InputText" id="1869046811">
+<field position="51" name="vehicleDetails_vehicleModel" type="InputText" id="1869046811">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Vehicle Modelquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -473,7 +473,7 @@
 <property name="outputBinding" value="out_vehicleDetails/vehicleModel"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="41" name="vehicleDetails_vehicleType" type="InputText" id="1625472679">
+<field position="52" name="vehicleDetails_vehicleType" type="InputText" id="1625472679">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Vehicle Typequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -487,7 +487,7 @@
 <property name="outputBinding" value="out_vehicleDetails/vehicleType"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="42" name="vehicleDetails_vehicleChasisNo" type="InputText" id="1389233557">
+<field position="53" name="vehicleDetails_vehicleChasisNo" type="InputText" id="1389233557">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Vehicle Chasis No.quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -500,7 +500,7 @@
 <property name="outputBinding" value="out_vehicleDetails/vehicleChasisNo"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="43" name="vehicleDetails_vehicleEngineSize" type="InputText" id="1705608919">
+<field position="54" name="vehicleDetails_vehicleEngineSize" type="InputText" id="1705608919">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Engine Sizequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -513,7 +513,7 @@
 <property name="outputBinding" value="out_vehicleDetails/vehicleEngineSize"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="44" name="vehicleDetails_vehicleCurrentMilage" type="InputTextDouble" id="1511499555">
+<field position="55" name="vehicleDetails_vehicleCurrentMilage" type="InputTextDouble" id="1511499555">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Current Milagequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -524,7 +524,7 @@
 <property name="outputBinding" value="out_vehicleDetails/vehicleCurrentMilage"/>
 <property name="fieldClass" value="java.lang.Double"/>
 </field>
-<field position="45" name="vehicleDetails_vehiclePrice" type="InputTextDouble" id="1497891687">
+<field position="56" name="vehicleDetails_vehiclePrice" type="InputTextDouble" id="1497891687">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Vehicle Pricequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -535,7 +535,7 @@
 <property name="outputBinding" value="out_vehicleDetails/vehiclePrice"/>
 <property name="fieldClass" value="java.lang.Double"/>
 </field>
-<field position="46" name="vehicleDetails_vehicleEvaluationPrice" type="InputTextDouble" id="908132195">
+<field position="57" name="vehicleDetails_vehicleEvaluationPrice" type="InputTextDouble" id="908132195">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Total Pricequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -546,7 +546,7 @@
 <property name="outputBinding" value="out_vehicleDetails/vehicleEvaluationPrice"/>
 <property name="fieldClass" value="java.lang.Double"/>
 </field>
-<field position="47" name="vehicleDetails_vehicleEvaluatorsName" type="InputText" id="158329661">
+<field position="58" name="vehicleDetails_vehicleEvaluatorsName" type="InputText" id="158329661">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Evaluators Namequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -559,7 +559,7 @@
 <property name="outputBinding" value="out_vehicleDetails/vehicleEvaluatorsName"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="48" name="vehicleDetails_vehicleYearOfModel" type="InputText" id="102916878">
+<field position="59" name="vehicleDetails_vehicleYearOfModel" type="InputText" id="102916878">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Year Of Modelquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -573,7 +573,7 @@
 <property name="outputBinding" value="out_vehicleDetails/vehicleYearOfModel"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="49" name="vehicleDetails_vehicleSupplier" type="InputText" id="1353960184">
+<field position="60" name="vehicleDetails_vehicleSupplier" type="InputText" id="1353960184">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Vehicle Supplierquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -587,7 +587,7 @@
 <property name="outputBinding" value="out_vehicleDetails/vehicleSupplier"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="50" name="vehicleDetails_vehicleDealerLocation" type="InputText" id="1597621985">
+<field position="61" name="vehicleDetails_vehicleDealerLocation" type="InputText" id="1597621985">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Dealer Namequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -600,14 +600,14 @@
 <property name="outputBinding" value="out_vehicleDetails/vehicleDealerLocation"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="51" name=":decorator_5" type="HTMLLabel" id="1350623214">
+<field position="62" name=":decorator_5" type="HTMLLabel" id="1350623214">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="readonly" value="false"/>
 <property name="htmlContent" value="quot;caquot;,quot;&lt;h3&gt;Applicant Documents&lt;/h3&gt; quot;quot;dequot;,quot;&lt;h3&gt;Applicant Documents&lt;/h3&gt; quot;quot;enquot;,quot;&lt;h3&gt;Applicant Documents&lt;/h3&gt; quot;quot;esquot;,quot;&lt;h3&gt;Applicant Documents&lt;/h3&gt; quot;quot;frquot;,quot;&lt;h3&gt;Applicant Documents&lt;/h3&gt; quot;quot;jaquot;,quot;&lt;h3&gt;Applicant Documents&lt;/h3&gt; quot;quot;ptquot;,quot;&lt;h3&gt;Applicant Documents&lt;/h3&gt; quot;quot;zhquot;,quot;&lt;h3&gt;Applicant Documents&lt;/h3&gt; quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
-<field position="52" name="documentOne" type="CustomInput" id="237263157">
+<field position="63" name="documentOne" type="CustomInput" id="237263157">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Select Document #1quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -620,7 +620,7 @@
 <property name="customFieldType" value="org.jbpm.formModeler.core.fieldTypes.file.FileCustomType"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="53" name="documentTwo" type="CustomInput" id="1107943365">
+<field position="64" name="documentTwo" type="CustomInput" id="1107943365">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Select Document #2quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -633,7 +633,7 @@
 <property name="customFieldType" value="org.jbpm.formModeler.core.fieldTypes.file.FileCustomType"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="54" name="documentThree" type="CustomInput" id="1732417265">
+<field position="65" name="documentThree" type="CustomInput" id="1732417265">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Select Document #3quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -646,7 +646,7 @@
 <property name="customFieldType" value="org.jbpm.formModeler.core.fieldTypes.file.FileCustomType"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="55" name="applicationStatus" type="InputText" id="927689703">
+<field position="66" name="applicationStatus" type="InputText" id="927689703">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Statusquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -659,7 +659,7 @@
 <property name="outputBinding" value="out_applicationStatus"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="56" name="applicationDescription" type="InputText" id="351161266">
+<field position="67" name="applicationDescription" type="InputText" id="351161266">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Descriptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -672,88 +672,104 @@
 <property name="outputBinding" value="out_applicationDescription"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="57" name="financialDetails_avgAnnualIncome" type="InputTextDouble" id="817658574">
+<field position="36" name="financialDetails_avgAnnualIncome" type="InputTextDouble" id="817658574">
 <property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;enquot;,quot;avgAnnualIncome (financialDetails)quot;"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="in_financialDetails/avgAnnualIncome"/>
 <property name="outputBinding" value="out_financialDetails/avgAnnualIncome"/>
 <property name="fieldClass" value="java.lang.Double"/>
 </field>
-<field position="58" name="financialDetails_customerOccupation" type="InputText" id="8470588">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;customerOccupation (financialDetails)quot;"/>
+<field position="28" name="financialDetails_customerOccupation" type="InputText" id="8470588">
+<property name="fieldRequired" value="true"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Occupationquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
+<property name="rangeFormula" value="{Salaried,Salaried;Business,Business}"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
 <property name="inputBinding" value="in_financialDetails/customerOccupation"/>
 <property name="outputBinding" value="out_financialDetails/customerOccupation"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="59" name="financialDetails_existingMonthlyEMI" type="InputTextDouble" id="1541934843">
+<field position="38" name="financialDetails_existingMonthlyEMI" type="InputTextDouble" id="1541934843">
 <property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;enquot;,quot;existingMonthlyEMI (financialDetails)quot;"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="in_financialDetails/existingMonthlyEMI"/>
 <property name="outputBinding" value="out_financialDetails/existingMonthlyEMI"/>
 <property name="fieldClass" value="java.lang.Double"/>
 </field>
-<field position="60" name="financialDetails_month1Salary" type="InputTextDouble" id="1209787190">
+<field position="29" name="financialDetails_month1Salary" type="InputTextDouble" id="1209787190">
 <property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;enquot;,quot;month1Salary (financialDetails)quot;"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="in_financialDetails/month1Salary"/>
 <property name="outputBinding" value="out_financialDetails/month1Salary"/>
 <property name="fieldClass" value="java.lang.Double"/>
 </field>
-<field position="61" name="financialDetails_month2Salary" type="InputTextDouble" id="513508189">
+<field position="30" name="financialDetails_month2Salary" type="InputTextDouble" id="513508189">
 <property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;enquot;,quot;month2Salary (financialDetails)quot;"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="in_financialDetails/month2Salary"/>
 <property name="outputBinding" value="out_financialDetails/month2Salary"/>
 <property name="fieldClass" value="java.lang.Double"/>
 </field>
-<field position="62" name="financialDetails_month3Salary" type="InputTextDouble" id="298098558">
+<field position="31" name="financialDetails_month3Salary" type="InputTextDouble" id="298098558">
 <property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;enquot;,quot;month3Salary (financialDetails)quot;"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="in_financialDetails/month3Salary"/>
 <property name="outputBinding" value="out_financialDetails/month3Salary"/>
 <property name="fieldClass" value="java.lang.Double"/>
 </field>
-<field position="63" name="financialDetails_monthlyAvgSalary" type="InputTextDouble" id="1983153079">
+<field position="32" name="financialDetails_monthlyAvgSalary" type="InputTextDouble" id="1983153079">
 <property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;enquot;,quot;monthlyAvgSalary (financialDetails)quot;"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="in_financialDetails/monthlyAvgSalary"/>
 <property name="outputBinding" value="out_financialDetails/monthlyAvgSalary"/>
 <property name="fieldClass" value="java.lang.Double"/>
 </field>
-<field position="64" name="financialDetails_otherIncome" type="InputTextDouble" id="2027987960">
+<field position="37" name="financialDetails_otherIncome" type="InputTextDouble" id="2027987960">
 <property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;enquot;,quot;otherIncome (financialDetails)quot;"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="in_financialDetails/otherIncome"/>
 <property name="outputBinding" value="out_financialDetails/otherIncome"/>
 <property name="fieldClass" value="java.lang.Double"/>
 </field>
-<field position="65" name="financialDetails_year1Income" type="InputTextDouble" id="1602614252">
+<field position="33" name="financialDetails_year1Income" type="InputTextDouble" id="1602614252">
 <property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;enquot;,quot;year1Income (financialDetails)quot;"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="in_financialDetails/year1Income"/>
 <property name="outputBinding" value="out_financialDetails/year1Income"/>
 <property name="fieldClass" value="java.lang.Double"/>
 </field>
-<field position="66" name="financialDetails_year2Income" type="InputTextDouble" id="839118254">
+<field position="34" name="financialDetails_year2Income" type="InputTextDouble" id="839118254">
 <property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;enquot;,quot;year2Income (financialDetails)quot;"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="in_financialDetails/year2Income"/>
 <property name="outputBinding" value="out_financialDetails/year2Income"/>
 <property name="fieldClass" value="java.lang.Double"/>
 </field>
-<field position="67" name="financialDetails_year3Income" type="InputTextDouble" id="556451032">
+<field position="35" name="financialDetails_year3Income" type="InputTextDouble" id="556451032">
 <property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;enquot;,quot;year3Income (financialDetails)quot;"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="in_financialDetails/year3Income"/>
