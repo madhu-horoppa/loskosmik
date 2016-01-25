@@ -5,28 +5,46 @@ package madhu.lospoc;
  */
 
 @javax.persistence.Entity
-public class FinancialDetails implements java.io.Serializable {
+public class FinancialDetails implements java.io.Serializable
+{
 
-    static final long serialVersionUID = 1L;
+   static final long serialVersionUID = 1L;
 
-    @javax.persistence.GeneratedValue(generator = "FINANCIALDETAILS_ID_GENERATOR", strategy = javax.persistence.GenerationType.AUTO)
-    @javax.persistence.Id
-    @javax.persistence.SequenceGenerator(name = "FINANCIALDETAILS_ID_GENERATOR", sequenceName = "FINANCIALDETAILS_ID_SEQ")
-    private java.lang.Long id;
+   @javax.persistence.GeneratedValue(generator = "FINANCIALDETAILS_ID_GENERATOR", strategy = javax.persistence.GenerationType.AUTO)
+   @javax.persistence.Id
+   @javax.persistence.SequenceGenerator(name = "FINANCIALDETAILS_ID_GENERATOR", sequenceName = "FINANCIALDETAILS_ID_SEQ")
+   private java.lang.Long id;
 
-    public FinancialDetails() {
-    }
-    
-    public FinancialDetails(java.lang.Long id) {
-        this.id = id;
-    }
+   private java.lang.Long processInstanceID;
 
-    public java.lang.Long getId() {
-        return this.id;
-    }
-    
-    public void setId(java.lang.Long id) {
-        this.id = id;
-    }
+   public FinancialDetails()
+   {
+   }
+
+   public java.lang.Long getId()
+   {
+      return this.id;
+   }
+
+   public void setId(java.lang.Long id)
+   {
+      this.id = id;
+   }
+
+   public java.lang.Long getProcessInstanceID()
+   {
+      return this.processInstanceID;
+   }
+
+   public void setProcessInstanceID(java.lang.Long processInstanceID)
+   {
+      this.processInstanceID = processInstanceID;
+   }
+
+   public FinancialDetails(java.lang.Long id, java.lang.Long processInstanceID)
+   {
+      this.id = id;
+      this.processInstanceID = processInstanceID;
+   }
 
 }
