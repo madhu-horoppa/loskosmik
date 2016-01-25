@@ -17,6 +17,28 @@ public class FinancialDetails implements java.io.Serializable
 
    private java.lang.Long processInstanceID;
 
+   private java.lang.String customerOccupation;
+
+   private java.lang.Double month1Salary;
+
+   private java.lang.Double month2Salary;
+
+   private java.lang.Double month3Salary;
+
+   private java.lang.Double monthlyAvgSalary;
+
+   private java.lang.Double year2Income;
+
+   private java.lang.Double year1Income;
+
+   private java.lang.Double year3Income;
+
+   private java.lang.Double avgAnnualIncome;
+
+   private java.lang.Double otherIncome;
+
+   private java.lang.Double existingMonthlyEMI;
+
    public FinancialDetails()
    {
    }
@@ -41,10 +63,137 @@ public class FinancialDetails implements java.io.Serializable
       this.processInstanceID = processInstanceID;
    }
 
-   public FinancialDetails(java.lang.Long id, java.lang.Long processInstanceID)
+   public java.lang.String getCustomerOccupation()
+   {
+      return this.customerOccupation;
+   }
+
+   public void setCustomerOccupation(java.lang.String customerOccupation)
+   {
+      this.customerOccupation = customerOccupation;
+   }
+
+   public java.lang.Double getMonth1Salary()
+   {
+      return this.month1Salary;
+   }
+
+   public void setMonth1Salary(java.lang.Double month1Salary)
+   {
+      this.month1Salary = month1Salary;
+   }
+
+   public java.lang.Double getMonth2Salary()
+   {
+      return this.month2Salary;
+   }
+
+   public void setMonth2Salary(java.lang.Double month2Salary)
+   {
+      this.month2Salary = month2Salary;
+   }
+
+   public java.lang.Double getMonth3Salary()
+   {
+      return this.month3Salary;
+   }
+
+   public void setMonth3Salary(java.lang.Double month3Salary)
+   {
+      this.month3Salary = month3Salary;
+   }
+
+   public java.lang.Double getMonthlyAvgSalary()
+   {
+      return this.monthlyAvgSalary;
+   }
+
+   public void setMonthlyAvgSalary(java.lang.Double monthlyAvgSalary)
+   {
+      this.monthlyAvgSalary = monthlyAvgSalary;
+   }
+
+   public java.lang.Double getYear2Income()
+   {
+      return this.year2Income;
+   }
+
+   public void setYear2Income(java.lang.Double year2Income)
+   {
+      this.year2Income = year2Income;
+   }
+
+   public java.lang.Double getYear1Income()
+   {
+      return this.year1Income;
+   }
+
+   public void setYear1Income(java.lang.Double year1Income)
+   {
+      this.year1Income = year1Income;
+   }
+
+   public java.lang.Double getYear3Income()
+   {
+      return this.year3Income;
+   }
+
+   public void setYear3Income(java.lang.Double year3Income)
+   {
+      this.year3Income = year3Income;
+   }
+
+   public java.lang.Double getAvgAnnualIncome()
+   {
+      return this.avgAnnualIncome;
+   }
+
+   public void setAvgAnnualIncome(java.lang.Double avgAnnualIncome)
+   {
+      this.avgAnnualIncome = avgAnnualIncome;
+   }
+
+   public java.lang.Double getOtherIncome()
+   {
+      return this.otherIncome;
+   }
+
+   public void setOtherIncome(java.lang.Double otherIncome)
+   {
+      this.otherIncome = otherIncome;
+   }
+
+   public java.lang.Double getExistingMonthlyEMI()
+   {
+      return this.existingMonthlyEMI;
+   }
+
+   public void setExistingMonthlyEMI(java.lang.Double existingMonthlyEMI)
+   {
+      this.existingMonthlyEMI = existingMonthlyEMI;
+   }
+
+   public FinancialDetails(java.lang.Long id, java.lang.Long processInstanceID,
+         java.lang.String customerOccupation, java.lang.Double month1Salary,
+         java.lang.Double month2Salary, java.lang.Double month3Salary,
+         java.lang.Double monthlyAvgSalary, java.lang.Double year2Income,
+         java.lang.Double year1Income, java.lang.Double year3Income,
+         java.lang.Double avgAnnualIncome, java.lang.Double otherIncome,
+         java.lang.Double existingMonthlyEMI)
    {
       this.id = id;
       this.processInstanceID = processInstanceID;
+      this.customerOccupation = customerOccupation;
+      this.month1Salary = month1Salary;
+      this.month2Salary = month2Salary;
+      this.month3Salary = month3Salary;
+      this.monthlyAvgSalary = monthlyAvgSalary;
+      this.year2Income = year2Income;
+      this.year1Income = year1Income;
+      this.year3Income = year3Income;
+      this.avgAnnualIncome = avgAnnualIncome;
+      this.otherIncome = otherIncome;
+      this.existingMonthlyEMI = existingMonthlyEMI;
    }
 
 }
