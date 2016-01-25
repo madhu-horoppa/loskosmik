@@ -10,7 +10,7 @@ public class CustomerDetails implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
-   @javax.persistence.GeneratedValue(strategy = javax.persistence.GenerationType.AUTO, generator = "CUSTOMERDETAILS_ID_GENERATOR")
+   @javax.persistence.GeneratedValue(generator = "CUSTOMERDETAILS_ID_GENERATOR", strategy = javax.persistence.GenerationType.AUTO)
    @javax.persistence.Id
    @javax.persistence.SequenceGenerator(name = "CUSTOMERDETAILS_ID_GENERATOR", sequenceName = "CUSTOMERDETAILS_ID_SEQ")
    private java.lang.Long id;
@@ -72,6 +72,8 @@ public class CustomerDetails implements java.io.Serializable
    private java.lang.Long processInstanceID;
 
    private java.lang.Boolean fraudType;
+
+   private java.lang.String customerFatherName;
 
    public CustomerDetails()
    {
@@ -303,6 +305,16 @@ public class CustomerDetails implements java.io.Serializable
       this.fraudType = fraudType;
    }
 
+   public java.lang.String getCustomerFatherName()
+   {
+      return this.customerFatherName;
+   }
+
+   public void setCustomerFatherName(java.lang.String customerFatherName)
+   {
+      this.customerFatherName = customerFatherName;
+   }
+
    public CustomerDetails(java.lang.Long id, java.lang.String customerName,
          java.lang.String customerNumber, java.lang.Integer customerAge,
          java.util.Date customerDateOfBirth,
@@ -319,7 +331,7 @@ public class CustomerDetails implements java.io.Serializable
          java.lang.String customerResidenceTelephoneNo,
          java.lang.Double ageCreditScore, java.lang.Double incomeCreditScore,
          java.lang.Double totalCreditScore, java.lang.Long processInstanceID,
-         java.lang.Boolean fraudType)
+         java.lang.Boolean fraudType, java.lang.String customerFatherName)
    {
       this.id = id;
       this.customerName = customerName;
@@ -343,6 +355,7 @@ public class CustomerDetails implements java.io.Serializable
       this.totalCreditScore = totalCreditScore;
       this.processInstanceID = processInstanceID;
       this.fraudType = fraudType;
+      this.customerFatherName = customerFatherName;
    }
 
 }
