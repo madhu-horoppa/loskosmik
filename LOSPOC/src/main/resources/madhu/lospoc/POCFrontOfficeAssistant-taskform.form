@@ -133,17 +133,17 @@
 <property name="outputBinding" value="out_customerDetails/customerGender"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="14" name="customerDetails_customerDateOfBirth" type="InputShortDate" id="1144160019">
+<field position="14" name="customerDetails_customerDOB" type="InputShortDate" id="1144160019">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;DOBquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;DOBquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
-<property name="inputBinding" value="in_customerDetails/customerDateOfBirth"/>
-<property name="outputBinding" value="out_customerDetails/customerDateOfBirth"/>
+<property name="inputBinding" value="in_customerDetails/customerDOB"/>
+<property name="outputBinding" value="out_customerDetails/customerDOB"/>
 <property name="fieldClass" value="java.util.Date"/>
-<property name="onChangeScript" value="var bday=document.getElementById(&apos;customerDetails_customerDateOfBirth&apos;).value; var nums=bday .match(/\d+/g); var now=new Date(); var past=new Date(nums[2], nums[0]-1, nums[1]); var py=now.getFullYear(); var by=past.getFullYear(); var age=py-by; document.getElementById(&apos;customerDetails_customerAge&apos;).value=age;"/>
+<property name="onChangeScript" value="var bday=document.getElementById(&apos;customerDetails_customerDOB&apos;).value; var nums=bday .match(/\d+/g); var now=new Date(); var past=new Date(nums[2], nums[0]-1, nums[1]); var py=now.getFullYear(); var by=past.getFullYear(); var age=py-by; document.getElementById(&apos;customerDetails_customerAge&apos;).value=age;"/>
 </field>
 <field position="15" name="customerDetails_customerAge" type="InputTextInteger" id="2020266443">
 <property name="fieldRequired" value="true"/>
@@ -156,17 +156,17 @@
 <property name="outputBinding" value="out_customerDetails/customerAge"/>
 <property name="fieldClass" value="java.lang.Integer"/>
 </field>
-<field position="17" name="customerDetails_customerEmailAddress" type="InputText" id="405245261">
+<field position="17" name="customerDetails_customerEmail" type="InputText" id="405245261">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Emailquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Emailquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
-<property name="inputBinding" value="in_customerDetails/customerEmailAddress"/>
-<property name="outputBinding" value="out_customerDetails/customerEmailAddress"/>
+<property name="inputBinding" value="in_customerDetails/customerEmail"/>
+<property name="outputBinding" value="out_customerDetails/customerEmail"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <field position="16" name="customerDetails_customerMobileNumber" type="InputText" id="1936359588">
@@ -208,17 +208,17 @@
 <property name="outputBinding" value="out_customerDetails/customerPassportNumber"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="19" name="customerDetails_customerNationalIDNumber" type="InputText" id="741796406">
+<field position="19" name="customerDetails_customerNationalID" type="InputText" id="741796406">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;National ID No.quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;National ID No.quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
-<property name="inputBinding" value="in_customerDetails/customerNationalIDNumber"/>
-<property name="outputBinding" value="out_customerDetails/customerNationalIDNumber"/>
+<property name="inputBinding" value="in_customerDetails/customerNationalID"/>
+<property name="outputBinding" value="out_customerDetails/customerNationalID"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <field position="20" name="customerDetails_customerMotherMaidenName" type="InputText" id="369209986">
@@ -234,17 +234,17 @@
 <property name="outputBinding" value="out_customerDetails/customerMotherMaidenName"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="22" name="customerDetails_customerHomeCountryAddress" type="InputText" id="47551056">
+<field position="22" name="customerDetails_customerHomeAddress" type="InputText" id="47551056">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Home Addressquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Home Addressquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
-<property name="inputBinding" value="in_customerDetails/customerHomeCountryAddress"/>
-<property name="outputBinding" value="out_customerDetails/customerHomeCountryAddress"/>
+<property name="inputBinding" value="in_customerDetails/customerHomeAddress"/>
+<property name="outputBinding" value="out_customerDetails/customerHomeAddress"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <field position="23" name="customerDetails_customerHomeCountryTelephoneNo" type="InputText" id="1183116673">
