@@ -42,9 +42,6 @@ public class CustomerDetails implements java.io.Serializable
    @org.kie.api.definition.type.Label("Passport Number")
    private java.lang.String customerPassportNumber;
 
-   @org.kie.api.definition.type.Label("Residence Address")
-   private java.lang.String customerResidenceAddress;
-
    private java.lang.Double ageCreditScore;
 
    private java.lang.Double incomeCreditScore;
@@ -57,14 +54,27 @@ public class CustomerDetails implements java.io.Serializable
 
    private java.lang.String customerFatherName;
 
-   @org.kie.api.definition.type.Label(value = "Date Of Birth")
+   @org.kie.api.definition.type.Label("Date Of Birth")
    private java.util.Date customerDOB;
 
-   @org.kie.api.definition.type.Label(value = "Email Address")
+   @org.kie.api.definition.type.Label("Email Address")
    private java.lang.String customerEmail;
 
-   @org.kie.api.definition.type.Label(value = "National ID Number")
+   @org.kie.api.definition.type.Label("National ID Number")
    private java.lang.String customerNationalID;
+
+   @org.kie.api.definition.type.Label(value = "Residence Address")
+   private java.lang.String customerHomeAddress;
+
+   private java.lang.String customerTelephoneNo;
+
+   private java.lang.String customerMobileNo;
+
+   private java.lang.String customerHomeState;
+
+   private java.lang.String customerHomeCountry;
+
+   private java.lang.String customerHomeZipcode;
 
    public CustomerDetails()
    {
@@ -171,17 +181,6 @@ public class CustomerDetails implements java.io.Serializable
       this.customerPassportNumber = customerPassportNumber;
    }
 
-   public java.lang.String getCustomerResidenceAddress()
-   {
-      return this.customerResidenceAddress;
-   }
-
-   public void setCustomerResidenceAddress(
-         java.lang.String customerResidenceAddress)
-   {
-      this.customerResidenceAddress = customerResidenceAddress;
-   }
-
    public java.lang.Double getAgeCreditScore()
    {
       return this.ageCreditScore;
@@ -272,6 +271,66 @@ public class CustomerDetails implements java.io.Serializable
       this.customerNationalID = customerNationalID;
    }
 
+   public java.lang.String getCustomerHomeAddress()
+   {
+      return this.customerHomeAddress;
+   }
+
+   public void setCustomerHomeAddress(java.lang.String customerHomeAddress)
+   {
+      this.customerHomeAddress = customerHomeAddress;
+   }
+
+   public java.lang.String getCustomerTelephoneNo()
+   {
+      return this.customerTelephoneNo;
+   }
+
+   public void setCustomerTelephoneNo(java.lang.String customerTelephoneNo)
+   {
+      this.customerTelephoneNo = customerTelephoneNo;
+   }
+
+   public java.lang.String getCustomerMobileNo()
+   {
+      return this.customerMobileNo;
+   }
+
+   public void setCustomerMobileNo(java.lang.String customerMobileNo)
+   {
+      this.customerMobileNo = customerMobileNo;
+   }
+
+   public java.lang.String getCustomerHomeState()
+   {
+      return this.customerHomeState;
+   }
+
+   public void setCustomerHomeState(java.lang.String customerHomeState)
+   {
+      this.customerHomeState = customerHomeState;
+   }
+
+   public java.lang.String getCustomerHomeCountry()
+   {
+      return this.customerHomeCountry;
+   }
+
+   public void setCustomerHomeCountry(java.lang.String customerHomeCountry)
+   {
+      this.customerHomeCountry = customerHomeCountry;
+   }
+
+   public java.lang.String getCustomerHomeZipcode()
+   {
+      return this.customerHomeZipcode;
+   }
+
+   public void setCustomerHomeZipcode(java.lang.String customerHomeZipcode)
+   {
+      this.customerHomeZipcode = customerHomeZipcode;
+   }
+
    public CustomerDetails(java.lang.Long id, java.lang.String customerName,
          java.lang.String customerNumber, java.lang.Integer customerAge,
          java.lang.String customerGender, java.lang.String customerMobileNumber,
@@ -279,12 +338,16 @@ public class CustomerDetails implements java.io.Serializable
          java.lang.String customerMotherMaidenName,
          java.lang.String customerNationality,
          java.lang.String customerPassportNumber,
-         java.lang.String customerResidenceAddress,
          java.lang.Double ageCreditScore, java.lang.Double incomeCreditScore,
          java.lang.Double totalCreditScore, java.lang.Long processInstanceID,
          java.lang.Boolean fraudType, java.lang.String customerFatherName,
          java.util.Date customerDOB, java.lang.String customerEmail,
-         java.lang.String customerNationalID)
+         java.lang.String customerNationalID,
+         java.lang.String customerHomeAddress,
+         java.lang.String customerTelephoneNo,
+         java.lang.String customerMobileNo, java.lang.String customerHomeState,
+         java.lang.String customerHomeCountry,
+         java.lang.String customerHomeZipcode)
    {
       this.id = id;
       this.customerName = customerName;
@@ -296,7 +359,6 @@ public class CustomerDetails implements java.io.Serializable
       this.customerMotherMaidenName = customerMotherMaidenName;
       this.customerNationality = customerNationality;
       this.customerPassportNumber = customerPassportNumber;
-      this.customerResidenceAddress = customerResidenceAddress;
       this.ageCreditScore = ageCreditScore;
       this.incomeCreditScore = incomeCreditScore;
       this.totalCreditScore = totalCreditScore;
@@ -306,6 +368,12 @@ public class CustomerDetails implements java.io.Serializable
       this.customerDOB = customerDOB;
       this.customerEmail = customerEmail;
       this.customerNationalID = customerNationalID;
+      this.customerHomeAddress = customerHomeAddress;
+      this.customerTelephoneNo = customerTelephoneNo;
+      this.customerMobileNo = customerMobileNo;
+      this.customerHomeState = customerHomeState;
+      this.customerHomeCountry = customerHomeCountry;
+      this.customerHomeZipcode = customerHomeZipcode;
    }
 
 }
