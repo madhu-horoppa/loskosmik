@@ -39,7 +39,7 @@
 <field position="3" name="incidentBasicDetails_incidentApplicationType" type="InputText" id="178794115">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Application Typequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Application Typequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
@@ -53,7 +53,7 @@
 <field position="4" name="incidentBasicDetails_incidentApplicantStatus" type="InputText" id="1800204196">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Applicant Statusquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Applicant Statusquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
@@ -67,7 +67,7 @@
 <field position="5" name="incidentBasicDetails_incidentApplicationRelationship" type="InputText" id="2135480278">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Relationshipquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Relationshipquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
@@ -156,20 +156,9 @@
 <property name="outputBinding" value="out_customerDetails/customerAge"/>
 <property name="fieldClass" value="java.lang.Integer"/>
 </field>
-<field position="13" name="customerDetails_customerMonthlySalary" type="InputTextDouble" id="527678792">
-<property name="fieldRequired" value="true"/>
-<property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Monthly Salaryquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="in_customerDetails/customerMonthlySalary"/>
-<property name="outputBinding" value="out_customerDetails/customerMonthlySalary"/>
-<property name="fieldClass" value="java.lang.Double"/>
-</field>
 <field position="14" name="customerDetails_customerEmailAddress" type="InputText" id="405245261">
 <property name="fieldRequired" value="true"/>
-<property name="groupWithPrevious" value="false"/>
+<property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Emailquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -180,7 +169,7 @@
 <property name="outputBinding" value="out_customerDetails/customerEmailAddress"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="15" name="customerDetails_customerMobileNumber" type="InputText" id="1936359588">
+<field position="13" name="customerDetails_customerMobileNumber" type="InputText" id="1936359588">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Mobile No.quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -193,7 +182,7 @@
 <property name="outputBinding" value="out_customerDetails/customerMobileNumber"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="16" name="customerDetails_customerNationality" type="InputText" id="1000941030">
+<field position="18" name="customerDetails_customerNationality" type="InputText" id="1000941030">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Nationalityquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -206,7 +195,7 @@
 <property name="outputBinding" value="out_customerDetails/customerNationality"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="17" name="customerDetails_customerPassportNumber" type="InputText" id="277612582">
+<field position="15" name="customerDetails_customerPassportNumber" type="InputText" id="277612582">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Passport No.quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -219,7 +208,7 @@
 <property name="outputBinding" value="out_customerDetails/customerPassportNumber"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="18" name="customerDetails_customerNationalIDNumber" type="InputText" id="741796406">
+<field position="16" name="customerDetails_customerNationalIDNumber" type="InputText" id="741796406">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;National ID No.quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -232,7 +221,7 @@
 <property name="outputBinding" value="out_customerDetails/customerNationalIDNumber"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="19" name="customerDetails_customerMotherMaidenName" type="InputText" id="369209986">
+<field position="17" name="customerDetails_customerMotherMaidenName" type="InputText" id="369209986">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Mother Maiden Namequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -245,7 +234,7 @@
 <property name="outputBinding" value="out_customerDetails/customerMotherMaidenName"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="20" name="customerDetails_customerHomeCountryAddress" type="InputText" id="47551056">
+<field position="19" name="customerDetails_customerHomeCountryAddress" type="InputText" id="47551056">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Home Addressquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -258,7 +247,7 @@
 <property name="outputBinding" value="out_customerDetails/customerHomeCountryAddress"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="21" name="customerDetails_customerHomeCountryTelephoneNo" type="InputText" id="1183116673">
+<field position="20" name="customerDetails_customerHomeCountryTelephoneNo" type="InputText" id="1183116673">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot; Home TelephoneNoquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -271,7 +260,7 @@
 <property name="outputBinding" value="out_customerDetails/customerHomeCountryTelephoneNo"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="22" name="customerDetails_customerResidenceAddress" type="InputText" id="2054482056">
+<field position="21" name="customerDetails_customerResidenceAddress" type="InputText" id="2054482056">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Residence Addressquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -284,9 +273,9 @@
 <property name="outputBinding" value="out_customerDetails/customerResidenceAddress"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="23" name="customerDetails_customerResidenceTelephoneNo" type="InputText" id="1632051007">
+<field position="22" name="customerDetails_customerResidenceTelephoneNo" type="InputText" id="1632051007">
 <property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="false"/>
+<property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Residence Telephone No.quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -297,14 +286,14 @@
 <property name="outputBinding" value="out_customerDetails/customerResidenceTelephoneNo"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="24" name=":decorator_2" type="HTMLLabel" id="692940350">
+<field position="23" name=":decorator_2" type="HTMLLabel" id="692940350">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="readonly" value="false"/>
 <property name="htmlContent" value="quot;caquot;,quot;&lt;h3&gt;Loan Details&lt;/h3&gt; quot;quot;dequot;,quot;&lt;h3&gt;Loan Details&lt;/h3&gt; quot;quot;enquot;,quot;&lt;h3&gt;Loan Details&lt;/h3&gt; quot;quot;esquot;,quot;&lt;h3&gt;Loan Details&lt;/h3&gt; quot;quot;frquot;,quot;&lt;h3&gt;Loan Details&lt;/h3&gt; quot;quot;jaquot;,quot;&lt;h3&gt;Loan Details&lt;/h3&gt; quot;quot;ptquot;,quot;&lt;h3&gt;Loan Details&lt;/h3&gt; quot;quot;zhquot;,quot;&lt;h3&gt;Loan Details&lt;/h3&gt; quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
-<field position="25" name="loanDetails_loanEvaluationPrice" type="InputTextDouble" id="911228993">
+<field position="24" name="loanDetails_loanEvaluationPrice" type="InputTextDouble" id="911228993">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Total Pricequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -316,7 +305,7 @@
 <property name="fieldClass" value="java.lang.Double"/>
 <property name="onChangeScript" value="var v=this.value;if(isNaN(v)){alert(&quot;Enter valid Total price&quot;);document.getElementById(&quot;loanDetails_loanEvaluationPrice&quot;).value=&apos;&apos;;}else{ document.getElementById(&apos;vehicleDetails_vehicleEvaluationPrice&apos;).value=document.getElementById(&apos;loanDetails_loanEvaluationPrice&apos;).value;}"/>
 </field>
-<field position="26" name="loanDetails_loanProposedFinanceAmount" type="InputTextDouble" id="1236486079">
+<field position="25" name="loanDetails_loanProposedFinanceAmount" type="InputTextDouble" id="1236486079">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Proposed Finance Amountquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -328,7 +317,7 @@
 <property name="fieldClass" value="java.lang.Double"/>
 <property name="onChangeScript" value="var v=this.value;if(isNaN(v)){alert(&quot;Enter valid Proposed Finance Amount&quot;);document.getElementById(&quot;loanDetails_loanProposedFinanceAmount&quot;).value=&apos;&apos;;}else{}"/>
 </field>
-<field position="27" name="loanDetails_loanDownPaymentAmount" type="InputTextDouble" id="536306523">
+<field position="26" name="loanDetails_loanDownPaymentAmount" type="InputTextDouble" id="536306523">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Down payment amountquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -340,20 +329,19 @@
 <property name="fieldClass" value="java.lang.Double"/>
 <property name="onChangeScript" value="var v=this.value;if(isNaN(v)){alert(&quot;Enter valid Downpayment amount&quot;);document.getElementById(&quot;loanDetails_loanDownPaymentAmount&quot;).value=&apos;&apos;;}else{}"/>
 </field>
-<field position="28" name="loanDetails_loanFinanceAmount" type="InputTextDouble" id="642756657">
+<field position="27" name="loanDetails_loanFinanceAmount" type="InputTextDouble" id="642756657">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Finance Amountquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Finance Amountquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="in_loanDetails/loanFinanceAmount"/>
 <property name="outputBinding" value="out_loanDetails/loanFinanceAmount"/>
 <property name="fieldClass" value="java.lang.Double"/>
-<property name="onChangeScript" value="var js=document.createElement(&quot;script&quot;);js.type=&quot;text/javascript&quot;;js.src=&quot;http://pssys100:8080/jbpm-console/formModeler/js/CustomCalculations.js&quot;;document.body.appendChild(js);
-document.getElementById(&quot;loanDetails_loanEMI&quot;).value=calculateEMI(document.getElementById(&quot;loanDetails_loanInterestRate&quot;).value,this.value,document.getElementById(&quot;loanDetails_loanTenorMonths&quot;).value,document.getElementById(&quot;loanDetails_loanTenorYears&quot;).value);"/>
+<property name="onChangeScript" value="var js=document.createElement(&quot;script&quot;);js.type=&quot;text/javascript&quot;;js.src=&quot;http://pssys100:8080/jbpm-console/formModeler/js/CustomCalculations.js&quot;;document.body.appendChild(js); document.getElementById(&quot;loanDetails_loanEMI&quot;).value=calculateEMI(document.getElementById(&quot;loanDetails_loanInterestRate&quot;).value,this.value,document.getElementById(&quot;loanDetails_loanTenorMonths&quot;).value,document.getElementById(&quot;loanDetails_loanTenorYears&quot;).value);"/>
 </field>
-<field position="29" name="loanDetails_loanInterestRatetype" type="InputText" id="1219955475">
+<field position="28" name="loanDetails_loanInterestRatetype" type="InputText" id="1219955475">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Interest rate typequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -367,45 +355,42 @@ document.getElementById(&quot;loanDetails_loanEMI&quot;).value=calculateEMI(docu
 <property name="outputBinding" value="out_loanDetails/loanInterestRatetype"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="30" name="loanDetails_loanInterestRate" type="InputTextDouble" id="779960581">
+<field position="29" name="loanDetails_loanInterestRate" type="InputTextDouble" id="779960581">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Interest Ratequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Interest Ratequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="in_loanDetails/loanInterestRate"/>
 <property name="outputBinding" value="out_loanDetails/loanInterestRate"/>
 <property name="fieldClass" value="java.lang.Double"/>
-<property name="onChangeScript" value="var js=document.createElement(&quot;script&quot;);js.type=&quot;text/javascript&quot;;js.src=&quot;http://pssys100:8080/jbpm-console/formModeler/js/CustomCalculations.js&quot;;document.body.appendChild(js);
-document.getElementById(&quot;loanDetails_loanEMI&quot;).value=calculateEMI(this.value,document.getElementById(&quot;loanDetails_loanFinanceAmount&quot;).value,document.getElementById(&quot;loanDetails_loanTenorMonths&quot;).value,document.getElementById(&quot;loanDetails_loanTenorYears&quot;).value);"/>
+<property name="onChangeScript" value="var js=document.createElement(&quot;script&quot;);js.type=&quot;text/javascript&quot;;js.src=&quot;http://pssys100:8080/jbpm-console/formModeler/js/CustomCalculations.js&quot;;document.body.appendChild(js); document.getElementById(&quot;loanDetails_loanEMI&quot;).value=calculateEMI(this.value,document.getElementById(&quot;loanDetails_loanFinanceAmount&quot;).value,document.getElementById(&quot;loanDetails_loanTenorMonths&quot;).value,document.getElementById(&quot;loanDetails_loanTenorYears&quot;).value);"/>
 </field>
-<field position="31" name="loanDetails_loanTenorMonths" type="InputTextInteger" id="862995181">
+<field position="30" name="loanDetails_loanTenorMonths" type="InputTextInteger" id="862995181">
 <property name="fieldRequired" value="true"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Tenor(Months)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Tenor(Months)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="in_loanDetails/loanTenorMonths"/>
 <property name="outputBinding" value="out_loanDetails/loanTenorMonths"/>
 <property name="fieldClass" value="java.lang.Integer"/>
-<property name="onChangeScript" value="var js=document.createElement(&quot;script&quot;);js.type=&quot;text/javascript&quot;;js.src=&quot;http://pssys100:8080/jbpm-console/formModeler/js/CustomCalculations.js&quot;;document.body.appendChild(js);
-document.getElementById(&quot;loanDetails_loanEMI&quot;).value=calculateEMI(document.getElementById(&quot;loanDetails_loanInterestRate&quot;).value,document.getElementById(&quot;loanDetails_loanFinanceAmount&quot;).value,this.value,document.getElementById(&quot;loanDetails_loanTenorYears&quot;).value);"/>
+<property name="onChangeScript" value="var js=document.createElement(&quot;script&quot;);js.type=&quot;text/javascript&quot;;js.src=&quot;http://pssys100:8080/jbpm-console/formModeler/js/CustomCalculations.js&quot;;document.body.appendChild(js); document.getElementById(&quot;loanDetails_loanEMI&quot;).value=calculateEMI(document.getElementById(&quot;loanDetails_loanInterestRate&quot;).value,document.getElementById(&quot;loanDetails_loanFinanceAmount&quot;).value,this.value,document.getElementById(&quot;loanDetails_loanTenorYears&quot;).value);"/>
 </field>
-<field position="32" name="loanDetails_loanTenorYears" type="InputTextInteger" id="1989611549">
+<field position="31" name="loanDetails_loanTenorYears" type="InputTextInteger" id="1989611549">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Tenor(Years)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Tenor(Years)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="in_loanDetails/loanTenorYears"/>
 <property name="outputBinding" value="out_loanDetails/loanTenorYears"/>
 <property name="fieldClass" value="java.lang.Integer"/>
-<property name="onChangeScript" value="var js=document.createElement(&quot;script&quot;);js.type=&quot;text/javascript&quot;;js.src=&quot;http://pssys100:8080/jbpm-console/formModeler/js/CustomCalculations.js&quot;;document.body.appendChild(js);
-document.getElementById(&quot;loanDetails_loanEMI&quot;).value=calculateEMI(document.getElementById(&quot;loanDetails_loanInterestRate&quot;).value,document.getElementById(&quot;loanDetails_loanFinanceAmount&quot;).value,document.getElementById(&quot;loanDetails_loanTenorMonths&quot;).value,this.value);"/>
+<property name="onChangeScript" value="var js=document.createElement(&quot;script&quot;);js.type=&quot;text/javascript&quot;;js.src=&quot;http://pssys100:8080/jbpm-console/formModeler/js/CustomCalculations.js&quot;;document.body.appendChild(js); document.getElementById(&quot;loanDetails_loanEMI&quot;).value=calculateEMI(document.getElementById(&quot;loanDetails_loanInterestRate&quot;).value,document.getElementById(&quot;loanDetails_loanFinanceAmount&quot;).value,document.getElementById(&quot;loanDetails_loanTenorMonths&quot;).value,this.value);"/>
 </field>
-<field position="33" name="loanDetails_loanEMI" type="InputTextDouble" id="463579610">
+<field position="32" name="loanDetails_loanEMI" type="InputTextDouble" id="463579610">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;EMIquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -416,13 +401,13 @@ document.getElementById(&quot;loanDetails_loanEMI&quot;).value=calculateEMI(docu
 <property name="outputBinding" value="out_loanDetails/loanEMI"/>
 <property name="fieldClass" value="java.lang.Double"/>
 </field>
-<field position="34" name=":decorator_3" type="HTMLLabel" id="393641728">
+<field position="33" name=":decorator_3" type="HTMLLabel" id="393641728">
 <property name="fieldRequired" value="false"/>
 <property name="readonly" value="false"/>
 <property name="htmlContent" value="quot;caquot;,quot;&lt;h3&gt;Vehicle Details&lt;/h3&gt; quot;quot;dequot;,quot;&lt;h3&gt;Vehicle Details&lt;/h3&gt; quot;quot;enquot;,quot;&lt;h3&gt;Vehicle Details&lt;/h3&gt; quot;quot;esquot;,quot;&lt;h3&gt;Vehicle Details&lt;/h3&gt; quot;quot;frquot;,quot;&lt;h3&gt;Vehicle Details&lt;/h3&gt; quot;quot;jaquot;,quot;&lt;h3&gt;Vehicle Details&lt;/h3&gt; quot;quot;ptquot;,quot;&lt;h3&gt;Vehicle Details&lt;/h3&gt; quot;quot;zhquot;,quot;&lt;h3&gt;Vehicle Details&lt;/h3&gt; quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
-<field position="35" name="vehicleDetails_vehicleMake" type="InputText" id="530958719">
+<field position="34" name="vehicleDetails_vehicleMake" type="InputText" id="530958719">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Vehicle Makequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -435,7 +420,7 @@ document.getElementById(&quot;loanDetails_loanEMI&quot;).value=calculateEMI(docu
 <property name="outputBinding" value="out_vehicleDetails/vehicleMake"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="36" name="vehicleDetails_vehicleModel" type="InputText" id="1869046811">
+<field position="35" name="vehicleDetails_vehicleModel" type="InputText" id="1869046811">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Vehicle Modelquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -448,7 +433,7 @@ document.getElementById(&quot;loanDetails_loanEMI&quot;).value=calculateEMI(docu
 <property name="outputBinding" value="out_vehicleDetails/vehicleModel"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="37" name="vehicleDetails_vehicleType" type="InputText" id="1625472679">
+<field position="36" name="vehicleDetails_vehicleType" type="InputText" id="1625472679">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Vehicle Typequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -462,7 +447,7 @@ document.getElementById(&quot;loanDetails_loanEMI&quot;).value=calculateEMI(docu
 <property name="outputBinding" value="out_vehicleDetails/vehicleType"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="38" name="vehicleDetails_vehicleChasisNo" type="InputText" id="1389233557">
+<field position="37" name="vehicleDetails_vehicleChasisNo" type="InputText" id="1389233557">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Vehicle Chasis No.quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -475,7 +460,7 @@ document.getElementById(&quot;loanDetails_loanEMI&quot;).value=calculateEMI(docu
 <property name="outputBinding" value="out_vehicleDetails/vehicleChasisNo"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="39" name="vehicleDetails_vehicleEngineSize" type="InputText" id="1705608919">
+<field position="38" name="vehicleDetails_vehicleEngineSize" type="InputText" id="1705608919">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Engine Sizequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -488,7 +473,7 @@ document.getElementById(&quot;loanDetails_loanEMI&quot;).value=calculateEMI(docu
 <property name="outputBinding" value="out_vehicleDetails/vehicleEngineSize"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="40" name="vehicleDetails_vehicleCurrentMilage" type="InputTextDouble" id="1511499555">
+<field position="39" name="vehicleDetails_vehicleCurrentMilage" type="InputTextDouble" id="1511499555">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Current Milagequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -499,7 +484,7 @@ document.getElementById(&quot;loanDetails_loanEMI&quot;).value=calculateEMI(docu
 <property name="outputBinding" value="out_vehicleDetails/vehicleCurrentMilage"/>
 <property name="fieldClass" value="java.lang.Double"/>
 </field>
-<field position="41" name="vehicleDetails_vehiclePrice" type="InputTextDouble" id="1497891687">
+<field position="40" name="vehicleDetails_vehiclePrice" type="InputTextDouble" id="1497891687">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Vehicle Pricequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -510,7 +495,7 @@ document.getElementById(&quot;loanDetails_loanEMI&quot;).value=calculateEMI(docu
 <property name="outputBinding" value="out_vehicleDetails/vehiclePrice"/>
 <property name="fieldClass" value="java.lang.Double"/>
 </field>
-<field position="42" name="vehicleDetails_vehicleEvaluationPrice" type="InputTextDouble" id="908132195">
+<field position="41" name="vehicleDetails_vehicleEvaluationPrice" type="InputTextDouble" id="908132195">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Total Pricequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -521,7 +506,7 @@ document.getElementById(&quot;loanDetails_loanEMI&quot;).value=calculateEMI(docu
 <property name="outputBinding" value="out_vehicleDetails/vehicleEvaluationPrice"/>
 <property name="fieldClass" value="java.lang.Double"/>
 </field>
-<field position="43" name="vehicleDetails_vehicleEvaluatorsName" type="InputText" id="158329661">
+<field position="42" name="vehicleDetails_vehicleEvaluatorsName" type="InputText" id="158329661">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Evaluators Namequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -534,7 +519,7 @@ document.getElementById(&quot;loanDetails_loanEMI&quot;).value=calculateEMI(docu
 <property name="outputBinding" value="out_vehicleDetails/vehicleEvaluatorsName"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="44" name="vehicleDetails_vehicleYearOfModel" type="InputText" id="102916878">
+<field position="43" name="vehicleDetails_vehicleYearOfModel" type="InputText" id="102916878">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Year Of Modelquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -548,7 +533,7 @@ document.getElementById(&quot;loanDetails_loanEMI&quot;).value=calculateEMI(docu
 <property name="outputBinding" value="out_vehicleDetails/vehicleYearOfModel"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="45" name="vehicleDetails_vehicleSupplier" type="InputText" id="1353960184">
+<field position="44" name="vehicleDetails_vehicleSupplier" type="InputText" id="1353960184">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Vehicle Supplierquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -562,7 +547,7 @@ document.getElementById(&quot;loanDetails_loanEMI&quot;).value=calculateEMI(docu
 <property name="outputBinding" value="out_vehicleDetails/vehicleSupplier"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="46" name="vehicleDetails_vehicleDealerLocation" type="InputText" id="1597621985">
+<field position="45" name="vehicleDetails_vehicleDealerLocation" type="InputText" id="1597621985">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Dealer Namequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -575,14 +560,14 @@ document.getElementById(&quot;loanDetails_loanEMI&quot;).value=calculateEMI(docu
 <property name="outputBinding" value="out_vehicleDetails/vehicleDealerLocation"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="47" name=":decorator_5" type="HTMLLabel" id="1350623214">
+<field position="46" name=":decorator_5" type="HTMLLabel" id="1350623214">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="readonly" value="false"/>
 <property name="htmlContent" value="quot;caquot;,quot;&lt;h3&gt;Applicant Documents&lt;/h3&gt; quot;quot;dequot;,quot;&lt;h3&gt;Applicant Documents&lt;/h3&gt; quot;quot;enquot;,quot;&lt;h3&gt;Applicant Documents&lt;/h3&gt; quot;quot;esquot;,quot;&lt;h3&gt;Applicant Documents&lt;/h3&gt; quot;quot;frquot;,quot;&lt;h3&gt;Applicant Documents&lt;/h3&gt; quot;quot;jaquot;,quot;&lt;h3&gt;Applicant Documents&lt;/h3&gt; quot;quot;ptquot;,quot;&lt;h3&gt;Applicant Documents&lt;/h3&gt; quot;quot;zhquot;,quot;&lt;h3&gt;Applicant Documents&lt;/h3&gt; quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
-<field position="48" name="documentOne" type="CustomInput" id="237263157">
+<field position="47" name="documentOne" type="CustomInput" id="237263157">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Select Document #1quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -595,7 +580,7 @@ document.getElementById(&quot;loanDetails_loanEMI&quot;).value=calculateEMI(docu
 <property name="customFieldType" value="org.jbpm.formModeler.core.fieldTypes.file.FileCustomType"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="49" name="documentTwo" type="CustomInput" id="1107943365">
+<field position="48" name="documentTwo" type="CustomInput" id="1107943365">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Select Document #2quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -608,7 +593,7 @@ document.getElementById(&quot;loanDetails_loanEMI&quot;).value=calculateEMI(docu
 <property name="customFieldType" value="org.jbpm.formModeler.core.fieldTypes.file.FileCustomType"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="50" name="documentThree" type="CustomInput" id="1732417265">
+<field position="49" name="documentThree" type="CustomInput" id="1732417265">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Select Document #3quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -621,7 +606,7 @@ document.getElementById(&quot;loanDetails_loanEMI&quot;).value=calculateEMI(docu
 <property name="customFieldType" value="org.jbpm.formModeler.core.fieldTypes.file.FileCustomType"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="51" name="applicationStatus" type="InputText" id="927689703">
+<field position="50" name="applicationStatus" type="InputText" id="927689703">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Statusquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -634,7 +619,7 @@ document.getElementById(&quot;loanDetails_loanEMI&quot;).value=calculateEMI(docu
 <property name="outputBinding" value="out_applicationStatus"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="52" name="applicationDescription" type="InputText" id="351161266">
+<field position="51" name="applicationDescription" type="InputText" id="351161266">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Descriptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
