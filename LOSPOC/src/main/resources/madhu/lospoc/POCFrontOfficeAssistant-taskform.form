@@ -399,7 +399,6 @@
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Average of three months Net Salaryquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="true"/>
 <property name="formula" value="=(({financialDetails_month1Salary}+{financialDetails_month2Salary}+{financialDetails_month3Salary})/3)"/>
-<property name="defaultValueFormula" value="=0"/>
 <property name="inputBinding" value="in_financialDetails/monthlyAvgSalary"/>
 <property name="outputBinding" value="out_financialDetails/monthlyAvgSalary"/>
 <property name="fieldClass" value="java.lang.Double"/>
