@@ -15,19 +15,14 @@ public class IncidentBasicDetails implements java.io.Serializable
    @javax.persistence.SequenceGenerator(name = "INCIDENTBASICDETAILS_ID_GENERATOR", sequenceName = "INCIDENTBASICDETAILS_ID_SEQ")
    private java.lang.Long id;
 
-   @org.kie.api.definition.type.Label("Incident Number")
    private java.lang.String incidentNumber;
 
-   @org.kie.api.definition.type.Label("Incident Date")
    private String incidentDate;
 
-   @org.kie.api.definition.type.Label("Application Type")
    private java.lang.String incidentApplicationType;
 
-   @org.kie.api.definition.type.Label("Applicant Status")
    private java.lang.String incidentApplicantStatus;
 
-   @org.kie.api.definition.type.Label("Relationship")
    private java.lang.String incidentApplicationRelationship;
 
    private java.lang.Long processInstanceID;
