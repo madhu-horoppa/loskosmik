@@ -670,7 +670,6 @@
 <property name="inputBinding" value="in_customerDetails/fraudType"/>
 <property name="outputBinding" value="out_customerDetails/fraudType"/>
 <property name="fieldClass" value="java.lang.Boolean"/>
-<property name="onChangeScript" value="document.getElementById(&quot;customerDetails_fraudType&quot;).style.color = &quot;red&quot;;"/>
 </field>
 <field position="59" name="applicationStatus" type="InputText" id="927689703">
 <property name="fieldRequired" value="true"/>
