@@ -10,16 +10,13 @@ public class LoanDetails implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
-   @javax.persistence.GeneratedValue(generator = "LOANDETAILS_ID_GENERATOR", strategy = javax.persistence.GenerationType.AUTO)
+   @javax.persistence.GeneratedValue(strategy = javax.persistence.GenerationType.AUTO, generator = "LOANDETAILS_ID_GENERATOR")
    @javax.persistence.Id
    @javax.persistence.SequenceGenerator(name = "LOANDETAILS_ID_GENERATOR", sequenceName = "LOANDETAILS_ID_SEQ")
    private java.lang.Long id;
 
    @org.kie.api.definition.type.Label("Tenor Months")
    private java.lang.Integer loanTenorMonths;
-
-   @org.kie.api.definition.type.Label("Tenor Years")
-   private java.lang.Integer loanTenorYears;
 
    private java.lang.Long processInstanceID;
 
@@ -31,7 +28,7 @@ public class LoanDetails implements java.io.Serializable
 
    private java.lang.String interestRatetype;
 
-   @org.kie.api.definition.type.Label(value = "Minimum Acceptable Loan")
+   @org.kie.api.definition.type.Label("Minimum Acceptable Loan")
    private java.lang.Double minAcceptableLoan;
 
    private java.lang.Double projectCost;
@@ -62,16 +59,6 @@ public class LoanDetails implements java.io.Serializable
    public void setLoanTenorMonths(java.lang.Integer loanTenorMonths)
    {
       this.loanTenorMonths = loanTenorMonths;
-   }
-
-   public java.lang.Integer getLoanTenorYears()
-   {
-      return this.loanTenorYears;
-   }
-
-   public void setLoanTenorYears(java.lang.Integer loanTenorYears)
-   {
-      this.loanTenorYears = loanTenorYears;
    }
 
    public java.lang.Long getProcessInstanceID()
@@ -165,15 +152,14 @@ public class LoanDetails implements java.io.Serializable
    }
 
    public LoanDetails(java.lang.Long id, java.lang.Integer loanTenorMonths,
-         java.lang.Integer loanTenorYears, java.lang.Long processInstanceID,
-         java.lang.Double downPaymentAmount, java.lang.Double amountRequired,
-         java.lang.Double interestRate, java.lang.String interestRatetype,
-         java.lang.Double minAcceptableLoan, java.lang.Double projectCost,
-         java.lang.Double emi, java.lang.Double loanAmount)
+         java.lang.Long processInstanceID, java.lang.Double downPaymentAmount,
+         java.lang.Double amountRequired, java.lang.Double interestRate,
+         java.lang.String interestRatetype, java.lang.Double minAcceptableLoan,
+         java.lang.Double projectCost, java.lang.Double emi,
+         java.lang.Double loanAmount)
    {
       this.id = id;
       this.loanTenorMonths = loanTenorMonths;
-      this.loanTenorYears = loanTenorYears;
       this.processInstanceID = processInstanceID;
       this.downPaymentAmount = downPaymentAmount;
       this.amountRequired = amountRequired;
