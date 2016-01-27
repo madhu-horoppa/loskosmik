@@ -671,14 +671,14 @@
 <property name="outputBinding" value="out_customerDetails/fraudType"/>
 <property name="fieldClass" value="java.lang.Boolean"/>
 </field>
-<field position="64" name=":decorator_3" type="HTMLLabel" id="1248514287">
+<field position="65" name=":decorator_3" type="HTMLLabel" id="1248514287">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="readonly" value="false"/>
 <property name="htmlContent" value="quot;caquot;,quot;&lt;h3&gt;Assign To&lt;/h3&gt; quot;quot;dequot;,quot;&lt;h3&gt;Assign To&lt;/h3&gt; quot;quot;enquot;,quot;&lt;h3&gt;Assign To&lt;/h3&gt; quot;quot;esquot;,quot;&lt;h3&gt;Assign To&lt;/h3&gt; quot;quot;frquot;,quot;&lt;h3&gt;Assign To&lt;/h3&gt; quot;quot;jaquot;,quot;&lt;h3&gt;Assign To&lt;/h3&gt; quot;quot;ptquot;,quot;&lt;h3&gt;Assign To&lt;/h3&gt; quot;quot;zhquot;,quot;&lt;h3&gt;Assign To&lt;/h3&gt; quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
-<field position="65" name="managerAssignment" type="InputText" id="1381720861">
+<field position="66" name="managerAssignment" type="InputText" id="1381720861">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Select Managerquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -707,8 +707,9 @@ quot;quot;zhquot;,quot;&lt;h3&gt;Deviation Details&lt;/h3&gt;
 quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
-<field position="60" name="amlDoc" type="Document" id="979065599">
+<field position="61" name="amlDoc" type="Document" id="979065599">
 <property name="fieldRequired" value="true"/>
+<property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Select AML Documentquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
@@ -716,7 +717,7 @@ quot;"/>
 <property name="outputBinding" value="out_amlDoc"/>
 <property name="fieldClass" value="org.jbpm.document.Document"/>
 </field>
-<field position="61" name="applicantAMLStatus" type="InputText" id="727286191">
+<field position="62" name="applicantAMLStatus" type="InputText" id="727286191">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;AML Statusquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -730,7 +731,7 @@ quot;"/>
 <property name="outputBinding" value="out_applicantAMLStatus"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="62" name="applicantAMLDescription" type="InputTextArea" id="1289300717">
+<field position="63" name="applicantAMLDescription" type="InputTextArea" id="1289300717">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;AML Descriptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -741,7 +742,7 @@ quot;"/>
 <property name="outputBinding" value="out_applicantAMLDescription"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="63" name=":decorator_13" type="HTMLLabel" id="706476644">
+<field position="64" name=":decorator_13" type="HTMLLabel" id="706476644">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="readonly" value="false"/>
@@ -753,6 +754,29 @@ quot;quot;frquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&g
 quot;quot;jaquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt;
 quot;quot;ptquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt;
 quot;quot;zhquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt;
+quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
+</field>
+<field position="60" name=":decorator_14" type="HTMLLabel" id="1607099621">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;pre&gt;
+AML Details&lt;/pre&gt;
+quot;quot;dequot;,quot;&lt;pre&gt;
+AML Details&lt;/pre&gt;
+quot;quot;enquot;,quot;&lt;pre&gt;
+AML Details&lt;/pre&gt;
+quot;quot;esquot;,quot;&lt;pre&gt;
+AML Details&lt;/pre&gt;
+quot;quot;frquot;,quot;&lt;pre&gt;
+AML Details&lt;/pre&gt;
+quot;quot;jaquot;,quot;&lt;pre&gt;
+AML Details&lt;/pre&gt;
+quot;quot;ptquot;,quot;&lt;pre&gt;
+AML Details&lt;/pre&gt;
+quot;quot;zhquot;,quot;&lt;pre&gt;
+AML Details&lt;/pre&gt;
 quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
