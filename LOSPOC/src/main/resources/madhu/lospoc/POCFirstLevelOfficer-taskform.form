@@ -671,14 +671,14 @@
 <property name="outputBinding" value="out_customerDetails/fraudType"/>
 <property name="fieldClass" value="java.lang.Boolean"/>
 </field>
-<field position="66" name=":decorator_3" type="HTMLLabel" id="1248514287">
+<field position="70" name=":decorator_3" type="HTMLLabel" id="1248514287">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="readonly" value="false"/>
 <property name="htmlContent" value="quot;caquot;,quot;&lt;h3&gt;Assign To&lt;/h3&gt; quot;quot;dequot;,quot;&lt;h3&gt;Assign To&lt;/h3&gt; quot;quot;enquot;,quot;&lt;h3&gt;Assign To&lt;/h3&gt; quot;quot;esquot;,quot;&lt;h3&gt;Assign To&lt;/h3&gt; quot;quot;frquot;,quot;&lt;h3&gt;Assign To&lt;/h3&gt; quot;quot;jaquot;,quot;&lt;h3&gt;Assign To&lt;/h3&gt; quot;quot;ptquot;,quot;&lt;h3&gt;Assign To&lt;/h3&gt; quot;quot;zhquot;,quot;&lt;h3&gt;Assign To&lt;/h3&gt; quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
-<field position="67" name="managerAssignment" type="InputText" id="1381720861">
+<field position="71" name="managerAssignment" type="InputText" id="1381720861">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Select Managerquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -800,6 +800,41 @@ quot;quot;ptquot;,quot;&lt;pre&gt;
 Technical Reports Information&lt;/pre&gt;
 quot;quot;zhquot;,quot;&lt;pre&gt;
 Technical Reports Information&lt;/pre&gt;
+quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
+</field>
+<field position="66" name="1080690710" type="Document" id="1080690710">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;Document68quot;"/>
+<property name="readonly" value="false"/>
+<property name="fieldClass" value="org.jbpm.document.Document"/>
+</field>
+<field position="67" name="1361380636" type="InputText" id="1361380636">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;InputText69quot;"/>
+<property name="readonly" value="false"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="68" name="1624521781" type="InputTextArea" id="1624521781">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;InputTextArea70quot;"/>
+<property name="readonly" value="false"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="69" name=":decorator_16" type="HTMLLabel" id="2120735089">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt;
+quot;quot;dequot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt;
+quot;quot;enquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt;
+quot;quot;esquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt;
+quot;quot;frquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt;
+quot;quot;jaquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt;
+quot;quot;ptquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt;
+quot;quot;zhquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt;
 quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
