@@ -37,6 +37,10 @@ public class LoanDetails implements java.io.Serializable
 
    private java.lang.Double loanAmount;
 
+   private java.lang.Double totalInterest;
+
+   private java.lang.Double totalRepayment;
+
    public LoanDetails()
    {
    }
@@ -151,12 +155,33 @@ public class LoanDetails implements java.io.Serializable
       this.loanAmount = loanAmount;
    }
 
+   public java.lang.Double getTotalInterest()
+   {
+      return this.totalInterest;
+   }
+
+   public void setTotalInterest(java.lang.Double totalInterest)
+   {
+      this.totalInterest = totalInterest;
+   }
+
+   public java.lang.Double getTotalRepayment()
+   {
+      return this.totalRepayment;
+   }
+
+   public void setTotalRepayment(java.lang.Double totalRepayment)
+   {
+      this.totalRepayment = totalRepayment;
+   }
+
    public LoanDetails(java.lang.Long id, java.lang.Integer loanTenorMonths,
          java.lang.Long processInstanceID, java.lang.Double downPaymentAmount,
          java.lang.Double amountRequired, java.lang.Double interestRate,
          java.lang.String interestRatetype, java.lang.Double minAcceptableLoan,
          java.lang.Double projectCost, java.lang.Double emi,
-         java.lang.Double loanAmount)
+         java.lang.Double loanAmount, java.lang.Double totalInterest,
+         java.lang.Double totalRepayment)
    {
       this.id = id;
       this.loanTenorMonths = loanTenorMonths;
@@ -169,6 +194,8 @@ public class LoanDetails implements java.io.Serializable
       this.projectCost = projectCost;
       this.emi = emi;
       this.loanAmount = loanAmount;
+      this.totalInterest = totalInterest;
+      this.totalRepayment = totalRepayment;
    }
 
 }
