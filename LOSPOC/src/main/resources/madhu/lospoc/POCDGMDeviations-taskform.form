@@ -238,6 +238,5 @@
 <property name="outputBinding" value="out_dgmTechnicalReportsDescription"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<dataHolder inputId="in_dgmBlackListCheck" name="#0000A0" type="dataModelerEntry" outId="out_dgmBlackListCheck" value="madhu.lospoc.BlackListCheckInformation" id="dgmBlackListCheck"/>
 <dataHolder inputId="in_incidentBasicDetails" name="#0000A0" type="dataModelerEntry" outId="out_incidentBasicDetails" value="madhu.lospoc.IncidentBasicDetails" id="incidentBasicDetails"/>
 </form>
