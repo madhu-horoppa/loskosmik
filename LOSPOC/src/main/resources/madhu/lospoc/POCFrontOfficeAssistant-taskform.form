@@ -728,7 +728,7 @@
 <property name="readonly" value="false"/>
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
-<property name="defaultValueFormula" value="=000000"/>
+<property name="defaultValueFormula" value="=0"/>
 <property name="inputBinding" value="in_customerDetails/feeJurnolNo"/>
 <property name="outputBinding" value="out_customerDetails/feeJurnolNo"/>
 <property name="fieldClass" value="java.lang.String"/>
