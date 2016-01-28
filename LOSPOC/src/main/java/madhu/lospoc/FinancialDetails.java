@@ -10,7 +10,7 @@ public class FinancialDetails implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
-   @javax.persistence.GeneratedValue(generator = "FINANCIALDETAILS_ID_GENERATOR", strategy = javax.persistence.GenerationType.AUTO)
+   @javax.persistence.GeneratedValue(strategy = javax.persistence.GenerationType.AUTO, generator = "FINANCIALDETAILS_ID_GENERATOR")
    @javax.persistence.Id
    @javax.persistence.SequenceGenerator(name = "FINANCIALDETAILS_ID_GENERATOR", sequenceName = "FINANCIALDETAILS_ID_SEQ")
    private java.lang.Long id;
@@ -38,6 +38,8 @@ public class FinancialDetails implements java.io.Serializable
    private java.lang.Double otherIncome;
 
    private java.lang.Double existingMonthlyEMI;
+
+   private java.lang.Double incomeCreditScore;
 
    public FinancialDetails()
    {
@@ -173,13 +175,23 @@ public class FinancialDetails implements java.io.Serializable
       this.existingMonthlyEMI = existingMonthlyEMI;
    }
 
+   public java.lang.Double getIncomeCreditScore()
+   {
+      return this.incomeCreditScore;
+   }
+
+   public void setIncomeCreditScore(java.lang.Double incomeCreditScore)
+   {
+      this.incomeCreditScore = incomeCreditScore;
+   }
+
    public FinancialDetails(java.lang.Long id, java.lang.Long processInstanceID,
          java.lang.String customerOccupation, java.lang.Double month1Salary,
          java.lang.Double month2Salary, java.lang.Double month3Salary,
          java.lang.Double monthlyAvgSalary, java.lang.Double year2Income,
          java.lang.Double year1Income, java.lang.Double year3Income,
          java.lang.Double avgAnnualIncome, java.lang.Double otherIncome,
-         java.lang.Double existingMonthlyEMI)
+         java.lang.Double existingMonthlyEMI, java.lang.Double incomeCreditScore)
    {
       this.id = id;
       this.processInstanceID = processInstanceID;
@@ -194,6 +206,7 @@ public class FinancialDetails implements java.io.Serializable
       this.avgAnnualIncome = avgAnnualIncome;
       this.otherIncome = otherIncome;
       this.existingMonthlyEMI = existingMonthlyEMI;
+      this.incomeCreditScore = incomeCreditScore;
    }
 
 }
