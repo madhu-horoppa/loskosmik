@@ -951,6 +951,43 @@
 <property name="outputBinding" value="out_dscrDoc"/>
 <property name="fieldClass" value="org.jbpm.document.Document"/>
 </field>
+<field position="90" name="71710168" type="InputText" id="71710168">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;InputText89quot;"/>
+<property name="readonly" value="false"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="91" name="1601983479" type="InputTextArea" id="1601983479">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;InputTextArea90quot;"/>
+<property name="readonly" value="false"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="89" name=":decorator_3" type="HTMLLabel" id="1306826001">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;pre&gt;
+Actions&lt;/pre&gt;
+quot;quot;dequot;,quot;&lt;pre&gt;
+Actions&lt;/pre&gt;
+quot;quot;enquot;,quot;&lt;pre&gt;
+Actions&lt;/pre&gt;
+quot;quot;esquot;,quot;&lt;pre&gt;
+Actions&lt;/pre&gt;
+quot;quot;frquot;,quot;&lt;pre&gt;
+Actions&lt;/pre&gt;
+quot;quot;jaquot;,quot;&lt;pre&gt;
+Actions&lt;/pre&gt;
+quot;quot;ptquot;,quot;&lt;pre&gt;
+Actions&lt;/pre&gt;
+quot;quot;zhquot;,quot;&lt;pre&gt;
+Actions&lt;/pre&gt;
+quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
+</field>
 <dataHolder inputId="in_customerDetails" name="#0000A0" type="dataModelerEntry" outId="out_customerDetails" value="madhu.lospoc.CustomerDetails" id="customerDetails"/>
 <dataHolder inputId="in_financialDetails" name="#0000A0" type="dataModelerEntry" outId="out_financialDetails" value="madhu.lospoc.FinancialDetails" id="financialDetails"/>
 <dataHolder inputId="in_incidentBasicDetails" name="#0000A0" type="dataModelerEntry" outId="out_incidentBasicDetails" value="madhu.lospoc.IncidentBasicDetails" id="incidentBasicDetails"/>
