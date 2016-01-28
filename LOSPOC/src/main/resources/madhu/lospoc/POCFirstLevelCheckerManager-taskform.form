@@ -969,23 +969,7 @@
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="readonly" value="false"/>
-<property name="htmlContent" value="quot;caquot;,quot;&lt;pre&gt;
-Actions&lt;/pre&gt;
-quot;quot;dequot;,quot;&lt;pre&gt;
-Actions&lt;/pre&gt;
-quot;quot;enquot;,quot;&lt;pre&gt;
-Actions&lt;/pre&gt;
-quot;quot;esquot;,quot;&lt;pre&gt;
-Actions&lt;/pre&gt;
-quot;quot;frquot;,quot;&lt;pre&gt;
-Actions&lt;/pre&gt;
-quot;quot;jaquot;,quot;&lt;pre&gt;
-Actions&lt;/pre&gt;
-quot;quot;ptquot;,quot;&lt;pre&gt;
-Actions&lt;/pre&gt;
-quot;quot;zhquot;,quot;&lt;pre&gt;
-Actions&lt;/pre&gt;
-quot;"/>
+<property name="htmlContent" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
 <dataHolder inputId="in_customerDetails" name="#0000A0" type="dataModelerEntry" outId="out_customerDetails" value="madhu.lospoc.CustomerDetails" id="customerDetails"/>
