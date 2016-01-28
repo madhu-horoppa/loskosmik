@@ -10,7 +10,7 @@ public class CustomerDetails implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
-   @javax.persistence.GeneratedValue(generator = "CUSTOMERDETAILS_ID_GENERATOR", strategy = javax.persistence.GenerationType.AUTO)
+   @javax.persistence.GeneratedValue(strategy = javax.persistence.GenerationType.AUTO, generator = "CUSTOMERDETAILS_ID_GENERATOR")
    @javax.persistence.Id
    @javax.persistence.SequenceGenerator(name = "CUSTOMERDETAILS_ID_GENERATOR", sequenceName = "CUSTOMERDETAILS_ID_SEQ")
    private java.lang.Long id;
@@ -60,6 +60,12 @@ public class CustomerDetails implements java.io.Serializable
    private java.lang.String customerHomeCountry;
 
    private java.lang.String customerHomeZipcode;
+
+   private java.lang.String processFee;
+
+   private java.lang.String feeJurnolNo;
+
+   private java.lang.Double processFeeAmount;
 
    public CustomerDetails()
    {
@@ -306,6 +312,36 @@ public class CustomerDetails implements java.io.Serializable
       this.customerHomeZipcode = customerHomeZipcode;
    }
 
+   public java.lang.String getProcessFee()
+   {
+      return this.processFee;
+   }
+
+   public void setProcessFee(java.lang.String processFee)
+   {
+      this.processFee = processFee;
+   }
+
+   public java.lang.String getFeeJurnolNo()
+   {
+      return this.feeJurnolNo;
+   }
+
+   public void setFeeJurnolNo(java.lang.String feeJurnolNo)
+   {
+      this.feeJurnolNo = feeJurnolNo;
+   }
+
+   public java.lang.Double getProcessFeeAmount()
+   {
+      return this.processFeeAmount;
+   }
+
+   public void setProcessFeeAmount(java.lang.Double processFeeAmount)
+   {
+      this.processFeeAmount = processFeeAmount;
+   }
+
    public CustomerDetails(java.lang.Long id, java.lang.String customerName,
          java.lang.String customerNumber, java.lang.Integer customerAge,
          java.lang.String customerGender, java.lang.String customerMobileNumber,
@@ -322,7 +358,8 @@ public class CustomerDetails implements java.io.Serializable
          java.lang.String customerTelephoneNo,
          java.lang.String customerHomeState,
          java.lang.String customerHomeCountry,
-         java.lang.String customerHomeZipcode)
+         java.lang.String customerHomeZipcode, java.lang.String processFee,
+         java.lang.String feeJurnolNo, java.lang.Double processFeeAmount)
    {
       this.id = id;
       this.customerName = customerName;
@@ -348,6 +385,9 @@ public class CustomerDetails implements java.io.Serializable
       this.customerHomeState = customerHomeState;
       this.customerHomeCountry = customerHomeCountry;
       this.customerHomeZipcode = customerHomeZipcode;
+      this.processFee = processFee;
+      this.feeJurnolNo = feeJurnolNo;
+      this.processFeeAmount = processFeeAmount;
    }
 
 }
