@@ -19,7 +19,7 @@ public class CustomerDetails implements java.io.Serializable
 
    private java.lang.String customerNumber;
 
-   private java.lang.Integer customerAge;
+   private Double customerAge;
 
    private java.lang.String customerGender;
 
@@ -95,16 +95,6 @@ public class CustomerDetails implements java.io.Serializable
    public void setCustomerNumber(java.lang.String customerNumber)
    {
       this.customerNumber = customerNumber;
-   }
-
-   public java.lang.Integer getCustomerAge()
-   {
-      return this.customerAge;
-   }
-
-   public void setCustomerAge(java.lang.Integer customerAge)
-   {
-      this.customerAge = customerAge;
    }
 
    public java.lang.String getCustomerGender()
@@ -318,8 +308,18 @@ public class CustomerDetails implements java.io.Serializable
       this.processFeeAmount = processFeeAmount;
    }
 
+   public java.lang.Double getCustomerAge()
+   {
+      return this.customerAge;
+   }
+
+   public void setCustomerAge(java.lang.Double customerAge)
+   {
+      this.customerAge = customerAge;
+   }
+
    public CustomerDetails(java.lang.Long id, java.lang.String customerName,
-         java.lang.String customerNumber, java.lang.Integer customerAge,
+         java.lang.String customerNumber, java.lang.Double customerAge,
          java.lang.String customerGender, java.lang.String customerMobileNumber,
          java.lang.Double customerMonthlySalary,
          java.lang.String customerMotherMaidenName,
