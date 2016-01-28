@@ -62,7 +62,7 @@ import java.lang.Number;
 	when
 		financialDetails : FinancialDetails( monthlyAvgSalary > 0.0 && monthlyAvgSalary < 8001.0 )
 	then
-		customer.setIncomeCreditScore( 3.0 );
+		financialDetails.setIncomeCreditScore( 3.0 );
 	end
 	
 	rule "monthlySalAbove8000AndBelow25001"
@@ -71,7 +71,7 @@ import java.lang.Number;
 	when
 		financialDetails : FinancialDetails( monthlyAvgSalary >= 8001.0 && monthlyAvgSalary < 25001.0 )
 	then
-		customer.setIncomeCreditScore( 5.0 );
+		financialDetails.setIncomeCreditScore( 5.0 );
 	end
 	
 	rule "monthlySalAbove25000AndBelow50001"
@@ -80,7 +80,7 @@ import java.lang.Number;
 	when
 		financialDetails : FinancialDetails( monthlyAvgSalary >= 25001.0 && monthlyAvgSalary < 50001.0 )
 	then
-		customer.setIncomeCreditScore( 10.0 );
+		financialDetails.setIncomeCreditScore( 10.0 );
 	end
 	
 	rule "monthlySalAbove50000AndBelow100001"
@@ -89,7 +89,7 @@ import java.lang.Number;
 	when
 		financialDetails : FinancialDetails( monthlyAvgSalary >= 50001.0 && monthlyAvgSalary < 100001.0 )
 	then
-		customer.setIncomeCreditScore( 15.0 );
+		financialDetails.setIncomeCreditScore( 15.0 );
 	end
 	
 	rule "monthlySalAbove100000"
@@ -98,7 +98,7 @@ import java.lang.Number;
 	when
 		financialDetails : FinancialDetails( monthlyAvgSalary >= 100001.0 )
 	then
-		customer.setIncomeCreditScore( 20.0 );
+		financialDetails.setIncomeCreditScore( 20.0 );
     end
 	
 	rule "incomeAbove0Below8000"
@@ -107,7 +107,7 @@ import java.lang.Number;
 	when
 		financialDetails : FinancialDetails( monthlyAvgSalary > 0.0 && monthlyAvgSalary < 8001.0 )
 	then
-		customer.setIncomeCreditScore( 3.0 );
+		financialDetails.setIncomeCreditScore( 3.0 );
 	end
 	
 	rule "incomeAbove8000AndBelow25001"
@@ -116,7 +116,7 @@ import java.lang.Number;
 	when
 		financialDetails : FinancialDetails( monthlyAvgSalary >= 8001.0 && monthlyAvgSalary < 25001.0 )
 	then
-		customer.setIncomeCreditScore( 5.0 );
+		financialDetails.setIncomeCreditScore( 5.0 );
 	end
 	
 	rule "incomeAbove25000AndBelow50001"
@@ -125,7 +125,7 @@ import java.lang.Number;
 	when
 		financialDetails : FinancialDetails( monthlyAvgSalary >= 25001.0 && monthlyAvgSalary < 50001.0 )
 	then
-		customer.setIncomeCreditScore( 10.0 );
+		financialDetails.setIncomeCreditScore( 10.0 );
 	end
 	
 	rule "incomeAbove50000AndBelow100001"
@@ -134,7 +134,7 @@ import java.lang.Number;
 	when
 		financialDetails : FinancialDetails( monthlyAvgSalary >= 50001.0 && monthlyAvgSalary < 100001.0 )
 	then
-		customer.setIncomeCreditScore( 15.0 );
+		financialDetails.setIncomeCreditScore( 15.0 );
 	end
 	
 	rule "incomeAbove100000"
@@ -143,5 +143,5 @@ import java.lang.Number;
 	when
 		financialDetails : FinancialDetails( monthlyAvgSalary >= 100001.0 )
 	then
-		customer.setIncomeCreditScore( 20.0 );
+		financialDetails.setIncomeCreditScore( 20.0 );
     end
