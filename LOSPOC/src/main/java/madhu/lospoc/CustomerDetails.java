@@ -35,10 +35,6 @@ public class CustomerDetails implements java.io.Serializable
 
    private java.lang.Double ageCreditScore;
 
-   private java.lang.Double incomeCreditScore;
-
-   private java.lang.Double totalCreditScore;
-
    private java.lang.Long processInstanceID;
 
    private java.lang.Boolean fraudType;
@@ -180,26 +176,6 @@ public class CustomerDetails implements java.io.Serializable
    public void setAgeCreditScore(java.lang.Double ageCreditScore)
    {
       this.ageCreditScore = ageCreditScore;
-   }
-
-   public java.lang.Double getIncomeCreditScore()
-   {
-      return this.incomeCreditScore;
-   }
-
-   public void setIncomeCreditScore(java.lang.Double incomeCreditScore)
-   {
-      this.incomeCreditScore = incomeCreditScore;
-   }
-
-   public java.lang.Double getTotalCreditScore()
-   {
-      return this.totalCreditScore;
-   }
-
-   public void setTotalCreditScore(java.lang.Double totalCreditScore)
-   {
-      this.totalCreditScore = totalCreditScore;
    }
 
    public java.lang.Long getProcessInstanceID()
@@ -349,8 +325,7 @@ public class CustomerDetails implements java.io.Serializable
          java.lang.String customerMotherMaidenName,
          java.lang.String customerNationality,
          java.lang.String customerPassportNumber,
-         java.lang.Double ageCreditScore, java.lang.Double incomeCreditScore,
-         java.lang.Double totalCreditScore, java.lang.Long processInstanceID,
+         java.lang.Double ageCreditScore, java.lang.Long processInstanceID,
          java.lang.Boolean fraudType, java.lang.String customerFatherName,
          java.util.Date customerDOB, java.lang.String customerEmail,
          java.lang.String customerNationalID,
@@ -372,8 +347,6 @@ public class CustomerDetails implements java.io.Serializable
       this.customerNationality = customerNationality;
       this.customerPassportNumber = customerPassportNumber;
       this.ageCreditScore = ageCreditScore;
-      this.incomeCreditScore = incomeCreditScore;
-      this.totalCreditScore = totalCreditScore;
       this.processInstanceID = processInstanceID;
       this.fraudType = fraudType;
       this.customerFatherName = customerFatherName;
