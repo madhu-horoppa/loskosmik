@@ -6,54 +6,54 @@ import java.lang.Number;
 	dialect "mvel"
 	ruleflow-group "CustomerCreditScoreCalculation"
 	when
-		customerDetails : CustomerDetails( customerAge < 18 )
+		customer : CustomerDetails( customerAge < 18 )
 	then
-		customerDetails.setAgeCreditScore( 0.0 );
+		customer.setAgeCreditScore( 0.0 );
 	end
 	
 	rule "ageAbove18AndBelow25"
 	dialect "mvel"
 	ruleflow-group "CustomerCreditScoreCalculation"
 	when
-		customerDetails : CustomerDetails( customerAge >= 18 && customerAge < 26 )
+		customer : CustomerDetails( customerAge >= 18 && customerAge < 26 )
 	then
-		customerDetails.setAgeCreditScore( 5.0 );
+		customer.setAgeCreditScore( 5.0 );
 	end
 	
 	rule "ageAbove26AndBelow35"
 	dialect "mvel"
 	ruleflow-group "CustomerCreditScoreCalculation"
 	when
-		customerDetails : CustomerDetails( customerAge >= 26 && customerAge < 36 )
+		customer : CustomerDetails( customerAge >= 26 && customerAge < 36 )
 	then
-		customerDetails.setAgeCreditScore( 15.0 );
+		customer.setAgeCreditScore( 15.0 );
 	end
 	
 	rule "ageAbove36AndBelow45"
 	dialect "mvel"
 	ruleflow-group "CustomerCreditScoreCalculation"
 	when
-		customerDetails : CustomerDetails( customerAge >= 36 && customerAge < 46 )
+		customer : CustomerDetails( customerAge >= 36 && customerAge < 46 )
 	then
-		customerDetails.setAgeCreditScore( 10.0 );
+		customer.setAgeCreditScore( 10.0 );
 	end
 	
 	rule "ageAbove46AndBelow55"
 	dialect "mvel"
 	ruleflow-group "CustomerCreditScoreCalculation"
 	when
-		customerDetails : CustomerDetails( customerAge >= 46 && customerAge < 56 )
+		customer : CustomerDetails( customerAge >= 46 && customerAge < 56 )
 	then
-		customerDetails.setAgeCreditScore( 8.0 );
+		customer.setAgeCreditScore( 8.0 );
 	end
 	
 	rule "ageAbove55"
 	dialect "mvel"
 	ruleflow-group "CustomerCreditScoreCalculation"
 	when
-		customerDetails : CustomerDetails( customerAge >= 56 )
+		customer : CustomerDetails( customerAge >= 56 )
 	then
-		customerDetails.setAgeCreditScore( 3.0 );
+		customer.setAgeCreditScore( 3.0 );
 	end
 	
 	rule "monthlySalAbove0Below8000"
