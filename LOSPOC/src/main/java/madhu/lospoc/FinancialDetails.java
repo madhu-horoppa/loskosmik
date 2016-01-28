@@ -39,7 +39,7 @@ public class FinancialDetails implements java.io.Serializable
 
    private java.lang.Double existingMonthlyEMI;
 
-   private java.lang.Double incomeCreditScore;
+   private Integer incomeCreditScore;
 
    public FinancialDetails()
    {
@@ -175,12 +175,12 @@ public class FinancialDetails implements java.io.Serializable
       this.existingMonthlyEMI = existingMonthlyEMI;
    }
 
-   public java.lang.Double getIncomeCreditScore()
+   public java.lang.Integer getIncomeCreditScore()
    {
       return this.incomeCreditScore;
    }
 
-   public void setIncomeCreditScore(java.lang.Double incomeCreditScore)
+   public void setIncomeCreditScore(java.lang.Integer incomeCreditScore)
    {
       this.incomeCreditScore = incomeCreditScore;
    }
@@ -191,7 +191,7 @@ public class FinancialDetails implements java.io.Serializable
          java.lang.Double monthlyAvgSalary, java.lang.Double year2Income,
          java.lang.Double year1Income, java.lang.Double year3Income,
          java.lang.Double avgAnnualIncome, java.lang.Double otherIncome,
-         java.lang.Double existingMonthlyEMI, java.lang.Double incomeCreditScore)
+         java.lang.Double existingMonthlyEMI, java.lang.Integer incomeCreditScore)
    {
       this.id = id;
       this.processInstanceID = processInstanceID;
