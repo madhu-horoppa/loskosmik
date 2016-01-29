@@ -25,8 +25,6 @@ public class CustomerDetails implements java.io.Serializable
 
    private java.lang.String customerMobileNumber;
 
-   private java.lang.Double customerMonthlySalary;
-
    private java.lang.String customerMotherMaidenName;
 
    private java.lang.String customerNationality;
@@ -115,16 +113,6 @@ public class CustomerDetails implements java.io.Serializable
    public void setCustomerMobileNumber(java.lang.String customerMobileNumber)
    {
       this.customerMobileNumber = customerMobileNumber;
-   }
-
-   public java.lang.Double getCustomerMonthlySalary()
-   {
-      return this.customerMonthlySalary;
-   }
-
-   public void setCustomerMonthlySalary(java.lang.Double customerMonthlySalary)
-   {
-      this.customerMonthlySalary = customerMonthlySalary;
    }
 
    public java.lang.String getCustomerMotherMaidenName()
@@ -321,7 +309,6 @@ public class CustomerDetails implements java.io.Serializable
    public CustomerDetails(java.lang.Long id, java.lang.String customerName,
          java.lang.String customerNumber, java.lang.Double customerAge,
          java.lang.String customerGender, java.lang.String customerMobileNumber,
-         java.lang.Double customerMonthlySalary,
          java.lang.String customerMotherMaidenName,
          java.lang.String customerNationality,
          java.lang.String customerPassportNumber,
@@ -342,7 +329,6 @@ public class CustomerDetails implements java.io.Serializable
       this.customerAge = customerAge;
       this.customerGender = customerGender;
       this.customerMobileNumber = customerMobileNumber;
-      this.customerMonthlySalary = customerMonthlySalary;
       this.customerMotherMaidenName = customerMotherMaidenName;
       this.customerNationality = customerNationality;
       this.customerPassportNumber = customerPassportNumber;
