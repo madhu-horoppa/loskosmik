@@ -554,7 +554,7 @@
 <property name="readonly" value="true"/>
 <property name="isHTML" value="true"/>
 <property name="hideContent" value="false"/>
-<property name="inputBinding" value="in_loanDetails/loanTenorMonths"/>
+<property name="inputBinding" value="in_loanDetails/loanTenorMonths1"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <field position="48" name="loanDetails_interestRatetype1" type="InputText" id="1219955475">
@@ -568,7 +568,7 @@
 <property name="isHTML" value="true"/>
 <property name="hideContent" value="false"/>
 <property name="inputBinding" value="in_loanDetails/interestRatetype1"/>
-<property name="outputBinding" value="out_loanDetails/interestRatetype"/>
+<property name="outputBinding" value="out_loanDetails/interestRatetype1"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <field position="49" name="loanDetails_interestRate1" type="InputText" id="550886715">
