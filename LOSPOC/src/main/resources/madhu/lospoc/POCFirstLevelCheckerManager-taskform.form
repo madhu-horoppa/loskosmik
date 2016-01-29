@@ -485,54 +485,6 @@
 <property name="htmlContent" value="quot;caquot;,quot;&lt;h3&gt;Loan Details&lt;/h3&gt; quot;quot;dequot;,quot;&lt;h3&gt;Loan Details&lt;/h3&gt; quot;quot;enquot;,quot;&lt;h3&gt;Loan Details&lt;/h3&gt; quot;quot;esquot;,quot;&lt;h3&gt;Loan Details&lt;/h3&gt; quot;quot;frquot;,quot;&lt;h3&gt;Loan Details&lt;/h3&gt; quot;quot;jaquot;,quot;&lt;h3&gt;Loan Details&lt;/h3&gt; quot;quot;ptquot;,quot;&lt;h3&gt;Loan Details&lt;/h3&gt; quot;quot;zhquot;,quot;&lt;h3&gt;Loan Details&lt;/h3&gt; quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
-<field position="46" name="loanDetails_projectCost1" type="InputText" id="721050779">
-<property name="fieldRequired" value="true"/>
-<property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Project Costquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="readonly" value="true"/>
-<property name="isHTML" value="true"/>
-<property name="hideContent" value="false"/>
-<property name="inputBinding" value="in_loanDetails/projectCost1"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="47" name="loanDetails_amountRequired1" type="InputText" id="921736048">
-<property name="fieldRequired" value="true"/>
-<property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Loan Amount Requiredquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="readonly" value="true"/>
-<property name="isHTML" value="true"/>
-<property name="hideContent" value="false"/>
-<property name="inputBinding" value="in_loanDetails/amountRequired1"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="48" name="loanDetails_minAcceptableLoan1" type="InputText" id="205558126">
-<property name="fieldRequired" value="true"/>
-<property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Minimum Acceptable Loanquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="readonly" value="true"/>
-<property name="isHTML" value="true"/>
-<property name="hideContent" value="false"/>
-<property name="inputBinding" value="in_loanDetails/minAcceptableLoan1"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="49" name="loanDetails_loanAmount1" type="InputText" id="1825023060">
-<property name="fieldRequired" value="true"/>
-<property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Loan Amountquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="readonly" value="true"/>
-<property name="isHTML" value="true"/>
-<property name="hideContent" value="false"/>
-<property name="inputBinding" value="in_loanDetails/loanAmount1"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
 <field position="50" name="loanDetails_downPaymentAmount1" type="InputText" id="182494331">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="false"/>
@@ -564,7 +516,6 @@
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="true"/>
-<property name="rangeFormula" value="{Fixed,Fixed;Perodic Automatic,Perodic Automatic;Floating,Floating;Periodic Manual,Periodic Manual;Periodic Straight,Periodic Straight}"/>
 <property name="isHTML" value="true"/>
 <property name="hideContent" value="false"/>
 <property name="inputBinding" value="in_loanDetails/interestRatetype1"/>
@@ -1039,15 +990,18 @@ quot;"/>
 <property name="outputBinding" value="out_loanDetails/amountRequired"/>
 <property name="fieldClass" value="java.lang.Double"/>
 </field>
-<field position="99" name="loanDetails_downPaymentAmount" type="InputTextDouble" id="835896533">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;downPaymentAmount (loanDetails)quot;"/>
+<field position="46" name="loanDetails_downPaymentAmount" type="InputTextDouble" id="835896533">
+<property name="fieldRequired" value="true"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Down payment amountquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="in_loanDetails/downPaymentAmount"/>
 <property name="outputBinding" value="out_loanDetails/downPaymentAmount"/>
 <property name="fieldClass" value="java.lang.Double"/>
 </field>
-<field position="100" name="loanDetails_emi" type="InputTextDouble" id="978649984">
+<field position="99" name="loanDetails_emi" type="InputTextDouble" id="978649984">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;emi (loanDetails)quot;"/>
 <property name="readonly" value="false"/>
@@ -1055,18 +1009,27 @@ quot;"/>
 <property name="outputBinding" value="out_loanDetails/emi"/>
 <property name="fieldClass" value="java.lang.Double"/>
 </field>
-<field position="101" name="loanDetails_interestRate" type="InputTextDouble" id="1816167250">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;interestRate (loanDetails)quot;"/>
+<field position="49" name="loanDetails_interestRate" type="InputTextDouble" id="1816167250">
+<property name="fieldRequired" value="true"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Interest Ratequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="in_loanDetails/interestRate"/>
 <property name="outputBinding" value="out_loanDetails/interestRate"/>
 <property name="fieldClass" value="java.lang.Double"/>
 </field>
-<field position="102" name="loanDetails_interestRatetype" type="InputText" id="1333633903">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;interestRatetype (loanDetails)quot;"/>
+<field position="48" name="loanDetails_interestRatetype" type="InputText" id="1333633903">
+<property name="fieldRequired" value="true"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Interest Ratetypequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
+<property name="rangeFormula" value="{,;Fixed,Fixed;Floating,Floating}"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
 <property name="inputBinding" value="in_loanDetails/interestRatetype"/>
 <property name="outputBinding" value="out_loanDetails/interestRatetype"/>
 <property name="fieldClass" value="java.lang.String"/>
@@ -1082,9 +1045,12 @@ quot;"/>
 <property name="outputBinding" value="out_loanDetails/loanAmount"/>
 <property name="fieldClass" value="java.lang.Double"/>
 </field>
-<field position="103" name="loanDetails_loanTenorMonths" type="InputTextInteger" id="1901792057">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;loanTenorMonths (loanDetails)quot;"/>
+<field position="47" name="loanDetails_loanTenorMonths" type="InputTextInteger" id="1901792057">
+<property name="fieldRequired" value="true"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Tenor (Months)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="in_loanDetails/loanTenorMonths"/>
 <property name="outputBinding" value="out_loanDetails/loanTenorMonths"/>
@@ -1112,7 +1078,7 @@ quot;"/>
 <property name="outputBinding" value="out_loanDetails/projectCost"/>
 <property name="fieldClass" value="java.lang.Double"/>
 </field>
-<field position="104" name="loanDetails_totalInterest" type="InputTextDouble" id="789977172">
+<field position="100" name="loanDetails_totalInterest" type="InputTextDouble" id="789977172">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;totalInterest (loanDetails)quot;"/>
 <property name="readonly" value="false"/>
@@ -1120,7 +1086,7 @@ quot;"/>
 <property name="outputBinding" value="out_loanDetails/totalInterest"/>
 <property name="fieldClass" value="java.lang.Double"/>
 </field>
-<field position="105" name="loanDetails_totalRepayment" type="InputTextDouble" id="1499421322">
+<field position="101" name="loanDetails_totalRepayment" type="InputTextDouble" id="1499421322">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;totalRepayment (loanDetails)quot;"/>
 <property name="readonly" value="false"/>
