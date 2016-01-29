@@ -494,7 +494,7 @@
 <property name="readonly" value="true"/>
 <property name="isHTML" value="true"/>
 <property name="hideContent" value="false"/>
-<property name="inputBinding" value="in_loanDetails/projectCost"/>
+<property name="inputBinding" value="in_loanDetails/projectCost1"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <field position="43" name="loanDetails_amountRequired1" type="InputText" id="921736048">
@@ -518,7 +518,7 @@
 <property name="readonly" value="true"/>
 <property name="isHTML" value="true"/>
 <property name="hideContent" value="false"/>
-<property name="inputBinding" value="in_loanDetails/minAcceptableLoan"/>
+<property name="inputBinding" value="in_loanDetails/minAcceptableLoan1"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <field position="45" name="loanDetails_loanAmount1" type="InputText" id="1825023060">
