@@ -229,11 +229,8 @@
 <property name="inputBinding" value="in_customerDetails/customerEmail"/>
 <property name="outputBinding" value="out_customerDetails/customerEmail"/>
 <property name="fieldClass" value="java.lang.String"/>
-<property name="onChangeScript" value="var js=document.createElement(&quot;script&quot;);
-js.type=&quot;text/javascript&quot;;
-js.src=&quot;http://pssys100:8080/kie-wb-webapp/formModeler/js/CustomCalculations.js&quot;;
-document.body.appendChild(js);
-if(validateEmailAddress(this.value)==true){return true;}else{alert(&quot;Enter valid Email Address.&quot;);return false;}"/>
+<property name="onChangeScript" value="alert(&quot;Script Called&quot;);
+var js=document.createElement(&quot;script&quot;); js.type=&quot;text/javascript&quot;; js.src=&quot;http://pssys100:8080/kie-wb-webapp/formModeler/js/CustomCalculations.js&quot;; document.body.appendChild(js); if(validateEmailAddress(this.value)==true){return true;}else{alert(&quot;Enter valid Email Address.&quot;);return false;}"/>
 </field>
 <field position="19" name="customerDetails_customerPassportNumber" type="InputText" id="277612582">
 <property name="fieldRequired" value="true"/>
