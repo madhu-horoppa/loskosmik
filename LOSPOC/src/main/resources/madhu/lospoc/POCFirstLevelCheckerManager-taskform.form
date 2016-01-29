@@ -607,7 +607,7 @@
 <property name="inputBinding" value="in_loanDetails/totalInterest1"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="52" name="loanDetails_totalRepayment" type="InputText" id="2032748462">
+<field position="52" name="loanDetails_totalRepayment1" type="InputText" id="2032748462">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Total Repaymentquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -616,7 +616,7 @@
 <property name="readonly" value="true"/>
 <property name="isHTML" value="true"/>
 <property name="hideContent" value="false"/>
-<property name="inputBinding" value="in_loanDetails/totalRepayment"/>
+<property name="inputBinding" value="in_loanDetails/totalRepayment1"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <field position="53" name=":decorator_11" type="HTMLLabel" id="1668247563">
