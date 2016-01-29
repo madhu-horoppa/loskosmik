@@ -230,6 +230,7 @@
 <property name="outputBinding" value="out_customerDetails/customerEmail"/>
 <property name="fieldClass" value="java.lang.String"/>
 <property name="onChangeScript" value="var email=document.getElementById(&apos;customerDetails_customerEmail&apos;).value;
+alert(email);
 var filter= /^([a-zA-Z0-9_.-])+@(([a-zA-Z0-9-])+.)+([a-zA-Z0-9]{2,4})+$/;
 if(!filter.test(email)){
 alert(&apos;Please enter a valid e-mail address.&apos;);
