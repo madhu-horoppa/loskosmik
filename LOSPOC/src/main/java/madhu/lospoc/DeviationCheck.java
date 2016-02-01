@@ -15,17 +15,20 @@ public class DeviationCheck implements java.io.Serializable
    @javax.persistence.SequenceGenerator(sequenceName = "DEVIATIONCHECK_ID_SEQ", name = "DEVIATIONCHECK_ID_GENERATOR")
    private java.lang.Long id;
 
-   @org.kie.api.definition.type.Label(value = "Deviation Type")
+   @org.kie.api.definition.type.Label("Deviation Type")
    private java.lang.String deviationType;
 
-   @org.kie.api.definition.type.Label(value = "Deviation Description")
+   @org.kie.api.definition.type.Label("Deviation Description")
    private java.lang.String deviationDescription;
 
-   @org.kie.api.definition.type.Label(value = "Manager Description")
+   @org.kie.api.definition.type.Label("Manager Description")
    private java.lang.String managerDescription;
 
-   @org.kie.api.definition.type.Label(value = "Status")
+   @org.kie.api.definition.type.Label("Status")
    private java.lang.String status;
+
+   @org.kie.api.definition.type.Label(value = "Description")
+   private java.lang.String description;
 
    public DeviationCheck()
    {
@@ -81,15 +84,27 @@ public class DeviationCheck implements java.io.Serializable
       this.status = status;
    }
 
+   public java.lang.String getDescription()
+   {
+      return this.description;
+   }
+
+   public void setDescription(java.lang.String description)
+   {
+      this.description = description;
+   }
+
    public DeviationCheck(java.lang.Long id, java.lang.String deviationType,
          java.lang.String deviationDescription,
-         java.lang.String managerDescription, java.lang.String status)
+         java.lang.String managerDescription, java.lang.String status,
+         java.lang.String description)
    {
       this.id = id;
       this.deviationType = deviationType;
       this.deviationDescription = deviationDescription;
       this.managerDescription = managerDescription;
       this.status = status;
+      this.description = description;
    }
 
 }
