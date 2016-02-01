@@ -5,28 +5,77 @@ package madhu.lospoc;
  */
 
 @javax.persistence.Entity
-public class BlacklistCheck implements java.io.Serializable {
+public class BlacklistCheck implements java.io.Serializable
+{
 
-    static final long serialVersionUID = 1L;
+   static final long serialVersionUID = 1L;
 
-    @javax.persistence.GeneratedValue(strategy = javax.persistence.GenerationType.AUTO, generator = "BLACKLISTCHECK_ID_GENERATOR")
-    @javax.persistence.Id
-    @javax.persistence.SequenceGenerator(sequenceName = "BLACKLISTCHECK_ID_SEQ", name = "BLACKLISTCHECK_ID_GENERATOR")
-    private java.lang.Long id;
+   @javax.persistence.GeneratedValue(strategy = javax.persistence.GenerationType.AUTO, generator = "BLACKLISTCHECK_ID_GENERATOR")
+   @javax.persistence.Id
+   @javax.persistence.SequenceGenerator(sequenceName = "BLACKLISTCHECK_ID_SEQ", name = "BLACKLISTCHECK_ID_GENERATOR")
+   private java.lang.Long id;
 
-    public BlacklistCheck() {
-    }
-    
-    public BlacklistCheck(java.lang.Long id) {
-        this.id = id;
-    }
+   @org.kie.api.definition.type.Label(value = "BlackList Amount")
+   private java.lang.Double blackListAmount;
 
-    public java.lang.Long getId() {
-        return this.id;
-    }
-    
-    public void setId(java.lang.Long id) {
-        this.id = id;
-    }
+   @org.kie.api.definition.type.Label(value = "BlackList Description")
+   private java.lang.String blackListDescription;
+
+   @org.kie.api.definition.type.Label(value = "BlackList Type")
+   private java.lang.String blackListType;
+
+   public BlacklistCheck()
+   {
+   }
+
+   public java.lang.Long getId()
+   {
+      return this.id;
+   }
+
+   public void setId(java.lang.Long id)
+   {
+      this.id = id;
+   }
+
+   public java.lang.Double getBlackListAmount()
+   {
+      return this.blackListAmount;
+   }
+
+   public void setBlackListAmount(java.lang.Double blackListAmount)
+   {
+      this.blackListAmount = blackListAmount;
+   }
+
+   public java.lang.String getBlackListDescription()
+   {
+      return this.blackListDescription;
+   }
+
+   public void setBlackListDescription(java.lang.String blackListDescription)
+   {
+      this.blackListDescription = blackListDescription;
+   }
+
+   public java.lang.String getBlackListType()
+   {
+      return this.blackListType;
+   }
+
+   public void setBlackListType(java.lang.String blackListType)
+   {
+      this.blackListType = blackListType;
+   }
+
+   public BlacklistCheck(java.lang.Long id, java.lang.Double blackListAmount,
+         java.lang.String blackListDescription,
+         java.lang.String blackListType)
+   {
+      this.id = id;
+      this.blackListAmount = blackListAmount;
+      this.blackListDescription = blackListDescription;
+      this.blackListType = blackListType;
+   }
 
 }
