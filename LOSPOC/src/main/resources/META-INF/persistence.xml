@@ -8,6 +8,7 @@
 <class>madhu.lospoc.FinancialDetails</class>
 <class>madhu.lospoc.IncidentBasicDetails</class>
 <class>madhu.lospoc.BlacklistCheck</class>
+<class>madhu.lospoc.DeviationCheck</class>
 <exclude-unlisted-classes>true</exclude-unlisted-classes>
 <properties>
 <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect"/>
