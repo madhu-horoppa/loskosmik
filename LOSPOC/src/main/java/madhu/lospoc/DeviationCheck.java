@@ -5,28 +5,91 @@ package madhu.lospoc;
  */
 
 @javax.persistence.Entity
-public class DeviationCheck implements java.io.Serializable {
+public class DeviationCheck implements java.io.Serializable
+{
 
-    static final long serialVersionUID = 1L;
+   static final long serialVersionUID = 1L;
 
-    @javax.persistence.GeneratedValue(strategy = javax.persistence.GenerationType.AUTO, generator = "DEVIATIONCHECK_ID_GENERATOR")
-    @javax.persistence.Id
-    @javax.persistence.SequenceGenerator(sequenceName = "DEVIATIONCHECK_ID_SEQ", name = "DEVIATIONCHECK_ID_GENERATOR")
-    private java.lang.Long id;
+   @javax.persistence.GeneratedValue(strategy = javax.persistence.GenerationType.AUTO, generator = "DEVIATIONCHECK_ID_GENERATOR")
+   @javax.persistence.Id
+   @javax.persistence.SequenceGenerator(sequenceName = "DEVIATIONCHECK_ID_SEQ", name = "DEVIATIONCHECK_ID_GENERATOR")
+   private java.lang.Long id;
 
-    public DeviationCheck() {
-    }
-    
-    public DeviationCheck(java.lang.Long id) {
-        this.id = id;
-    }
+   @org.kie.api.definition.type.Label(value = "Deviation Type")
+   private java.lang.String deviationType;
 
-    public java.lang.Long getId() {
-        return this.id;
-    }
-    
-    public void setId(java.lang.Long id) {
-        this.id = id;
-    }
+   @org.kie.api.definition.type.Label(value = "Deviation Description")
+   private java.lang.String deviationDescription;
+
+   @org.kie.api.definition.type.Label(value = "Manager Description")
+   private java.lang.String managerDescription;
+
+   @org.kie.api.definition.type.Label(value = "Status")
+   private java.lang.String status;
+
+   public DeviationCheck()
+   {
+   }
+
+   public java.lang.Long getId()
+   {
+      return this.id;
+   }
+
+   public void setId(java.lang.Long id)
+   {
+      this.id = id;
+   }
+
+   public java.lang.String getDeviationType()
+   {
+      return this.deviationType;
+   }
+
+   public void setDeviationType(java.lang.String deviationType)
+   {
+      this.deviationType = deviationType;
+   }
+
+   public java.lang.String getDeviationDescription()
+   {
+      return this.deviationDescription;
+   }
+
+   public void setDeviationDescription(java.lang.String deviationDescription)
+   {
+      this.deviationDescription = deviationDescription;
+   }
+
+   public java.lang.String getManagerDescription()
+   {
+      return this.managerDescription;
+   }
+
+   public void setManagerDescription(java.lang.String managerDescription)
+   {
+      this.managerDescription = managerDescription;
+   }
+
+   public java.lang.String getStatus()
+   {
+      return this.status;
+   }
+
+   public void setStatus(java.lang.String status)
+   {
+      this.status = status;
+   }
+
+   public DeviationCheck(java.lang.Long id, java.lang.String deviationType,
+         java.lang.String deviationDescription,
+         java.lang.String managerDescription, java.lang.String status)
+   {
+      this.id = id;
+      this.deviationType = deviationType;
+      this.deviationDescription = deviationDescription;
+      this.managerDescription = managerDescription;
+      this.status = status;
+   }
 
 }
