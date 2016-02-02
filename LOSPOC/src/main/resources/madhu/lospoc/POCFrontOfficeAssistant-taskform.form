@@ -352,7 +352,7 @@
 <field position="28" name="financialDetails_customerOccupation" type="InputText" id="8470588">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Occupationquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Occupationquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Customer Occupation Details. Select from the given list.quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
@@ -382,7 +382,13 @@
 <property name="inputBinding" value="in_financialDetails/month1Salary"/>
 <property name="outputBinding" value="out_financialDetails/month1Salary"/>
 <property name="fieldClass" value="java.lang.Double"/>
-<property name="onChangeScript" value="calculateLoanAmount();"/>
+<property name="onChangeScript" value="var v=this.value;
+if(isNaN(v)){
+alert(&quot;Enter valid monthly salary&quot;);
+document.getElementById(&quot;financialDetails_month1Salary&quot;).value=0.0;
+}else{
+calculateLoanAmount();
+}"/>
 </field>
 <field position="31" name="financialDetails_month2Salary" type="InputTextDouble" id="513508189">
 <property name="fieldRequired" value="false"/>
@@ -395,7 +401,13 @@
 <property name="inputBinding" value="in_financialDetails/month2Salary"/>
 <property name="outputBinding" value="out_financialDetails/month2Salary"/>
 <property name="fieldClass" value="java.lang.Double"/>
-<property name="onChangeScript" value="calculateLoanAmount();"/>
+<property name="onChangeScript" value="var v=this.value;
+if(isNaN(v)){
+alert(&quot;Enter valid monthly salary&quot;);
+document.getElementById(&quot;financialDetails_month2Salary&quot;).value=0.0;
+}else{
+calculateLoanAmount();
+}"/>
 </field>
 <field position="32" name="financialDetails_month3Salary" type="InputTextDouble" id="298098558">
 <property name="fieldRequired" value="false"/>
@@ -408,7 +420,13 @@
 <property name="inputBinding" value="in_financialDetails/month3Salary"/>
 <property name="outputBinding" value="out_financialDetails/month3Salary"/>
 <property name="fieldClass" value="java.lang.Double"/>
-<property name="onChangeScript" value="calculateLoanAmount();"/>
+<property name="onChangeScript" value="var v=this.value;
+if(isNaN(v)){
+alert(&quot;Enter valid monthly salary&quot;);
+document.getElementById(&quot;financialDetails_month3Salary&quot;).value=0.0;
+}else{
+calculateLoanAmount();
+}"/>
 </field>
 <field position="33" name="financialDetails_monthlyAvgSalary" type="InputTextDouble" id="1983153079">
 <property name="fieldRequired" value="false"/>
@@ -442,7 +460,13 @@
 <property name="inputBinding" value="in_financialDetails/year1Income"/>
 <property name="outputBinding" value="out_financialDetails/year1Income"/>
 <property name="fieldClass" value="java.lang.Double"/>
-<property name="onChangeScript" value="calculateLoanAmount();"/>
+<property name="onChangeScript" value="var v=this.value;
+if(isNaN(v)){
+alert(&quot;Enter valid anual income&quot;);
+document.getElementById(&quot;financialDetails_year1Income&quot;).value=0.0;
+}else{
+calculateLoanAmount();
+}"/>
 </field>
 <field position="36" name="financialDetails_year2Income" type="InputTextDouble" id="839118254">
 <property name="fieldRequired" value="false"/>
@@ -455,7 +479,13 @@
 <property name="inputBinding" value="in_financialDetails/year2Income"/>
 <property name="outputBinding" value="out_financialDetails/year2Income"/>
 <property name="fieldClass" value="java.lang.Double"/>
-<property name="onChangeScript" value="calculateLoanAmount();"/>
+<property name="onChangeScript" value="var v=this.value;
+if(isNaN(v)){
+alert(&quot;Enter valid anual income&quot;);
+document.getElementById(&quot;financialDetails_year2Income&quot;).value=0.0;
+}else{
+calculateLoanAmount();
+}"/>
 </field>
 <field position="37" name="financialDetails_year3Income" type="InputTextDouble" id="556451032">
 <property name="fieldRequired" value="false"/>
@@ -468,7 +498,13 @@
 <property name="inputBinding" value="in_financialDetails/year3Income"/>
 <property name="outputBinding" value="out_financialDetails/year3Income"/>
 <property name="fieldClass" value="java.lang.Double"/>
-<property name="onChangeScript" value="calculateLoanAmount();"/>
+<property name="onChangeScript" value="var v=this.value;
+if(isNaN(v)){
+alert(&quot;Enter valid anual income&quot;);
+document.getElementById(&quot;financialDetails_year3Income&quot;).value=0.0;
+}else{
+calculateLoanAmount();
+}"/>
 </field>
 <field position="38" name="financialDetails_avgAnnualIncome" type="InputTextDouble" id="817658574">
 <property name="fieldRequired" value="false"/>
@@ -487,7 +523,7 @@
 <field position="39" name="financialDetails_otherIncome" type="InputTextDouble" id="2027987960">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Other Income(Monthly)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Other Income(Monthly)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;other income like rental income, dividend income, pension. Etc.,quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
@@ -500,7 +536,7 @@
 <field position="40" name="financialDetails_existingMonthlyEMI" type="InputTextDouble" id="1541934843">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Existing EMI (Monthly)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Existing EMI (Monthly)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Addition of all monthly existing EMIsquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
@@ -520,7 +556,7 @@
 <field position="42" name="loanDetails_projectCost" type="InputTextDouble" id="911228993">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Project Costquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Project Costquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Enter Project Costquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
@@ -558,7 +594,7 @@
 <field position="45" name="loanDetails_loanAmount" type="InputTextDouble" id="642756657">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Loan Amountquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Loan Amountquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="true"/>
@@ -573,7 +609,7 @@
 <field position="46" name="loanDetails_downPaymentAmount" type="InputTextDouble" id="536306523">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Down payment amountquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Down payment amountquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="true"/>
@@ -628,7 +664,7 @@
 <field position="50" name="loanDetails_emi" type="InputTextDouble" id="463579610">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;EMIquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;EMIquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="true"/>
@@ -642,7 +678,7 @@
 <field position="51" name="loanDetails_totalInterest" type="InputTextDouble" id="1679655615">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Total Interestquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Total Interestquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="true"/>
@@ -656,7 +692,7 @@
 <field position="52" name="loanDetails_totalRepayment" type="InputTextDouble" id="1046505694">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Total Repaymentquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Total Repaymentquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="true"/>
