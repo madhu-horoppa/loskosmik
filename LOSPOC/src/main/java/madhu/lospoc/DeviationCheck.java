@@ -21,14 +21,14 @@ public class DeviationCheck implements java.io.Serializable
    @org.kie.api.definition.type.Label("Deviation Description")
    private java.lang.String deviationDescription;
 
-   @org.kie.api.definition.type.Label("Manager Description")
-   private java.lang.String managerDescription;
-
    @org.kie.api.definition.type.Label("Status")
    private java.lang.String status;
 
-   @org.kie.api.definition.type.Label(value = "Description")
+   @org.kie.api.definition.type.Label("Description")
    private java.lang.String description;
+
+   @org.kie.api.definition.type.Label(value = "Manager Description")
+   private java.lang.String officerDescription;
 
    public DeviationCheck()
    {
@@ -64,16 +64,6 @@ public class DeviationCheck implements java.io.Serializable
       this.deviationDescription = deviationDescription;
    }
 
-   public java.lang.String getManagerDescription()
-   {
-      return this.managerDescription;
-   }
-
-   public void setManagerDescription(java.lang.String managerDescription)
-   {
-      this.managerDescription = managerDescription;
-   }
-
    public java.lang.String getStatus()
    {
       return this.status;
@@ -94,17 +84,26 @@ public class DeviationCheck implements java.io.Serializable
       this.description = description;
    }
 
+   public java.lang.String getOfficerDescription()
+   {
+      return this.officerDescription;
+   }
+
+   public void setOfficerDescription(java.lang.String officerDescription)
+   {
+      this.officerDescription = officerDescription;
+   }
+
    public DeviationCheck(java.lang.Long id, java.lang.String deviationType,
-         java.lang.String deviationDescription,
-         java.lang.String managerDescription, java.lang.String status,
-         java.lang.String description)
+         java.lang.String deviationDescription, java.lang.String status,
+         java.lang.String description, java.lang.String officerDescription)
    {
       this.id = id;
       this.deviationType = deviationType;
       this.deviationDescription = deviationDescription;
-      this.managerDescription = managerDescription;
       this.status = status;
       this.description = description;
+      this.officerDescription = officerDescription;
    }
 
 }
