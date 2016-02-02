@@ -27,7 +27,7 @@ public class DeviationCheck implements java.io.Serializable
    @org.kie.api.definition.type.Label("Description")
    private java.lang.String description;
 
-   @org.kie.api.definition.type.Label(value = "Manager Description")
+   @org.kie.api.definition.type.Label("Officer Description")
    private java.lang.String officerDescription;
 
    public DeviationCheck()
