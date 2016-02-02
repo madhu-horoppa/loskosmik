@@ -30,6 +30,9 @@ public class DeviationCheck implements java.io.Serializable
    @org.kie.api.definition.type.Label("Officer Description")
    private java.lang.String officerDescription;
 
+   @org.kie.api.definition.type.Label(value = "Approved By")
+   private java.lang.String approverBy;
+
    public DeviationCheck()
    {
    }
@@ -94,9 +97,20 @@ public class DeviationCheck implements java.io.Serializable
       this.officerDescription = officerDescription;
    }
 
+   public java.lang.String getApproverBy()
+   {
+      return this.approverBy;
+   }
+
+   public void setApproverBy(java.lang.String approverBy)
+   {
+      this.approverBy = approverBy;
+   }
+
    public DeviationCheck(java.lang.Long id, java.lang.String deviationType,
          java.lang.String deviationDescription, java.lang.String status,
-         java.lang.String description, java.lang.String officerDescription)
+         java.lang.String description, java.lang.String officerDescription,
+         java.lang.String approverBy)
    {
       this.id = id;
       this.deviationType = deviationType;
@@ -104,6 +118,7 @@ public class DeviationCheck implements java.io.Serializable
       this.status = status;
       this.description = description;
       this.officerDescription = officerDescription;
+      this.approverBy = approverBy;
    }
 
 }
