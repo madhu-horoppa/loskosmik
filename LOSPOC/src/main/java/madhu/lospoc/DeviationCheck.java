@@ -10,9 +10,9 @@ public class DeviationCheck implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
-   @javax.persistence.GeneratedValue(strategy = javax.persistence.GenerationType.AUTO, generator = "DEVIATIONCHECK_ID_GENERATOR")
+   @javax.persistence.GeneratedValue(generator = "DEVIATIONCHECK_ID_GENERATOR", strategy = javax.persistence.GenerationType.AUTO)
    @javax.persistence.Id
-   @javax.persistence.SequenceGenerator(sequenceName = "DEVIATIONCHECK_ID_SEQ", name = "DEVIATIONCHECK_ID_GENERATOR")
+   @javax.persistence.SequenceGenerator(name = "DEVIATIONCHECK_ID_GENERATOR", sequenceName = "DEVIATIONCHECK_ID_SEQ")
    private java.lang.Long id;
 
    @org.kie.api.definition.type.Label("Deviation Type")
@@ -31,7 +31,7 @@ public class DeviationCheck implements java.io.Serializable
    private java.lang.String officerDescription;
 
    @org.kie.api.definition.type.Label(value = "Approved By")
-   private java.lang.String approverBy;
+   private java.lang.String approvedBy;
 
    public DeviationCheck()
    {
@@ -97,20 +97,20 @@ public class DeviationCheck implements java.io.Serializable
       this.officerDescription = officerDescription;
    }
 
-   public java.lang.String getApproverBy()
+   public java.lang.String getApprovedBy()
    {
-      return this.approverBy;
+      return this.approvedBy;
    }
 
-   public void setApproverBy(java.lang.String approverBy)
+   public void setApprovedBy(java.lang.String approvedBy)
    {
-      this.approverBy = approverBy;
+      this.approvedBy = approvedBy;
    }
 
    public DeviationCheck(java.lang.Long id, java.lang.String deviationType,
          java.lang.String deviationDescription, java.lang.String status,
          java.lang.String description, java.lang.String officerDescription,
-         java.lang.String approverBy)
+         java.lang.String approvedBy)
    {
       this.id = id;
       this.deviationType = deviationType;
@@ -118,7 +118,7 @@ public class DeviationCheck implements java.io.Serializable
       this.status = status;
       this.description = description;
       this.officerDescription = officerDescription;
-      this.approverBy = approverBy;
+      this.approvedBy = approvedBy;
    }
 
 }
