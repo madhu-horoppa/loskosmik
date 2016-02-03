@@ -30,8 +30,10 @@ public class DeviationCheck implements java.io.Serializable
    @org.kie.api.definition.type.Label("Officer Description")
    private java.lang.String officerDescription;
 
-   @org.kie.api.definition.type.Label(value = "Approved By")
+   @org.kie.api.definition.type.Label("Approved By")
    private java.lang.String approvedBy;
+
+   private java.lang.Long processInstanceID;
 
    public DeviationCheck()
    {
@@ -107,10 +109,20 @@ public class DeviationCheck implements java.io.Serializable
       this.approvedBy = approvedBy;
    }
 
+   public java.lang.Long getProcessInstanceID()
+   {
+      return this.processInstanceID;
+   }
+
+   public void setProcessInstanceID(java.lang.Long processInstanceID)
+   {
+      this.processInstanceID = processInstanceID;
+   }
+
    public DeviationCheck(java.lang.Long id, java.lang.String deviationType,
          java.lang.String deviationDescription, java.lang.String status,
          java.lang.String description, java.lang.String officerDescription,
-         java.lang.String approvedBy)
+         java.lang.String approvedBy, java.lang.Long processInstanceID)
    {
       this.id = id;
       this.deviationType = deviationType;
@@ -119,6 +131,7 @@ public class DeviationCheck implements java.io.Serializable
       this.description = description;
       this.officerDescription = officerDescription;
       this.approvedBy = approvedBy;
+      this.processInstanceID = processInstanceID;
    }
 
 }
