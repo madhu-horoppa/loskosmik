@@ -925,13 +925,7 @@ quot;quot;zhquot;,quot;&lt;h3&gt;Customer Credit Score Details&lt;/h3&gt;
 quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
-<field position="85" name=":decorator_25" type="HTMLLabel" id="1168936122">
-<property name="fieldRequired" value="false"/>
-<property name="readonly" value="false"/>
-<property name="htmlContent" value="quot;enquot;,quot;HTMLquot;"/>
-<property name="fieldClass" value="HTMLlabel"/>
-</field>
-<field position="86" name="customerDetails_ageCreditScore" type="InputText" id="377731511">
+<field position="85" name="customerDetails_ageCreditScore" type="InputText" id="377731511">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Age Credit Scorequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -943,7 +937,7 @@ quot;"/>
 <property name="outputBinding" value="out_customerDetails/ageCreditScore"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="87" name="financialDetails_incomeCreditScore" type="InputText" id="1854423677">
+<field position="86" name="financialDetails_incomeCreditScore" type="InputText" id="1854423677">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Income Credit Scorequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -955,7 +949,7 @@ quot;"/>
 <property name="outputBinding" value="out_financialDetails/incomeCreditScore"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="88" name="totalCreditScore" type="InputText" id="1180231025">
+<field position="87" name="totalCreditScore" type="InputText" id="1180231025">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Total Credit Scorequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -968,10 +962,13 @@ quot;"/>
 <property name="outputBinding" value="out_totalCreditScore"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="89" name="1920391993" type="Document" id="1920391993">
+<field position="88" name="creditScoreDoc" type="Document" id="1920391993">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;Document89quot;"/>
-<property name="readonly" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Credit Score Documentquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="inputBinding" value="in_creditScoreDoc"/>
+<property name="outputBinding" value="out_creditScoreDoc"/>
 <property name="fieldClass" value="org.jbpm.document.Document"/>
 </field>
 <dataHolder inputId="in_customerDetails" name="#0000A0" type="dataModelerEntry" outId="out_customerDetails" value="madhu.lospoc.CustomerDetails" id="customerDetails"/>
