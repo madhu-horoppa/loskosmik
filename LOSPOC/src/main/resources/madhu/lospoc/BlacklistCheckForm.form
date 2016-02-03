@@ -27,6 +27,11 @@
 <property name="inputBinding" value="in_blacklistCheck/blackListAmount"/>
 <property name="outputBinding" value="out_blacklistCheck/blackListAmount"/>
 <property name="fieldClass" value="java.lang.Double"/>
+<property name="onChangeScript" value=" var v=this.value;
+ if(isNaN(v)){
+ alert(&quot;Enter valid Blacklist Amount&quot;);
+ document.getElementById(&quot;blacklistCheck_blackListAmount&quot;).value=0.0;
+ }"/>
 </field>
 <field position="2" name="blacklistCheck_blackListDescription" type="InputText" id="704326881">
 <property name="fieldRequired" value="false"/>
