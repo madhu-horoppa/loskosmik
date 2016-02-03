@@ -495,7 +495,10 @@
 <property name="inputBinding" value="in_loanDetails/projectCost"/>
 <property name="outputBinding" value="out_loanDetails/projectCost"/>
 <property name="fieldClass" value="java.lang.Double"/>
-<property name="onChangeScript" value="var la=document.getElementById(&quot;loanDetails_loanAmount&quot;).value;
+<property name="onChangeScript" value="var js=document.createElement(&quot;script&quot;);
+js.type=&quot;text/javascript&quot;;
+js.src=&quot;http://pssys100:8080/kie-wb-webapp/formModeler/js/CustomCalculations.js&quot;;
+var la=document.getElementById(&quot;loanDetails_loanAmount&quot;).value;
 calculateDownPaymentAmount(la,this.value);"/>
 </field>
 <field position="43" name="loanDetails_amountRequired" type="InputTextDouble" id="1164503265">
