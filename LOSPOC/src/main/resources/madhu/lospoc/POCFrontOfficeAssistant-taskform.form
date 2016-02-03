@@ -146,7 +146,10 @@ document.body.appendChild(js);"/>
 <property name="inputBinding" value="in_customerDetails/customerName"/>
 <property name="outputBinding" value="out_customerDetails/customerName"/>
 <property name="fieldClass" value="java.lang.String"/>
-<property name="onChangeScript" value="var v=this.value;if(v!=null&amp;&amp;v!=&apos;&apos;){if(alphaNumericCheck(v)) {}else {alert(&quot;Please Enter valid Customer Name&quot;);}}"/>
+<property name="onChangeScript" value="var js=document.createElement(&quot;script&quot;);
+js.type=&quot;text/javascript&quot;;
+js.src=&quot;http://pssys100:8080/kie-wb-webapp/formModeler/js/CustomCalculations.js&quot;;
+document.body.appendChild(js);var v=this.value;if(v!=null&amp;&amp;v!=&apos;&apos;){if(alphaNumericCheck(v)) {}else {alert(&quot;Please Enter valid Customer Name&quot;);}}"/>
 </field>
 <field position="12" name="customerDetails_customerGender" type="InputText" id="880162778">
 <property name="fieldRequired" value="true"/>
