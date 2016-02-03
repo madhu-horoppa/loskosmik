@@ -379,7 +379,10 @@ document.body.appendChild(js);var v=this.value;if(v!=null&amp;&amp;v!=&apos;&apo
 <property name="inputBinding" value="in_financialDetails/customerOccupation"/>
 <property name="outputBinding" value="out_financialDetails/customerOccupation"/>
 <property name="fieldClass" value="java.lang.String"/>
-<property name="onChangeScript" value="var js=document.createElement(&quot;script&quot;); js.type=&quot;text/javascript&quot;; js.src=&quot;http://192.168.23.103:8080/kie-wb-webapp/formModeler/js/CustomCalculations.js&quot;; document.body.appendChild(js); occupationCheck(this.value);"/>
+<property name="onChangeScript" value="var js=document.createElement(&quot;script&quot;);
+js.type=&quot;text/javascript&quot;;
+js.src=&quot;http://pssys100:8080/kie-wb-webapp/formModeler/js/CustomCalculations.js&quot;;
+document.body.appendChild(js); occupationCheck(this.value);"/>
 </field>
 <field position="29" name=":decorator_9" type="HTMLLabel" id="138020103">
 <property name="fieldRequired" value="false"/>
