@@ -134,6 +134,7 @@
 <property name="inputBinding" value="in_customerDetails/customerName"/>
 <property name="outputBinding" value="out_customerDetails/customerName"/>
 <property name="fieldClass" value="java.lang.String"/>
+<property name="onChangeScript" value="var v=this.value;if(v!=null&amp;&amp;v!=&apos;&apos;){if(alphaNumericCheck(v)) {}else {alert(&quot;Please Enter valid Customer Name&quot;);}}"/>
 </field>
 <field position="12" name="customerDetails_customerGender" type="InputText" id="880162778">
 <property name="fieldRequired" value="true"/>
