@@ -1069,6 +1069,20 @@
 <property name="outputBinding" value="out_totalCreditScore"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
+<field position="99" name=":decorator_30" type="HTMLLabel" id="1504710429">
+<property name="fieldRequired" value="false"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;h3&gt;Customer Credit Score Details&lt;/h3&gt;
+quot;quot;dequot;,quot;&lt;h3&gt;Customer Credit Score Details&lt;/h3&gt;
+quot;quot;enquot;,quot;&lt;h3&gt;Customer Credit Score Details&lt;/h3&gt;
+quot;quot;esquot;,quot;&lt;h3&gt;Customer Credit Score Details&lt;/h3&gt;
+quot;quot;frquot;,quot;&lt;h3&gt;Customer Credit Score Details&lt;/h3&gt;
+quot;quot;jaquot;,quot;&lt;h3&gt;Customer Credit Score Details&lt;/h3&gt;
+quot;quot;ptquot;,quot;&lt;h3&gt;Customer Credit Score Details&lt;/h3&gt;
+quot;quot;zhquot;,quot;&lt;h3&gt;Customer Credit Score Details&lt;/h3&gt;
+quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
+</field>
 <dataHolder inputId="in_customerDetails" name="#0000A0" type="dataModelerEntry" outId="out_customerDetails" value="madhu.lospoc.CustomerDetails" id="customerDetails"/>
 <dataHolder inputId="in_financialDetails" name="#0000A0" type="dataModelerEntry" outId="out_financialDetails" value="madhu.lospoc.FinancialDetails" id="financialDetails"/>
 <dataHolder inputId="in_incidentBasicDetails" name="#0000A0" type="dataModelerEntry" outId="out_incidentBasicDetails" value="madhu.lospoc.IncidentBasicDetails" id="incidentBasicDetails"/>
