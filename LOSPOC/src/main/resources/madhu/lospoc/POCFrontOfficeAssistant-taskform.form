@@ -390,7 +390,7 @@ document.body.appendChild(js);var v=this.value;if(v!=null&amp;&amp;v!=&apos;&apo
 <field position="26" name="customerDetails_customerHomeZipcode" type="InputText" id="227972435">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Zipcodequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Zipcodequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Enter customer home city zipcodequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
@@ -400,6 +400,10 @@ document.body.appendChild(js);var v=this.value;if(v!=null&amp;&amp;v!=&apos;&apo
 <property name="inputBinding" value="in_customerDetails/customerHomeZipcode"/>
 <property name="outputBinding" value="out_customerDetails/customerHomeZipcode"/>
 <property name="fieldClass" value="java.lang.String"/>
+<property name="onChangeScript" value="var js=document.createElement(&quot;script&quot;);
+js.type=&quot;text/javascript&quot;;
+js.src=&quot;http://pssys100:8080/kie-wb-webapp/formModeler/js/CustomCalculations.js&quot;;
+document.body.appendChild(js);var v=this.value;if(v!=null&amp;&amp;v!=&apos;&apos;){if(alphaNumericCheck(v)){}else{alert(&quot;Please Enter valid Zipcode&quot;);document.getElementById(&apos;customerDetails_customerHomeZipcode&apos;).value=&quot;&quot;;}}"/>
 </field>
 <field position="27" name=":decorator_8" type="HTMLLabel" id="949327309">
 <property name="fieldRequired" value="false"/>
