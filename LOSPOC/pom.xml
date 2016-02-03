@@ -6,6 +6,13 @@
   <artifactId>LOSPOC</artifactId>
   <version>1.0</version>
   <name>LOSPOC</name>
+  <dependencies>
+    <dependency>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <version>5.1.18</version>
+    </dependency>
+  </dependencies>
   <build>
     <plugins>
       <plugin>
