@@ -3,8 +3,9 @@
 <property name="name" value="DeviationCheckForManager-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="6" name="multiSubformForDeviationCheckForManager" type="MultipleSubform" id="169592013">
+<field position="8" name="multiSubformForDeviationCheckForManager" type="MultipleSubform" id="169592013">
 <property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Deviation Detailsquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -25,7 +26,7 @@
 <property name="enableTableEnterData" value="true"/>
 <property name="fieldClass" value="java.util.List"/>
 </field>
-<field position="1" name="incidentBasicDetails_incidentApplicantStatus" type="InputText" id="1587070080">
+<field position="4" name="incidentBasicDetails_incidentApplicantStatus" type="InputText" id="1587070080">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Applicant Statusquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -38,8 +39,9 @@
 <property name="outputBinding" value="out_incidentBasicDetails/incidentApplicantStatus"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="2" name="incidentBasicDetails_incidentApplicationRelationship" type="InputText" id="1250867912">
+<field position="5" name="incidentBasicDetails_incidentApplicationRelationship" type="InputText" id="1250867912">
 <property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Relationshipquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -52,6 +54,7 @@
 </field>
 <field position="3" name="incidentBasicDetails_incidentApplicationType" type="InputText" id="378769230">
 <property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Application Typequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -62,8 +65,9 @@
 <property name="outputBinding" value="out_incidentBasicDetails/incidentApplicationType"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="4" name="incidentBasicDetails_incidentDate" type="InputText" id="9762942">
+<field position="2" name="incidentBasicDetails_incidentDate" type="InputText" id="9762942">
 <property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Incident Datequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -74,8 +78,8 @@
 <property name="outputBinding" value="out_incidentBasicDetails/incidentDate"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="5" name="incidentBasicDetails_incidentNumber" type="InputText" id="1863011377">
-<property name="fieldRequired" value="true"/>
+<field position="1" name="incidentBasicDetails_incidentNumber" type="InputText" id="1863011377">
+<property name="fieldRequired" value="false"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Incident Numberquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -103,8 +107,32 @@ quot;"/>
 </field>
 <field position="7" name=":decorator_1" type="HTMLLabel" id="877596258">
 <property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
 <property name="readonly" value="false"/>
-<property name="htmlContent" value="quot;enquot;,quot;HTMLquot;"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;h3&gt;Deviation Details&lt;/h3&gt;
+quot;quot;dequot;,quot;&lt;h3&gt;Deviation Details&lt;/h3&gt;
+quot;quot;enquot;,quot;&lt;h3&gt;Deviation Details&lt;/h3&gt;
+quot;quot;esquot;,quot;&lt;h3&gt;Deviation Details&lt;/h3&gt;
+quot;quot;frquot;,quot;&lt;h3&gt;Deviation Details&lt;/h3&gt;
+quot;quot;jaquot;,quot;&lt;h3&gt;Deviation Details&lt;/h3&gt;
+quot;quot;ptquot;,quot;&lt;h3&gt;Deviation Details&lt;/h3&gt;
+quot;quot;zhquot;,quot;&lt;h3&gt;Deviation Details&lt;/h3&gt;
+quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
+</field>
+<field position="6" name=":decorator_2" type="HTMLLabel" id="1860296938">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt;
+quot;quot;dequot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt;
+quot;quot;enquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt;
+quot;quot;esquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt;
+quot;quot;frquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt;
+quot;quot;jaquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt;
+quot;quot;ptquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt;
+quot;quot;zhquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt;
+quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
 <dataHolder inputId="in_incidentBasicDetails" name="#0000A0" type="dataModelerEntry" outId="out_incidentBasicDetails" value="madhu.lospoc.IncidentBasicDetails" id="incidentBasicDetails"/>
