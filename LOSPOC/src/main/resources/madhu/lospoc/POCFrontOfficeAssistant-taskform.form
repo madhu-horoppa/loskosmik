@@ -518,7 +518,7 @@
 <property name="inputBinding" value="in_financialDetails/existingMonthlyEMI"/>
 <property name="outputBinding" value="out_financialDetails/existingMonthlyEMI"/>
 <property name="fieldClass" value="java.lang.Double"/>
-<property name="onChangeScript" value="var v=this.value;if(isNaN(v)){alert(&quot;Enter valid Existing Monthly EMI&quot;);document.getElementById(&quot;financialDetails_existingMonthlyEMI&quot;).value=0.0;}else{calculateLoanAmount();}"/>
+<property name="onChangeScript" value="var v=this.value;if(isNaN(v)){alert(&quot;Enter valid Existing Monthly EMI&quot;);document.getElementById(&quot;financialDetails_existingMonthlyEMI&quot;).value=0.0;}else{if(v&lt;0){alert(&quot;Enter valid Existing Monthly EMI&quot;);document.getElementById(&quot;financialDetails_existingMonthlyEMI&quot;).value=0.0;}else{calculateLoanAmount();}}"/>
 </field>
 <field position="41" name=":decorator_2" type="HTMLLabel" id="692940350">
 <property name="fieldRequired" value="false"/>
@@ -728,7 +728,7 @@
 <property name="inputBinding" value="in_customerDetails/processFeeAmount"/>
 <property name="outputBinding" value="out_customerDetails/processFeeAmount"/>
 <property name="fieldClass" value="java.lang.Double"/>
-<property name="onChangeScript" value="var v=this.value; if(isNaN(v)){ alert(&quot;Enter valid Fee Amount&quot;); document.getElementById(&quot;customerDetails_processFeeAmount&quot;).value=0.0;}else{}"/>
+<property name="onChangeScript" value="var v=this.value;if(isNaN(v)){alert(&quot;Enter valid Fee Amount&quot;);document.getElementById(&quot;customerDetails_processFeeAmount&quot;).value=0.0;}else{if(v&lt;0){alert(&quot;Enter valid Fee Amount&quot;);document.getElementById(&quot;customerDetails_processFeeAmount&quot;).value=0.0;}}"/>
 </field>
 <field position="58" name=":decorator_12" type="HTMLLabel" id="1936600365">
 <property name="fieldRequired" value="false"/>
