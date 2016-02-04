@@ -505,7 +505,7 @@
 <property name="inputBinding" value="in_financialDetails/otherIncome"/>
 <property name="outputBinding" value="out_financialDetails/otherIncome"/>
 <property name="fieldClass" value="java.lang.Double"/>
-<property name="onChangeScript" value="var v=this.value;if(isNaN(v)){alert(&quot;Enter valid Other income&quot;);document.getElementById(&quot;financialDetails_otherIncome&quot;).value=0.0;}else{calculateLoanAmount();}"/>
+<property name="onChangeScript" value="var v=this.value;if(isNaN(v)){alert(&quot;Enter valid Other income&quot;);document.getElementById(&quot;financialDetails_otherIncome&quot;).value=0.0;}else{if(v&lt;0){alert(&quot;Enter valid Other income&quot;);document.getElementById(&quot;financialDetails_otherIncome&quot;).value=0.0;}else{calculateLoanAmount();}}"/>
 </field>
 <field position="40" name="financialDetails_existingMonthlyEMI" type="InputTextDouble" id="1541934843">
 <property name="fieldRequired" value="false"/>
