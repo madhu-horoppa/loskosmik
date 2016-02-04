@@ -466,7 +466,7 @@
 <property name="inputBinding" value="in_financialDetails/year2Income"/>
 <property name="outputBinding" value="out_financialDetails/year2Income"/>
 <property name="fieldClass" value="java.lang.Double"/>
-<property name="onChangeScript" value="var v=this.value;if(isNaN(v)){alert(&quot;Enter valid Anual income2&quot;);document.getElementById(&quot;financialDetails_year2Income&quot;).value=0.0;}else{calculateLoanAmount();}"/>
+<property name="onChangeScript" value="var v=this.value;if(isNaN(v)){alert(&quot;Enter valid Anual income2&quot;);document.getElementById(&quot;financialDetails_year2Income&quot;).value=0.0;}else{if(v&lt;0){alert(&quot;Enter valid Anual income2&quot;);document.getElementById(&quot;financialDetails_year2Income&quot;).value=0.0;}else{calculateLoanAmount();}}"/>
 </field>
 <field position="37" name="financialDetails_year3Income" type="InputTextDouble" id="556451032">
 <property name="fieldRequired" value="true"/>
@@ -479,7 +479,7 @@
 <property name="inputBinding" value="in_financialDetails/year3Income"/>
 <property name="outputBinding" value="out_financialDetails/year3Income"/>
 <property name="fieldClass" value="java.lang.Double"/>
-<property name="onChangeScript" value="var v=this.value;if(isNaN(v)){alert(&quot;Enter valid Anual income3&quot;);document.getElementById(&quot;financialDetails_year3Income&quot;).value=0.0;}else{calculateLoanAmount();}"/>
+<property name="onChangeScript" value="var v=this.value;if(isNaN(v)){alert(&quot;Enter valid Anual income3&quot;);document.getElementById(&quot;financialDetails_year3Income&quot;).value=0.0;}else{if(v&lt;0){alert(&quot;Enter valid Anual income3&quot;);document.getElementById(&quot;financialDetails_year3Income&quot;).value=0.0;}else{calculateLoanAmount();}}"/>
 </field>
 <field position="38" name="financialDetails_avgAnnualIncome" type="InputTextDouble" id="817658574">
 <property name="fieldRequired" value="false"/>
