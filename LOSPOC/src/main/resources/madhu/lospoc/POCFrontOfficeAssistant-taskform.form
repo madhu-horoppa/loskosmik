@@ -638,7 +638,7 @@
 <property name="inputBinding" value="in_loanDetails/interestRate"/>
 <property name="outputBinding" value="out_loanDetails/interestRate"/>
 <property name="fieldClass" value="java.lang.Double"/>
-<property name="onChangeScript" value="var v=this.value;if(isNaN(v)){alert(&quot;Enter valid Interest Rate&quot;);document.getElementById(&quot;loanDetails_interestRate&quot;).value=0.0;}else{var i=parseDloat(v);if(0&lt;i &amp;&amp; i&lt;100){alert(&quot;Please Enter Valid Interest Rate&quot;);document.getElementById(&quot;loanDetails_interestRate&quot;).value=0.0;}}"/>
+<property name="onChangeScript" value="var v=this.value;if(isNaN(v)){alert(&quot;Enter valid Interest Rate&quot;);document.getElementById(&quot;loanDetails_interestRate&quot;).value=0.0;}else{var i=parseFloat(v);if(0&lt;i &amp;&amp; i&lt;100){alert(&quot;Please Enter Valid Interest Rate&quot;);document.getElementById(&quot;loanDetails_interestRate&quot;).value=0.0;}}"/>
 </field>
 <field position="50" name="loanDetails_emi" type="InputTextDouble" id="463579610">
 <property name="fieldRequired" value="false"/>
