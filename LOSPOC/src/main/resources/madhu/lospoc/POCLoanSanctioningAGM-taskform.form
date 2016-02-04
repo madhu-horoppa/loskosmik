@@ -1,9 +1,4 @@
-<script type='text/javascript' src="http://pssys100:8080/kie-wb-webapp/formModeler/js/CustomCalculations.js"></script>
-<script type='text/javascript'>
-window.onload = function() {
-alert("Windows Onload: POCAGMTaskAssignment");
-} 
-</script>
+
 <form id="520297882">
 <property name="name" value="POCFrontOfficeAssistant-taskform.form"/>
 <property name="displayMode" value="default"/>
@@ -974,3 +969,4 @@ alert("Windows Onload: POCAGMTaskAssignment");
 <dataHolder inputId="in_incidentBasicDetails" name="#0000A0" type="dataModelerEntry" outId="out_incidentBasicDetails" value="madhu.lospoc.IncidentBasicDetails" id="incidentBasicDetails"/>
 <dataHolder inputId="in_loanDetails" name="#0000A0" type="dataModelerEntry" outId="out_loanDetails" value="madhu.lospoc.LoanDetails" id="loanDetails"/>
 </form>
+<script type="text/javascript" src="http://pssys100:8080/kie-wb-webapp/formModeler/js/CustomCalculations.js"></script>

@@ -1,9 +1,6 @@
-<script type='text/javascript' src="http://pssys100:8080/kie-wb-webapp/formModeler/js/CustomCalculations.js"></script>
-<script type='text/javascript'>
 
-window.onload = function() {
-alert("Windows Onload: POCFrontOfficeAssistant");
-} 
+<script type='text/javascript'>
+ 
 	function notEmpty(elem){
 		if(elem.value.length == 0){
 			return false;
@@ -241,3 +238,4 @@ alert("Windows Onload: POCFrontOfficeAssistant");
 	<div id="footer">
 	</div>
 </div>
+<script type="text/javascript" src="http://pssys100:8080/kie-wb-webapp/formModeler/js/CustomCalculations.js"></script>

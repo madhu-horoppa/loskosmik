@@ -227,3 +227,4 @@
 	<div id="footer">
 	</div>
 </div>
+<script type="text/javascript" src="http://pssys100:8080/kie-wb-webapp/formModeler/js/CustomCalculations.js"></script>
