@@ -268,7 +268,7 @@
 <field position="21" name="customerDetails_customerMotherMaidenName" type="InputText" id="369209986">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Mother Maiden Namequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Mother Maiden Namequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Enter mother maiden namequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
@@ -278,12 +278,12 @@
 <property name="inputBinding" value="in_customerDetails/customerMotherMaidenName"/>
 <property name="outputBinding" value="out_customerDetails/customerMotherMaidenName"/>
 <property name="fieldClass" value="java.lang.String"/>
-<property name="onChangeScript" value="var js=document.createElement(&quot;script&quot;); js.type=&quot;text/javascript&quot;; js.src=&quot;http://pssys100:8080/kie-wb-webapp/formModeler/js/CustomCalculations.js&quot;; document.body.appendChild(js);var v=this.value;if(v!=null&amp;&amp;v!=&apos;&apos;){if(alphaNumericCheck(v)){}else{alert(&quot;Please Enter valid Mother Maiden Name&quot;);document.getElementById(&apos;customerDetails_customerMotherMaidenName&apos;).value=&quot;&quot;;}}"/>
+<property name="onChangeScript" value="var v=this.value;if(v!=null&amp;&amp;v!=&apos;&apos;){if(alphaNumericCheck(v)){}else{alert(&quot;Please Enter valid Mother Maiden Name&quot;);document.getElementById(&apos;customerDetails_customerMotherMaidenName&apos;).value=&quot;&quot;;}}"/>
 </field>
 <field position="22" name="customerDetails_customerNationality" type="InputText" id="1000941030">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Nationalityquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Nationalityquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Enter customer nationalityquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
@@ -293,12 +293,12 @@
 <property name="inputBinding" value="in_customerDetails/customerNationality"/>
 <property name="outputBinding" value="out_customerDetails/customerNationality"/>
 <property name="fieldClass" value="java.lang.String"/>
-<property name="onChangeScript" value="var js=document.createElement(&quot;script&quot;); js.type=&quot;text/javascript&quot;; js.src=&quot;http://pssys100:8080/kie-wb-webapp/formModeler/js/CustomCalculations.js&quot;; document.body.appendChild(js);var v=this.value;if(v!=null&amp;&amp;v!=&apos;&apos;){if(alphaCheck(v)){}else{alert(&quot;Please Enter valid Nationality&quot;);document.getElementById(&apos;customerDetails_customerNationality&apos;).value=&quot;&quot;;}}"/>
+<property name="onChangeScript" value="var v=this.value;if(v!=null&amp;&amp;v!=&apos;&apos;){if(alphaCheck(v)){}else{alert(&quot;Please Enter valid Nationality&quot;);document.getElementById(&apos;customerDetails_customerNationality&apos;).value=&quot;&quot;;}}"/>
 </field>
 <field position="23" name="customerDetails_customerHomeAddress" type="InputTextArea" id="47551056">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Home Addressquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Home Addressquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Enter details customer Addressquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
@@ -312,7 +312,7 @@
 <field position="24" name="customerDetails_customerHomeState" type="InputText" id="1174309549">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Statequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Statequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Enter customer home city statequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
@@ -322,12 +322,12 @@
 <property name="inputBinding" value="in_customerDetails/customerHomeState"/>
 <property name="outputBinding" value="out_customerDetails/customerHomeState"/>
 <property name="fieldClass" value="java.lang.String"/>
-<property name="onChangeScript" value="var js=document.createElement(&quot;script&quot;); js.type=&quot;text/javascript&quot;; js.src=&quot;http://pssys100:8080/kie-wb-webapp/formModeler/js/CustomCalculations.js&quot;; document.body.appendChild(js);var v=this.value;if(v!=null&amp;&amp;v!=&apos;&apos;){if(alphaNumericCheck(v)){}else{alert(&quot;Please Enter valid State&quot;);document.getElementById(&apos;customerDetails_customerHomeState&apos;).value=&quot;&quot;;}}"/>
+<property name="onChangeScript" value="var v=this.value;if(v!=null&amp;&amp;v!=&apos;&apos;){if(alphaNumericCheck(v)){}else{alert(&quot;Please Enter valid State&quot;);document.getElementById(&apos;customerDetails_customerHomeState&apos;).value=&quot;&quot;;}}"/>
 </field>
 <field position="25" name="customerDetails_customerHomeCountry" type="InputText" id="1752608571">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Countryquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Countryquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Enter customer home city countryquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
@@ -337,12 +337,12 @@
 <property name="inputBinding" value="in_customerDetails/customerHomeCountry"/>
 <property name="outputBinding" value="out_customerDetails/customerHomeCountry"/>
 <property name="fieldClass" value="java.lang.String"/>
-<property name="onChangeScript" value="var js=document.createElement(&quot;script&quot;); js.type=&quot;text/javascript&quot;; js.src=&quot;http://pssys100:8080/kie-wb-webapp/formModeler/js/CustomCalculations.js&quot;; document.body.appendChild(js);var v=this.value;if(v!=null&amp;&amp;v!=&apos;&apos;){if(alphaNumericCheck(v)){}else{alert(&quot;Please Enter valid Country Name&quot;);document.getElementById(&apos;customerDetails_customerHomeCountry&apos;).value=&quot;&quot;;}}"/>
+<property name="onChangeScript" value="var v=this.value;if(v!=null&amp;&amp;v!=&apos;&apos;){if(alphaNumericCheck(v)){}else{alert(&quot;Please Enter valid Country Name&quot;);document.getElementById(&apos;customerDetails_customerHomeCountry&apos;).value=&quot;&quot;;}}"/>
 </field>
 <field position="26" name="customerDetails_customerHomeZipcode" type="InputText" id="227972435">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Zipcodequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Zipcodequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Enter customer home city zipcodequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
@@ -352,7 +352,7 @@
 <property name="inputBinding" value="in_customerDetails/customerHomeZipcode"/>
 <property name="outputBinding" value="out_customerDetails/customerHomeZipcode"/>
 <property name="fieldClass" value="java.lang.String"/>
-<property name="onChangeScript" value="var js=document.createElement(&quot;script&quot;); js.type=&quot;text/javascript&quot;; js.src=&quot;http://pssys100:8080/kie-wb-webapp/formModeler/js/CustomCalculations.js&quot;; document.body.appendChild(js);var v=this.value;if(v!=null&amp;&amp;v!=&apos;&apos;){if(alphaNumericCheck(v)){}else{alert(&quot;Please Enter valid Zipcode&quot;);document.getElementById(&apos;customerDetails_customerHomeZipcode&apos;).value=&quot;&quot;;}}"/>
+<property name="onChangeScript" value="var v=this.value;if(v!=null&amp;&amp;v!=&apos;&apos;){if(alphaNumericCheck(v)){}else{alert(&quot;Please Enter valid Zipcode&quot;);document.getElementById(&apos;customerDetails_customerHomeZipcode&apos;).value=&quot;&quot;;}}"/>
 </field>
 <field position="27" name=":decorator_8" type="HTMLLabel" id="949327309">
 <property name="fieldRequired" value="false"/>
