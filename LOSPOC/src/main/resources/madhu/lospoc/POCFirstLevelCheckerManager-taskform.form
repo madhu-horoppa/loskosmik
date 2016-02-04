@@ -558,6 +558,7 @@
 <property name="inputBinding" value="in_loanDetails/loanTenorMonths"/>
 <property name="outputBinding" value="out_loanDetails/loanTenorMonths"/>
 <property name="fieldClass" value="java.lang.Integer"/>
+<property name="onChangeScript" value="var v=this.value; if(isNaN(v)){ alert(&quot;Enter valid Tenor Months&quot;); document.getElementById(&quot;loanDetails_loanTenorMonths&quot;).value=0;}else{}"/>
 </field>
 <field position="48" name="loanDetails_interestRatetype" type="InputText" id="1333633903">
 <property name="fieldRequired" value="true"/>
@@ -576,7 +577,7 @@
 <field position="49" name="loanDetails_interestRate" type="InputTextDouble" id="1816167250">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Interest Ratequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Interest Ratequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
