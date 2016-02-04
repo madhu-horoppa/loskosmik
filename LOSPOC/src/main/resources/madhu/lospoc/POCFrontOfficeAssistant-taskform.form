@@ -394,7 +394,7 @@
 <property name="inputBinding" value="in_financialDetails/month1Salary"/>
 <property name="outputBinding" value="out_financialDetails/month1Salary"/>
 <property name="fieldClass" value="java.lang.Double"/>
-<property name="onChangeScript" value="var v=this.value;if(isNaN(v)){alert(&quot;Enter valid monthly salary1&quot;);document.getElementById(&quot;financialDetails_month1Salary&quot;).value=0.0;}else{calculateLoanAmount();}"/>
+<property name="onChangeScript" value="var v=this.value;if(isNaN(v)){alert(&quot;Enter valid monthly salary1&quot;);document.getElementById(&quot;financialDetails_month1Salary&quot;).value=0.0;}else{if(v&lt;0){alert(&quot;Enter valid monthly salary1&quot;);document.getElementById(&quot;financialDetails_month1Salary&quot;).value=0.0;}calculateLoanAmount();}"/>
 </field>
 <field position="31" name="financialDetails_month2Salary" type="InputTextDouble" id="513508189">
 <property name="fieldRequired" value="true"/>
