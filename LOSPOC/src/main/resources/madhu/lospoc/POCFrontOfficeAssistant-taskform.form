@@ -139,7 +139,7 @@
 <field position="12" name="customerDetails_customerGender" type="InputText" id="880162778">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Genderquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Genderquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Select gender from the given listquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
@@ -153,7 +153,7 @@
 <field position="13" name="customerDetails_customerFatherName" type="InputText" id="668016595">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Father Namequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Father Namequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Enter customer&apos;s father namequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
@@ -163,7 +163,7 @@
 <property name="inputBinding" value="in_customerDetails/customerFatherName"/>
 <property name="outputBinding" value="out_customerDetails/customerFatherName"/>
 <property name="fieldClass" value="java.lang.String"/>
-<property name="onChangeScript" value="var js=document.createElement(&quot;script&quot;); js.type=&quot;text/javascript&quot;; js.src=&quot;http://pssys100:8080/kie-wb-webapp/formModeler/js/CustomCalculations.js&quot;; document.body.appendChild(js);var v=this.value;if(v!=null&amp;&amp;v!=&apos;&apos;){if(alphaNumericCheck(v)){}else{alert(&quot;Please Enter valid Father Name&quot;);document.getElementById(&apos;customerDetails_customerFatherName&apos;).value=&quot;&quot;;}}"/>
+<property name="onChangeScript" value="var v=this.value;if(v!=null&amp;&amp;v!=&apos;&apos;){if(alphaNumericCheck(v)){}else{alert(&quot;Please Enter valid Father Name&quot;);document.getElementById(&apos;customerDetails_customerFatherName&apos;).value=&quot;&quot;;}}"/>
 </field>
 <field position="14" name="customerDetails_customerDOB" type="InputShortDate" id="1144160019">
 <property name="fieldRequired" value="true"/>
