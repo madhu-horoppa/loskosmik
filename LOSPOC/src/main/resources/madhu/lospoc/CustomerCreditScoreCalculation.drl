@@ -105,7 +105,7 @@ import java.lang.Number;
 	dialect "mvel"
 	ruleflow-group "CustomerCreditScoreCalculation"
 	when
-		financialDetails : FinancialDetails( monthlyAvgSalary > 0.0 && monthlyAvgSalary < 8001.0 )
+		financialDetails : FinancialDetails( avgAnnualIncome/12 > 0.0 && avgAnnualIncome/12 < 8001.0 )
 	then
 		financialDetails.setIncomeCreditScore( 3.0 );
 	end
@@ -114,7 +114,7 @@ import java.lang.Number;
 	dialect "mvel"
 	ruleflow-group "CustomerCreditScoreCalculation"
 	when
-		financialDetails : FinancialDetails( monthlyAvgSalary >= 8001.0 && monthlyAvgSalary < 25001.0 )
+		financialDetails : FinancialDetails( avgAnnualIncome/12 >= 8001.0 && avgAnnualIncome/12 < 25001.0 )
 	then
 		financialDetails.setIncomeCreditScore( 5.0 );
 	end
@@ -123,7 +123,7 @@ import java.lang.Number;
 	dialect "mvel"
 	ruleflow-group "CustomerCreditScoreCalculation"
 	when
-		financialDetails : FinancialDetails( monthlyAvgSalary >= 25001.0 && monthlyAvgSalary < 50001.0 )
+		financialDetails : FinancialDetails( avgAnnualIncome/12 >= 25001.0 && avgAnnualIncome/12 < 50001.0 )
 	then
 		financialDetails.setIncomeCreditScore( 10.0 );
 	end
@@ -132,7 +132,7 @@ import java.lang.Number;
 	dialect "mvel"
 	ruleflow-group "CustomerCreditScoreCalculation"
 	when
-		financialDetails : FinancialDetails( monthlyAvgSalary >= 50001.0 && monthlyAvgSalary < 100001.0 )
+		financialDetails : FinancialDetails( avgAnnualIncome/12 >= 50001.0 && avgAnnualIncome/12 < 100001.0 )
 	then
 		financialDetails.setIncomeCreditScore( 15.0 );
 	end
@@ -141,7 +141,7 @@ import java.lang.Number;
 	dialect "mvel"
 	ruleflow-group "CustomerCreditScoreCalculation"
 	when
-		financialDetails : FinancialDetails( monthlyAvgSalary >= 100001.0 )
+		financialDetails : FinancialDetails( avgAnnualIncome/12 >= 100001.0 )
 	then
 		financialDetails.setIncomeCreditScore( 20.0 );
     end
