@@ -31,7 +31,7 @@ public class CustomerDetails implements java.io.Serializable
 
    private java.lang.String customerPassportNumber;
 
-   private java.lang.Double ageCreditScore;
+   private Integer ageCreditScore;
 
    private java.lang.Long processInstanceID;
 
@@ -144,16 +144,6 @@ public class CustomerDetails implements java.io.Serializable
    public void setCustomerPassportNumber(java.lang.String customerPassportNumber)
    {
       this.customerPassportNumber = customerPassportNumber;
-   }
-
-   public java.lang.Double getAgeCreditScore()
-   {
-      return this.ageCreditScore;
-   }
-
-   public void setAgeCreditScore(java.lang.Double ageCreditScore)
-   {
-      this.ageCreditScore = ageCreditScore;
    }
 
    public java.lang.Long getProcessInstanceID()
@@ -306,13 +296,23 @@ public class CustomerDetails implements java.io.Serializable
       this.processFeeAmount = processFeeAmount;
    }
 
+   public java.lang.Integer getAgeCreditScore()
+   {
+      return this.ageCreditScore;
+   }
+
+   public void setAgeCreditScore(java.lang.Integer ageCreditScore)
+   {
+      this.ageCreditScore = ageCreditScore;
+   }
+
    public CustomerDetails(java.lang.Long id, java.lang.String customerName,
          java.lang.String customerNumber, java.lang.Double customerAge,
          java.lang.String customerGender, java.lang.String customerMobileNumber,
          java.lang.String customerMotherMaidenName,
          java.lang.String customerNationality,
          java.lang.String customerPassportNumber,
-         java.lang.Double ageCreditScore, java.lang.Long processInstanceID,
+         java.lang.Integer ageCreditScore, java.lang.Long processInstanceID,
          java.lang.Boolean fraudType, java.lang.String customerFatherName,
          java.util.Date customerDOB, java.lang.String customerEmail,
          java.lang.String customerNationalID,
