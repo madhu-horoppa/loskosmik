@@ -20,26 +20,26 @@ public class LoanDetails implements java.io.Serializable
 
    private java.lang.Long processInstanceID;
 
-   private java.lang.Double downPaymentAmount;
+   private Integer downPaymentAmount;
 
-   private java.lang.Double amountRequired;
+   private Integer amountRequired;
 
-   private java.lang.Double interestRate;
+   private Float interestRate;
 
    private java.lang.String interestRatetype;
 
    @org.kie.api.definition.type.Label("Minimum Acceptable Loan")
-   private java.lang.Double minAcceptableLoan;
+   private Integer minAcceptableLoan;
 
-   private java.lang.Double projectCost;
+   private Integer projectCost;
 
-   private java.lang.Double emi;
+   private Integer emi;
 
-   private java.lang.Double loanAmount;
+   private Integer loanAmount;
 
-   private java.lang.Double totalInterest;
+   private Integer totalInterest;
 
-   private java.lang.Double totalRepayment;
+   private Integer totalRepayment;
 
    public LoanDetails()
    {
@@ -75,36 +75,6 @@ public class LoanDetails implements java.io.Serializable
       this.processInstanceID = processInstanceID;
    }
 
-   public java.lang.Double getDownPaymentAmount()
-   {
-      return this.downPaymentAmount;
-   }
-
-   public void setDownPaymentAmount(java.lang.Double downPaymentAmount)
-   {
-      this.downPaymentAmount = downPaymentAmount;
-   }
-
-   public java.lang.Double getAmountRequired()
-   {
-      return this.amountRequired;
-   }
-
-   public void setAmountRequired(java.lang.Double amountRequired)
-   {
-      this.amountRequired = amountRequired;
-   }
-
-   public java.lang.Double getInterestRate()
-   {
-      return this.interestRate;
-   }
-
-   public void setInterestRate(java.lang.Double interestRate)
-   {
-      this.interestRate = interestRate;
-   }
-
    public java.lang.String getInterestRatetype()
    {
       return this.interestRatetype;
@@ -115,73 +85,103 @@ public class LoanDetails implements java.io.Serializable
       this.interestRatetype = interestRatetype;
    }
 
-   public java.lang.Double getMinAcceptableLoan()
+   public java.lang.Integer getDownPaymentAmount()
+   {
+      return this.downPaymentAmount;
+   }
+
+   public void setDownPaymentAmount(java.lang.Integer downPaymentAmount)
+   {
+      this.downPaymentAmount = downPaymentAmount;
+   }
+
+   public java.lang.Integer getAmountRequired()
+   {
+      return this.amountRequired;
+   }
+
+   public void setAmountRequired(java.lang.Integer amountRequired)
+   {
+      this.amountRequired = amountRequired;
+   }
+
+   public java.lang.Float getInterestRate()
+   {
+      return this.interestRate;
+   }
+
+   public void setInterestRate(java.lang.Float interestRate)
+   {
+      this.interestRate = interestRate;
+   }
+
+   public java.lang.Integer getMinAcceptableLoan()
    {
       return this.minAcceptableLoan;
    }
 
-   public void setMinAcceptableLoan(java.lang.Double minAcceptableLoan)
+   public void setMinAcceptableLoan(java.lang.Integer minAcceptableLoan)
    {
       this.minAcceptableLoan = minAcceptableLoan;
    }
 
-   public java.lang.Double getProjectCost()
+   public java.lang.Integer getProjectCost()
    {
       return this.projectCost;
    }
 
-   public void setProjectCost(java.lang.Double projectCost)
+   public void setProjectCost(java.lang.Integer projectCost)
    {
       this.projectCost = projectCost;
    }
 
-   public java.lang.Double getEmi()
+   public java.lang.Integer getEmi()
    {
       return this.emi;
    }
 
-   public void setEmi(java.lang.Double emi)
+   public void setEmi(java.lang.Integer emi)
    {
       this.emi = emi;
    }
 
-   public java.lang.Double getLoanAmount()
+   public java.lang.Integer getLoanAmount()
    {
       return this.loanAmount;
    }
 
-   public void setLoanAmount(java.lang.Double loanAmount)
+   public void setLoanAmount(java.lang.Integer loanAmount)
    {
       this.loanAmount = loanAmount;
    }
 
-   public java.lang.Double getTotalInterest()
+   public java.lang.Integer getTotalInterest()
    {
       return this.totalInterest;
    }
 
-   public void setTotalInterest(java.lang.Double totalInterest)
+   public void setTotalInterest(java.lang.Integer totalInterest)
    {
       this.totalInterest = totalInterest;
    }
 
-   public java.lang.Double getTotalRepayment()
+   public java.lang.Integer getTotalRepayment()
    {
       return this.totalRepayment;
    }
 
-   public void setTotalRepayment(java.lang.Double totalRepayment)
+   public void setTotalRepayment(java.lang.Integer totalRepayment)
    {
       this.totalRepayment = totalRepayment;
    }
 
    public LoanDetails(java.lang.Long id, java.lang.Integer loanTenorMonths,
-         java.lang.Long processInstanceID, java.lang.Double downPaymentAmount,
-         java.lang.Double amountRequired, java.lang.Double interestRate,
-         java.lang.String interestRatetype, java.lang.Double minAcceptableLoan,
-         java.lang.Double projectCost, java.lang.Double emi,
-         java.lang.Double loanAmount, java.lang.Double totalInterest,
-         java.lang.Double totalRepayment)
+         java.lang.Long processInstanceID, java.lang.Integer downPaymentAmount,
+         java.lang.Integer amountRequired, java.lang.Float interestRate,
+         java.lang.String interestRatetype, java.lang.Integer minAcceptableLoan,
+         java.lang.Integer projectCost, java.lang.Integer emi,
+         java.lang.Integer loanAmount, java.lang.Integer totalInterest,
+         java.lang.Integer totalRepayment)
    {
       this.id = id;
       this.loanTenorMonths = loanTenorMonths;
