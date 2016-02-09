@@ -59,7 +59,7 @@ public class CustomerDetails implements java.io.Serializable
 
    private java.lang.String feeJurnolNo;
 
-   private java.lang.Double processFeeAmount;
+   private Integer processFeeAmount;
 
    public CustomerDetails()
    {
@@ -286,16 +286,6 @@ public class CustomerDetails implements java.io.Serializable
       this.feeJurnolNo = feeJurnolNo;
    }
 
-   public java.lang.Double getProcessFeeAmount()
-   {
-      return this.processFeeAmount;
-   }
-
-   public void setProcessFeeAmount(java.lang.Double processFeeAmount)
-   {
-      this.processFeeAmount = processFeeAmount;
-   }
-
    public java.lang.Double getCustomerAge()
    {
       return this.customerAge;
@@ -304,6 +294,16 @@ public class CustomerDetails implements java.io.Serializable
    public void setCustomerAge(java.lang.Double customerAge)
    {
       this.customerAge = customerAge;
+   }
+
+   public java.lang.Integer getProcessFeeAmount()
+   {
+      return this.processFeeAmount;
+   }
+
+   public void setProcessFeeAmount(java.lang.Integer processFeeAmount)
+   {
+      this.processFeeAmount = processFeeAmount;
    }
 
    public CustomerDetails(java.lang.Long id, java.lang.String customerName,
@@ -321,7 +321,7 @@ public class CustomerDetails implements java.io.Serializable
          java.lang.String customerHomeState,
          java.lang.String customerHomeCountry,
          java.lang.String customerHomeZipcode, java.lang.String processFee,
-         java.lang.String feeJurnolNo, java.lang.Double processFeeAmount)
+         java.lang.String feeJurnolNo, java.lang.Integer processFeeAmount)
    {
       this.id = id;
       this.customerName = customerName;
