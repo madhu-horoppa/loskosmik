@@ -12,16 +12,16 @@ public class BlacklistCheck implements java.io.Serializable
 
    @javax.persistence.GeneratedValue(strategy = javax.persistence.GenerationType.AUTO, generator = "BLACKLISTCHECK_ID_GENERATOR")
    @javax.persistence.Id
-   @javax.persistence.SequenceGenerator(sequenceName = "BLACKLISTCHECK_ID_SEQ", name = "BLACKLISTCHECK_ID_GENERATOR")
+   @javax.persistence.SequenceGenerator(name = "BLACKLISTCHECK_ID_GENERATOR", sequenceName = "BLACKLISTCHECK_ID_SEQ")
    private java.lang.Long id;
 
-   @org.kie.api.definition.type.Label(value = "BlackList Amount")
-   private java.lang.Double blackListAmount;
+   @org.kie.api.definition.type.Label("BlackList Amount")
+   private Integer blackListAmount;
 
-   @org.kie.api.definition.type.Label(value = "BlackList Description")
+   @org.kie.api.definition.type.Label("BlackList Description")
    private java.lang.String blackListDescription;
 
-   @org.kie.api.definition.type.Label(value = "BlackList Type")
+   @org.kie.api.definition.type.Label("BlackList Type")
    private java.lang.String blackListType;
 
    public BlacklistCheck()
@@ -36,16 +36,6 @@ public class BlacklistCheck implements java.io.Serializable
    public void setId(java.lang.Long id)
    {
       this.id = id;
-   }
-
-   public java.lang.Double getBlackListAmount()
-   {
-      return this.blackListAmount;
-   }
-
-   public void setBlackListAmount(java.lang.Double blackListAmount)
-   {
-      this.blackListAmount = blackListAmount;
    }
 
    public java.lang.String getBlackListDescription()
@@ -68,9 +58,18 @@ public class BlacklistCheck implements java.io.Serializable
       this.blackListType = blackListType;
    }
 
-   public BlacklistCheck(java.lang.Long id, java.lang.Double blackListAmount,
-         java.lang.String blackListDescription,
-         java.lang.String blackListType)
+   public java.lang.Integer getBlackListAmount()
+   {
+      return this.blackListAmount;
+   }
+
+   public void setBlackListAmount(java.lang.Integer blackListAmount)
+   {
+      this.blackListAmount = blackListAmount;
+   }
+
+   public BlacklistCheck(java.lang.Long id, java.lang.Integer blackListAmount,
+         java.lang.String blackListDescription, java.lang.String blackListType)
    {
       this.id = id;
       this.blackListAmount = blackListAmount;
