@@ -499,34 +499,21 @@
 <property name="outputBinding" value="out_loanDetails/interestRatetype"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="53" name="loanDetails_totalRepayment" type="InputTextDouble" id="1499421322">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Total Repaymentquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="readonly" value="true"/>
-<property name="styleclass" value="readonly"/>
-<property name="cssStyle" value="background-color: #B4BAB3;"/>
-<property name="inputBinding" value="in_loanDetails/totalRepayment"/>
-<property name="outputBinding" value="out_loanDetails/totalRepayment"/>
-<property name="fieldClass" value="java.lang.Double"/>
-</field>
-<field position="54" name=":decorator_11" type="HTMLLabel" id="1668247563">
+<field position="53" name=":decorator_11" type="HTMLLabel" id="1668247563">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="readonly" value="false"/>
 <property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;dequot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;enquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;esquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;frquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;jaquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;ptquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;zhquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
-<field position="55" name=":decorator_21" type="HTMLLabel" id="82107818">
+<field position="54" name=":decorator_21" type="HTMLLabel" id="82107818">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="readonly" value="false"/>
 <property name="htmlContent" value="quot;caquot;,quot;&lt;h3&gt;Process Fee Details&lt;/h3&gt; quot;quot;dequot;,quot;&lt;h3&gt;Process Fee Details&lt;/h3&gt; quot;quot;enquot;,quot;&lt;h3&gt;Process Fee Details&lt;/h3&gt; quot;quot;esquot;,quot;&lt;h3&gt;Process Fee Details&lt;/h3&gt; quot;quot;frquot;,quot;&lt;h3&gt;Process Fee Details&lt;/h3&gt; quot;quot;jaquot;,quot;&lt;h3&gt;Process Fee Details&lt;/h3&gt; quot;quot;ptquot;,quot;&lt;h3&gt;Process Fee Details&lt;/h3&gt; quot;quot;zhquot;,quot;&lt;h3&gt;Process Fee Details&lt;/h3&gt; quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
-<field position="56" name="customerDetails_processFee" type="InputText" id="1439341419">
+<field position="55" name="customerDetails_processFee" type="InputText" id="1439341419">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Process Feequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -539,7 +526,7 @@
 <property name="outputBinding" value="out_customerDetails/processFee"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="57" name="customerDetails_feeJurnolNo" type="InputText" id="702973587">
+<field position="56" name="customerDetails_feeJurnolNo" type="InputText" id="702973587">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Fee Jurnol Noquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -552,7 +539,7 @@
 <property name="outputBinding" value="out_customerDetails/feeJurnolNo"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="58" name="customerDetails_processFeeAmount" type="InputText" id="765747806">
+<field position="57" name="customerDetails_processFeeAmount" type="InputText" id="765747806">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Fee Amountquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -564,21 +551,21 @@
 <property name="inputBinding" value="in_customerDetails/processFeeAmount"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="59" name=":decorator_22" type="HTMLLabel" id="264776389">
+<field position="58" name=":decorator_22" type="HTMLLabel" id="264776389">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="readonly" value="false"/>
 <property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;dequot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;enquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;esquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;frquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;jaquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;ptquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;zhquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
-<field position="60" name=":decorator_30" type="HTMLLabel" id="1504710429">
+<field position="59" name=":decorator_30" type="HTMLLabel" id="1504710429">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="readonly" value="false"/>
 <property name="htmlContent" value="quot;caquot;,quot;&lt;h3&gt;Customer Credit Score Details&lt;/h3&gt; quot;quot;dequot;,quot;&lt;h3&gt;Customer Credit Score Details&lt;/h3&gt; quot;quot;enquot;,quot;&lt;h3&gt;Customer Credit Score Details&lt;/h3&gt; quot;quot;esquot;,quot;&lt;h3&gt;Customer Credit Score Details&lt;/h3&gt; quot;quot;frquot;,quot;&lt;h3&gt;Customer Credit Score Details&lt;/h3&gt; quot;quot;jaquot;,quot;&lt;h3&gt;Customer Credit Score Details&lt;/h3&gt; quot;quot;ptquot;,quot;&lt;h3&gt;Customer Credit Score Details&lt;/h3&gt; quot;quot;zhquot;,quot;&lt;h3&gt;Customer Credit Score Details&lt;/h3&gt; quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
-<field position="61" name="customerDetails_ageCreditScore" type="InputText" id="649822314">
+<field position="60" name="customerDetails_ageCreditScore" type="InputText" id="649822314">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Age Credit Scorequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -590,7 +577,7 @@
 <property name="inputBinding" value="in_customerDetails/ageCreditScore"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="62" name="financialDetails_incomeCreditScore" type="InputText" id="2119311036">
+<field position="61" name="financialDetails_incomeCreditScore" type="InputText" id="2119311036">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Income Credit Scorequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -602,7 +589,7 @@
 <property name="inputBinding" value="in_financialDetails/incomeCreditScore"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="63" name="totalCreditScore" type="InputText" id="1731030982">
+<field position="62" name="totalCreditScore" type="InputText" id="1731030982">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Total Credit Scorequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -614,7 +601,7 @@
 <property name="inputBinding" value="in_totalCreditScore"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="64" name="creditScoreDoc" type="Document" id="1107987240">
+<field position="63" name="creditScoreDoc" type="Document" id="1107987240">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Credit Score Documentquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -624,14 +611,14 @@
 <property name="outputBinding" value="out_creditScoreDoc"/>
 <property name="fieldClass" value="org.jbpm.document.Document"/>
 </field>
-<field position="65" name=":decorator_5" type="HTMLLabel" id="1350623214">
+<field position="64" name=":decorator_5" type="HTMLLabel" id="1350623214">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="readonly" value="false"/>
 <property name="htmlContent" value="quot;caquot;,quot;&lt;h3&gt;Applicant Documents&lt;/h3&gt; quot;quot;dequot;,quot;&lt;h3&gt;Applicant Documents&lt;/h3&gt; quot;quot;enquot;,quot;&lt;h3&gt;Applicant Documents&lt;/h3&gt; quot;quot;esquot;,quot;&lt;h3&gt;Applicant Documents&lt;/h3&gt; quot;quot;frquot;,quot;&lt;h3&gt;Applicant Documents&lt;/h3&gt; quot;quot;jaquot;,quot;&lt;h3&gt;Applicant Documents&lt;/h3&gt; quot;quot;ptquot;,quot;&lt;h3&gt;Applicant Documents&lt;/h3&gt; quot;quot;zhquot;,quot;&lt;h3&gt;Applicant Documents&lt;/h3&gt; quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
-<field position="66" name="documentOne" type="Document" id="1036809924">
+<field position="65" name="documentOne" type="Document" id="1036809924">
 <property name="fieldRequired" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Document #1quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -640,7 +627,7 @@
 <property name="outputBinding" value="out_documentOne"/>
 <property name="fieldClass" value="org.jbpm.document.Document"/>
 </field>
-<field position="67" name="documentTwo" type="Document" id="497032768">
+<field position="66" name="documentTwo" type="Document" id="497032768">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Document #2quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -649,7 +636,7 @@
 <property name="outputBinding" value="out_documentTwo"/>
 <property name="fieldClass" value="org.jbpm.document.Document"/>
 </field>
-<field position="68" name="documentThree" type="Document" id="2074112255">
+<field position="67" name="documentThree" type="Document" id="2074112255">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Document #3quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -658,7 +645,7 @@
 <property name="outputBinding" value="out_documentThree"/>
 <property name="fieldClass" value="org.jbpm.document.Document"/>
 </field>
-<field position="69" name="customerDetails_fraudType" type="CheckBox" id="1534934991">
+<field position="68" name="customerDetails_fraudType" type="CheckBox" id="1534934991">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Existing Loanquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -669,42 +656,42 @@
 <property name="outputBinding" value="out_customerDetails/fraudType"/>
 <property name="fieldClass" value="java.lang.Boolean"/>
 </field>
-<field position="70" name=":decorator_27" type="HTMLLabel" id="593527589">
+<field position="69" name=":decorator_27" type="HTMLLabel" id="593527589">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="readonly" value="false"/>
 <property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;dequot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;enquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;esquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;frquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;jaquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;ptquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;zhquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
-<field position="71" name=":decorator_29" type="HTMLLabel" id="1720892241">
+<field position="70" name=":decorator_29" type="HTMLLabel" id="1720892241">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="readonly" value="false"/>
 <property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;dequot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;enquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;esquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;frquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;jaquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;ptquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;zhquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
-<field position="72" name=":decorator_28" type="HTMLLabel" id="977344799">
+<field position="71" name=":decorator_28" type="HTMLLabel" id="977344799">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="readonly" value="false"/>
 <property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;dequot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;enquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;esquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;frquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;jaquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;ptquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;zhquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
-<field position="73" name=":decorator_12" type="HTMLLabel" id="859924638">
+<field position="72" name=":decorator_12" type="HTMLLabel" id="859924638">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="readonly" value="false"/>
 <property name="htmlContent" value="quot;caquot;,quot;&lt;h3&gt;Deviation Details&lt;/h3&gt; quot;quot;dequot;,quot;&lt;h3&gt;Deviation Details&lt;/h3&gt; quot;quot;enquot;,quot;&lt;h3&gt;Deviation Details&lt;/h3&gt; quot;quot;esquot;,quot;&lt;h3&gt;Deviation Details&lt;/h3&gt; quot;quot;frquot;,quot;&lt;h3&gt;Deviation Details&lt;/h3&gt; quot;quot;jaquot;,quot;&lt;h3&gt;Deviation Details&lt;/h3&gt; quot;quot;ptquot;,quot;&lt;h3&gt;Deviation Details&lt;/h3&gt; quot;quot;zhquot;,quot;&lt;h3&gt;Deviation Details&lt;/h3&gt; quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
-<field position="74" name=":decorator_14" type="HTMLLabel" id="1607099621">
+<field position="73" name=":decorator_14" type="HTMLLabel" id="1607099621">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="readonly" value="false"/>
 <property name="htmlContent" value="quot;caquot;,quot;&lt;pre&gt; AML Information&lt;/pre&gt; quot;quot;dequot;,quot;&lt;pre&gt; AML Information&lt;/pre&gt; quot;quot;enquot;,quot;&lt;pre&gt; AML Information&lt;/pre&gt; quot;quot;esquot;,quot;&lt;pre&gt; AML Information&lt;/pre&gt; quot;quot;frquot;,quot;&lt;pre&gt; AML Information&lt;/pre&gt; quot;quot;jaquot;,quot;&lt;pre&gt; AML Information&lt;/pre&gt; quot;quot;ptquot;,quot;&lt;pre&gt; AML Information&lt;/pre&gt; quot;quot;zhquot;,quot;&lt;pre&gt; AML Information&lt;/pre&gt; quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
-<field position="75" name="applicantAMLStatus" type="InputText" id="727286191">
+<field position="74" name="applicantAMLStatus" type="InputText" id="727286191">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;AML Statusquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -717,7 +704,7 @@
 <property name="outputBinding" value="out_applicantAMLStatus"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="76" name="applicantAMLDescription" type="InputText" id="1289300717">
+<field position="75" name="applicantAMLDescription" type="InputText" id="1289300717">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;AML Descriptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -730,21 +717,21 @@
 <property name="outputBinding" value="out_applicantAMLDescription"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="77" name=":decorator_17" type="HTMLLabel" id="502084962">
+<field position="76" name=":decorator_17" type="HTMLLabel" id="502084962">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="readonly" value="false"/>
 <property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;dequot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;enquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;esquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;frquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;jaquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;ptquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;zhquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
-<field position="78" name=":decorator_18" type="HTMLLabel" id="1812989963">
+<field position="77" name=":decorator_18" type="HTMLLabel" id="1812989963">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="readonly" value="false"/>
 <property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;dequot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;enquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;esquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;frquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;jaquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;ptquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;zhquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
-<field position="79" name="amlDoc" type="Document" id="979065599">
+<field position="78" name="amlDoc" type="Document" id="979065599">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Select AML Documentquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -754,21 +741,21 @@
 <property name="outputBinding" value="out_amlDoc"/>
 <property name="fieldClass" value="org.jbpm.document.Document"/>
 </field>
-<field position="80" name=":decorator_13" type="HTMLLabel" id="706476644">
+<field position="79" name=":decorator_13" type="HTMLLabel" id="706476644">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="readonly" value="false"/>
 <property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;dequot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;enquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;esquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;frquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;jaquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;ptquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;zhquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
-<field position="81" name=":decorator_15" type="HTMLLabel" id="295231726">
+<field position="80" name=":decorator_15" type="HTMLLabel" id="295231726">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="readonly" value="false"/>
 <property name="htmlContent" value="quot;caquot;,quot;&lt;pre&gt; Technical Reports Information&lt;/pre&gt; quot;quot;dequot;,quot;&lt;pre&gt; Technical Reports Information&lt;/pre&gt; quot;quot;enquot;,quot;&lt;pre&gt; Technical Reports Information&lt;/pre&gt; quot;quot;esquot;,quot;&lt;pre&gt; Technical Reports Information&lt;/pre&gt; quot;quot;frquot;,quot;&lt;pre&gt; Technical Reports Information&lt;/pre&gt; quot;quot;jaquot;,quot;&lt;pre&gt; Technical Reports Information&lt;/pre&gt; quot;quot;ptquot;,quot;&lt;pre&gt; Technical Reports Information&lt;/pre&gt; quot;quot;zhquot;,quot;&lt;pre&gt; Technical Reports Information&lt;/pre&gt; quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
-<field position="82" name="technicalReportType" type="InputText" id="1361380636">
+<field position="81" name="technicalReportType" type="InputText" id="1361380636">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Technical Reportsquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -781,7 +768,7 @@
 <property name="outputBinding" value="out_technicalReportType"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="83" name="technicalReportDoc" type="Document" id="1080690710">
+<field position="82" name="technicalReportDoc" type="Document" id="1080690710">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Select Technical Report Documentquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -791,7 +778,7 @@
 <property name="outputBinding" value="out_technicalReportDoc"/>
 <property name="fieldClass" value="org.jbpm.document.Document"/>
 </field>
-<field position="84" name="technicalReportDescription" type="InputText" id="1624521781">
+<field position="83" name="technicalReportDescription" type="InputText" id="1624521781">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Technical Report Descriptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -804,27 +791,27 @@
 <property name="outputBinding" value="out_technicalReportDescription"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="85" name=":decorator_16" type="HTMLLabel" id="2120735089">
+<field position="84" name=":decorator_16" type="HTMLLabel" id="2120735089">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="readonly" value="false"/>
 <property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;dequot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;enquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;esquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;frquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;jaquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;ptquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;zhquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
-<field position="86" name=":decorator_19" type="HTMLLabel" id="1644817438">
+<field position="85" name=":decorator_19" type="HTMLLabel" id="1644817438">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="readonly" value="false"/>
 <property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;dequot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;enquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;esquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;frquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;jaquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;ptquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;zhquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
-<field position="87" name=":decorator_20" type="HTMLLabel" id="87896187">
+<field position="86" name=":decorator_20" type="HTMLLabel" id="87896187">
 <property name="fieldRequired" value="false"/>
 <property name="readonly" value="false"/>
 <property name="htmlContent" value="quot;caquot;,quot;&lt;pre&gt; Legal Report information&lt;/pre&gt; quot;quot;dequot;,quot;&lt;pre&gt; Legal Report information&lt;/pre&gt; quot;quot;enquot;,quot;&lt;pre&gt; Legal Report information&lt;/pre&gt; quot;quot;esquot;,quot;&lt;pre&gt; Legal Report information&lt;/pre&gt; quot;quot;frquot;,quot;&lt;pre&gt; Legal Report information&lt;/pre&gt; quot;quot;jaquot;,quot;&lt;pre&gt; Legal Report information&lt;/pre&gt; quot;quot;ptquot;,quot;&lt;pre&gt; Legal Report information&lt;/pre&gt; quot;quot;zhquot;,quot;&lt;pre&gt; Legal Report information&lt;/pre&gt; quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
-<field position="88" name="legalReportDoc" type="Document" id="544002710">
+<field position="87" name="legalReportDoc" type="Document" id="544002710">
 <property name="fieldRequired" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Select Legal Report Documentquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -833,7 +820,7 @@
 <property name="outputBinding" value="out_legalReportDoc"/>
 <property name="fieldClass" value="org.jbpm.document.Document"/>
 </field>
-<field position="89" name="legalReportDescription" type="InputText" id="821930370">
+<field position="88" name="legalReportDescription" type="InputText" id="821930370">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Legal Report Descriptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -846,27 +833,27 @@
 <property name="outputBinding" value="out_legalReportDescription"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="90" name=":decorator_23" type="HTMLLabel" id="110494274">
+<field position="89" name=":decorator_23" type="HTMLLabel" id="110494274">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="readonly" value="false"/>
 <property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;dequot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;enquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;esquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;frquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;jaquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;ptquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;zhquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
-<field position="91" name=":decorator_24" type="HTMLLabel" id="27099697">
+<field position="90" name=":decorator_24" type="HTMLLabel" id="27099697">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="readonly" value="false"/>
 <property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;dequot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;enquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;esquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;frquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;jaquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;ptquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;zhquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
-<field position="92" name=":decorator_25" type="HTMLLabel" id="1840074826">
+<field position="91" name=":decorator_25" type="HTMLLabel" id="1840074826">
 <property name="fieldRequired" value="false"/>
 <property name="readonly" value="false"/>
 <property name="htmlContent" value="quot;caquot;,quot;&lt;pre&gt; DSCR Information&lt;/pre&gt; quot;quot;dequot;,quot;&lt;pre&gt; DSCR Information&lt;/pre&gt; quot;quot;enquot;,quot;&lt;pre&gt; DSCR Information&lt;/pre&gt; quot;quot;esquot;,quot;&lt;pre&gt; DSCR Information&lt;/pre&gt; quot;quot;frquot;,quot;&lt;pre&gt; DSCR Information&lt;/pre&gt; quot;quot;jaquot;,quot;&lt;pre&gt; DSCR Information&lt;/pre&gt; quot;quot;ptquot;,quot;&lt;pre&gt; DSCR Information&lt;/pre&gt; quot;quot;zhquot;,quot;&lt;pre&gt; DSCR Information&lt;/pre&gt; quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
-<field position="93" name="dscrRatio" type="InputTextDouble" id="583939732">
+<field position="92" name="dscrRatio" type="InputTextDouble" id="583939732">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;DSCR Ratioquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -878,7 +865,7 @@
 <property name="outputBinding" value="out_dscrRatio"/>
 <property name="fieldClass" value="java.lang.Double"/>
 </field>
-<field position="94" name="dscrGurantor" type="CheckBox" id="1723321207">
+<field position="93" name="dscrGurantor" type="CheckBox" id="1723321207">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Gurantorquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -889,14 +876,14 @@
 <property name="outputBinding" value="out_dscrGurantor"/>
 <property name="fieldClass" value="java.lang.Boolean"/>
 </field>
-<field position="95" name=":decorator_26" type="HTMLLabel" id="127137946">
+<field position="94" name=":decorator_26" type="HTMLLabel" id="127137946">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="readonly" value="false"/>
 <property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;dequot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;enquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;esquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;frquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;jaquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;ptquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;quot;zhquot;,quot;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
-<field position="96" name="dscrReportDescription" type="InputText" id="2046030929">
+<field position="95" name="dscrReportDescription" type="InputText" id="2046030929">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;DSCR Descriptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -909,7 +896,7 @@
 <property name="outputBinding" value="out_dscrReportDescription"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="97" name="dscrDoc" type="Document" id="26195735">
+<field position="96" name="dscrDoc" type="Document" id="26195735">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Upload DSCR Documentquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -919,7 +906,7 @@
 <property name="outputBinding" value="out_dscrDoc"/>
 <property name="fieldClass" value="org.jbpm.document.Document"/>
 </field>
-<field position="98" name="multiSubformForBlacklist" type="MultipleSubform" id="1884437611">
+<field position="97" name="multiSubformForBlacklist" type="MultipleSubform" id="1884437611">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Blacklist Detailsquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -942,14 +929,14 @@
 <property name="enableTableEnterData" value="false"/>
 <property name="fieldClass" value="java.util.List"/>
 </field>
-<field position="99" name=":decorator_3" type="HTMLLabel" id="1306826001">
+<field position="98" name=":decorator_3" type="HTMLLabel" id="1306826001">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="readonly" value="false"/>
 <property name="htmlContent" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
-<field position="100" name="applicationStatus" type="InputText" id="71710168">
+<field position="99" name="applicationStatus" type="InputText" id="71710168">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Statusquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -963,7 +950,7 @@
 <property name="outputBinding" value="out_applicationStatus"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="101" name="applicationDescription" type="InputTextArea" id="1601983479">
+<field position="100" name="applicationDescription" type="InputTextArea" id="1601983479">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Descriptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -1090,11 +1077,17 @@
 <property name="outputBinding" value="out_loanDetails/totalInterest"/>
 <property name="fieldClass" value="java.lang.Integer"/>
 </field>
-<field position="52" name="816015599" type="InputTextInteger" id="816015599">
+<field position="52" name="loanDetails_totalRepayment" type="InputTextInteger" id="816015599">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;enquot;,quot;InputTextInteger111quot;"/>
-<property name="readonly" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Total Repaymentquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="styleclass" value="readonly"/>
+<property name="cssStyle" value="background-color: #B4BAB3;"/>
+<property name="inputBinding" value="in_loanDetails/totalRepayment"/>
+<property name="outputBinding" value="out_loanDetails/totalRepayment"/>
 <property name="fieldClass" value="java.lang.Integer"/>
 </field>
 <dataHolder inputId="in_customerDetails" name="#0000A0" type="dataModelerEntry" outId="out_customerDetails" value="madhu.lospoc.CustomerDetails" id="customerDetails"/>
