@@ -19,27 +19,27 @@ public class FinancialDetails implements java.io.Serializable
 
    private java.lang.String customerOccupation;
 
-   private java.lang.Double month1Salary;
+   private Integer month1Salary;
 
-   private java.lang.Double month2Salary;
+   private Integer month2Salary;
 
-   private java.lang.Double month3Salary;
+   private Integer month3Salary;
 
-   private java.lang.Double monthlyAvgSalary;
+   private Integer monthlyAvgSalary;
 
-   private java.lang.Double year2Income;
+   private Integer year2Income;
 
-   private java.lang.Double year1Income;
+   private Integer year1Income;
 
-   private java.lang.Double year3Income;
+   private Integer year3Income;
 
-   private java.lang.Double avgAnnualIncome;
+   private Integer avgAnnualIncome;
 
-   private java.lang.Double otherIncome;
+   private Integer otherIncome;
 
-   private java.lang.Double existingMonthlyEMI;
+   private Integer existingMonthlyEMI;
 
-   private Double incomeCreditScore;
+   private Integer incomeCreditScore;
 
    public FinancialDetails()
    {
@@ -75,123 +75,124 @@ public class FinancialDetails implements java.io.Serializable
       this.customerOccupation = customerOccupation;
    }
 
-   public java.lang.Double getMonth1Salary()
+   public java.lang.Integer getMonth1Salary()
    {
       return this.month1Salary;
    }
 
-   public void setMonth1Salary(java.lang.Double month1Salary)
+   public void setMonth1Salary(java.lang.Integer month1Salary)
    {
       this.month1Salary = month1Salary;
    }
 
-   public java.lang.Double getMonth2Salary()
+   public java.lang.Integer getMonth2Salary()
    {
       return this.month2Salary;
    }
 
-   public void setMonth2Salary(java.lang.Double month2Salary)
+   public void setMonth2Salary(java.lang.Integer month2Salary)
    {
       this.month2Salary = month2Salary;
    }
 
-   public java.lang.Double getMonth3Salary()
+   public java.lang.Integer getMonth3Salary()
    {
       return this.month3Salary;
    }
 
-   public void setMonth3Salary(java.lang.Double month3Salary)
+   public void setMonth3Salary(java.lang.Integer month3Salary)
    {
       this.month3Salary = month3Salary;
    }
 
-   public java.lang.Double getMonthlyAvgSalary()
+   public java.lang.Integer getMonthlyAvgSalary()
    {
       return this.monthlyAvgSalary;
    }
 
-   public void setMonthlyAvgSalary(java.lang.Double monthlyAvgSalary)
+   public void setMonthlyAvgSalary(java.lang.Integer monthlyAvgSalary)
    {
       this.monthlyAvgSalary = monthlyAvgSalary;
    }
 
-   public java.lang.Double getYear2Income()
+   public java.lang.Integer getYear2Income()
    {
       return this.year2Income;
    }
 
-   public void setYear2Income(java.lang.Double year2Income)
+   public void setYear2Income(java.lang.Integer year2Income)
    {
       this.year2Income = year2Income;
    }
 
-   public java.lang.Double getYear1Income()
+   public java.lang.Integer getYear1Income()
    {
       return this.year1Income;
    }
 
-   public void setYear1Income(java.lang.Double year1Income)
+   public void setYear1Income(java.lang.Integer year1Income)
    {
       this.year1Income = year1Income;
    }
 
-   public java.lang.Double getYear3Income()
+   public java.lang.Integer getYear3Income()
    {
       return this.year3Income;
    }
 
-   public void setYear3Income(java.lang.Double year3Income)
+   public void setYear3Income(java.lang.Integer year3Income)
    {
       this.year3Income = year3Income;
    }
 
-   public java.lang.Double getAvgAnnualIncome()
+   public java.lang.Integer getAvgAnnualIncome()
    {
       return this.avgAnnualIncome;
    }
 
-   public void setAvgAnnualIncome(java.lang.Double avgAnnualIncome)
+   public void setAvgAnnualIncome(java.lang.Integer avgAnnualIncome)
    {
       this.avgAnnualIncome = avgAnnualIncome;
    }
 
-   public java.lang.Double getOtherIncome()
+   public java.lang.Integer getOtherIncome()
    {
       return this.otherIncome;
    }
 
-   public void setOtherIncome(java.lang.Double otherIncome)
+   public void setOtherIncome(java.lang.Integer otherIncome)
    {
       this.otherIncome = otherIncome;
    }
 
-   public java.lang.Double getExistingMonthlyEMI()
+   public java.lang.Integer getExistingMonthlyEMI()
    {
       return this.existingMonthlyEMI;
    }
 
-   public void setExistingMonthlyEMI(java.lang.Double existingMonthlyEMI)
+   public void setExistingMonthlyEMI(java.lang.Integer existingMonthlyEMI)
    {
       this.existingMonthlyEMI = existingMonthlyEMI;
    }
 
-   public java.lang.Double getIncomeCreditScore()
+   public java.lang.Integer getIncomeCreditScore()
    {
       return this.incomeCreditScore;
    }
 
-   public void setIncomeCreditScore(java.lang.Double incomeCreditScore)
+   public void setIncomeCreditScore(java.lang.Integer incomeCreditScore)
    {
       this.incomeCreditScore = incomeCreditScore;
    }
 
    public FinancialDetails(java.lang.Long id, java.lang.Long processInstanceID,
-         java.lang.String customerOccupation, java.lang.Double month1Salary,
-         java.lang.Double month2Salary, java.lang.Double month3Salary,
-         java.lang.Double monthlyAvgSalary, java.lang.Double year2Income,
-         java.lang.Double year1Income, java.lang.Double year3Income,
-         java.lang.Double avgAnnualIncome, java.lang.Double otherIncome,
-         java.lang.Double existingMonthlyEMI, java.lang.Double incomeCreditScore)
+         java.lang.String customerOccupation, java.lang.Integer month1Salary,
+         java.lang.Integer month2Salary, java.lang.Integer month3Salary,
+         java.lang.Integer monthlyAvgSalary, java.lang.Integer year2Income,
+         java.lang.Integer year1Income, java.lang.Integer year3Income,
+         java.lang.Integer avgAnnualIncome, java.lang.Integer otherIncome,
+         java.lang.Integer existingMonthlyEMI,
+         java.lang.Integer incomeCreditScore)
    {
       this.id = id;
       this.processInstanceID = processInstanceID;
