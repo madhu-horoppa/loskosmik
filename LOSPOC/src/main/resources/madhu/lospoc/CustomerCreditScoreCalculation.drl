@@ -6,7 +6,7 @@ import java.lang.Number;
 	dialect "mvel"
 	ruleflow-group "CustomerCreditScoreCalculation"
 	when
-		customerDetails : CustomerDetails( customerAge < 18 )
+		customerDetails : CustomerDetails( customerAge < 18.0 )
 	then
 		customerDetails.setAgeCreditScore( 0 );
 	end
@@ -15,7 +15,7 @@ import java.lang.Number;
 	dialect "mvel"
 	ruleflow-group "CustomerCreditScoreCalculation"
 	when
-		customerDetails : CustomerDetails( customerAge >= 18 && customerAge < 26 )
+		customerDetails : CustomerDetails( customerAge >= 18.0 && customerAge < 26.0 )
 	then
 		customerDetails.setAgeCreditScore( 5 );
 	end
@@ -24,7 +24,7 @@ import java.lang.Number;
 	dialect "mvel"
 	ruleflow-group "CustomerCreditScoreCalculation"
 	when
-		customerDetails : CustomerDetails( customerAge >= 26 && customerAge < 36 )
+		customerDetails : CustomerDetails( customerAge >= 26.0 && customerAge < 36.0 )
 	then
 		customerDetails.setAgeCreditScore( 15 );
 	end
@@ -33,7 +33,7 @@ import java.lang.Number;
 	dialect "mvel"
 	ruleflow-group "CustomerCreditScoreCalculation"
 	when
-		customerDetails : CustomerDetails( customerAge >= 36 && customerAge < 46 )
+		customerDetails : CustomerDetails( customerAge >= 36.0 && customerAge < 46.0 )
 	then
 		customerDetails.setAgeCreditScore( 10 );
 	end
@@ -42,7 +42,7 @@ import java.lang.Number;
 	dialect "mvel"
 	ruleflow-group "CustomerCreditScoreCalculation"
 	when
-		customerDetails : CustomerDetails( customerAge >= 46 && customerAge < 56 )
+		customerDetails : CustomerDetails( customerAge >= 46.0 && customerAge < 56.0 )
 	then
 		customerDetails.setAgeCreditScore( 8 );
 	end
@@ -51,7 +51,7 @@ import java.lang.Number;
 	dialect "mvel"
 	ruleflow-group "CustomerCreditScoreCalculation"
 	when
-		customerDetails : CustomerDetails( customerAge >= 56 )
+		customerDetails : CustomerDetails( customerAge >= 56.0 )
 	then
 		customerDetails.setAgeCreditScore( 3 );
 	end
