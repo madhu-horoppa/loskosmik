@@ -383,19 +383,6 @@
 <property name="htmlContent" value="quot;caquot;,quot;&lt;pre&gt; Enter Last 3 months net salary&lt;/pre&gt; quot;quot;dequot;,quot;&lt;pre&gt; Enter Last 3 months net salary&lt;/pre&gt; quot;quot;enquot;,quot;&lt;pre&gt; Enter Last 3 months net salary&lt;/pre&gt; quot;quot;esquot;,quot;&lt;pre&gt; Enter Last 3 months net salary&lt;/pre&gt; quot;quot;frquot;,quot;&lt;pre&gt; Enter Last 3 months net salary&lt;/pre&gt; quot;quot;jaquot;,quot;&lt;pre&gt; Enter Last 3 months net salary&lt;/pre&gt; quot;quot;ptquot;,quot;&lt;pre&gt; Enter Last 3 months net salary&lt;/pre&gt; quot;quot;zhquot;,quot;&lt;pre&gt; Enter Last 3 months net salary&lt;/pre&gt; quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
-<field position="30" name="financialDetails_month1Salary" type="InputTextDouble" id="1209787190">
-<property name="fieldRequired" value="true"/>
-<property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Month 1 (Recent)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Recent Month Net Salaryquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="readonly" value="false"/>
-<property name="maxlength" value="10"/>
-<property name="inputBinding" value="in_financialDetails/month1Salary"/>
-<property name="outputBinding" value="out_financialDetails/month1Salary"/>
-<property name="fieldClass" value="java.lang.Double"/>
-<property name="onChangeScript" value="var v=this.value;if(isNaN(v)){alert(&quot;Enter valid monthly salary1&quot;);document.getElementById(&quot;financialDetails_month1Salary&quot;).value=0.0;}else{if(v&lt;0){alert(&quot;Enter valid monthly salary1&quot;);document.getElementById(&quot;financialDetails_month1Salary&quot;).value=0.0;}else{calculateLoanAmount();}}"/>
-</field>
 <field position="31" name="financialDetails_month2Salary" type="InputTextDouble" id="513508189">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="true"/>
@@ -704,7 +691,7 @@
 <field position="56" name="customerDetails_feeJurnolNo" type="InputText" id="1963410071">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Fee Jurnol Noquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Fee Jurnol Noquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
@@ -796,6 +783,127 @@
 <property name="inputBinding" value="in_applicationDescription"/>
 <property name="outputBinding" value="out_applicationDescription"/>
 <property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="30" name="financialDetails_month1Salary" type="InputTextInteger" id="542537455">
+<property name="fieldRequired" value="true"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Month 1 (Recent)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Enter Recent Month Net Salaryquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="maxlength" value="10"/>
+<property name="inputBinding" value="in_financialDetails/month1Salary"/>
+<property name="outputBinding" value="out_financialDetails/month1Salary"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+<property name="onChangeScript" value="var v=this.value;if(isNaN(v)){alert(&quot;Enter valid monthly salary1&quot;);document.getElementById(&quot;financialDetails_month1Salary&quot;).value=0.0;}else{if(v&lt;0){alert(&quot;Enter valid monthly salary1&quot;);document.getElementById(&quot;financialDetails_month1Salary&quot;).value=0.0;}else{calculateLoanAmount();}}"/>
+</field>
+<field position="65" name="621926155" type="InputTextInteger" id="621926155">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;InputTextInteger66quot;"/>
+<property name="readonly" value="false"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="66" name="1355922291" type="InputTextInteger" id="1355922291">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;InputTextInteger67quot;"/>
+<property name="readonly" value="false"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="67" name="389985342" type="InputTextInteger" id="389985342">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;InputTextInteger68quot;"/>
+<property name="readonly" value="false"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="68" name="1850539172" type="InputTextInteger" id="1850539172">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;InputTextInteger69quot;"/>
+<property name="readonly" value="false"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="69" name="406872917" type="InputTextInteger" id="406872917">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;InputTextInteger70quot;"/>
+<property name="readonly" value="false"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="70" name="924679546" type="InputTextInteger" id="924679546">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;InputTextInteger71quot;"/>
+<property name="readonly" value="false"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="71" name="358862617" type="InputTextInteger" id="358862617">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;InputTextInteger72quot;"/>
+<property name="readonly" value="false"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="72" name="1791524411" type="InputTextInteger" id="1791524411">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;InputTextInteger73quot;"/>
+<property name="readonly" value="false"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="73" name="1654101261" type="InputTextInteger" id="1654101261">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;InputTextInteger74quot;"/>
+<property name="readonly" value="false"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="74" name="40608605" type="InputTextInteger" id="40608605">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;InputTextInteger75quot;"/>
+<property name="readonly" value="false"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="75" name="252788562" type="InputTextInteger" id="252788562">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;InputTextInteger76quot;"/>
+<property name="readonly" value="false"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="76" name="1307115960" type="InputTextInteger" id="1307115960">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;InputTextInteger77quot;"/>
+<property name="readonly" value="false"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="77" name="1976123361" type="InputTextInteger" id="1976123361">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;InputTextInteger78quot;"/>
+<property name="readonly" value="false"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="78" name="1127483263" type="InputTextInteger" id="1127483263">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;InputTextInteger79quot;"/>
+<property name="readonly" value="false"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="79" name="2107739035" type="InputTextInteger" id="2107739035">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;InputTextInteger80quot;"/>
+<property name="readonly" value="false"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="80" name="1467607163" type="InputTextInteger" id="1467607163">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;InputTextInteger81quot;"/>
+<property name="readonly" value="false"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="81" name="1377277666" type="InputTextInteger" id="1377277666">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;InputTextInteger82quot;"/>
+<property name="readonly" value="false"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="82" name="1564813030" type="InputTextInteger" id="1564813030">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;InputTextInteger83quot;"/>
+<property name="readonly" value="false"/>
+<property name="fieldClass" value="java.lang.Integer"/>
 </field>
 <dataHolder inputId="in_customerDetails" name="#0000A0" type="dataModelerEntry" outId="out_customerDetails" value="madhu.lospoc.CustomerDetails" id="customerDetails"/>
 <dataHolder inputId="in_financialDetails" name="#0000A0" type="dataModelerEntry" outId="out_financialDetails" value="madhu.lospoc.FinancialDetails" id="financialDetails"/>
