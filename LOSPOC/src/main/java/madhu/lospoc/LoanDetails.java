@@ -24,7 +24,7 @@ public class LoanDetails implements java.io.Serializable
 
    private Integer amountRequired;
 
-   private Float interestRate;
+   private Double interestRate;
 
    private java.lang.String interestRatetype;
 
@@ -105,16 +105,6 @@ public class LoanDetails implements java.io.Serializable
       this.amountRequired = amountRequired;
    }
 
-   public java.lang.Float getInterestRate()
-   {
-      return this.interestRate;
-   }
-
-   public void setInterestRate(java.lang.Float interestRate)
-   {
-      this.interestRate = interestRate;
-   }
-
    public java.lang.Integer getMinAcceptableLoan()
    {
       return this.minAcceptableLoan;
@@ -175,9 +165,19 @@ public class LoanDetails implements java.io.Serializable
       this.totalRepayment = totalRepayment;
    }
 
+   public java.lang.Double getInterestRate()
+   {
+      return this.interestRate;
+   }
+
+   public void setInterestRate(java.lang.Double interestRate)
+   {
+      this.interestRate = interestRate;
+   }
+
    public LoanDetails(java.lang.Long id, java.lang.Integer loanTenorMonths,
          java.lang.Long processInstanceID, java.lang.Integer downPaymentAmount,
-         java.lang.Integer amountRequired, java.lang.Float interestRate,
+         java.lang.Integer amountRequired, java.lang.Double interestRate,
          java.lang.String interestRatetype, java.lang.Integer minAcceptableLoan,
          java.lang.Integer projectCost, java.lang.Integer emi,
          java.lang.Integer loanAmount, java.lang.Integer totalInterest,
