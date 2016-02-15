@@ -19,7 +19,7 @@
 <field position="1" name="deviationCheck_deviationDescription" type="InputTextArea" id="1101450061">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Deviation Descriptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Deviation Descriptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="true"/>
@@ -41,16 +41,6 @@
 <property name="inputBinding" value="in_deviationCheck/officerDescription"/>
 <property name="outputBinding" value="out_deviationCheck/officerDescription"/>
 <property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="5" name="blackListDoc" type="Document" id="1507770203">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Documentquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="readonly" value="true"/>
-<property name="inputBinding" value="in_blackListDoc"/>
-<property name="outputBinding" value="out_blackListDoc"/>
-<property name="fieldClass" value="org.jbpm.document.Document"/>
 </field>
 <field position="3" name="deviationCheck_status" type="InputText" id="920925664">
 <property name="fieldRequired" value="true"/>
@@ -77,6 +67,16 @@
 <property name="inputBinding" value="in_deviationCheck/description"/>
 <property name="outputBinding" value="out_deviationCheck/description"/>
 <property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="blackListDoc" type="Document" id="1507770203">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Documentquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="inputBinding" value="in_blackListDoc"/>
+<property name="outputBinding" value="out_blackListDoc"/>
+<property name="fieldClass" value="org.jbpm.document.Document"/>
 </field>
 <dataHolder inputId="in_deviationCheck" name="#0000A0" type="dataModelerEntry" outId="out_deviationCheck" value="madhu.lospoc.DeviationCheck" id="deviationCheck"/>
 </form>
