@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <persistence xmlns="http://java.sun.com/xml/ns/persistence" xmlns:orm="http://java.sun.com/xml/ns/persistence/orm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd http://java.sun.com/xml/ns/persistence/orm http://java.sun.com/xml/ns/persistence/orm_2_0.xsd">
-    <persistence-unit name="Madhu:LOSPOC:1.0" transaction-type="JTA">
+    <persistence-unit name="page:LOSPOC:1.0" transaction-type="JTA">
         <provider>org.hibernate.ejb.HibernatePersistence</provider>
         <jta-data-source>java:jboss/datasources/jbpmDS</jta-data-source>
-        <class>madhu.lospoc.LoanDetails</class>
-        <class>madhu.lospoc.CustomerDetails</class>
-        <class>madhu.lospoc.FinancialDetails</class>
-        <class>madhu.lospoc.IncidentBasicDetails</class>
-        <class>madhu.lospoc.BlacklistCheck</class>
-        <class>madhu.lospoc.DeviationCheck</class>
+        <class>page.lospoc.LoanDetails</class>
+        <class>page.lospoc.CustomerDetails</class>
+        <class>page.lospoc.FinancialDetails</class>
+        <class>page.lospoc.IncidentBasicDetails</class>
+        <class>page.lospoc.BlacklistCheck</class>
+        <class>page.lospoc.DeviationCheck</class>
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
         <properties>
             <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect"/>
