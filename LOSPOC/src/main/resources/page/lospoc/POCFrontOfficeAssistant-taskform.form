@@ -358,7 +358,15 @@
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="readonly" value="false"/>
-<property name="htmlContent" value="quot;caquot;,quot;&lt;h3&gt;Financial Details&lt;/h3&gt; quot;quot;dequot;,quot;&lt;h3&gt;Financial Details&lt;/h3&gt; quot;quot;enquot;,quot;&lt;h3&gt;Financial Details&lt;/h3&gt; quot;quot;esquot;,quot;&lt;h3&gt;Financial Details&lt;/h3&gt; quot;quot;frquot;,quot;&lt;h3&gt;Financial Details&lt;/h3&gt; quot;quot;jaquot;,quot;&lt;h3&gt;Financial Details&lt;/h3&gt; quot;quot;ptquot;,quot;&lt;h3&gt;Financial Details&lt;/h3&gt; quot;quot;zhquot;,quot;&lt;h3&gt;Financial Details&lt;/h3&gt; quot;"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;h3&gt;Financial Details&lt;/h3&gt;
+quot;quot;dequot;,quot;&lt;h3&gt;Financial Details&lt;/h3&gt;
+quot;quot;enquot;,quot;&lt;h3&gt;Financial Details&lt;/h3&gt;
+quot;quot;esquot;,quot;&lt;h3&gt;Financial Details&lt;/h3&gt;
+quot;quot;frquot;,quot;&lt;h3&gt;Financial Details&lt;/h3&gt;
+quot;quot;jaquot;,quot;&lt;h3&gt;Financial Details&lt;/h3&gt;
+quot;quot;ptquot;,quot;&lt;h3&gt;Financial Details&lt;/h3&gt;
+quot;quot;zhquot;,quot;&lt;h3&gt;Financial Details&lt;/h3&gt;
+quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
 <field position="28" name="financialDetails_customerOccupation" type="InputText" id="8470588">
@@ -524,13 +532,21 @@
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="readonly" value="false"/>
-<property name="htmlContent" value="quot;caquot;,quot;&lt;h3&gt;Loan Details&lt;/h3&gt; quot;quot;dequot;,quot;&lt;h3&gt;Loan Details&lt;/h3&gt; quot;quot;enquot;,quot;&lt;h3&gt;Loan Details&lt;/h3&gt; quot;quot;esquot;,quot;&lt;h3&gt;Loan Details&lt;/h3&gt; quot;quot;frquot;,quot;&lt;h3&gt;Loan Details&lt;/h3&gt; quot;quot;jaquot;,quot;&lt;h3&gt;Loan Details&lt;/h3&gt; quot;quot;ptquot;,quot;&lt;h3&gt;Loan Details&lt;/h3&gt; quot;quot;zhquot;,quot;&lt;h3&gt;Loan Details&lt;/h3&gt; quot;"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;h3&gt;Loan Details&lt;/h3&gt;
+quot;quot;dequot;,quot;&lt;h3&gt;Loan Details&lt;/h3&gt;
+quot;quot;enquot;,quot;&lt;h3&gt;Loan Details&lt;/h3&gt;
+quot;quot;esquot;,quot;&lt;h3&gt;Loan Details&lt;/h3&gt;
+quot;quot;frquot;,quot;&lt;h3&gt;Loan Details&lt;/h3&gt;
+quot;quot;jaquot;,quot;&lt;h3&gt;Loan Details&lt;/h3&gt;
+quot;quot;ptquot;,quot;&lt;h3&gt;Loan Details&lt;/h3&gt;
+quot;quot;zhquot;,quot;&lt;h3&gt;Loan Details&lt;/h3&gt;
+quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
 <field position="42" name="loanDetails_projectCost" type="InputTextInteger" id="40608605">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Project Costquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Project Costquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Enter Project Costquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
@@ -543,7 +559,7 @@
 <field position="43" name="loanDetails_amountRequired" type="InputTextInteger" id="252788562">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Loan Amount Requiredquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Loan Amount Requiredquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Enter Required Loan Amountquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
@@ -595,7 +611,7 @@
 <field position="47" name="loanDetails_loanTenorMonths" type="InputTextInteger" id="862995181">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Tenor(Months)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Tenor(Months)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
@@ -622,7 +638,7 @@
 <field position="49" name="loanDetails_interestRate" type="InputTextDouble" id="779960581">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Interest Ratequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Interest Ratequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
@@ -796,6 +812,329 @@
 <property name="outputBinding" value="out_applicationDescription"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
+<field position="65" name="BalanceSheetDetails_cashAtBank" type="InputTextInteger" id="1518513128">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;cashAtBank (BalanceSheetDetails)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_BalanceSheetDetails/cashAtBank"/>
+<property name="outputBinding" value="out_BalanceSheetDetails/cashAtBank"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="66" name="BalanceSheetDetails_creditCard" type="InputTextInteger" id="1040809479">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;creditCard (BalanceSheetDetails)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_BalanceSheetDetails/creditCard"/>
+<property name="outputBinding" value="out_BalanceSheetDetails/creditCard"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="67" name="BalanceSheetDetails_creditSocietyLoan" type="InputTextInteger" id="205084567">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;creditSocietyLoan (BalanceSheetDetails)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_BalanceSheetDetails/creditSocietyLoan"/>
+<property name="outputBinding" value="out_BalanceSheetDetails/creditSocietyLoan"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="68" name="BalanceSheetDetails_currentBalanceInPf" type="InputTextInteger" id="2059161492">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;currentBalanceInPf (BalanceSheetDetails)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_BalanceSheetDetails/currentBalanceInPf"/>
+<property name="outputBinding" value="out_BalanceSheetDetails/currentBalanceInPf"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="69" name="BalanceSheetDetails_employerLoan" type="InputTextInteger" id="85681984">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;employerLoan (BalanceSheetDetails)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_BalanceSheetDetails/employerLoan"/>
+<property name="outputBinding" value="out_BalanceSheetDetails/employerLoan"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="70" name="BalanceSheetDetails_fixedDeposits" type="InputTextInteger" id="199099963">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;fixedDeposits (BalanceSheetDetails)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_BalanceSheetDetails/fixedDeposits"/>
+<property name="outputBinding" value="out_BalanceSheetDetails/fixedDeposits"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="71" name="BalanceSheetDetails_homeLoan" type="InputTextInteger" id="1997593759">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;homeLoan (BalanceSheetDetails)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_BalanceSheetDetails/homeLoan"/>
+<property name="outputBinding" value="out_BalanceSheetDetails/homeLoan"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="72" name="BalanceSheetDetails_otherLoan" type="InputTextInteger" id="524652461">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;otherLoan (BalanceSheetDetails)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_BalanceSheetDetails/otherLoan"/>
+<property name="outputBinding" value="out_BalanceSheetDetails/otherLoan"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="73" name="BalanceSheetDetails_others" type="InputTextInteger" id="1326932719">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;others (BalanceSheetDetails)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_BalanceSheetDetails/others"/>
+<property name="outputBinding" value="out_BalanceSheetDetails/others"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="74" name="BalanceSheetDetails_personalLoan" type="InputTextInteger" id="1736011568">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;personalLoan (BalanceSheetDetails)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_BalanceSheetDetails/personalLoan"/>
+<property name="outputBinding" value="out_BalanceSheetDetails/personalLoan"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="75" name="BalanceSheetDetails_pfLoan" type="InputTextInteger" id="9154514">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;pfLoan (BalanceSheetDetails)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_BalanceSheetDetails/pfLoan"/>
+<property name="outputBinding" value="out_BalanceSheetDetails/pfLoan"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="76" name="BalanceSheetDetails_processInstanceID" type="InputTextLong" id="497886944">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;processInstanceID (BalanceSheetDetails)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_BalanceSheetDetails/processInstanceID"/>
+<property name="outputBinding" value="out_BalanceSheetDetails/processInstanceID"/>
+<property name="fieldClass" value="java.lang.Long"/>
+</field>
+<field position="77" name="BalanceSheetDetails_totalAssests" type="InputTextInteger" id="1298335680">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;totalAssests (BalanceSheetDetails)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_BalanceSheetDetails/totalAssests"/>
+<property name="outputBinding" value="out_BalanceSheetDetails/totalAssests"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="78" name="BalanceSheetDetails_totalLiabilites" type="InputTextInteger" id="1711513424">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;totalLiabilites (BalanceSheetDetails)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_BalanceSheetDetails/totalLiabilites"/>
+<property name="outputBinding" value="out_BalanceSheetDetails/totalLiabilites"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="79" name="BalanceSheetDetails_valueOfImmovableProperty" type="InputTextInteger" id="1555044588">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;valueOfImmovableProperty (BalanceSheetDetails)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_BalanceSheetDetails/valueOfImmovableProperty"/>
+<property name="outputBinding" value="out_BalanceSheetDetails/valueOfImmovableProperty"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="80" name="BalanceSheetDetails_valueOfShareAndSecurities" type="InputTextInteger" id="2113358712">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;valueOfShareAndSecurities (BalanceSheetDetails)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_BalanceSheetDetails/valueOfShareAndSecurities"/>
+<property name="outputBinding" value="out_BalanceSheetDetails/valueOfShareAndSecurities"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="81" name="BalanceSheetDetails_vehicleLoan" type="InputTextInteger" id="1828056815">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;vehicleLoan (BalanceSheetDetails)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_BalanceSheetDetails/vehicleLoan"/>
+<property name="outputBinding" value="out_BalanceSheetDetails/vehicleLoan"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="82" name=":decorator_13" type="HTMLLabel" id="2018109841">
+<property name="fieldRequired" value="false"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;h3&gt;Balance Sheet&lt;/h3&gt;
+quot;quot;dequot;,quot;&lt;h3&gt;Balance Sheet&lt;/h3&gt;
+quot;quot;enquot;,quot;&lt;h3&gt;Balance Sheet&lt;/h3&gt;
+quot;quot;esquot;,quot;&lt;h3&gt;Balance Sheet&lt;/h3&gt;
+quot;quot;frquot;,quot;&lt;h3&gt;Balance Sheet&lt;/h3&gt;
+quot;quot;jaquot;,quot;&lt;h3&gt;Balance Sheet&lt;/h3&gt;
+quot;quot;ptquot;,quot;&lt;h3&gt;Balance Sheet&lt;/h3&gt;
+quot;quot;zhquot;,quot;&lt;h3&gt;Balance Sheet&lt;/h3&gt;
+quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
+</field>
+<field position="83" name=":decorator_14" type="HTMLLabel" id="1715345739">
+<property name="fieldRequired" value="false"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;225&quot;&gt;
+	&lt;colgroup&gt;
+		&lt;col width=&quot;225&quot; /&gt;
+	&lt;/colgroup&gt;
+	&lt;tbody&gt;
+		&lt;tr height=&quot;20&quot;&gt;
+			&lt;td height=&quot;20&quot; style=&quot;height:15.0pt;width:169pt&quot; width=&quot;225&quot;&gt;&lt;strong&gt;Assets&lt;/strong&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+quot;quot;dequot;,quot;&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;225&quot;&gt;
+	&lt;colgroup&gt;
+		&lt;col width=&quot;225&quot; /&gt;
+	&lt;/colgroup&gt;
+	&lt;tbody&gt;
+		&lt;tr height=&quot;20&quot;&gt;
+			&lt;td height=&quot;20&quot; style=&quot;height:15.0pt;width:169pt&quot; width=&quot;225&quot;&gt;&lt;strong&gt;Assets&lt;/strong&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+quot;quot;enquot;,quot;&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;225&quot;&gt;
+	&lt;colgroup&gt;
+		&lt;col width=&quot;225&quot; /&gt;
+	&lt;/colgroup&gt;
+	&lt;tbody&gt;
+		&lt;tr height=&quot;20&quot;&gt;
+			&lt;td height=&quot;20&quot; style=&quot;height:15.0pt;width:169pt&quot; width=&quot;225&quot;&gt;&lt;strong&gt;Assets&lt;/strong&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+quot;quot;esquot;,quot;&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;225&quot;&gt;
+	&lt;colgroup&gt;
+		&lt;col width=&quot;225&quot; /&gt;
+	&lt;/colgroup&gt;
+	&lt;tbody&gt;
+		&lt;tr height=&quot;20&quot;&gt;
+			&lt;td height=&quot;20&quot; style=&quot;height:15.0pt;width:169pt&quot; width=&quot;225&quot;&gt;&lt;strong&gt;Assets&lt;/strong&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+quot;quot;frquot;,quot;&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;225&quot;&gt;
+	&lt;colgroup&gt;
+		&lt;col width=&quot;225&quot; /&gt;
+	&lt;/colgroup&gt;
+	&lt;tbody&gt;
+		&lt;tr height=&quot;20&quot;&gt;
+			&lt;td height=&quot;20&quot; style=&quot;height:15.0pt;width:169pt&quot; width=&quot;225&quot;&gt;&lt;strong&gt;Assets&lt;/strong&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+quot;quot;jaquot;,quot;&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;225&quot;&gt;
+	&lt;colgroup&gt;
+		&lt;col width=&quot;225&quot; /&gt;
+	&lt;/colgroup&gt;
+	&lt;tbody&gt;
+		&lt;tr height=&quot;20&quot;&gt;
+			&lt;td height=&quot;20&quot; style=&quot;height:15.0pt;width:169pt&quot; width=&quot;225&quot;&gt;&lt;strong&gt;Assets&lt;/strong&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+quot;quot;ptquot;,quot;&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;225&quot;&gt;
+	&lt;colgroup&gt;
+		&lt;col width=&quot;225&quot; /&gt;
+	&lt;/colgroup&gt;
+	&lt;tbody&gt;
+		&lt;tr height=&quot;20&quot;&gt;
+			&lt;td height=&quot;20&quot; style=&quot;height:15.0pt;width:169pt&quot; width=&quot;225&quot;&gt;&lt;strong&gt;Assets&lt;/strong&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+quot;quot;zhquot;,quot;&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;225&quot;&gt;
+	&lt;colgroup&gt;
+		&lt;col width=&quot;225&quot; /&gt;
+	&lt;/colgroup&gt;
+	&lt;tbody&gt;
+		&lt;tr height=&quot;20&quot;&gt;
+			&lt;td height=&quot;20&quot; style=&quot;height:15.0pt;width:169pt&quot; width=&quot;225&quot;&gt;&lt;strong&gt;Assets&lt;/strong&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
+</field>
+<field position="84" name=":decorator_15" type="HTMLLabel" id="9216871">
+<property name="fieldRequired" value="false"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;225&quot;&gt;
+	&lt;colgroup&gt;
+		&lt;col width=&quot;225&quot; /&gt;
+	&lt;/colgroup&gt;
+	&lt;tbody&gt;
+		&lt;tr height=&quot;20&quot;&gt;
+			&lt;td height=&quot;20&quot; style=&quot;height:15.0pt;width:169pt&quot; width=&quot;225&quot;&gt;&lt;strong&gt;Liabilities&lt;/strong&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+quot;quot;dequot;,quot;&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;225&quot;&gt;
+	&lt;colgroup&gt;
+		&lt;col width=&quot;225&quot; /&gt;
+	&lt;/colgroup&gt;
+	&lt;tbody&gt;
+		&lt;tr height=&quot;20&quot;&gt;
+			&lt;td height=&quot;20&quot; style=&quot;height:15.0pt;width:169pt&quot; width=&quot;225&quot;&gt;&lt;strong&gt;Liabilities&lt;/strong&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+quot;quot;enquot;,quot;&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;225&quot;&gt;
+	&lt;colgroup&gt;
+		&lt;col width=&quot;225&quot; /&gt;
+	&lt;/colgroup&gt;
+	&lt;tbody&gt;
+		&lt;tr height=&quot;20&quot;&gt;
+			&lt;td height=&quot;20&quot; style=&quot;height:15.0pt;width:169pt&quot; width=&quot;225&quot;&gt;&lt;strong&gt;Liabilities&lt;/strong&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+quot;quot;esquot;,quot;&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;225&quot;&gt;
+	&lt;colgroup&gt;
+		&lt;col width=&quot;225&quot; /&gt;
+	&lt;/colgroup&gt;
+	&lt;tbody&gt;
+		&lt;tr height=&quot;20&quot;&gt;
+			&lt;td height=&quot;20&quot; style=&quot;height:15.0pt;width:169pt&quot; width=&quot;225&quot;&gt;&lt;strong&gt;Liabilities&lt;/strong&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+quot;quot;frquot;,quot;&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;225&quot;&gt;
+	&lt;colgroup&gt;
+		&lt;col width=&quot;225&quot; /&gt;
+	&lt;/colgroup&gt;
+	&lt;tbody&gt;
+		&lt;tr height=&quot;20&quot;&gt;
+			&lt;td height=&quot;20&quot; style=&quot;height:15.0pt;width:169pt&quot; width=&quot;225&quot;&gt;&lt;strong&gt;Liabilities&lt;/strong&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+quot;quot;jaquot;,quot;&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;225&quot;&gt;
+	&lt;colgroup&gt;
+		&lt;col width=&quot;225&quot; /&gt;
+	&lt;/colgroup&gt;
+	&lt;tbody&gt;
+		&lt;tr height=&quot;20&quot;&gt;
+			&lt;td height=&quot;20&quot; style=&quot;height:15.0pt;width:169pt&quot; width=&quot;225&quot;&gt;&lt;strong&gt;Liabilities&lt;/strong&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+quot;quot;ptquot;,quot;&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;225&quot;&gt;
+	&lt;colgroup&gt;
+		&lt;col width=&quot;225&quot; /&gt;
+	&lt;/colgroup&gt;
+	&lt;tbody&gt;
+		&lt;tr height=&quot;20&quot;&gt;
+			&lt;td height=&quot;20&quot; style=&quot;height:15.0pt;width:169pt&quot; width=&quot;225&quot;&gt;&lt;strong&gt;Liabilities&lt;/strong&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+quot;quot;zhquot;,quot;&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;225&quot;&gt;
+	&lt;colgroup&gt;
+		&lt;col width=&quot;225&quot; /&gt;
+	&lt;/colgroup&gt;
+	&lt;tbody&gt;
+		&lt;tr height=&quot;20&quot;&gt;
+			&lt;td height=&quot;20&quot; style=&quot;height:15.0pt;width:169pt&quot; width=&quot;225&quot;&gt;&lt;strong&gt;Liabilities&lt;/strong&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
+</field>
+<dataHolder inputId="in_BalanceSheetDetails" name="#0000A0" type="dataModelerEntry" outId="out_BalanceSheetDetails" value="page.lospoc.BalanceSheetDetails" id="BalanceSheetDetails"/>
 <dataHolder inputId="in_customerDetails" name="#0000A0" type="dataModelerEntry" outId="out_customerDetails" value="page.lospoc.CustomerDetails" id="customerDetails"/>
 <dataHolder inputId="in_financialDetails" name="#0000A0" type="dataModelerEntry" outId="out_financialDetails" value="page.lospoc.FinancialDetails" id="financialDetails"/>
 <dataHolder inputId="in_incidentBasicDetails" name="#0000A0" type="dataModelerEntry" outId="out_incidentBasicDetails" value="page.lospoc.IncidentBasicDetails" id="incidentBasicDetails"/>
