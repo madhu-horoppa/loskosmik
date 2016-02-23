@@ -1172,6 +1172,7 @@ quot;"/>
 <property name="inputBinding" value="in_loanDetails/maxEmi"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
+<dataHolder inputId="in_balanceSheetDetails" name="#0000A0" type="dataModelerEntry" outId="out_balanceSheetDetails" value="page.lospoc.BalanceSheetDetails" id="balanceSheetDetails"/>
 <dataHolder inputId="in_customerDetails" name="#0000A0" type="dataModelerEntry" outId="out_customerDetails" value="page.lospoc.CustomerDetails" id="customerDetails"/>
 <dataHolder inputId="in_financialDetails" name="#0000A0" type="dataModelerEntry" outId="out_financialDetails" value="page.lospoc.FinancialDetails" id="financialDetails"/>
 <dataHolder inputId="in_incidentBasicDetails" name="#0000A0" type="dataModelerEntry" outId="out_incidentBasicDetails" value="page.lospoc.IncidentBasicDetails" id="incidentBasicDetails"/>
