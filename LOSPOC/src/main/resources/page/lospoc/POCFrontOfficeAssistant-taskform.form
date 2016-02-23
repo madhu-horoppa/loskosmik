@@ -934,6 +934,7 @@ quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
+<property name="maxlength" value="10"/>
 <property name="inputBinding" value="in_BalanceSheetDetails/pfLoan"/>
 <property name="outputBinding" value="out_BalanceSheetDetails/pfLoan"/>
 <property name="fieldClass" value="java.lang.Integer"/>
