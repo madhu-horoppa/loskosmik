@@ -26,6 +26,8 @@ public class BalanceSheetDetails implements java.io.Serializable
    private java.lang.Integer creditCard;
    private java.lang.Integer totalLiabilites;
 
+   private java.lang.Long processInstanceID;
+
    public BalanceSheetDetails()
    {
    }
@@ -192,17 +194,27 @@ public class BalanceSheetDetails implements java.io.Serializable
       this.totalLiabilites = totalLiabilites;
    }
 
+   public java.lang.Long getProcessInstanceID()
+   {
+      return this.processInstanceID;
+   }
+
+   public void setProcessInstanceID(java.lang.Long processInstanceID)
+   {
+      this.processInstanceID = processInstanceID;
+   }
+
    public BalanceSheetDetails(java.lang.Integer cashAtBank,
          java.lang.Integer valueOfImmovableProperty,
          java.lang.Integer currentBalanceInPf,
          java.lang.Integer valueOfShareAndSecurities,
          java.lang.Integer fixedDeposits, java.lang.Integer others,
-         java.lang.Integer totalAssests,
-         java.lang.Integer creditSocietyLoan,
+         java.lang.Integer totalAssests, java.lang.Integer creditSocietyLoan,
          java.lang.Integer employerLoan, java.lang.Integer homeLoan,
          java.lang.Integer pfLoan, java.lang.Integer vehicleLoan,
          java.lang.Integer personalLoan, java.lang.Integer otherLoan,
-         java.lang.Integer creditCard, java.lang.Integer totalLiabilites)
+         java.lang.Integer creditCard, java.lang.Integer totalLiabilites,
+         java.lang.Long processInstanceID)
    {
       this.cashAtBank = cashAtBank;
       this.valueOfImmovableProperty = valueOfImmovableProperty;
@@ -220,6 +232,7 @@ public class BalanceSheetDetails implements java.io.Serializable
       this.otherLoan = otherLoan;
       this.creditCard = creditCard;
       this.totalLiabilites = totalLiabilites;
+      this.processInstanceID = processInstanceID;
    }
 
 }
