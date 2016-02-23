@@ -220,7 +220,7 @@ public class BalanceSheetDetails implements java.io.Serializable
       this.processInstanceID = processInstanceID;
    }
 
-   public BalanceSheetDetails(java.lang.Integer cashAtBank,
+   public BalanceSheetDetails(java.lang.Long id, java.lang.Integer cashAtBank,
          java.lang.Integer valueOfImmovableProperty,
          java.lang.Integer currentBalanceInPf,
          java.lang.Integer valueOfShareAndSecurities,
@@ -232,6 +232,7 @@ public class BalanceSheetDetails implements java.io.Serializable
          java.lang.Integer creditCard, java.lang.Integer totalLiabilites,
          java.lang.Long processInstanceID)
    {
+       this.id = id;
       this.cashAtBank = cashAtBank;
       this.valueOfImmovableProperty = valueOfImmovableProperty;
       this.currentBalanceInPf = currentBalanceInPf;
