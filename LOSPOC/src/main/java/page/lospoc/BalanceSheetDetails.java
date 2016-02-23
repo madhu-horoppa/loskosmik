@@ -33,6 +33,16 @@ public class BalanceSheetDetails implements java.io.Serializable
    private java.lang.Integer totalLiabilites;
 
    private java.lang.Long processInstanceID;
+   
+   public java.lang.Long getId()
+   {
+      return this.id;
+   }
+
+   public void setId(java.lang.Long id)
+   {
+      this.id = id;
+   }
 
    public BalanceSheetDetails()
    {
