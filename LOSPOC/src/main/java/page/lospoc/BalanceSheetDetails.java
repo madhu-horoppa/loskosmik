@@ -9,6 +9,11 @@ public class BalanceSheetDetails implements java.io.Serializable
 {
 
    static final long serialVersionUID = 1L;
+   
+   @javax.persistence.GeneratedValue(strategy = javax.persistence.GenerationType.AUTO, generator = "BALANCESHEETDETAILS_ID_GENERATOR")
+   @javax.persistence.Id
+   @javax.persistence.SequenceGenerator(name = "BALANCESHEETDETAILS_ID_GENERATOR", sequenceName = "BALANCESHEETDETAILS_ID_SEQ")
+   private java.lang.Long id;
 
    private java.lang.Integer cashAtBank;
    private java.lang.Integer valueOfImmovableProperty;
