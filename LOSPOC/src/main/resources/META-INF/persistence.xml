@@ -9,6 +9,7 @@
         <class>page.lospoc.IncidentBasicDetails</class>
         <class>page.lospoc.BlacklistCheck</class>
         <class>page.lospoc.DeviationCheck</class>
+        <class>page.lospoc.BalanceSheetDetails</class>
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
         <properties>
             <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect"/>
