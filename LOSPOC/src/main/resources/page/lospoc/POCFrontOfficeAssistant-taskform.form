@@ -824,7 +824,7 @@ quot;"/>
 <property name="outputBinding" value="out_balanceSheetDetails/cashAtBank"/>
 <property name="fieldClass" value="java.lang.Integer"/>
 </field>
-<field position="61" name="BalanceSheetDetails_creditCard" type="InputTextInteger" id="1040809479">
+<field position="61" name="balanceSheetDetails_creditCard" type="InputTextInteger" id="1040809479">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Credit Cardquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -832,11 +832,11 @@ quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="maxlength" value="10"/>
-<property name="inputBinding" value="in_BalanceSheetDetails/creditCard"/>
-<property name="outputBinding" value="out_BalanceSheetDetails/creditCard"/>
+<property name="inputBinding" value="in_balanceSheetDetails/creditCard"/>
+<property name="outputBinding" value="out_balanceSheetDetails/creditCard"/>
 <property name="fieldClass" value="java.lang.Integer"/>
 </field>
-<field position="54" name="BalanceSheetDetails_creditSocietyLoan" type="InputTextInteger" id="205084567">
+<field position="54" name="balanceSheetDetails_creditSocietyLoan" type="InputTextInteger" id="205084567">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Credit Society Loanquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -844,8 +844,8 @@ quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="maxlength" value="10"/>
-<property name="inputBinding" value="in_BalanceSheetDetails/creditSocietyLoan"/>
-<property name="outputBinding" value="out_BalanceSheetDetails/creditSocietyLoan"/>
+<property name="inputBinding" value="in_balanceSheetDetails/creditSocietyLoan"/>
+<property name="outputBinding" value="out_balanceSheetDetails/creditSocietyLoan"/>
 <property name="fieldClass" value="java.lang.Integer"/>
 </field>
 <field position="48" name="balanceSheetDetails_currentBalanceInPf" type="InputTextInteger" id="2059161492">
@@ -860,7 +860,7 @@ quot;"/>
 <property name="outputBinding" value="out_balanceSheetDetails/currentBalanceInPf"/>
 <property name="fieldClass" value="java.lang.Integer"/>
 </field>
-<field position="55" name="BalanceSheetDetails_employerLoan" type="InputTextInteger" id="85681984">
+<field position="55" name="balanceSheetDetails_employerLoan" type="InputTextInteger" id="85681984">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Employer Loanquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -868,8 +868,8 @@ quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="maxlength" value="10"/>
-<property name="inputBinding" value="in_BalanceSheetDetails/employerLoan"/>
-<property name="outputBinding" value="out_BalanceSheetDetails/employerLoan"/>
+<property name="inputBinding" value="in_balanceSheetDetails/employerLoan"/>
+<property name="outputBinding" value="out_balanceSheetDetails/employerLoan"/>
 <property name="fieldClass" value="java.lang.Integer"/>
 </field>
 <field position="47" name="balanceSheetDetails_fixedDeposits" type="InputTextInteger" id="199099963">
@@ -884,7 +884,7 @@ quot;"/>
 <property name="outputBinding" value="out_balanceSheetDetails/fixedDeposits"/>
 <property name="fieldClass" value="java.lang.Integer"/>
 </field>
-<field position="56" name="BalanceSheetDetails_homeLoan" type="InputTextInteger" id="1997593759">
+<field position="56" name="balanceSheetDetails_homeLoan" type="InputTextInteger" id="1997593759">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Home Loanquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -892,11 +892,11 @@ quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="maxlength" value="10"/>
-<property name="inputBinding" value="in_BalanceSheetDetails/homeLoan"/>
-<property name="outputBinding" value="out_BalanceSheetDetails/homeLoan"/>
+<property name="inputBinding" value="in_balanceSheetDetails/homeLoan"/>
+<property name="outputBinding" value="out_balanceSheetDetails/homeLoan"/>
 <property name="fieldClass" value="java.lang.Integer"/>
 </field>
-<field position="60" name="BalanceSheetDetails_otherLoan" type="InputTextInteger" id="524652461">
+<field position="60" name="balanceSheetDetails_otherLoan" type="InputTextInteger" id="524652461">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Other Loanquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -904,8 +904,8 @@ quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="maxlength" value="10"/>
-<property name="inputBinding" value="in_BalanceSheetDetails/otherLoan"/>
-<property name="outputBinding" value="out_BalanceSheetDetails/otherLoan"/>
+<property name="inputBinding" value="in_balanceSheetDetails/otherLoan"/>
+<property name="outputBinding" value="out_balanceSheetDetails/otherLoan"/>
 <property name="fieldClass" value="java.lang.Integer"/>
 </field>
 <field position="49" name="balanceSheetDetails_others" type="InputTextInteger" id="1326932719">
@@ -920,7 +920,7 @@ quot;"/>
 <property name="outputBinding" value="out_balanceSheetDetails/others"/>
 <property name="fieldClass" value="java.lang.Integer"/>
 </field>
-<field position="59" name="BalanceSheetDetails_personalLoan" type="InputTextInteger" id="1736011568">
+<field position="59" name="balanceSheetDetails_personalLoan" type="InputTextInteger" id="1736011568">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Personal Loanquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -928,11 +928,11 @@ quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="maxlength" value="10"/>
-<property name="inputBinding" value="in_BalanceSheetDetails/personalLoan"/>
-<property name="outputBinding" value="out_BalanceSheetDetails/personalLoan"/>
+<property name="inputBinding" value="in_balanceSheetDetails/personalLoan"/>
+<property name="outputBinding" value="out_balanceSheetDetails/personalLoan"/>
 <property name="fieldClass" value="java.lang.Integer"/>
 </field>
-<field position="57" name="BalanceSheetDetails_pfLoan" type="InputTextInteger" id="9154514">
+<field position="57" name="balanceSheetDetails_pfLoan" type="InputTextInteger" id="9154514">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;PF Loanquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -940,8 +940,8 @@ quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="maxlength" value="10"/>
-<property name="inputBinding" value="in_BalanceSheetDetails/pfLoan"/>
-<property name="outputBinding" value="out_BalanceSheetDetails/pfLoan"/>
+<property name="inputBinding" value="in_balanceSheetDetails/pfLoan"/>
+<property name="outputBinding" value="out_balanceSheetDetails/pfLoan"/>
 <property name="fieldClass" value="java.lang.Integer"/>
 </field>
 <field position="51" name="balanceSheetDetails_totalAssests" type="InputTextInteger" id="1298335680">
@@ -957,7 +957,7 @@ quot;"/>
 <property name="outputBinding" value="out_balanceSheetDetails/totalAssests"/>
 <property name="fieldClass" value="java.lang.Integer"/>
 </field>
-<field position="62" name="BalanceSheetDetails_totalLiabilites" type="InputTextInteger" id="1711513424">
+<field position="62" name="balanceSheetDetails_totalLiabilites" type="InputTextInteger" id="1711513424">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Total Liabilitesquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -966,8 +966,8 @@ quot;"/>
 <property name="readonly" value="true"/>
 <property name="styleclass" value="readonly"/>
 <property name="cssStyle" value="background-color: #B4BAB3;"/>
-<property name="inputBinding" value="in_BalanceSheetDetails/totalLiabilites"/>
-<property name="outputBinding" value="out_BalanceSheetDetails/totalLiabilites"/>
+<property name="inputBinding" value="in_balanceSheetDetails/totalLiabilites"/>
+<property name="outputBinding" value="out_balanceSheetDetails/totalLiabilites"/>
 <property name="fieldClass" value="java.lang.Integer"/>
 </field>
 <field position="44" name="balanceSheetDetails_valueOfImmovableProperty" type="InputTextInteger" id="1555044588">
@@ -994,7 +994,7 @@ quot;"/>
 <property name="outputBinding" value="out_balanceSheetDetails/valueOfShareAndSecurities"/>
 <property name="fieldClass" value="java.lang.Integer"/>
 </field>
-<field position="58" name="BalanceSheetDetails_vehicleLoan" type="InputTextInteger" id="1828056815">
+<field position="58" name="balanceSheetDetails_vehicleLoan" type="InputTextInteger" id="1828056815">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Vehicle Loanquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -1002,8 +1002,8 @@ quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="maxlength" value="10"/>
-<property name="inputBinding" value="in_BalanceSheetDetails/vehicleLoan"/>
-<property name="outputBinding" value="out_BalanceSheetDetails/vehicleLoan"/>
+<property name="inputBinding" value="in_balanceSheetDetails/vehicleLoan"/>
+<property name="outputBinding" value="out_balanceSheetDetails/vehicleLoan"/>
 <property name="fieldClass" value="java.lang.Integer"/>
 </field>
 <field position="41" name=":decorator_13" type="HTMLLabel" id="2018109841">
