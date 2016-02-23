@@ -41,6 +41,8 @@ public class LoanDetails implements java.io.Serializable
 
    private Integer totalRepayment;
 
+   private java.lang.Integer maxEmi;
+
    public LoanDetails()
    {
    }
@@ -175,13 +177,23 @@ public class LoanDetails implements java.io.Serializable
       this.interestRate = interestRate;
    }
 
+   public java.lang.Integer getMaxEmi()
+   {
+      return this.maxEmi;
+   }
+
+   public void setMaxEmi(java.lang.Integer maxEmi)
+   {
+      this.maxEmi = maxEmi;
+   }
+
    public LoanDetails(java.lang.Long id, java.lang.Integer loanTenorMonths,
          java.lang.Long processInstanceID, java.lang.Integer downPaymentAmount,
          java.lang.Integer amountRequired, java.lang.Double interestRate,
          java.lang.String interestRatetype, java.lang.Integer minAcceptableLoan,
          java.lang.Integer projectCost, java.lang.Integer emi,
          java.lang.Integer loanAmount, java.lang.Integer totalInterest,
-         java.lang.Integer totalRepayment)
+         java.lang.Integer totalRepayment, java.lang.Integer maxEmi)
    {
       this.id = id;
       this.loanTenorMonths = loanTenorMonths;
@@ -196,6 +208,7 @@ public class LoanDetails implements java.io.Serializable
       this.loanAmount = loanAmount;
       this.totalInterest = totalInterest;
       this.totalRepayment = totalRepayment;
+      this.maxEmi = maxEmi;
    }
 
 }
