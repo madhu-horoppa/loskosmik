@@ -328,7 +328,15 @@
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="readonly" value="false"/>
-<property name="htmlContent" value="quot;caquot;,quot;&lt;h3&gt;Financial Details&lt;/h3&gt; quot;quot;dequot;,quot;&lt;h3&gt;Financial Details&lt;/h3&gt; quot;quot;enquot;,quot;&lt;h3&gt;Financial Details&lt;/h3&gt; quot;quot;esquot;,quot;&lt;h3&gt;Financial Details&lt;/h3&gt; quot;quot;frquot;,quot;&lt;h3&gt;Financial Details&lt;/h3&gt; quot;quot;jaquot;,quot;&lt;h3&gt;Financial Details&lt;/h3&gt; quot;quot;ptquot;,quot;&lt;h3&gt;Financial Details&lt;/h3&gt; quot;quot;zhquot;,quot;&lt;h3&gt;Financial Details&lt;/h3&gt; quot;"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;h3&gt;Financial Details&lt;/h3&gt;
+quot;quot;dequot;,quot;&lt;h3&gt;Financial Details&lt;/h3&gt;
+quot;quot;enquot;,quot;&lt;h3&gt;Financial Details&lt;/h3&gt;
+quot;quot;esquot;,quot;&lt;h3&gt;Financial Details&lt;/h3&gt;
+quot;quot;frquot;,quot;&lt;h3&gt;Financial Details&lt;/h3&gt;
+quot;quot;jaquot;,quot;&lt;h3&gt;Financial Details&lt;/h3&gt;
+quot;quot;ptquot;,quot;&lt;h3&gt;Financial Details&lt;/h3&gt;
+quot;quot;zhquot;,quot;&lt;h3&gt;Financial Details&lt;/h3&gt;
+quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
 <field position="28" name="financialDetails_customerOccupation" type="InputText" id="8470588">
@@ -404,7 +412,23 @@
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="readonly" value="false"/>
-<property name="htmlContent" value="quot;caquot;,quot;&lt;pre&gt; Enter Last 3 years IT returns&lt;/pre&gt; quot;quot;dequot;,quot;&lt;pre&gt; Enter Last 3 years IT returns&lt;/pre&gt; quot;quot;enquot;,quot;&lt;pre&gt; Enter Last 3 years IT returns&lt;/pre&gt; quot;quot;esquot;,quot;&lt;pre&gt; Enter Last 3 years IT returns&lt;/pre&gt; quot;quot;frquot;,quot;&lt;pre&gt; Enter Last 3 years IT returns&lt;/pre&gt; quot;quot;jaquot;,quot;&lt;pre&gt; Enter Last 3 years IT returns&lt;/pre&gt; quot;quot;ptquot;,quot;&lt;pre&gt; Enter Last 3 years IT returns&lt;/pre&gt; quot;quot;zhquot;,quot;&lt;pre&gt; Enter Last 3 years IT returns&lt;/pre&gt; quot;"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;pre&gt;
+ Enter Last 3 years IT returns&lt;/pre&gt;
+quot;quot;dequot;,quot;&lt;pre&gt;
+ Enter Last 3 years IT returns&lt;/pre&gt;
+quot;quot;enquot;,quot;&lt;pre&gt;
+ Enter Last 3 years IT returns&lt;/pre&gt;
+quot;quot;esquot;,quot;&lt;pre&gt;
+ Enter Last 3 years IT returns&lt;/pre&gt;
+quot;quot;frquot;,quot;&lt;pre&gt;
+ Enter Last 3 years IT returns&lt;/pre&gt;
+quot;quot;jaquot;,quot;&lt;pre&gt;
+ Enter Last 3 years IT returns&lt;/pre&gt;
+quot;quot;ptquot;,quot;&lt;pre&gt;
+ Enter Last 3 years IT returns&lt;/pre&gt;
+quot;quot;zhquot;,quot;&lt;pre&gt;
+ Enter Last 3 years IT returns&lt;/pre&gt;
+quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
 <field position="35" name="financialDetails_year1Income" type="InputText" id="163499872">
@@ -483,14 +507,15 @@
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="readonly" value="false"/>
-<property name="htmlContent" value="quot;caquot;,quot;&lt;h3&gt;Balance Sheet&lt;/h3&gt; quot;quot;dequot;,quot;&lt;h3&gt;Balance Sheet&lt;/h3&gt; quot;quot;enquot;,quot;&lt;h3&gt;Balance Sheet&lt;/h3&gt; quot;quot;esquot;,quot;&lt;h3&gt;Balance Sheet&lt;/h3&gt; quot;quot;frquot;,quot;&lt;h3&gt;Balance Sheet&lt;/h3&gt; quot;quot;jaquot;,quot;&lt;h3&gt;Balance Sheet&lt;/h3&gt; quot;quot;ptquot;,quot;&lt;h3&gt;Balance Sheet&lt;/h3&gt; quot;quot;zhquot;,quot;&lt;h3&gt;Balance Sheet&lt;/h3&gt; quot;"/>
-<property name="fieldClass" value="HTMLlabel"/>
-</field>
-<field position="42" name=":decorator_16" type="HTMLLabel" id="805847842">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="false"/>
-<property name="readonly" value="false"/>
-<property name="htmlContent" value="quot;caquot;,quot;&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;225&quot;&gt;  &lt;colgroup&gt;   &lt;col width=&quot;225&quot; /&gt;  &lt;/colgroup&gt;  &lt;tbody&gt;   &lt;tr height=&quot;20&quot;&gt;    &lt;td height=&quot;20&quot; style=&quot;height:15.0pt;width:169pt&quot; width=&quot;225&quot;&gt;&lt;strong&gt;Assets&lt;/strong&gt;&lt;/td&gt;   &lt;/tr&gt;  &lt;/tbody&gt; &lt;/table&gt; quot;quot;dequot;,quot;&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;225&quot;&gt;  &lt;colgroup&gt;   &lt;col width=&quot;225&quot; /&gt;  &lt;/colgroup&gt;  &lt;tbody&gt;   &lt;tr height=&quot;20&quot;&gt;    &lt;td height=&quot;20&quot; style=&quot;height:15.0pt;width:169pt&quot; width=&quot;225&quot;&gt;&lt;strong&gt;Assets&lt;/strong&gt;&lt;/td&gt;   &lt;/tr&gt;  &lt;/tbody&gt; &lt;/table&gt; quot;quot;enquot;,quot;&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;225&quot;&gt;  &lt;colgroup&gt;   &lt;col width=&quot;225&quot; /&gt;  &lt;/colgroup&gt;  &lt;tbody&gt;   &lt;tr height=&quot;20&quot;&gt;    &lt;td height=&quot;20&quot; style=&quot;height:15.0pt;width:169pt&quot; width=&quot;225&quot;&gt;&lt;strong&gt;Assets&lt;/strong&gt;&lt;/td&gt;   &lt;/tr&gt;  &lt;/tbody&gt; &lt;/table&gt; quot;quot;esquot;,quot;&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;225&quot;&gt;  &lt;colgroup&gt;   &lt;col width=&quot;225&quot; /&gt;  &lt;/colgroup&gt;  &lt;tbody&gt;   &lt;tr height=&quot;20&quot;&gt;    &lt;td height=&quot;20&quot; style=&quot;height:15.0pt;width:169pt&quot; width=&quot;225&quot;&gt;&lt;strong&gt;Assets&lt;/strong&gt;&lt;/td&gt;   &lt;/tr&gt;  &lt;/tbody&gt; &lt;/table&gt; quot;quot;frquot;,quot;&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;225&quot;&gt;  &lt;colgroup&gt;   &lt;col width=&quot;225&quot; /&gt;  &lt;/colgroup&gt;  &lt;tbody&gt;   &lt;tr height=&quot;20&quot;&gt;    &lt;td height=&quot;20&quot; style=&quot;height:15.0pt;width:169pt&quot; width=&quot;225&quot;&gt;&lt;strong&gt;Assets&lt;/strong&gt;&lt;/td&gt;   &lt;/tr&gt;  &lt;/tbody&gt; &lt;/table&gt; quot;quot;jaquot;,quot;&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;225&quot;&gt;  &lt;colgroup&gt;   &lt;col width=&quot;225&quot; /&gt;  &lt;/colgroup&gt;  &lt;tbody&gt;   &lt;tr height=&quot;20&quot;&gt;    &lt;td height=&quot;20&quot; style=&quot;height:15.0pt;width:169pt&quot; width=&quot;225&quot;&gt;&lt;strong&gt;Assets&lt;/strong&gt;&lt;/td&gt;   &lt;/tr&gt;  &lt;/tbody&gt; &lt;/table&gt; quot;quot;ptquot;,quot;&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;225&quot;&gt;  &lt;colgroup&gt;   &lt;col width=&quot;225&quot; /&gt;  &lt;/colgroup&gt;  &lt;tbody&gt;   &lt;tr height=&quot;20&quot;&gt;    &lt;td height=&quot;20&quot; style=&quot;height:15.0pt;width:169pt&quot; width=&quot;225&quot;&gt;&lt;strong&gt;Assets&lt;/strong&gt;&lt;/td&gt;   &lt;/tr&gt;  &lt;/tbody&gt; &lt;/table&gt; quot;quot;zhquot;,quot;&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;225&quot;&gt;  &lt;colgroup&gt;   &lt;col width=&quot;225&quot; /&gt;  &lt;/colgroup&gt;  &lt;tbody&gt;   &lt;tr height=&quot;20&quot;&gt;    &lt;td height=&quot;20&quot; style=&quot;height:15.0pt;width:169pt&quot; width=&quot;225&quot;&gt;&lt;strong&gt;Assets&lt;/strong&gt;&lt;/td&gt;   &lt;/tr&gt;  &lt;/tbody&gt; &lt;/table&gt; quot;"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;h3&gt;Balance Sheet&lt;/h3&gt;
+quot;quot;dequot;,quot;&lt;h3&gt;Balance Sheet&lt;/h3&gt;
+quot;quot;enquot;,quot;&lt;h3&gt;Balance Sheet&lt;/h3&gt;
+quot;quot;esquot;,quot;&lt;h3&gt;Balance Sheet&lt;/h3&gt;
+quot;quot;frquot;,quot;&lt;h3&gt;Balance Sheet&lt;/h3&gt;
+quot;quot;jaquot;,quot;&lt;h3&gt;Balance Sheet&lt;/h3&gt;
+quot;quot;ptquot;,quot;&lt;h3&gt;Balance Sheet&lt;/h3&gt;
+quot;quot;zhquot;,quot;&lt;h3&gt;Balance Sheet&lt;/h3&gt;
+quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
 <field position="43" name="balanceSheetDetails_cashAtBank" type="InputText" id="1955293611">
@@ -590,13 +615,6 @@
 <property name="hideContent" value="false"/>
 <property name="inputBinding" value="in_balanceSheetDetails/totalAssests"/>
 <property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="52" name=":decorator_18" type="HTMLLabel" id="1693411903">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="false"/>
-<property name="readonly" value="false"/>
-<property name="htmlContent" value="quot;caquot;,quot;&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;225&quot;&gt;  &lt;colgroup&gt;   &lt;col width=&quot;225&quot; /&gt;  &lt;/colgroup&gt;  &lt;tbody&gt;   &lt;tr height=&quot;20&quot;&gt;    &lt;td height=&quot;20&quot; style=&quot;height:15.0pt;width:169pt&quot; width=&quot;225&quot;&gt;&lt;strong&gt;Liabilities&lt;/strong&gt;&lt;/td&gt;   &lt;/tr&gt;  &lt;/tbody&gt; &lt;/table&gt; quot;quot;dequot;,quot;&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;225&quot;&gt;  &lt;colgroup&gt;   &lt;col width=&quot;225&quot; /&gt;  &lt;/colgroup&gt;  &lt;tbody&gt;   &lt;tr height=&quot;20&quot;&gt;    &lt;td height=&quot;20&quot; style=&quot;height:15.0pt;width:169pt&quot; width=&quot;225&quot;&gt;&lt;strong&gt;Liabilities&lt;/strong&gt;&lt;/td&gt;   &lt;/tr&gt;  &lt;/tbody&gt; &lt;/table&gt; quot;quot;enquot;,quot;&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;225&quot;&gt;  &lt;colgroup&gt;   &lt;col width=&quot;225&quot; /&gt;  &lt;/colgroup&gt;  &lt;tbody&gt;   &lt;tr height=&quot;20&quot;&gt;    &lt;td height=&quot;20&quot; style=&quot;height:15.0pt;width:169pt&quot; width=&quot;225&quot;&gt;&lt;strong&gt;Liabilities&lt;/strong&gt;&lt;/td&gt;   &lt;/tr&gt;  &lt;/tbody&gt; &lt;/table&gt; quot;quot;esquot;,quot;&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;225&quot;&gt;  &lt;colgroup&gt;   &lt;col width=&quot;225&quot; /&gt;  &lt;/colgroup&gt;  &lt;tbody&gt;   &lt;tr height=&quot;20&quot;&gt;    &lt;td height=&quot;20&quot; style=&quot;height:15.0pt;width:169pt&quot; width=&quot;225&quot;&gt;&lt;strong&gt;Liabilities&lt;/strong&gt;&lt;/td&gt;   &lt;/tr&gt;  &lt;/tbody&gt; &lt;/table&gt; quot;quot;frquot;,quot;&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;225&quot;&gt;  &lt;colgroup&gt;   &lt;col width=&quot;225&quot; /&gt;  &lt;/colgroup&gt;  &lt;tbody&gt;   &lt;tr height=&quot;20&quot;&gt;    &lt;td height=&quot;20&quot; style=&quot;height:15.0pt;width:169pt&quot; width=&quot;225&quot;&gt;&lt;strong&gt;Liabilities&lt;/strong&gt;&lt;/td&gt;   &lt;/tr&gt;  &lt;/tbody&gt; &lt;/table&gt; quot;quot;jaquot;,quot;&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;225&quot;&gt;  &lt;colgroup&gt;   &lt;col width=&quot;225&quot; /&gt;  &lt;/colgroup&gt;  &lt;tbody&gt;   &lt;tr height=&quot;20&quot;&gt;    &lt;td height=&quot;20&quot; style=&quot;height:15.0pt;width:169pt&quot; width=&quot;225&quot;&gt;&lt;strong&gt;Liabilities&lt;/strong&gt;&lt;/td&gt;   &lt;/tr&gt;  &lt;/tbody&gt; &lt;/table&gt; quot;quot;ptquot;,quot;&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;225&quot;&gt;  &lt;colgroup&gt;   &lt;col width=&quot;225&quot; /&gt;  &lt;/colgroup&gt;  &lt;tbody&gt;   &lt;tr height=&quot;20&quot;&gt;    &lt;td height=&quot;20&quot; style=&quot;height:15.0pt;width:169pt&quot; width=&quot;225&quot;&gt;&lt;strong&gt;Liabilities&lt;/strong&gt;&lt;/td&gt;   &lt;/tr&gt;  &lt;/tbody&gt; &lt;/table&gt; quot;quot;zhquot;,quot;&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;225&quot;&gt;  &lt;colgroup&gt;   &lt;col width=&quot;225&quot; /&gt;  &lt;/colgroup&gt;  &lt;tbody&gt;   &lt;tr height=&quot;20&quot;&gt;    &lt;td height=&quot;20&quot; style=&quot;height:15.0pt;width:169pt&quot; width=&quot;225&quot;&gt;&lt;strong&gt;Liabilities&lt;/strong&gt;&lt;/td&gt;   &lt;/tr&gt;  &lt;/tbody&gt; &lt;/table&gt; quot;"/>
-<property name="fieldClass" value="HTMLlabel"/>
 </field>
 <field position="53" name="balanceSheetDetails_creditSocietyLoan" type="InputText" id="855213366">
 <property name="fieldRequired" value="false"/>
@@ -716,7 +734,7 @@
 <field position="63" name="loanDetails_projectCost" type="InputText" id="721050779">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Project Costquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Project Costquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="true"/>
@@ -1003,6 +1021,52 @@
 <property name="inputBinding" value="in_applicationDescription"/>
 <property name="outputBinding" value="out_applicationDescription"/>
 <property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="42" name=":decorator_11" type="HTMLLabel" id="2085553407">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;pre&gt;
+Assets&lt;/pre&gt;
+quot;quot;dequot;,quot;&lt;pre&gt;
+Assets&lt;/pre&gt;
+quot;quot;enquot;,quot;&lt;pre&gt;
+Assets&lt;/pre&gt;
+quot;quot;esquot;,quot;&lt;pre&gt;
+Assets&lt;/pre&gt;
+quot;quot;frquot;,quot;&lt;pre&gt;
+Assets&lt;/pre&gt;
+quot;quot;jaquot;,quot;&lt;pre&gt;
+Assets&lt;/pre&gt;
+quot;quot;ptquot;,quot;&lt;pre&gt;
+Assets&lt;/pre&gt;
+quot;quot;zhquot;,quot;&lt;pre&gt;
+Assets&lt;/pre&gt;
+quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
+</field>
+<field position="52" name=":decorator_16" type="HTMLLabel" id="613380201">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;pre&gt;
+Liabilities&lt;/pre&gt;
+quot;quot;dequot;,quot;&lt;pre&gt;
+Liabilities&lt;/pre&gt;
+quot;quot;enquot;,quot;&lt;pre&gt;
+Liabilities&lt;/pre&gt;
+quot;quot;esquot;,quot;&lt;pre&gt;
+Liabilities&lt;/pre&gt;
+quot;quot;frquot;,quot;&lt;pre&gt;
+Liabilities&lt;/pre&gt;
+quot;quot;jaquot;,quot;&lt;pre&gt;
+Liabilities&lt;/pre&gt;
+quot;quot;ptquot;,quot;&lt;pre&gt;
+Liabilities&lt;/pre&gt;
+quot;quot;zhquot;,quot;&lt;pre&gt;
+Liabilities&lt;/pre&gt;
+quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
 </field>
 <dataHolder inputId="in_balanceSheetDetails" name="#0000A0" type="dataModelerEntry" outId="out_balanceSheetDetails" value="page.lospoc.BalanceSheetDetails" id="balanceSheetDetails"/>
 <dataHolder inputId="in_customerDetails" name="#0000A0" type="dataModelerEntry" outId="out_customerDetails" value="page.lospoc.CustomerDetails" id="customerDetails"/>
