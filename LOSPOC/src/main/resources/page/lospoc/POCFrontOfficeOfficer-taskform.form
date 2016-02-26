@@ -328,15 +328,7 @@
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="readonly" value="false"/>
-<property name="htmlContent" value="quot;caquot;,quot;&lt;h3&gt;Financial Details&lt;/h3&gt;
-quot;quot;dequot;,quot;&lt;h3&gt;Financial Details&lt;/h3&gt;
-quot;quot;enquot;,quot;&lt;h3&gt;Financial Details&lt;/h3&gt;
-quot;quot;esquot;,quot;&lt;h3&gt;Financial Details&lt;/h3&gt;
-quot;quot;frquot;,quot;&lt;h3&gt;Financial Details&lt;/h3&gt;
-quot;quot;jaquot;,quot;&lt;h3&gt;Financial Details&lt;/h3&gt;
-quot;quot;ptquot;,quot;&lt;h3&gt;Financial Details&lt;/h3&gt;
-quot;quot;zhquot;,quot;&lt;h3&gt;Financial Details&lt;/h3&gt;
-quot;"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;h3&gt;Financial Details&lt;/h3&gt; quot;quot;dequot;,quot;&lt;h3&gt;Financial Details&lt;/h3&gt; quot;quot;enquot;,quot;&lt;h3&gt;Financial Details&lt;/h3&gt; quot;quot;esquot;,quot;&lt;h3&gt;Financial Details&lt;/h3&gt; quot;quot;frquot;,quot;&lt;h3&gt;Financial Details&lt;/h3&gt; quot;quot;jaquot;,quot;&lt;h3&gt;Financial Details&lt;/h3&gt; quot;quot;ptquot;,quot;&lt;h3&gt;Financial Details&lt;/h3&gt; quot;quot;zhquot;,quot;&lt;h3&gt;Financial Details&lt;/h3&gt; quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
 <field position="28" name="financialDetails_customerOccupation" type="InputText" id="8470588">
@@ -412,23 +404,7 @@ quot;"/>
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="readonly" value="false"/>
-<property name="htmlContent" value="quot;caquot;,quot;&lt;pre&gt;
- Enter Last 3 years IT returns&lt;/pre&gt;
-quot;quot;dequot;,quot;&lt;pre&gt;
- Enter Last 3 years IT returns&lt;/pre&gt;
-quot;quot;enquot;,quot;&lt;pre&gt;
- Enter Last 3 years IT returns&lt;/pre&gt;
-quot;quot;esquot;,quot;&lt;pre&gt;
- Enter Last 3 years IT returns&lt;/pre&gt;
-quot;quot;frquot;,quot;&lt;pre&gt;
- Enter Last 3 years IT returns&lt;/pre&gt;
-quot;quot;jaquot;,quot;&lt;pre&gt;
- Enter Last 3 years IT returns&lt;/pre&gt;
-quot;quot;ptquot;,quot;&lt;pre&gt;
- Enter Last 3 years IT returns&lt;/pre&gt;
-quot;quot;zhquot;,quot;&lt;pre&gt;
- Enter Last 3 years IT returns&lt;/pre&gt;
-quot;"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;pre&gt;  Enter Last 3 years IT returns&lt;/pre&gt; quot;quot;dequot;,quot;&lt;pre&gt;  Enter Last 3 years IT returns&lt;/pre&gt; quot;quot;enquot;,quot;&lt;pre&gt;  Enter Last 3 years IT returns&lt;/pre&gt; quot;quot;esquot;,quot;&lt;pre&gt;  Enter Last 3 years IT returns&lt;/pre&gt; quot;quot;frquot;,quot;&lt;pre&gt;  Enter Last 3 years IT returns&lt;/pre&gt; quot;quot;jaquot;,quot;&lt;pre&gt;  Enter Last 3 years IT returns&lt;/pre&gt; quot;quot;ptquot;,quot;&lt;pre&gt;  Enter Last 3 years IT returns&lt;/pre&gt; quot;quot;zhquot;,quot;&lt;pre&gt;  Enter Last 3 years IT returns&lt;/pre&gt; quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
 <field position="35" name="financialDetails_year1Income" type="InputText" id="163499872">
@@ -507,21 +483,20 @@ quot;"/>
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="readonly" value="false"/>
-<property name="htmlContent" value="quot;caquot;,quot;&lt;h3&gt;Balance Sheet&lt;/h3&gt;
-quot;quot;dequot;,quot;&lt;h3&gt;Balance Sheet&lt;/h3&gt;
-quot;quot;enquot;,quot;&lt;h3&gt;Balance Sheet&lt;/h3&gt;
-quot;quot;esquot;,quot;&lt;h3&gt;Balance Sheet&lt;/h3&gt;
-quot;quot;frquot;,quot;&lt;h3&gt;Balance Sheet&lt;/h3&gt;
-quot;quot;jaquot;,quot;&lt;h3&gt;Balance Sheet&lt;/h3&gt;
-quot;quot;ptquot;,quot;&lt;h3&gt;Balance Sheet&lt;/h3&gt;
-quot;quot;zhquot;,quot;&lt;h3&gt;Balance Sheet&lt;/h3&gt;
-quot;"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;h3&gt;Balance Sheet&lt;/h3&gt; quot;quot;dequot;,quot;&lt;h3&gt;Balance Sheet&lt;/h3&gt; quot;quot;enquot;,quot;&lt;h3&gt;Balance Sheet&lt;/h3&gt; quot;quot;esquot;,quot;&lt;h3&gt;Balance Sheet&lt;/h3&gt; quot;quot;frquot;,quot;&lt;h3&gt;Balance Sheet&lt;/h3&gt; quot;quot;jaquot;,quot;&lt;h3&gt;Balance Sheet&lt;/h3&gt; quot;quot;ptquot;,quot;&lt;h3&gt;Balance Sheet&lt;/h3&gt; quot;quot;zhquot;,quot;&lt;h3&gt;Balance Sheet&lt;/h3&gt; quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
+</field>
+<field position="42" name=":decorator_11" type="HTMLLabel" id="2085553407">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;pre&gt; Assets&lt;/pre&gt; quot;quot;dequot;,quot;&lt;pre&gt; Assets&lt;/pre&gt; quot;quot;enquot;,quot;&lt;pre&gt; Assets&lt;/pre&gt; quot;quot;esquot;,quot;&lt;pre&gt; Assets&lt;/pre&gt; quot;quot;frquot;,quot;&lt;pre&gt; Assets&lt;/pre&gt; quot;quot;jaquot;,quot;&lt;pre&gt; Assets&lt;/pre&gt; quot;quot;ptquot;,quot;&lt;pre&gt; Assets&lt;/pre&gt; quot;quot;zhquot;,quot;&lt;pre&gt; Assets&lt;/pre&gt; quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
 <field position="43" name="balanceSheetDetails_cashAtBank" type="InputText" id="1955293611">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Cash At Bankquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Cash At Bankquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="true"/>
@@ -533,7 +508,7 @@ quot;"/>
 <field position="44" name="balanceSheetDetails_valueOfImmovableProperty" type="InputText" id="334859944">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Value Of Immovable Propertyquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Value Of Immovable Propertyquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="true"/>
@@ -545,7 +520,7 @@ quot;"/>
 <field position="45" name="balanceSheetDetails_valueOfShareAndSecurities" type="InputText" id="456870772">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Value Of Share And Securitiesquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Value Of Share And Securitiesquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="true"/>
@@ -564,7 +539,7 @@ quot;"/>
 <field position="47" name="balanceSheetDetails_fixedDeposits" type="InputText" id="1257051865">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Fixed Depositsquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Fixed Depositsquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="true"/>
@@ -576,7 +551,7 @@ quot;"/>
 <field position="48" name="balanceSheetDetails_currentBalanceInPf" type="InputText" id="1858824273">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Current Balance In PFquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Current Balance In PFquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="true"/>
@@ -615,6 +590,13 @@ quot;"/>
 <property name="hideContent" value="false"/>
 <property name="inputBinding" value="in_balanceSheetDetails/totalAssests"/>
 <property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="52" name=":decorator_16" type="HTMLLabel" id="613380201">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;pre&gt; Liabilities&lt;/pre&gt; quot;quot;dequot;,quot;&lt;pre&gt; Liabilities&lt;/pre&gt; quot;quot;enquot;,quot;&lt;pre&gt; Liabilities&lt;/pre&gt; quot;quot;esquot;,quot;&lt;pre&gt; Liabilities&lt;/pre&gt; quot;quot;frquot;,quot;&lt;pre&gt; Liabilities&lt;/pre&gt; quot;quot;jaquot;,quot;&lt;pre&gt; Liabilities&lt;/pre&gt; quot;quot;ptquot;,quot;&lt;pre&gt; Liabilities&lt;/pre&gt; quot;quot;zhquot;,quot;&lt;pre&gt; Liabilities&lt;/pre&gt; quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
 </field>
 <field position="53" name="balanceSheetDetails_creditSocietyLoan" type="InputText" id="855213366">
 <property name="fieldRequired" value="false"/>
@@ -734,7 +716,7 @@ quot;"/>
 <field position="63" name="loanDetails_projectCost" type="InputText" id="721050779">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Project Costquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Project Costquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="true"/>
@@ -1021,52 +1003,6 @@ quot;"/>
 <property name="inputBinding" value="in_applicationDescription"/>
 <property name="outputBinding" value="out_applicationDescription"/>
 <property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="42" name=":decorator_11" type="HTMLLabel" id="2085553407">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="false"/>
-<property name="readonly" value="false"/>
-<property name="htmlContent" value="quot;caquot;,quot;&lt;pre&gt;
-Assets&lt;/pre&gt;
-quot;quot;dequot;,quot;&lt;pre&gt;
-Assets&lt;/pre&gt;
-quot;quot;enquot;,quot;&lt;pre&gt;
-Assets&lt;/pre&gt;
-quot;quot;esquot;,quot;&lt;pre&gt;
-Assets&lt;/pre&gt;
-quot;quot;frquot;,quot;&lt;pre&gt;
-Assets&lt;/pre&gt;
-quot;quot;jaquot;,quot;&lt;pre&gt;
-Assets&lt;/pre&gt;
-quot;quot;ptquot;,quot;&lt;pre&gt;
-Assets&lt;/pre&gt;
-quot;quot;zhquot;,quot;&lt;pre&gt;
-Assets&lt;/pre&gt;
-quot;"/>
-<property name="fieldClass" value="HTMLlabel"/>
-</field>
-<field position="52" name=":decorator_16" type="HTMLLabel" id="613380201">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="false"/>
-<property name="readonly" value="false"/>
-<property name="htmlContent" value="quot;caquot;,quot;&lt;pre&gt;
-Liabilities&lt;/pre&gt;
-quot;quot;dequot;,quot;&lt;pre&gt;
-Liabilities&lt;/pre&gt;
-quot;quot;enquot;,quot;&lt;pre&gt;
-Liabilities&lt;/pre&gt;
-quot;quot;esquot;,quot;&lt;pre&gt;
-Liabilities&lt;/pre&gt;
-quot;quot;frquot;,quot;&lt;pre&gt;
-Liabilities&lt;/pre&gt;
-quot;quot;jaquot;,quot;&lt;pre&gt;
-Liabilities&lt;/pre&gt;
-quot;quot;ptquot;,quot;&lt;pre&gt;
-Liabilities&lt;/pre&gt;
-quot;quot;zhquot;,quot;&lt;pre&gt;
-Liabilities&lt;/pre&gt;
-quot;"/>
-<property name="fieldClass" value="HTMLlabel"/>
 </field>
 <dataHolder inputId="in_balanceSheetDetails" name="#0000A0" type="dataModelerEntry" outId="out_balanceSheetDetails" value="page.lospoc.BalanceSheetDetails" id="balanceSheetDetails"/>
 <dataHolder inputId="in_customerDetails" name="#0000A0" type="dataModelerEntry" outId="out_customerDetails" value="page.lospoc.CustomerDetails" id="customerDetails"/>
