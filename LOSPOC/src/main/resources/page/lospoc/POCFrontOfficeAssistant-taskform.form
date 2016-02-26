@@ -534,44 +534,44 @@
 <property name="htmlContent" value="quot;caquot;,quot;&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;225&quot;&gt;  &lt;colgroup&gt;   &lt;col width=&quot;225&quot; /&gt;  &lt;/colgroup&gt;  &lt;tbody&gt;   &lt;tr height=&quot;20&quot;&gt;    &lt;td height=&quot;20&quot; style=&quot;height:15.0pt;width:169pt&quot; width=&quot;225&quot;&gt;&lt;strong&gt;Assets&lt;/strong&gt;&lt;/td&gt;   &lt;/tr&gt;  &lt;/tbody&gt; &lt;/table&gt; quot;quot;dequot;,quot;&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;225&quot;&gt;  &lt;colgroup&gt;   &lt;col width=&quot;225&quot; /&gt;  &lt;/colgroup&gt;  &lt;tbody&gt;   &lt;tr height=&quot;20&quot;&gt;    &lt;td height=&quot;20&quot; style=&quot;height:15.0pt;width:169pt&quot; width=&quot;225&quot;&gt;&lt;strong&gt;Assets&lt;/strong&gt;&lt;/td&gt;   &lt;/tr&gt;  &lt;/tbody&gt; &lt;/table&gt; quot;quot;enquot;,quot;&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;225&quot;&gt;  &lt;colgroup&gt;   &lt;col width=&quot;225&quot; /&gt;  &lt;/colgroup&gt;  &lt;tbody&gt;   &lt;tr height=&quot;20&quot;&gt;    &lt;td height=&quot;20&quot; style=&quot;height:15.0pt;width:169pt&quot; width=&quot;225&quot;&gt;&lt;strong&gt;Assets&lt;/strong&gt;&lt;/td&gt;   &lt;/tr&gt;  &lt;/tbody&gt; &lt;/table&gt; quot;quot;esquot;,quot;&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;225&quot;&gt;  &lt;colgroup&gt;   &lt;col width=&quot;225&quot; /&gt;  &lt;/colgroup&gt;  &lt;tbody&gt;   &lt;tr height=&quot;20&quot;&gt;    &lt;td height=&quot;20&quot; style=&quot;height:15.0pt;width:169pt&quot; width=&quot;225&quot;&gt;&lt;strong&gt;Assets&lt;/strong&gt;&lt;/td&gt;   &lt;/tr&gt;  &lt;/tbody&gt; &lt;/table&gt; quot;quot;frquot;,quot;&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;225&quot;&gt;  &lt;colgroup&gt;   &lt;col width=&quot;225&quot; /&gt;  &lt;/colgroup&gt;  &lt;tbody&gt;   &lt;tr height=&quot;20&quot;&gt;    &lt;td height=&quot;20&quot; style=&quot;height:15.0pt;width:169pt&quot; width=&quot;225&quot;&gt;&lt;strong&gt;Assets&lt;/strong&gt;&lt;/td&gt;   &lt;/tr&gt;  &lt;/tbody&gt; &lt;/table&gt; quot;quot;jaquot;,quot;&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;225&quot;&gt;  &lt;colgroup&gt;   &lt;col width=&quot;225&quot; /&gt;  &lt;/colgroup&gt;  &lt;tbody&gt;   &lt;tr height=&quot;20&quot;&gt;    &lt;td height=&quot;20&quot; style=&quot;height:15.0pt;width:169pt&quot; width=&quot;225&quot;&gt;&lt;strong&gt;Assets&lt;/strong&gt;&lt;/td&gt;   &lt;/tr&gt;  &lt;/tbody&gt; &lt;/table&gt; quot;quot;ptquot;,quot;&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;225&quot;&gt;  &lt;colgroup&gt;   &lt;col width=&quot;225&quot; /&gt;  &lt;/colgroup&gt;  &lt;tbody&gt;   &lt;tr height=&quot;20&quot;&gt;    &lt;td height=&quot;20&quot; style=&quot;height:15.0pt;width:169pt&quot; width=&quot;225&quot;&gt;&lt;strong&gt;Assets&lt;/strong&gt;&lt;/td&gt;   &lt;/tr&gt;  &lt;/tbody&gt; &lt;/table&gt; quot;quot;zhquot;,quot;&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;225&quot;&gt;  &lt;colgroup&gt;   &lt;col width=&quot;225&quot; /&gt;  &lt;/colgroup&gt;  &lt;tbody&gt;   &lt;tr height=&quot;20&quot;&gt;    &lt;td height=&quot;20&quot; style=&quot;height:15.0pt;width:169pt&quot; width=&quot;225&quot;&gt;&lt;strong&gt;Assets&lt;/strong&gt;&lt;/td&gt;   &lt;/tr&gt;  &lt;/tbody&gt; &lt;/table&gt; quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
-<field position="43" name="balanceSheetDetails_cashAtBank" type="InputTextInteger" id="1518513128">
+<field position="43" name="financialDetails_cashAtBank" type="InputTextInteger" id="1518513128">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Cash At Bankquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Cash At Bankquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="maxlength" value="10"/>
-<property name="inputBinding" value="in_balanceSheetDetails/cashAtBank"/>
-<property name="outputBinding" value="out_balanceSheetDetails/cashAtBank"/>
+<property name="inputBinding" value="in_financialDetails/cashAtBank"/>
+<property name="outputBinding" value="out_financialDetails/cashAtBank"/>
 <property name="fieldClass" value="java.lang.Integer"/>
-<property name="onChangeScript" value="var v=this.value;if(isNaN(v)){alert(&quot;Enter valid Cash At Bank&quot;);document.getElementById(&quot;balanceSheetDetails_cashAtBank&quot;).value=0;}else{if(v&lt;0){alert(&quot;Enter valid Cash At Bank&quot;);document.getElementById(&quot;balanceSheetDetails_cashAtBank&quot;).value=0.0;}else{calculateTotalAssests();}}"/>
+<property name="onChangeScript" value="var v=this.value;if(isNaN(v)){alert(&quot;Enter valid Cash At Bank&quot;);document.getElementById(&quot;financialDetails_cashAtBank&quot;).value=0;}else{if(v&lt;0){alert(&quot;Enter valid Cash At Bank&quot;);document.getElementById(&quot;financialDetails_cashAtBank&quot;).value=0.0;}else{calculateTotalAssests();}}"/>
 </field>
-<field position="44" name="balanceSheetDetails_valueOfImmovableProperty" type="InputTextInteger" id="1555044588">
+<field position="44" name="financialDetails_valueOfImmovableProperty" type="InputTextInteger" id="1555044588">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Value Of Immovable Propertyquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Value Of Immovable Propertyquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="maxlength" value="10"/>
-<property name="inputBinding" value="in_balanceSheetDetails/valueOfImmovableProperty"/>
-<property name="outputBinding" value="out_balanceSheetDetails/valueOfImmovableProperty"/>
+<property name="inputBinding" value="in_financialDetails/valueOfImmovableProperty"/>
+<property name="outputBinding" value="out_financialDetails/valueOfImmovableProperty"/>
 <property name="fieldClass" value="java.lang.Integer"/>
-<property name="onChangeScript" value="var v=this.value;if(isNaN(v)){alert(&quot;Enter valid Value Of Immovable Property&quot;);document.getElementById(&quot;balanceSheetDetails_valueOfImmovableProperty&quot;).value=0;}else{if(v&lt;0){alert(&quot;Enter valid Value Of Immovable Property&quot;);document.getElementById(&quot;balanceSheetDetails_valueOfImmovableProperty&quot;).value=0.0;}else{calculateTotalAssests();}}"/>
+<property name="onChangeScript" value="var v=this.value;if(isNaN(v)){alert(&quot;Enter valid Value Of Immovable Property&quot;);document.getElementById(&quot;financialDetails_valueOfImmovableProperty&quot;).value=0;}else{if(v&lt;0){alert(&quot;Enter valid Value Of Immovable Property&quot;);document.getElementById(&quot;financialDetails_valueOfImmovableProperty&quot;).value=0.0;}else{calculateTotalAssests();}}"/>
 </field>
-<field position="45" name="balanceSheetDetails_valueOfShareAndSecurities" type="InputTextInteger" id="2113358712">
+<field position="45" name="financialDetails_valueOfShareAndSecurities" type="InputTextInteger" id="2113358712">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Value Of Share And Securitiesquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Value Of Share And Securitiesquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="maxlength" value="10"/>
-<property name="inputBinding" value="in_balanceSheetDetails/valueOfShareAndSecurities"/>
-<property name="outputBinding" value="out_balanceSheetDetails/valueOfShareAndSecurities"/>
+<property name="inputBinding" value="in_financialDetails/valueOfShareAndSecurities"/>
+<property name="outputBinding" value="out_financialDetails/valueOfShareAndSecurities"/>
 <property name="fieldClass" value="java.lang.Integer"/>
-<property name="onChangeScript" value="var v=this.value;if(isNaN(v)){alert(&quot;Enter valid Value Of Share And Securities&quot;);document.getElementById(&quot;balanceSheetDetails_valueOfShareAndSecurities&quot;).value=0;}else{if(v&lt;0){alert(&quot;Enter valid Value Of Share And Securities&quot;);document.getElementById(&quot;balanceSheetDetails_valueOfShareAndSecurities&quot;).value=0.0;}else{calculateTotalAssests();}}"/>
+<property name="onChangeScript" value="var v=this.value;if(isNaN(v)){alert(&quot;Enter valid Value Of Share And Securities&quot;);document.getElementById(&quot;financialDetails_valueOfShareAndSecurities&quot;).value=0;}else{if(v&lt;0){alert(&quot;Enter valid Value Of Share And Securities&quot;);document.getElementById(&quot;financialDetails_valueOfShareAndSecurities&quot;).value=0.0;}else{calculateTotalAssests();}}"/>
 </field>
 <field position="46" name=":decorator_17" type="HTMLLabel" id="1765107140">
 <property name="fieldRequired" value="false"/>
@@ -580,44 +580,44 @@
 <property name="htmlContent" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
-<field position="47" name="balanceSheetDetails_fixedDeposits" type="InputTextInteger" id="199099963">
+<field position="47" name="financialDetails_fixedDeposits" type="InputTextInteger" id="199099963">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Fixed Depositsquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Fixed Depositsquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="maxlength" value="10"/>
-<property name="inputBinding" value="in_balanceSheetDetails/fixedDeposits"/>
-<property name="outputBinding" value="out_balanceSheetDetails/fixedDeposits"/>
+<property name="inputBinding" value="in_financialDetails/fixedDeposits"/>
+<property name="outputBinding" value="out_financialDetails/fixedDeposits"/>
 <property name="fieldClass" value="java.lang.Integer"/>
-<property name="onChangeScript" value="var v=this.value;if(isNaN(v)){alert(&quot;Enter valid Fixed Deposits&quot;);document.getElementById(&quot;balanceSheetDetails_fixedDeposits&quot;).value=0;}else{if(v&lt;0){alert(&quot;Enter valid Fixed Deposits&quot;);document.getElementById(&quot;balanceSheetDetails_fixedDeposits&quot;).value=0.0;}else{calculateTotalAssests();}}"/>
+<property name="onChangeScript" value="var v=this.value;if(isNaN(v)){alert(&quot;Enter valid Fixed Deposits&quot;);document.getElementById(&quot;financialDetails_fixedDeposits&quot;).value=0;}else{if(v&lt;0){alert(&quot;Enter valid Fixed Deposits&quot;);document.getElementById(&quot;financialDetails_fixedDeposits&quot;).value=0.0;}else{calculateTotalAssests();}}"/>
 </field>
-<field position="48" name="balanceSheetDetails_currentBalanceInPf" type="InputTextInteger" id="2059161492">
+<field position="48" name="financialDetails_currentBalanceInPf" type="InputTextInteger" id="2059161492">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Current Balance In PFquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Current Balance In PFquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="maxlength" value="10"/>
-<property name="inputBinding" value="in_balanceSheetDetails/currentBalanceInPf"/>
-<property name="outputBinding" value="out_balanceSheetDetails/currentBalanceInPf"/>
+<property name="inputBinding" value="in_financialDetails/currentBalanceInPf"/>
+<property name="outputBinding" value="out_financialDetails/currentBalanceInPf"/>
 <property name="fieldClass" value="java.lang.Integer"/>
-<property name="onChangeScript" value="var v=this.value;if(isNaN(v)){alert(&quot;Enter valid Current Balance In PF&quot;);document.getElementById(&quot;balanceSheetDetails_currentBalanceInPf&quot;).value=0;}else{if(v&lt;0){alert(&quot;Enter valid Current Balance In PF&quot;);document.getElementById(&quot;balanceSheetDetails_currentBalanceInPf&quot;).value=0.0;}else{calculateTotalAssests();}}"/>
+<property name="onChangeScript" value="var v=this.value;if(isNaN(v)){alert(&quot;Enter valid Current Balance In PF&quot;);document.getElementById(&quot;financialDetails_currentBalanceInPf&quot;).value=0;}else{if(v&lt;0){alert(&quot;Enter valid Current Balance In PF&quot;);document.getElementById(&quot;financialDetails_currentBalanceInPf&quot;).value=0.0;}else{calculateTotalAssests();}}"/>
 </field>
-<field position="49" name="balanceSheetDetails_others" type="InputTextInteger" id="1326932719">
+<field position="49" name="financialDetails_others" type="InputTextInteger" id="1326932719">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Othersquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Othersquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="maxlength" value="10"/>
-<property name="inputBinding" value="in_balanceSheetDetails/others"/>
-<property name="outputBinding" value="out_balanceSheetDetails/others"/>
+<property name="inputBinding" value="in_financialDetails/others"/>
+<property name="outputBinding" value="out_financialDetails/others"/>
 <property name="fieldClass" value="java.lang.Integer"/>
-<property name="onChangeScript" value="var v=this.value;if(isNaN(v)){alert(&quot;Enter valid Others Value&quot;);document.getElementById(&quot;balanceSheetDetails_others&quot;).value=0;}else{if(v&lt;0){alert(&quot;Enter valid Others Value&quot;);document.getElementById(&quot;balanceSheetDetails_others&quot;).value=0.0;}else{calculateTotalAssests();}}"/>
+<property name="onChangeScript" value="var v=this.value;if(isNaN(v)){alert(&quot;Enter valid Others Value&quot;);document.getElementById(&quot;financialDetails_others&quot;).value=0;}else{if(v&lt;0){alert(&quot;Enter valid Others Value&quot;);document.getElementById(&quot;financialDetails_others&quot;).value=0.0;}else{calculateTotalAssests();}}"/>
 </field>
 <field position="50" name=":decorator_18" type="HTMLLabel" id="566956568">
 <property name="fieldRequired" value="false"/>
@@ -626,17 +626,17 @@
 <property name="htmlContent" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
-<field position="51" name="balanceSheetDetails_totalAssests" type="InputTextInteger" id="1298335680">
+<field position="51" name="financialDetails_totalAssests" type="InputTextInteger" id="1298335680">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Total Assestsquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Total Assestsquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="true"/>
 <property name="styleclass" value="readonly"/>
 <property name="cssStyle" value="background-color: #B4BAB3;"/>
-<property name="inputBinding" value="in_balanceSheetDetails/totalAssests"/>
-<property name="outputBinding" value="out_balanceSheetDetails/totalAssests"/>
+<property name="inputBinding" value="in_financialDetails/totalAssests"/>
+<property name="outputBinding" value="out_financialDetails/totalAssests"/>
 <property name="fieldClass" value="java.lang.Integer"/>
 </field>
 <field position="52" name=":decorator_16" type="HTMLLabel" id="593943566">
@@ -653,121 +653,121 @@
 <property name="htmlContent" value="quot;caquot;,quot;&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;225&quot;&gt;  &lt;colgroup&gt;   &lt;col width=&quot;225&quot; /&gt;  &lt;/colgroup&gt;  &lt;tbody&gt;   &lt;tr height=&quot;20&quot;&gt;    &lt;td height=&quot;20&quot; style=&quot;height:15.0pt;width:169pt&quot; width=&quot;225&quot;&gt;&lt;strong&gt;Liabilities&lt;/strong&gt;&lt;/td&gt;   &lt;/tr&gt;  &lt;/tbody&gt; &lt;/table&gt; quot;quot;dequot;,quot;&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;225&quot;&gt;  &lt;colgroup&gt;   &lt;col width=&quot;225&quot; /&gt;  &lt;/colgroup&gt;  &lt;tbody&gt;   &lt;tr height=&quot;20&quot;&gt;    &lt;td height=&quot;20&quot; style=&quot;height:15.0pt;width:169pt&quot; width=&quot;225&quot;&gt;&lt;strong&gt;Liabilities&lt;/strong&gt;&lt;/td&gt;   &lt;/tr&gt;  &lt;/tbody&gt; &lt;/table&gt; quot;quot;enquot;,quot;&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;225&quot;&gt;  &lt;colgroup&gt;   &lt;col width=&quot;225&quot; /&gt;  &lt;/colgroup&gt;  &lt;tbody&gt;   &lt;tr height=&quot;20&quot;&gt;    &lt;td height=&quot;20&quot; style=&quot;height:15.0pt;width:169pt&quot; width=&quot;225&quot;&gt;&lt;strong&gt;Liabilities&lt;/strong&gt;&lt;/td&gt;   &lt;/tr&gt;  &lt;/tbody&gt; &lt;/table&gt; quot;quot;esquot;,quot;&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;225&quot;&gt;  &lt;colgroup&gt;   &lt;col width=&quot;225&quot; /&gt;  &lt;/colgroup&gt;  &lt;tbody&gt;   &lt;tr height=&quot;20&quot;&gt;    &lt;td height=&quot;20&quot; style=&quot;height:15.0pt;width:169pt&quot; width=&quot;225&quot;&gt;&lt;strong&gt;Liabilities&lt;/strong&gt;&lt;/td&gt;   &lt;/tr&gt;  &lt;/tbody&gt; &lt;/table&gt; quot;quot;frquot;,quot;&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;225&quot;&gt;  &lt;colgroup&gt;   &lt;col width=&quot;225&quot; /&gt;  &lt;/colgroup&gt;  &lt;tbody&gt;   &lt;tr height=&quot;20&quot;&gt;    &lt;td height=&quot;20&quot; style=&quot;height:15.0pt;width:169pt&quot; width=&quot;225&quot;&gt;&lt;strong&gt;Liabilities&lt;/strong&gt;&lt;/td&gt;   &lt;/tr&gt;  &lt;/tbody&gt; &lt;/table&gt; quot;quot;jaquot;,quot;&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;225&quot;&gt;  &lt;colgroup&gt;   &lt;col width=&quot;225&quot; /&gt;  &lt;/colgroup&gt;  &lt;tbody&gt;   &lt;tr height=&quot;20&quot;&gt;    &lt;td height=&quot;20&quot; style=&quot;height:15.0pt;width:169pt&quot; width=&quot;225&quot;&gt;&lt;strong&gt;Liabilities&lt;/strong&gt;&lt;/td&gt;   &lt;/tr&gt;  &lt;/tbody&gt; &lt;/table&gt; quot;quot;ptquot;,quot;&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;225&quot;&gt;  &lt;colgroup&gt;   &lt;col width=&quot;225&quot; /&gt;  &lt;/colgroup&gt;  &lt;tbody&gt;   &lt;tr height=&quot;20&quot;&gt;    &lt;td height=&quot;20&quot; style=&quot;height:15.0pt;width:169pt&quot; width=&quot;225&quot;&gt;&lt;strong&gt;Liabilities&lt;/strong&gt;&lt;/td&gt;   &lt;/tr&gt;  &lt;/tbody&gt; &lt;/table&gt; quot;quot;zhquot;,quot;&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;225&quot;&gt;  &lt;colgroup&gt;   &lt;col width=&quot;225&quot; /&gt;  &lt;/colgroup&gt;  &lt;tbody&gt;   &lt;tr height=&quot;20&quot;&gt;    &lt;td height=&quot;20&quot; style=&quot;height:15.0pt;width:169pt&quot; width=&quot;225&quot;&gt;&lt;strong&gt;Liabilities&lt;/strong&gt;&lt;/td&gt;   &lt;/tr&gt;  &lt;/tbody&gt; &lt;/table&gt; quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
-<field position="54" name="balanceSheetDetails_creditSocietyLoan" type="InputTextInteger" id="205084567">
+<field position="54" name="financialDetails_creditSocietyLoan" type="InputTextInteger" id="205084567">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Credit Society Loanquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Credit Society Loanquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="maxlength" value="10"/>
-<property name="inputBinding" value="in_balanceSheetDetails/creditSocietyLoan"/>
-<property name="outputBinding" value="out_balanceSheetDetails/creditSocietyLoan"/>
+<property name="inputBinding" value="in_financialDetails/creditSocietyLoan"/>
+<property name="outputBinding" value="out_financialDetails/creditSocietyLoan"/>
 <property name="fieldClass" value="java.lang.Integer"/>
-<property name="onChangeScript" value="var v=this.value;if(isNaN(v)){alert(&quot;Enter valid Credit Society Loan&quot;);document.getElementById(&quot;balanceSheetDetails_creditSocietyLoan&quot;).value=0;}else{if(v&lt;0){alert(&quot;Enter valid Credit Society Loan&quot;);document.getElementById(&quot;balanceSheetDetails_creditSocietyLoan&quot;).value=0.0;}else{calculateTotalLiabilities();}}"/>
+<property name="onChangeScript" value="var v=this.value;if(isNaN(v)){alert(&quot;Enter valid Credit Society Loan&quot;);document.getElementById(&quot;financialDetails_creditSocietyLoan&quot;).value=0;}else{if(v&lt;0){alert(&quot;Enter valid Credit Society Loan&quot;);document.getElementById(&quot;financialDetails_creditSocietyLoan&quot;).value=0.0;}else{calculateTotalLiabilities();}}"/>
 </field>
-<field position="55" name="balanceSheetDetails_employerLoan" type="InputTextInteger" id="85681984">
+<field position="55" name="financialDetails_employerLoan" type="InputTextInteger" id="85681984">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Employer Loanquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Employer Loanquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="maxlength" value="10"/>
-<property name="inputBinding" value="in_balanceSheetDetails/employerLoan"/>
-<property name="outputBinding" value="out_balanceSheetDetails/employerLoan"/>
+<property name="inputBinding" value="in_financialDetails/employerLoan"/>
+<property name="outputBinding" value="out_financialDetails/employerLoan"/>
 <property name="fieldClass" value="java.lang.Integer"/>
-<property name="onChangeScript" value="var v=this.value;if(isNaN(v)){alert(&quot;Enter valid Employer Loan&quot;);document.getElementById(&quot;balanceSheetDetails_employerLoan&quot;).value=0;}else{if(v&lt;0){alert(&quot;Enter valid Employer Loan&quot;);document.getElementById(&quot;balanceSheetDetails_employerLoan&quot;).value=0.0;}else{calculateTotalLiabilities();}}"/>
+<property name="onChangeScript" value="var v=this.value;if(isNaN(v)){alert(&quot;Enter valid Employer Loan&quot;);document.getElementById(&quot;financialDetails_employerLoan&quot;).value=0;}else{if(v&lt;0){alert(&quot;Enter valid Employer Loan&quot;);document.getElementById(&quot;financialDetails_employerLoan&quot;).value=0.0;}else{calculateTotalLiabilities();}}"/>
 </field>
-<field position="56" name="balanceSheetDetails_homeLoan" type="InputTextInteger" id="1997593759">
+<field position="56" name="financialDetails_homeLoan" type="InputTextInteger" id="1997593759">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Home Loanquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Home Loanquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="maxlength" value="10"/>
-<property name="inputBinding" value="in_balanceSheetDetails/homeLoan"/>
-<property name="outputBinding" value="out_balanceSheetDetails/homeLoan"/>
+<property name="inputBinding" value="in_financialDetails/homeLoan"/>
+<property name="outputBinding" value="out_financialDetails/homeLoan"/>
 <property name="fieldClass" value="java.lang.Integer"/>
-<property name="onChangeScript" value="var v=this.value;if(isNaN(v)){alert(&quot;Enter valid Home Loan&quot;);document.getElementById(&quot;balanceSheetDetails_homeLoan&quot;).value=0;}else{if(v&lt;0){alert(&quot;Enter valid Home Loan&quot;);document.getElementById(&quot;balanceSheetDetails_homeLoan&quot;).value=0.0;}else{calculateTotalLiabilities();}}"/>
+<property name="onChangeScript" value="var v=this.value;if(isNaN(v)){alert(&quot;Enter valid Home Loan&quot;);document.getElementById(&quot;financialDetails_homeLoan&quot;).value=0;}else{if(v&lt;0){alert(&quot;Enter valid Home Loan&quot;);document.getElementById(&quot;financialDetails_homeLoan&quot;).value=0.0;}else{calculateTotalLiabilities();}}"/>
 </field>
-<field position="57" name="balanceSheetDetails_pfLoan" type="InputTextInteger" id="9154514">
+<field position="57" name="financialDetails_pfLoan" type="InputTextInteger" id="9154514">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;PF Loanquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;PF Loanquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="maxlength" value="10"/>
-<property name="inputBinding" value="in_balanceSheetDetails/pfLoan"/>
-<property name="outputBinding" value="out_balanceSheetDetails/pfLoan"/>
+<property name="inputBinding" value="in_financialDetails/pfLoan"/>
+<property name="outputBinding" value="out_financialDetails/pfLoan"/>
 <property name="fieldClass" value="java.lang.Integer"/>
-<property name="onChangeScript" value="var v=this.value;if(isNaN(v)){alert(&quot;Enter valid PF Loan&quot;);document.getElementById(&quot;balanceSheetDetails_pfLoan&quot;).value=0;}else{if(v&lt;0){alert(&quot;Enter valid PF Loan&quot;);document.getElementById(&quot;balanceSheetDetails_pfLoan&quot;).value=0.0;}else{calculateTotalLiabilities();}}"/>
+<property name="onChangeScript" value="var v=this.value;if(isNaN(v)){alert(&quot;Enter valid PF Loan&quot;);document.getElementById(&quot;financialDetails_pfLoan&quot;).value=0;}else{if(v&lt;0){alert(&quot;Enter valid PF Loan&quot;);document.getElementById(&quot;financialDetails_pfLoan&quot;).value=0.0;}else{calculateTotalLiabilities();}}"/>
 </field>
-<field position="58" name="balanceSheetDetails_vehicleLoan" type="InputTextInteger" id="1828056815">
+<field position="58" name="financialDetails_vehicleLoan" type="InputTextInteger" id="1828056815">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Vehicle Loanquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Vehicle Loanquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="maxlength" value="10"/>
-<property name="inputBinding" value="in_balanceSheetDetails/vehicleLoan"/>
-<property name="outputBinding" value="out_balanceSheetDetails/vehicleLoan"/>
+<property name="inputBinding" value="in_financialDetails/vehicleLoan"/>
+<property name="outputBinding" value="out_financialDetails/vehicleLoan"/>
 <property name="fieldClass" value="java.lang.Integer"/>
-<property name="onChangeScript" value="var v=this.value;if(isNaN(v)){alert(&quot;Enter valid Vehicle Loan&quot;);document.getElementById(&quot;balanceSheetDetails_vehicleLoan&quot;).value=0;}else{if(v&lt;0){alert(&quot;Enter valid Vehicle Loan&quot;);document.getElementById(&quot;balanceSheetDetails_vehicleLoan&quot;).value=0.0;}else{calculateTotalLiabilities();}}"/>
+<property name="onChangeScript" value="var v=this.value;if(isNaN(v)){alert(&quot;Enter valid Vehicle Loan&quot;);document.getElementById(&quot;financialDetails_vehicleLoan&quot;).value=0;}else{if(v&lt;0){alert(&quot;Enter valid Vehicle Loan&quot;);document.getElementById(&quot;financialDetails_vehicleLoan&quot;).value=0.0;}else{calculateTotalLiabilities();}}"/>
 </field>
-<field position="59" name="balanceSheetDetails_personalLoan" type="InputTextInteger" id="1736011568">
+<field position="59" name="financialDetails_personalLoan" type="InputTextInteger" id="1736011568">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Personal Loanquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Personal Loanquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="maxlength" value="10"/>
-<property name="inputBinding" value="in_balanceSheetDetails/personalLoan"/>
-<property name="outputBinding" value="out_balanceSheetDetails/personalLoan"/>
+<property name="inputBinding" value="in_financialDetails/personalLoan"/>
+<property name="outputBinding" value="out_financialDetails/personalLoan"/>
 <property name="fieldClass" value="java.lang.Integer"/>
-<property name="onChangeScript" value="var v=this.value;if(isNaN(v)){alert(&quot;Enter valid Personal Loan&quot;);document.getElementById(&quot;balanceSheetDetails_personalLoan&quot;).value=0;}else{if(v&lt;0){alert(&quot;Enter valid Personal Loan&quot;);document.getElementById(&quot;balanceSheetDetails_personalLoan&quot;).value=0.0;}else{calculateTotalLiabilities();}}"/>
+<property name="onChangeScript" value="var v=this.value;if(isNaN(v)){alert(&quot;Enter valid Personal Loan&quot;);document.getElementById(&quot;financialDetails_personalLoan&quot;).value=0;}else{if(v&lt;0){alert(&quot;Enter valid Personal Loan&quot;);document.getElementById(&quot;financialDetails_personalLoan&quot;).value=0.0;}else{calculateTotalLiabilities();}}"/>
 </field>
-<field position="60" name="balanceSheetDetails_otherLoan" type="InputTextInteger" id="524652461">
+<field position="60" name="financialDetails_otherLoan" type="InputTextInteger" id="524652461">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Other Loanquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Other Loanquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="maxlength" value="10"/>
-<property name="inputBinding" value="in_balanceSheetDetails/otherLoan"/>
-<property name="outputBinding" value="out_balanceSheetDetails/otherLoan"/>
+<property name="inputBinding" value="in_financialDetails/otherLoan"/>
+<property name="outputBinding" value="out_financialDetails/otherLoan"/>
 <property name="fieldClass" value="java.lang.Integer"/>
-<property name="onChangeScript" value="var v=this.value;if(isNaN(v)){alert(&quot;Enter valid Other Loan&quot;);document.getElementById(&quot;balanceSheetDetails_otherLoan&quot;).value=0;}else{if(v&lt;0){alert(&quot;Enter valid Other Loan&quot;);document.getElementById(&quot;balanceSheetDetails_otherLoan&quot;).value=0.0;}else{calculateTotalLiabilities();}}"/>
+<property name="onChangeScript" value="var v=this.value;if(isNaN(v)){alert(&quot;Enter valid Other Loan&quot;);document.getElementById(&quot;financialDetails_otherLoan&quot;).value=0;}else{if(v&lt;0){alert(&quot;Enter valid Other Loan&quot;);document.getElementById(&quot;financialDetails_otherLoan&quot;).value=0.0;}else{calculateTotalLiabilities();}}"/>
 </field>
-<field position="61" name="balanceSheetDetails_creditCard" type="InputTextInteger" id="1040809479">
+<field position="61" name="financialDetails_creditCard" type="InputTextInteger" id="1040809479">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Credit Cardquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Credit Cardquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="maxlength" value="10"/>
-<property name="inputBinding" value="in_balanceSheetDetails/creditCard"/>
-<property name="outputBinding" value="out_balanceSheetDetails/creditCard"/>
+<property name="inputBinding" value="in_financialDetails/creditCard"/>
+<property name="outputBinding" value="out_financialDetails/creditCard"/>
 <property name="fieldClass" value="java.lang.Integer"/>
-<property name="onChangeScript" value="var v=this.value;if(isNaN(v)){alert(&quot;Enter valid Credit Card&quot;);document.getElementById(&quot;balanceSheetDetails_creditCard&quot;).value=0;}else{if(v&lt;0){alert(&quot;Enter valid Credit Card&quot;);document.getElementById(&quot;balanceSheetDetails_creditCard&quot;).value=0.0;}else{calculateTotalLiabilities();}}"/>
+<property name="onChangeScript" value="var v=this.value;if(isNaN(v)){alert(&quot;Enter valid Credit Card&quot;);document.getElementById(&quot;financialDetails_creditCard&quot;).value=0;}else{if(v&lt;0){alert(&quot;Enter valid Credit Card&quot;);document.getElementById(&quot;financialDetails_creditCard&quot;).value=0.0;}else{calculateTotalLiabilities();}}"/>
 </field>
-<field position="62" name="balanceSheetDetails_totalLiabilites" type="InputTextInteger" id="1711513424">
+<field position="62" name="financialDetails_totalLiabilites" type="InputTextInteger" id="1711513424">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Total Liabilitesquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Total Liabilitesquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="true"/>
 <property name="styleclass" value="readonly"/>
 <property name="cssStyle" value="background-color: #B4BAB3;"/>
-<property name="inputBinding" value="in_balanceSheetDetails/totalLiabilites"/>
-<property name="outputBinding" value="out_balanceSheetDetails/totalLiabilites"/>
+<property name="inputBinding" value="in_financialDetails/totalLiabilites"/>
+<property name="outputBinding" value="out_financialDetails/totalLiabilites"/>
 <property name="fieldClass" value="java.lang.Integer"/>
 </field>
 <field position="63" name=":decorator_2" type="HTMLLabel" id="692940350">
