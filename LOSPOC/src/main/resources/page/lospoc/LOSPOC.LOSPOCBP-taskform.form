@@ -15,6 +15,7 @@
 <property name="inputBinding" value="customerType"/>
 <property name="outputBinding" value="customerType"/>
 <property name="fieldClass" value="java.lang.String"/>
+<property name="onChangeScript" value="var v=this.value; if(v==&apos;Existing&apos;){document.getElementById(&quot;customerID&quot;).style.display=&quot;block&quot;;document.getElementById(&quot;customerID_label_container&quot;).style.display=&quot;block&quot;;document.getElementById(&quot;customerID&quot;).value=&quot;&quot;;} else{document.getElementById(&quot;customerID&quot;).style.display=&quot;none&quot;;document.getElementById(&quot;customerID_label_container&quot;).style.display=&quot;none&quot;;document.getElementById(&quot;customerID&quot;).value=&quot;0&quot;; }"/>
 </field>
 <field position="1" name="customerID" type="InputText" id="800405198">
 <property name="fieldRequired" value="true"/>
